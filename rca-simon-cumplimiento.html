@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RCA — Incidentes SIMON Cumplimiento | Abril 2026</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#f0f2f8;color:#1a1a2e;font-size:14px;line-height:1.6}
+header{background:linear-gradient(135deg,#1a237e,#283593);color:#fff;padding:2rem 2.5rem;box-shadow:0 4px 20px rgba(0,0,0,.25)}
+header h1{font-size:1.7rem;font-weight:800;letter-spacing:-.5px}
+header p{opacity:.8;margin-top:.4rem;font-size:.9rem}
+.hstats{display:flex;gap:1.5rem;margin-top:1.2rem;flex-wrap:wrap}
+.hstat{background:rgba(255,255,255,.12);padding:.6rem 1.2rem;border-radius:10px;text-align:center}
+.hstat strong{font-size:1.6rem;display:block;font-weight:800}
+.hstat span{font-size:.75rem;opacity:.8}
+nav{background:#283593;display:flex;overflow-x:auto;padding:0 1.5rem;position:sticky;top:0;z-index:100}
+nav a{color:rgba(255,255,255,.75);text-decoration:none;padding:.9rem 1.1rem;font-size:.85rem;white-space:nowrap;border-bottom:3px solid transparent;transition:.2s;cursor:pointer}
+nav a:hover,nav a.active{color:#fff;border-bottom-color:#ffeb3b}
+main{max-width:1300px;margin:0 auto;padding:1.5rem}
+.tab{display:none}.tab.active{display:block}
+.stitle{font-size:1.15rem;font-weight:700;color:#1a237e;margin-bottom:1.2rem;padding-bottom:.5rem;border-bottom:3px solid #c0392b}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-bottom:1.5rem}
+.kpi{background:#fff;border-radius:12px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.07);text-align:center;border-top:4px solid #1a237e}
+.kpi .num{font-size:2rem;font-weight:800;color:#1a237e}
+.kpi .lbl{color:#6c757d;font-size:.78rem;margin-top:.2rem}
+.kpi.red{border-top-color:#c0392b}.kpi.red .num{color:#c0392b}
+.kpi.green{border-top-color:#27ae60}.kpi.green .num{color:#27ae60}
+.kpi.orange{border-top-color:#e67e22}.kpi.orange .num{color:#e67e22}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.2rem;margin-bottom:1.5rem}
+.chart-card{background:#fff;border-radius:12px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+.chart-card h3{font-size:.9rem;color:#1a237e;margin-bottom:.8rem;font-weight:600}
+.chart-wrap{position:relative;height:280px}
+.table-wrap{overflow-x:auto;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-bottom:1.5rem}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:.82rem}
+thead{background:#1a237e;color:#fff}
+th{padding:.75rem 1rem;text-align:left;font-weight:600;white-space:nowrap}
+td{padding:.6rem 1rem;border-bottom:1px solid #dee2e6;vertical-align:top}
+tr:hover td{background:#f8f9ff}
+.badge{display:inline-block;padding:.2rem .6rem;border-radius:6px;font-size:.72rem;font-weight:600;color:#fff}
+.badge.alta{background:#c0392b}.badge.media{background:#e67e22}.badge.baja{background:#27ae60}
+.cluster-card{background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-bottom:1.5rem;border-left:5px solid #1a237e}
+.cluster-card h3{font-size:1.05rem;color:#1a237e;margin-bottom:.8rem;display:flex;align-items:center;gap:.5rem}
+.cluster-card h3 .cnum{background:#1a237e;color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;flex-shrink:0}
+.cluster-card .meta{display:flex;gap:1.5rem;margin-bottom:1rem;flex-wrap:wrap;font-size:.82rem;color:#6c757d}
+.cluster-card .meta b{color:#1a237e}
+.cluster-card h4{font-size:.88rem;color:#c0392b;margin:1rem 0 .4rem;font-weight:700}
+.cluster-card p,.cluster-card li{font-size:.85rem;margin-bottom:.3rem}
+.cluster-card ul{padding-left:1.2rem;margin-bottom:.8rem}
+.cluster-card ol{padding-left:1.2rem;margin-bottom:.8rem}
+.cluster-card code{background:#f0f2f8;padding:.1rem .4rem;border-radius:4px;font-size:.8rem;color:#c0392b}
+.ids{font-size:.75rem;color:#6c757d;word-break:break-all;margin-top:.5rem;padding:.6rem;background:#f8f9ff;border-radius:8px}
+.ids b{color:#1a237e}
+.priority-card{background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-bottom:1rem;display:flex;align-items:flex-start;gap:1rem}
+.priority-card .pnum{background:#c0392b;color:#fff;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;flex-shrink:0}
+.priority-card .pnum.p2{background:#e67e22}.priority-card .pnum.p3{background:#f39c12}.priority-card .pnum.p4{background:#27ae60}
+.priority-card h4{font-size:.92rem;color:#1a237e;margin-bottom:.2rem}
+.priority-card p{font-size:.82rem;color:#6c757d}
+footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-top:1px solid #dee2e6;margin-top:2rem}
+.back-link{display:inline-block;margin-bottom:1rem;color:#1a237e;text-decoration:none;font-size:.85rem}
+.back-link:hover{text-decoration:underline}
+@media(max-width:768px){header h1{font-size:1.2rem}main{padding:1rem}.charts{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔬 Análisis de Causa Raíz — Incidentes SIMON Cumplimiento</h1>
+  <p>Proyecto MDSB · Mesa de Servicio Bolívar · Enero — Abril 2026</p>
+  <div class="hstats">
+    <div class="hstat"><strong>72</strong><span>Incidentes Analizados</span></div>
+    <div class="hstat"><strong>7</strong><span>Clústeres de Solución</span></div>
+    <div class="hstat"><strong>49%</strong><span>Motor Facturación (35)</span></div>
+    <div class="hstat"><strong>12.4d</strong><span>Tiempo Medio Resolución</span></div>
+    <div class="hstat"><strong>~105</strong><span>Scripts Manuales / 3 meses</span></div>
+  </div>
+</header>
+
+<nav>
+  <a class="active" onclick="showTab('resumen')">Resumen Ejecutivo</a>
+  <a onclick="showTab('detalle')">Detalle por Clúster</a>
+  <a onclick="showTab('impacto')">Impacto Operativo</a>
+  <a onclick="showTab('priorizacion')">Priorización</a>
+</nav>
+
+<main>
+
+<!-- TAB: RESUMEN -->
+<div id="resumen" class="tab active">
+  <a href="index.html" class="back-link">← Volver al índice</a>
+  <div class="stitle">Resumen Ejecutivo del Tablero</div>
+
+  <div class="kpis">
+    <div class="kpi red"><div class="num">35</div><div class="lbl">Motor Facturación (49%)</div></div>
+    <div class="kpi orange"><div class="num">10</div><div class="lbl">Controles Técnicos (14%)</div></div>
+    <div class="kpi orange"><div class="num">8</div><div class="lbl">Cambio de Clave (11%)</div></div>
+    <div class="kpi green"><div class="num">5</div><div class="lbl">ORA-01422 Multiclaves (7%)</div></div>
+    <div class="kpi"><div class="num">5</div><div class="lbl">Impresión PDF (7%)</div></div>
+    <div class="kpi"><div class="num">4</div><div class="lbl">Infraestructura SOA (6%)</div></div>
+    <div class="kpi"><div class="num">5</div><div class="lbl">Config. Negocio (7%)</div></div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h3>Distribución por Clúster de Solución</h3>
+      <div class="chart-wrap"><canvas id="chartClusters"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Complejidad de Solución</h3>
+      <div class="chart-wrap"><canvas id="chartComplexity"></canvas></div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>#</th><th>Solución Maestra</th><th>Complejidad</th><th>Esfuerzo</th><th>Incidentes</th><th>%</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Motor de Facturación y Cálculo de Prima</td><td><span class="badge alta">Alta</span></td><td>6-8 sem</td><td>35</td><td>49%</td></tr>
+        <tr><td>2</td><td>Gestión de Controles Técnicos y Provisorios</td><td><span class="badge media">Media</span></td><td>3-4 sem</td><td>10</td><td>14%</td></tr>
+        <tr><td>3</td><td>Cambio de Clave de Intermediación (Póliza Hija)</td><td><span class="badge alta">Alta</span></td><td>4-6 sem</td><td>8</td><td>11%</td></tr>
+        <tr><td>4</td><td>Tabla x_multiclaves — Error ORA-01422</td><td><span class="badge baja">Baja</span></td><td>1-2 sem</td><td>5</td><td>7%</td></tr>
+        <tr><td>5</td><td>Impresión y Generación de PDF</td><td><span class="badge media">Media</span></td><td>3-4 sem</td><td>5</td><td>7%</td></tr>
+        <tr><td>6</td><td>Degradación Infraestructura (Tronador/SOA)</td><td><span class="badge media">Media</span></td><td>2-3 sem</td><td>4</td><td>6%</td></tr>
+        <tr><td>7</td><td>Validaciones de Negocio y Configuración</td><td><span class="badge baja">Baja</span></td><td>1-2 sem</td><td>5</td><td>7%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h3>Estado de Incidentes</h3>
+      <div class="chart-wrap"><canvas id="chartStatus"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Top 5 Resolvedores</h3>
+      <div class="chart-wrap"><canvas id="chartResolvers"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<!-- TAB: DETALLE -->
+<div id="detalle" class="tab">
+  <a href="index.html" class="back-link">← Volver al índice</a>
+  <div class="stitle">Detalle por Solución Técnica</div>
+
+  <!-- Cluster 1 -->
+  <div class="cluster-card" style="border-left-color:#c0392b">
+    <h3><span class="cnum">1</span> Motor de Facturación y Cálculo de Prima</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge alta">Alta</span></span>
+      <span><b>Esfuerzo:</b> 6-8 semanas</span>
+      <span><b>Incidentes:</b> 35 (49%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <p>El motor de cálculo de primas del Core Tronador presenta defectos sistémicos en múltiples escenarios de movimientos de pólizas de Cumplimiento (productos 440, 450, 455, 214):</p>
+    <ol>
+      <li><b>Devolución de prima incorrecta:</b> Al reducir vigencia o reversar prórroga, el sistema calcula un valor diferente al cobrado. El procedimiento toma rangos de fechas erróneos de <code>a2000160</code> vs <code>a2000040</code>.</li>
+      <li><b>No generación de factura:</b> Tras movimientos de aumento/prórroga/emisión, las tablas <code>A2990700</code> y <code>A2000163</code> quedan sin registros. Causa: falta de paramétrica en <code>c9999909</code> tras paso a producción del paquete <code>SIM_PCK299_AB100277</code>.</li>
+      <li><b>Reversión inconsistente:</b> Al reversar endosos, no se genera el cruce exacto (positivo + negativo), dejando saldos pendientes en cartera.</li>
+    </ol>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Auditar y corregir <code>SIM_PCK_PROCESO_DML_EMISION2</code> y funciones asociadas.</li>
+      <li>Garantizar que la devolución use las mismas fechas y coberturas del endoso original.</li>
+      <li>Hacer la generación de factura atómica con la emisión del endoso.</li>
+      <li>Validación pre-commit de consistencia entre <code>a2000160</code> y <code>a2000040</code>.</li>
+      <li>Tests de regresión automatizados para prórroga, disminución, aumento, reversión y anulación.</li>
+      <li>Reconciliación automática de cartera post-movimiento.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-1021241, MDSB-1016933, MDSB-1013739, MDSB-1004146, MDSB-1004303, MDSB-1002322, MDSB-1002089, MDSB-1000842, MDSB-999130, MDSB-999626, MDSB-997917, MDSB-997668, MDSB-994864, MDSB-992978, MDSB-991368, MDSB-991108, MDSB-990804, MDSB-990447, MDSB-988101, MDSB-986072, MDSB-985409, MDSB-982753, MDSB-982503, MDSB-979631, MDSB-979514, MDSB-971149, MDSB-970751, MDSB-970474, MDSB-968508, MDSB-965917, MDSB-964541, MDSB-963137, MDSB-961522, MDSB-958562, MDSB-990795</div>
+  </div>
+
+  <!-- Cluster 2 -->
+  <div class="cluster-card" style="border-left-color:#e67e22">
+    <h3><span class="cnum">2</span> Gestión de Controles Técnicos y Provisorios</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge media">Media</span></span>
+      <span><b>Esfuerzo:</b> 3-4 semanas</span>
+      <span><b>Incidentes:</b> 10 (14%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <ol>
+      <li><b>Provisorios fantasma en pólizas hijas:</b> Al generar CT para endoso 0, solo se actualiza <code>FECHA_EMI_END</code> pero no <code>FECHA_EMI</code>, dejando el CT invisible pero activo en <code>X2000220</code>.</li>
+      <li><b>Registros residuales en <code>X2000220</code>:</b> CTs rechazados quedan con <code>COD_RECHAZO = 2</code> bloqueando movimientos. La función <code>FNC_CTROLTEC_RECHAZADOS</code> consulta la tabla transitoria sin verificar la definitiva.</li>
+    </ol>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Corregir generación de CT para actualizar <code>FECHA_EMI</code> y <code>FECHA_EMI_END</code> en endoso 0.</li>
+      <li>Job de limpieza periódica de <code>X2000220</code> (registros huérfanos).</li>
+      <li>Validar contra tabla definitiva <code>A2000220</code> antes de bloquear.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-1017587, MDSB-1005518, MDSB-1006712, MDSB-1004446, MDSB-993481, MDSB-986072, MDSB-983587, MDSB-965384, MDSB-964862, MDSB-962019</div>
+  </div>
+
+  <!-- Cluster 3 -->
+  <div class="cluster-card" style="border-left-color:#c0392b">
+    <h3><span class="cnum">3</span> Cambio de Clave de Intermediación (Póliza Hija)</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge alta">Alta</span></span>
+      <span><b>Esfuerzo:</b> 4-6 semanas</span>
+      <span><b>Incidentes:</b> 8 (11%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <p>Al cambiar clave de intermediación en la póliza principal, el sistema genera el movimiento negativo pero NO el positivo en la póliza hija. El procedimiento no itera sobre pólizas hijas para replicar el movimiento completo. Movimientos posteriores (aumento, prórroga) calculan sobre la clave anterior, generando cascadas de errores.</p>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Propagar cambio de clave automáticamente a todas las pólizas hijas (negativo + positivo).</li>
+      <li>Validación post-cambio: saldo neto = 0 en cada póliza hija.</li>
+      <li>Alerta automática cuando saldo != 0 tras cambio de clave.</li>
+      <li>Respetar tablas de comisiones <code>A2000250</code> y <code>A2000252</code>.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-1018838, MDSB-1009757, MDSB-1003198, MDSB-1003090, MDSB-971705, MDSB-971559, MDSB-964126, MDSB-958599</div>
+  </div>
+
+  <!-- Cluster 4 -->
+  <div class="cluster-card" style="border-left-color:#27ae60">
+    <h3><span class="cnum">4</span> Tabla x_multiclaves — Error ORA-01422</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge baja">Baja</span></span>
+      <span><b>Esfuerzo:</b> 1-2 semanas</span>
+      <span><b>Incidentes:</b> 5 (7%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <p>La tabla <code>x_multiclaves</code> acumula registros duplicados que provocan <code>ORA-01422: exact fetch returns more than requested number of rows</code>. Un <code>SELECT INTO</code> espera un registro pero encuentra múltiples, bloqueando el acceso completo a SIMON para el usuario afectado.</p>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Auditar triggers/procedimientos que escriben en <code>x_multiclaves</code>.</li>
+      <li>Agregar constraint UNIQUE a nivel de BD.</li>
+      <li>Cambiar <code>SELECT INTO</code> por cursor o <code>FETCH FIRST 1 ROW</code>.</li>
+      <li>Job de monitoreo para detectar duplicados proactivamente.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-966253, MDSB-966282, MDSB-966242, MDSB-967560, MDSB-1011686</div>
+  </div>
+
+  <!-- Cluster 5 -->
+  <div class="cluster-card" style="border-left-color:#e67e22">
+    <h3><span class="cnum">5</span> Impresión y Generación de PDF (Textos/Formato)</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge media">Media</span></span>
+      <span><b>Esfuerzo:</b> 3-4 semanas</span>
+      <span><b>Incidentes:</b> 5 (7%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <ol>
+      <li><b>Textos no se guardan:</b> La tabla <code>a2010260</code> queda vacía tras emisión de endoso con textos personalizados.</li>
+      <li><b>Formato concatenado:</b> <code>REGEXP_REPLACE(txt_comp, '[^[:print:]]', '')</code> elimina saltos de línea, dejando texto ilegible.</li>
+      <li><b>Datos de envío incorrectos:</b> Matriz de reglas muestra datos del intermediario en lugar del tomador.</li>
+    </ol>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Corregir persistencia de textos en <code>a2010260</code>.</li>
+      <li>Ajustar regex para preservar newline/tab.</li>
+      <li>Actualizar matriz de reglas de envío.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-1007627, MDSB-1012832, MDSB-958664, MDSB-955649, MDSB-980903</div>
+  </div>
+
+  <!-- Cluster 6 -->
+  <div class="cluster-card" style="border-left-color:#e67e22">
+    <h3><span class="cnum">6</span> Degradación de Infraestructura (Tronador/SOA)</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge media">Media</span></span>
+      <span><b>Esfuerzo:</b> 2-3 semanas</span>
+      <span><b>Incidentes:</b> 4 (6%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <p>Servicio <code>SATERCEROS</code> no se desplegó correctamente en <code>soa_server3_Prod_1_1224</code> tras bloqueo en Tronador. El balanceador siguió enviando tráfico al componente fallido (aparecía "running"). También: desconexión de BD en Servicios Comunes Tronador (~52 min de degradación).</p>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Health checks funcionales activos (no solo estado "running").</li>
+      <li>Alertas Datadog para componentes SOA no responsivos.</li>
+      <li>Circuit breaker a nivel de balanceador.</li>
+      <li>Monitoreo de conexiones BD en Servicios Comunes.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-963433, MDSB-1011686, MDSB-1012461, MDSB-1011578</div>
+  </div>
+
+  <!-- Cluster 7 -->
+  <div class="cluster-card" style="border-left-color:#27ae60">
+    <h3><span class="cnum">7</span> Validaciones de Negocio y Configuración</h3>
+    <div class="meta">
+      <span><b>Complejidad:</b> <span class="badge baja">Baja</span></span>
+      <span><b>Esfuerzo:</b> 1-2 semanas c/u</span>
+      <span><b>Incidentes:</b> 5 (7%)</span>
+    </div>
+    <h4>Causa Raíz</h4>
+    <ol>
+      <li>Bloqueo de emisión para NIT Grupo Bolívar afectó también modificaciones.</li>
+      <li>Longitud de NE (15 chars) vs configuración en <code>g2000010</code> (14 chars).</li>
+      <li>Bloqueo SIMASOL a nivel de programa en lugar de cliente.</li>
+      <li>Falla silenciosa por correo de tomador faltante.</li>
+    </ol>
+    <h4>Acciones Definitivas</h4>
+    <ul>
+      <li>Validación pre-deployment de impacto en reglas de negocio.</li>
+      <li>Ampliar campo NE a 15 caracteres con pruebas regresivas.</li>
+      <li>Validación explícita de correo del tomador con mensaje claro.</li>
+    </ul>
+    <div class="ids"><b>IDs:</b> MDSB-1021340, MDSB-1020348, MDSB-1016272, MDSB-1013797, MDSB-963539</div>
+  </div>
+</div>
+
+<!-- TAB: IMPACTO -->
+<div id="impacto" class="tab">
+  <a href="index.html" class="back-link">← Volver al índice</a>
+  <div class="stitle">Análisis de Impacto Operativo</div>
+
+  <div class="kpis">
+    <div class="kpi red"><div class="num">~105</div><div class="lbl">Scripts SQL Manuales / 3 meses</div></div>
+    <div class="kpi orange"><div class="num">~70</div><div class="lbl">Solicitudes de Cambio de Datos</div></div>
+    <div class="kpi"><div class="num">3-5d</div><div class="lbl">Ciclo Medio Resolución (Clúster 1)</div></div>
+    <div class="kpi"><div class="num">2+</div><div class="lbl">Personas por Incidente</div></div>
+  </div>
+
+  <div class="charts">
+    <div class="chart-card">
+      <h3>Top 5 Usuarios Más Afectados</h3>
+      <div class="chart-wrap"><canvas id="chartUsers"></canvas></div>
+    </div>
+    <div class="chart-card">
+      <h3>Top 5 Resolvedores</h3>
+      <div class="chart-wrap"><canvas id="chartResolvers2"></canvas></div>
+    </div>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Usuario Afectado</th><th>Incidentes</th><th>Rol</th></tr></thead>
+      <tbody>
+        <tr><td>Juan Camilo Ballesteros</td><td>8</td><td>Operaciones Cumplimiento</td></tr>
+        <tr><td>Erika Lorena Cifuentes</td><td>7</td><td>Operaciones Cumplimiento</td></tr>
+        <tr><td>Natalia Huerfano</td><td>6</td><td>Operaciones Cumplimiento</td></tr>
+        <tr><td>Diana Mabel Barrera</td><td>5</td><td>Operaciones Cumplimiento</td></tr>
+        <tr><td>Leidy Johanna Murcia</td><td>4</td><td>Operaciones Cumplimiento</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Resolvedor</th><th>Incidentes Atendidos</th></tr></thead>
+      <tbody>
+        <tr><td>Bryan Alejandro Romero Torres</td><td>18</td></tr>
+        <tr><td>Cesar Armando Heredia Londono</td><td>12</td></tr>
+        <tr><td>Juan Camilo Arias Pinto</td><td>8</td></tr>
+        <tr><td>Ricardo Arturo Salamanca Mora</td><td>5</td></tr>
+        <tr><td>Sheila Paola Uhia Kanmerer</td><td>5</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- TAB: PRIORIZACION -->
+<div id="priorizacion" class="tab">
+  <a href="index.html" class="back-link">← Volver al índice</a>
+  <div class="stitle">Recomendación de Priorización</div>
+
+  <div class="priority-card">
+    <div class="pnum">1</div>
+    <div>
+      <h4>Inmediata (Sprint actual) — Clúster 4: x_multiclaves</h4>
+      <p>Fix defensivo en 1-2 semanas. Alto impacto en disponibilidad: bloquea acceso completo a SIMON para usuarios afectados. Constraint UNIQUE + cursor defensivo.</p>
+    </div>
+  </div>
+  <div class="priority-card">
+    <div class="pnum p2">2</div>
+    <div>
+      <h4>Corto plazo (1-2 Sprints) — Clúster 1: Motor de Facturación</h4>
+      <p>49% de los incidentes. Mayor generador de trabajo manual (~105 scripts/trimestre). Requiere corrección del paquete PL/SQL de facturación y tests de regresión.</p>
+    </div>
+  </div>
+  <div class="priority-card">
+    <div class="pnum p3">3</div>
+    <div>
+      <h4>Mediano plazo (2-3 Sprints) — Clúster 3: Cambio de Clave</h4>
+      <p>Genera cascadas de errores complejos que requieren múltiples scripts de corrección. Propagación automática principal→hija eliminaría 8 incidentes y sus derivados.</p>
+    </div>
+  </div>
+  <div class="priority-card">
+    <div class="pnum p4">4</div>
+    <div>
+      <h4>Paralelo — Clúster 6: Health Checks Infraestructura</h4>
+      <p>Puede ejecutarse independientemente por el equipo de Plataformas. Health checks funcionales + circuit breaker en balanceador SOA.</p>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Generado el 14 de abril de 2026 · Análisis basado en 72 incidentes MDSB · Mesa de Servicio Bolívar · Creado con IA
+</footer>
+
+<script>
+function showTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a=>a.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// Charts
+const colors=['#c0392b','#e67e22','#c0392b','#27ae60','#e67e22','#e67e22','#27ae60'];
+const labels=['Facturación','Controles Técnicos','Cambio Clave','ORA-01422','Impresión PDF','Infra SOA','Config Negocio'];
+const values=[35,10,8,5,5,4,5];
+
+new Chart(document.getElementById('chartClusters'),{
+  type:'doughnut',
+  data:{labels,datasets:[{data:values,backgroundColor:['#c0392b','#e67e22','#f39c12','#27ae60','#2980b9','#8e44ad','#95a5a6'],borderWidth:2}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:11}}}}}
+});
+
+new Chart(document.getElementById('chartComplexity'),{
+  type:'bar',
+  data:{labels,datasets:[{label:'Incidentes',data:values,backgroundColor:colors,borderRadius:6}]},
+  options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{display:false}}}}
+});
+
+new Chart(document.getElementById('chartStatus'),{
+  type:'pie',
+  data:{labels:['Resuelto','Escalado','Esperando','Pendiente','Cancelado','Cerrado'],datasets:[{data:[54,7,5,4,1,1],backgroundColor:['#27ae60','#e67e22','#f39c12','#3498db','#95a5a6','#2c3e50'],borderWidth:2}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{font:{size:11}}}}}
+});
+
+new Chart(document.getElementById('chartResolvers'),{
+  type:'bar',
+  data:{labels:['B. Romero','C. Heredia','J.C. Arias','R. Salamanca','S. Uhia'],datasets:[{label:'Incidentes',data:[18,12,8,5,5],backgroundColor:'#1a237e',borderRadius:6}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{display:false}}}}
+});
+
+new Chart(document.getElementById('chartUsers'),{
+  type:'bar',
+  data:{labels:['J.C. Ballesteros','E. Cifuentes','N. Huerfano','D. Barrera','L. Murcia'],datasets:[{label:'Incidentes',data:[8,7,6,5,4],backgroundColor:'#c0392b',borderRadius:6}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{display:false}}}}
+});
+
+new Chart(document.getElementById('chartResolvers2'),{
+  type:'bar',
+  data:{labels:['B. Romero','C. Heredia','J.C. Arias','R. Salamanca','S. Uhia'],datasets:[{label:'Incidentes',data:[18,12,8,5,5],backgroundColor:'#1a237e',borderRadius:6}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{grid:{display:false}}}}
+});
+</script>
+</body>
+</html>
