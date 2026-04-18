@@ -160,6 +160,23 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
 .exec-rc-body p { font-size:0.88em; line-height:1.6; color:#444; margin-bottom:6px; }
 .exec-callout { background:linear-gradient(135deg,#e8f5e9,#f1f8e9); border-left:5px solid #27ae60; border-radius:8px; padding:16px 20px; margin-top:20px; font-size:0.95em; line-height:1.6; color:#2c3e50; }
 
+/* RC Grid Tiles */
+.rc-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
+.rc-tile { background:#f8f9fa; border:1px solid #dee2e6; border-radius:8px; padding:14px; display:flex; flex-direction:column; }
+.rc-tile.pri-1 { border-top:4px solid #e74c3c; background:#fff5f5; }
+.rc-tile.pri-2 { border-top:4px solid #e67e22; background:#fff8f0; }
+.rc-tile.pri-3 { border-top:4px solid #3498db; background:#f0f7ff; }
+.rc-tile.pri-4 { border-top:4px solid #95a5a6; }
+.rc-tile-header { font-size:0.88em; color:#2c3e50; margin-bottom:4px; line-height:1.3; }
+.rc-tile-pct { font-size:0.78em; color:#7f8c8d; margin-bottom:8px; }
+.rc-tile-desc { font-size:0.8em; color:#555; line-height:1.5; flex:1; margin-bottom:10px; }
+.rc-tile-metrics { display:flex; gap:6px; border-top:1px solid #e8e8e8; padding-top:8px; }
+.rc-tile-metric { flex:1; text-align:center; }
+.rc-m-val { display:block; font-size:0.95em; font-weight:700; color:#2c3e50; }
+.rc-m-lbl { display:block; font-size:0.62em; color:#7f8c8d; line-height:1.2; }
+@media (max-width:1024px) { .rc-grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:600px) { .rc-grid { grid-template-columns:1fr; } }
+
 </style>
 </head>
 <body>
@@ -227,140 +244,145 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
                 </tbody>
             </table>
 
-            <h3>2. Causas Raíz Identificadas (12)</h3>
-            <p style="color:#555;font-size:0.9em;margin-bottom:16px">Se identificaron 12 causas raíz técnicas agrupadas en 5 categorías de origen. El 89% de los incidentes se concentran en solo 2 causas raíz.</p>
+            <h3>2. Causas Raíz Identificadas — Priorización Sugerida</h3>
+            <p style="color:#555;font-size:0.9em;margin-bottom:16px">12 causas raíz agrupadas por prioridad. El 89% de los incidentes se concentran en las 2 primeras.</p>
 
-            <div class="exec-rc-cards">
-                <div class="exec-rc-card" style="border-left:5px solid #00CED1">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-27</span>
-                        <span class="exec-rc-count">89 incidentes (48.9%)</span>
-                        <span class="badge" style="background:#00CED1">NA_ERROR_MOTOR</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Los asesores no pueden cotizar ni emitir pólizas de autos en Simón Cotizadores. El sistema muestra errores genéricos, no carga opciones de cotización, o rechaza la clave del asesor. Esto bloquea la operación comercial de la fuerza de ventas.</p>
-                        <p><strong>Técnico:</strong> Fallas en la integración con el motor de tarifación: timeouts, errores HTTP 503/504, datos de caché corruptos en la sesión del cotizador, y ausencia de circuit breaker que permita degradación controlada.</p>
+            <div class="rc-grid">
+                <div class="rc-tile pri-1">
+                    <div class="rc-tile-header">P1 — <strong>Errores Simón Web sin trazabilidad</strong></div>
+                    <div class="rc-tile-pct">40.1% incidentes (73)</div>
+                    <div class="rc-tile-desc">Los usuarios reportan errores genéricos en emisión, modificación y consulta de pólizas. Soporte no puede diagnosticar sin contactar al usuario por ausencia de logging estructurado y correlation-id.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">13</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~218</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Baja</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
 
-                <div class="exec-rc-card" style="border-left:5px solid #6495ED">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-28</span>
-                        <span class="exec-rc-count">73 incidentes (40.1%)</span>
-                        <span class="badge" style="background:#6495ED">NA_TRAZABILIDAD_PROCESO</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Simón Web presenta errores variados en emisión, modificación y consulta de pólizas (SOAT, Autos, Banca). Los usuarios reportan pantallas de error sin información útil. El equipo de soporte no puede diagnosticar sin contactar al usuario.</p>
-                        <p><strong>Técnico:</strong> Ausencia de logging estructurado y trazabilidad en los flujos de negocio. Los errores se pierden sin contexto (sin correlation-id, sin request/response, sin stack trace). No hay monitors de tasa de error ni alertas proactivas.</p>
-                    </div>
-                </div>
-
-                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-03</span>
-                        <span class="exec-rc-count">4 incidentes (2.2%)</span>
-                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Las pólizas muestran primas incorrectas o en cero al generar endosos. Los clientes reciben documentos con valores erróneos, generando reclamaciones y reprocesos manuales.</p>
-                        <p><strong>Técnico:</strong> Las tablas SIM_MOTOR_DATOS_* retienen datos de movimientos anteriores (caché no limpio). La variable Modelo_tarifa viaja con información de pólizas previas, contaminando el cálculo del motor de tarifación.</p>
+                <div class="rc-tile pri-1">
+                    <div class="rc-tile-header">P1 — <strong>Fallas Motor de Tarifación</strong></div>
+                    <div class="rc-tile-pct">48.9% incidentes (89)</div>
+                    <div class="rc-tile-desc">Asesores no pueden cotizar ni emitir pólizas de autos. Fallas de integración con el motor: timeouts, errores HTTP 503/504, sin circuit breaker ni retry automático.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">2</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~266</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Baja</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
 
-                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-21</span>
-                        <span class="exec-rc-count">3 incidentes (1.6%)</span>
-                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Los PDFs de endosos de pólizas muestran valor a pagar en cero o valores negativos. Los clientes no pueden ver el monto correcto de su factura.</p>
-                        <p><strong>Técnico:</strong> El procedimiento prc_datosries_fac no retorna datos para riesgos de tipo cancelación o con vigencia parcial. Retorna cero silenciosamente en lugar de generar una alerta.</p>
-                    </div>
-                </div>
-
-                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-06</span>
-                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
-                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> El PDF de endosos con múltiples facturas solo muestra la última factura, no la sumatoria total. El cliente ve un valor parcial.</p>
-                        <p><strong>Técnico:</strong> El módulo de generación de PDF (Tronador) no itera sobre todas las facturas del endoso. La regla de negocio no contempla el caso de múltiples facturas por endoso.</p>
+                <div class="rc-tile pri-2">
+                    <div class="rc-tile-header">P2 — <strong>Cache motor no limpio (SIM_MOTOR_DATOS)</strong></div>
+                    <div class="rc-tile-pct">2.2% incidentes (4)</div>
+                    <div class="rc-tile-desc">Primas incorrectas o en cero por datos de movimientos anteriores retenidos en tablas SIM_MOTOR_DATOS_*. Requiere limpieza manual de 9 tablas por póliza.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~12</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
 
-                <div class="exec-rc-card" style="border-left:5px solid #F4A460">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-02</span>
-                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
-                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Después de un deploy, funcionalidades que antes operaban correctamente dejan de funcionar (ej: cotización con accesorios). Se requiere rollback urgente.</p>
-                        <p><strong>Técnico:</strong> Deploys en el core de cotización sin pruebas de regresión automatizadas. No hay feature flags para desactivar cambios sin rollback de BD.</p>
-                    </div>
-                </div>
-
-                <div class="exec-rc-card" style="border-left:5px solid #F4A460">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-04</span>
-                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
-                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Las renovaciones de pólizas de autos usan guías Fasecolda desactualizadas. El PDF muestra un número de guía incorrecto sin alertar al usuario.</p>
-                        <p><strong>Técnico:</strong> No existe sincronización automática de guías Fasecolda ni validación de vigencia en el proceso de renovación.</p>
+                <div class="rc-tile pri-2">
+                    <div class="rc-tile-header">P2 — <strong>Prima incorrecta en endosos</strong></div>
+                    <div class="rc-tile-pct">1.6% incidentes (3)</div>
+                    <div class="rc-tile-desc">PDFs de endosos muestran valor a pagar en cero. El procedimiento prc_datosries_fac no retorna datos para riesgos de cancelación o vigencia parcial.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~10</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Media</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
 
-                <div class="exec-rc-card" style="border-left:5px solid #9370DB">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-01</span>
-                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
-                        <span class="badge" style="background:#9370DB">NA_ERROR_USUARIO</span>
-                    </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Un script destinado a ambiente de pruebas se ejecutó en producción, modificando masivamente datos de guías Fasecolda y reglas de validación. Múltiples usuarios afectados.</p>
-                        <p><strong>Técnico:</strong> No existe validación de ambiente en scripts SQL ni pipeline de control de cambios de datos con dry-run obligatorio.</p>
+                <div class="rc-tile pri-3">
+                    <div class="rc-tile-header">P3 — <strong>PDF no suma múltiples facturas</strong></div>
+                    <div class="rc-tile-pct">1.1% incidentes (2)</div>
+                    <div class="rc-tile-desc">El módulo Tronador solo muestra la última factura del endoso, no la sumatoria. La regla de negocio no contempla múltiples facturas por endoso.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Media</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
 
-                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
-                    <div class="exec-rc-header">
-                        <span class="exec-rc-code">RC-07, RC-15, RC-19, RC-05</span>
-                        <span class="exec-rc-count">5 incidentes combinados (2.7%)</span>
-                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
-                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
+                <div class="rc-tile pri-3">
+                    <div class="rc-tile-header">P3 — <strong>Regresiones post-deploy</strong></div>
+                    <div class="rc-tile-pct">1.1% incidentes (2)</div>
+                    <div class="rc-tile-desc">Deploys en core de cotización sin pruebas de regresión automatizadas. Funcionalidades dejan de operar y requieren rollback urgente de BD.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
-                    <div class="exec-rc-body">
-                        <p><strong>Funcional:</strong> Errores puntuales en stored procedures (valores hardcodeados, conflictos de versión), parametrización incorrecta de claves de asesor, y procedimientos que retornan cero silenciosamente.</p>
-                        <p><strong>Técnico:</strong> Falta de versionado de stored procedures, ausencia de análisis estático de código PL/SQL, y parametrización sin auditoría de cambios.</p>
+                </div>
+
+                <div class="rc-tile pri-3">
+                    <div class="rc-tile-header">P3 — <strong>Guías Fasecolda desactualizadas</strong></div>
+                    <div class="rc-tile-pct">1.1% incidentes (2)</div>
+                    <div class="rc-tile-desc">Renovaciones de pólizas de autos usan guías Fasecolda desactualizadas. No existe sincronización automática ni validación de vigencia.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Media</span><span class="rc-m-lbl">Esfuerzo</span></div>
+                    </div>
+                </div>
+
+                <div class="rc-tile pri-3">
+                    <div class="rc-tile-header">P3 — <strong>Scripts en ambiente incorrecto</strong></div>
+                    <div class="rc-tile-pct">1.1% incidentes (2)</div>
+                    <div class="rc-tile-desc">Script de pruebas ejecutado en producción modificó masivamente datos de guías y reglas de validación. Sin validación de ambiente ni pipeline de control de cambios.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
+                    </div>
+                </div>
+
+                <div class="rc-tile pri-4">
+                    <div class="rc-tile-header">P4 — <strong>PRC_DATOSRIES_FAC falla con riesgos especiales</strong></div>
+                    <div class="rc-tile-pct">1.1% incidentes (2)</div>
+                    <div class="rc-tile-desc">Procedimiento retorna cero silenciosamente para riesgos de cancelación. Sin manejo de excepciones ni logging de error.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
+                    </div>
+                </div>
+
+                <div class="rc-tile pri-4">
+                    <div class="rc-tile-header">P4 — <strong>Stored procedures sin versionado</strong></div>
+                    <div class="rc-tile-pct">0.5% incidentes (1)</div>
+                    <div class="rc-tile-desc">Conflicto entre stored procedures nuevos y existentes al agregar productos. Sin validación pre-deploy ni convención de nombres con versión.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
+                    </div>
+                </div>
+
+                <div class="rc-tile pri-4">
+                    <div class="rc-tile-header">P4 — <strong>Clave asesor no autorizada</strong></div>
+                    <div class="rc-tile-pct">0.5% incidentes (1)</div>
+                    <div class="rc-tile-desc">Parametrización toma clave de login en lugar de clave de cotización para validar agentes. Error en script de parametrización de subproducto.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Media</span><span class="rc-m-lbl">Esfuerzo</span></div>
+                    </div>
+                </div>
+
+                <div class="rc-tile pri-4">
+                    <div class="rc-tile-header">P4 — <strong>Valores hardcodeados en SP</strong></div>
+                    <div class="rc-tile-pct">0.5% incidentes (1)</div>
+                    <div class="rc-tile-desc">Usuario hardcodeado en stored procedure. Parametrización en tabla C9999909 fue eliminada por script sin control de cambios.</div>
+                    <div class="rc-tile-metrics">
+                        <div class="rc-tile-metric"><span class="rc-m-val">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
+                        <div class="rc-tile-metric"><span class="rc-m-val">Alta</span><span class="rc-m-lbl">Esfuerzo</span></div>
                     </div>
                 </div>
             </div>
 
-            <h3>3. Priorización Sugerida</h3>
-            <p style="color:#555;font-size:0.9em;margin-bottom:16px">Ordenada por impacto combinado: tickets abiertos que se cerrarían + tickets futuros que se evitarían anualmente.</p>
-
-            <table class="exec-table exec-priority">
-                <thead><tr><th>#</th><th>Causa Raíz</th><th>Abiertos</th><th>Evitados/Año</th><th>Esfuerzo</th><th>Prioridad</th></tr></thead>
-                <tbody>
-                    <tr class="pri-p1"><td>1</td><td>RC-28: Errores en Simón Web sin trazabilidad</td><td style="color:#e74c3c;font-weight:700">13</td><td style="color:#27ae60;font-weight:700">~218</td><td>Baja</td><td><span class="badge" style="background:#e74c3c">P1</span></td></tr>
-                    <tr class="pri-p1"><td>2</td><td>RC-27: Fallas de integración con Motor de Tarifación</td><td style="color:#e74c3c;font-weight:700">2</td><td style="color:#27ae60;font-weight:700">~266</td><td>Baja</td><td><span class="badge" style="background:#e74c3c">P1</span></td></tr>
-                    <tr><td>3</td><td>RC-03: Cache de motor no limpio (SIM_MOTOR_DATOS_*)</td><td>0</td><td style="color:#27ae60">~12</td><td>Alta</td><td><span class="badge" style="background:#e67e22">P2</span></td></tr>
-                    <tr><td>4</td><td>RC-21: Prima incorrecta en endosos</td><td>0</td><td style="color:#27ae60">~10</td><td>Media</td><td><span class="badge" style="background:#e67e22">P2</span></td></tr>
-                    <tr><td>5</td><td>RC-06: PDF no suma múltiples facturas</td><td>0</td><td style="color:#27ae60">~6</td><td>Media</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
-                    <tr><td>6</td><td>RC-02: Regresiones post-deploy</td><td>0</td><td style="color:#27ae60">~6</td><td>Alta</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
-                    <tr><td>7</td><td>RC-04: Guías Fasecolda desactualizadas</td><td>0</td><td style="color:#27ae60">~6</td><td>Media</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
-                    <tr><td>8</td><td>RC-01: Scripts en ambiente incorrecto</td><td>0</td><td style="color:#27ae60">~6</td><td>Alta</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
-                    <tr><td>9–12</td><td>RC-07, RC-15, RC-19, RC-05 (puntuales)</td><td>0</td><td style="color:#27ae60">~8</td><td>Variada</td><td><span class="badge" style="background:#95a5a6">P4</span></td></tr>
-                </tbody>
-            </table>
-
             <div class="exec-callout">
-                <strong>Conclusión:</strong> Resolver las 2 primeras causas raíz (RC-28 y RC-27) cerraría los 15 tickets abiertos y evitaría ~484 incidentes anuales. Estas dos acciones representan el 89% del volumen total de incidentes y requieren esfuerzo bajo (logging, circuit breakers, monitors).
+                <strong>Conclusión:</strong> Resolver las 2 primeras causas raíz (P1) cerraría los 15 tickets abiertos y evitaría ~484 incidentes anuales. Estas dos acciones representan el 89% del volumen total y requieren esfuerzo bajo (logging, circuit breakers, monitors).
             </div>
         </section>
     </div>
