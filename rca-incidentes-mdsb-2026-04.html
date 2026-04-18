@@ -125,7 +125,40 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
     .stats-grid { grid-template-columns:repeat(2,1fr); }
     .donut-section { flex-direction:column; }
     .label-kpis { grid-template-columns:repeat(2,1fr); }
+    .exec-stat-row { grid-template-columns:repeat(2,1fr); }
+    .tab-nav { flex-wrap:wrap; }
 }
+
+/* Tabs */
+.tab-nav { display:flex; gap:0; margin-bottom:24px; background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.tab-btn { flex:1; padding:14px 20px; border:none; background:#f8f9fa; cursor:pointer; font-size:1em; font-weight:600; color:#7f8c8d; transition:all 0.2s; }
+.tab-btn:hover { background:#ecf0f1; color:#2c3e50; }
+.tab-btn.active { background:#2c5282; color:white; }
+
+/* Executive Summary */
+.exec-section h3 { font-size:1.15em; color:#1a2a3a; margin:24px 0 12px; padding-bottom:6px; border-bottom:2px solid #e8e8e8; }
+.exec-highlight { background:linear-gradient(135deg,#f8f9ff,#eef2ff); border-radius:12px; padding:24px; margin-bottom:20px; }
+.exec-stat-row { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+.exec-stat { text-align:center; background:white; border-radius:10px; padding:20px 12px; border-top:4px solid #2c5282; box-shadow:0 1px 4px rgba(0,0,0,0.06); }
+.exec-num { display:block; font-size:2.5em; font-weight:800; color:#2c5282; }
+.exec-lbl { display:block; font-size:0.82em; color:#7f8c8d; margin-top:4px; }
+.exec-bar-wrap { margin:12px 0 16px; }
+.exec-bar-track { display:flex; height:32px; border-radius:8px; overflow:hidden; }
+.exec-bar-fill { transition:width 0.5s; }
+.exec-bar-legend { display:flex; gap:20px; margin-top:8px; font-size:0.85em; color:#555; }
+.dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:4px; vertical-align:middle; }
+.exec-table { width:100%; border-collapse:collapse; margin-bottom:16px; font-size:0.9em; }
+.exec-table th { background:#f0f2f8; padding:10px 14px; text-align:left; font-weight:600; color:#34495e; border-bottom:2px solid #dee2e6; }
+.exec-table td { padding:8px 14px; border-bottom:1px solid #ecf0f1; }
+.exec-table .pri-p1 { background:#fff5f5; }
+.exec-priority td:first-child { font-weight:700; color:#2c5282; text-align:center; }
+.exec-rc-cards { display:flex; flex-direction:column; gap:12px; }
+.exec-rc-card { background:#f8f9fa; border-radius:8px; padding:16px; }
+.exec-rc-header { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
+.exec-rc-code { font-weight:800; font-size:1em; color:#2c3e50; }
+.exec-rc-count { font-size:0.85em; color:#7f8c8d; }
+.exec-rc-body p { font-size:0.88em; line-height:1.6; color:#444; margin-bottom:6px; }
+.exec-callout { background:linear-gradient(135deg,#e8f5e9,#f1f8e9); border-left:5px solid #27ae60; border-radius:8px; padding:16px 20px; margin-top:20px; font-size:0.95em; line-height:1.6; color:#2c3e50; }
 
 </style>
 </head>
@@ -136,6 +169,204 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         <p class="subtitle">Seguros Bolívar | Proyecto MDSB</p>
         <p class="date">Generado: 2026-04-18 09:30 | 182 incidentes de Movilidad analizados (8 de Cumplimiento excluidos)</p>
     </header>
+
+    <!-- TAB NAVIGATION -->
+    <div class="tab-nav">
+        <button class="tab-btn active" onclick="switchTab('junta')">📊 Junta Directiva</button>
+        <button class="tab-btn" onclick="switchTab('tecnico')">🔧 Análisis Técnico</button>
+    </div>
+
+    <!-- TAB: JUNTA DIRECTIVA -->
+    <div id="tab-junta" class="tab-content active">
+        <section class="section exec-section">
+            <h2>Resumen Ejecutivo — Junta Directiva</h2>
+            <p class="section-desc">Tribu Movilidad | Seguros Bolívar | Abril 2026</p>
+
+            <div class="exec-highlight">
+                <div class="exec-stat-row">
+                    <div class="exec-stat">
+                        <span class="exec-num">182</span>
+                        <span class="exec-lbl">Incidentes analizados</span>
+                    </div>
+                    <div class="exec-stat" style="border-color:#27ae60">
+                        <span class="exec-num" style="color:#27ae60">167</span>
+                        <span class="exec-lbl">Cerrados / Resueltos</span>
+                    </div>
+                    <div class="exec-stat" style="border-color:#e74c3c">
+                        <span class="exec-num" style="color:#e74c3c">15</span>
+                        <span class="exec-lbl">Abiertos / En gestión</span>
+                    </div>
+                    <div class="exec-stat" style="border-color:#9b59b6">
+                        <span class="exec-num" style="color:#9b59b6">12</span>
+                        <span class="exec-lbl">Causas raíz identificadas</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3>1. Estado de los Incidentes</h3>
+            <div class="exec-bar-wrap">
+                <div class="exec-bar-track">
+                    <div class="exec-bar-fill" style="width:91.8%;background:#27ae60" title="Cerrados: 167 (91.8%)"></div>
+                    <div class="exec-bar-fill" style="width:8.2%;background:#e74c3c" title="Abiertos: 15 (8.2%)"></div>
+                </div>
+                <div class="exec-bar-legend">
+                    <span><span class="dot" style="background:#27ae60"></span> Cerrados/Resueltos: 167 (91.8%)</span>
+                    <span><span class="dot" style="background:#e74c3c"></span> Abiertos/En gestión: 15 (8.2%)</span>
+                </div>
+            </div>
+            <table class="exec-table">
+                <thead><tr><th>Estado</th><th>Cantidad</th><th>%</th></tr></thead>
+                <tbody>
+                    <tr><td>Resuelto</td><td>164</td><td>90.1%</td></tr>
+                    <tr><td>Cerrado</td><td>3</td><td>1.6%</td></tr>
+                    <tr style="background:#fff5f5"><td>Esperando por ayuda</td><td>10</td><td>5.5%</td></tr>
+                    <tr style="background:#fff5f5"><td>Escalado</td><td>2</td><td>1.1%</td></tr>
+                    <tr style="background:#fff5f5"><td>Abierto</td><td>1</td><td>0.5%</td></tr>
+                    <tr style="background:#fff5f5"><td>Pendiente</td><td>1</td><td>0.5%</td></tr>
+                    <tr style="background:#fff5f5"><td>Trabajo en progreso</td><td>1</td><td>0.5%</td></tr>
+                </tbody>
+            </table>
+
+            <h3>2. Causas Raíz Identificadas (12)</h3>
+            <p style="color:#555;font-size:0.9em;margin-bottom:16px">Se identificaron 12 causas raíz técnicas agrupadas en 5 categorías de origen. El 89% de los incidentes se concentran en solo 2 causas raíz.</p>
+
+            <div class="exec-rc-cards">
+                <div class="exec-rc-card" style="border-left:5px solid #00CED1">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-27</span>
+                        <span class="exec-rc-count">89 incidentes (48.9%)</span>
+                        <span class="badge" style="background:#00CED1">NA_ERROR_MOTOR</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Los asesores no pueden cotizar ni emitir pólizas de autos en Simón Cotizadores. El sistema muestra errores genéricos, no carga opciones de cotización, o rechaza la clave del asesor. Esto bloquea la operación comercial de la fuerza de ventas.</p>
+                        <p><strong>Técnico:</strong> Fallas en la integración con el motor de tarifación: timeouts, errores HTTP 503/504, datos de caché corruptos en la sesión del cotizador, y ausencia de circuit breaker que permita degradación controlada.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #6495ED">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-28</span>
+                        <span class="exec-rc-count">73 incidentes (40.1%)</span>
+                        <span class="badge" style="background:#6495ED">NA_TRAZABILIDAD_PROCESO</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Simón Web presenta errores variados en emisión, modificación y consulta de pólizas (SOAT, Autos, Banca). Los usuarios reportan pantallas de error sin información útil. El equipo de soporte no puede diagnosticar sin contactar al usuario.</p>
+                        <p><strong>Técnico:</strong> Ausencia de logging estructurado y trazabilidad en los flujos de negocio. Los errores se pierden sin contexto (sin correlation-id, sin request/response, sin stack trace). No hay monitors de tasa de error ni alertas proactivas.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-03</span>
+                        <span class="exec-rc-count">4 incidentes (2.2%)</span>
+                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Las pólizas muestran primas incorrectas o en cero al generar endosos. Los clientes reciben documentos con valores erróneos, generando reclamaciones y reprocesos manuales.</p>
+                        <p><strong>Técnico:</strong> Las tablas SIM_MOTOR_DATOS_* retienen datos de movimientos anteriores (caché no limpio). La variable Modelo_tarifa viaja con información de pólizas previas, contaminando el cálculo del motor de tarifación.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-21</span>
+                        <span class="exec-rc-count">3 incidentes (1.6%)</span>
+                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Los PDFs de endosos de pólizas muestran valor a pagar en cero o valores negativos. Los clientes no pueden ver el monto correcto de su factura.</p>
+                        <p><strong>Técnico:</strong> El procedimiento prc_datosries_fac no retorna datos para riesgos de tipo cancelación o con vigencia parcial. Retorna cero silenciosamente en lugar de generar una alerta.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-06</span>
+                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
+                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> El PDF de endosos con múltiples facturas solo muestra la última factura, no la sumatoria total. El cliente ve un valor parcial.</p>
+                        <p><strong>Técnico:</strong> El módulo de generación de PDF (Tronador) no itera sobre todas las facturas del endoso. La regla de negocio no contempla el caso de múltiples facturas por endoso.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #F4A460">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-02</span>
+                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
+                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Después de un deploy, funcionalidades que antes operaban correctamente dejan de funcionar (ej: cotización con accesorios). Se requiere rollback urgente.</p>
+                        <p><strong>Técnico:</strong> Deploys en el core de cotización sin pruebas de regresión automatizadas. No hay feature flags para desactivar cambios sin rollback de BD.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #F4A460">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-04</span>
+                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
+                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Las renovaciones de pólizas de autos usan guías Fasecolda desactualizadas. El PDF muestra un número de guía incorrecto sin alertar al usuario.</p>
+                        <p><strong>Técnico:</strong> No existe sincronización automática de guías Fasecolda ni validación de vigencia en el proceso de renovación.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #9370DB">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-01</span>
+                        <span class="exec-rc-count">2 incidentes (1.1%)</span>
+                        <span class="badge" style="background:#9370DB">NA_ERROR_USUARIO</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Un script destinado a ambiente de pruebas se ejecutó en producción, modificando masivamente datos de guías Fasecolda y reglas de validación. Múltiples usuarios afectados.</p>
+                        <p><strong>Técnico:</strong> No existe validación de ambiente en scripts SQL ni pipeline de control de cambios de datos con dry-run obligatorio.</p>
+                    </div>
+                </div>
+
+                <div class="exec-rc-card" style="border-left:5px solid #3CB371">
+                    <div class="exec-rc-header">
+                        <span class="exec-rc-code">RC-07, RC-15, RC-19, RC-05</span>
+                        <span class="exec-rc-count">5 incidentes combinados (2.7%)</span>
+                        <span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span>
+                        <span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span>
+                    </div>
+                    <div class="exec-rc-body">
+                        <p><strong>Funcional:</strong> Errores puntuales en stored procedures (valores hardcodeados, conflictos de versión), parametrización incorrecta de claves de asesor, y procedimientos que retornan cero silenciosamente.</p>
+                        <p><strong>Técnico:</strong> Falta de versionado de stored procedures, ausencia de análisis estático de código PL/SQL, y parametrización sin auditoría de cambios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>3. Priorización Sugerida</h3>
+            <p style="color:#555;font-size:0.9em;margin-bottom:16px">Ordenada por impacto combinado: tickets abiertos que se cerrarían + tickets futuros que se evitarían anualmente.</p>
+
+            <table class="exec-table exec-priority">
+                <thead><tr><th>#</th><th>Causa Raíz</th><th>Abiertos</th><th>Evitados/Año</th><th>Esfuerzo</th><th>Prioridad</th></tr></thead>
+                <tbody>
+                    <tr class="pri-p1"><td>1</td><td>RC-28: Errores en Simón Web sin trazabilidad</td><td style="color:#e74c3c;font-weight:700">13</td><td style="color:#27ae60;font-weight:700">~218</td><td>Baja</td><td><span class="badge" style="background:#e74c3c">P1</span></td></tr>
+                    <tr class="pri-p1"><td>2</td><td>RC-27: Fallas de integración con Motor de Tarifación</td><td style="color:#e74c3c;font-weight:700">2</td><td style="color:#27ae60;font-weight:700">~266</td><td>Baja</td><td><span class="badge" style="background:#e74c3c">P1</span></td></tr>
+                    <tr><td>3</td><td>RC-03: Cache de motor no limpio (SIM_MOTOR_DATOS_*)</td><td>0</td><td style="color:#27ae60">~12</td><td>Alta</td><td><span class="badge" style="background:#e67e22">P2</span></td></tr>
+                    <tr><td>4</td><td>RC-21: Prima incorrecta en endosos</td><td>0</td><td style="color:#27ae60">~10</td><td>Media</td><td><span class="badge" style="background:#e67e22">P2</span></td></tr>
+                    <tr><td>5</td><td>RC-06: PDF no suma múltiples facturas</td><td>0</td><td style="color:#27ae60">~6</td><td>Media</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
+                    <tr><td>6</td><td>RC-02: Regresiones post-deploy</td><td>0</td><td style="color:#27ae60">~6</td><td>Alta</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
+                    <tr><td>7</td><td>RC-04: Guías Fasecolda desactualizadas</td><td>0</td><td style="color:#27ae60">~6</td><td>Media</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
+                    <tr><td>8</td><td>RC-01: Scripts en ambiente incorrecto</td><td>0</td><td style="color:#27ae60">~6</td><td>Alta</td><td><span class="badge" style="background:#3498db">P3</span></td></tr>
+                    <tr><td>9–12</td><td>RC-07, RC-15, RC-19, RC-05 (puntuales)</td><td>0</td><td style="color:#27ae60">~8</td><td>Variada</td><td><span class="badge" style="background:#95a5a6">P4</span></td></tr>
+                </tbody>
+            </table>
+
+            <div class="exec-callout">
+                <strong>Conclusión:</strong> Resolver las 2 primeras causas raíz (RC-28 y RC-27) cerraría los 15 tickets abiertos y evitaría ~484 incidentes anuales. Estas dos acciones representan el 89% del volumen total de incidentes y requieren esfuerzo bajo (logging, circuit breakers, monitors).
+            </div>
+        </section>
+    </div>
+
+    <!-- TAB: ANÁLISIS TÉCNICO -->
+    <div id="tab-tecnico" class="tab-content" style="display:none">
 
     <!-- 1. RESUMEN EJECUTIVO -->
     <section class="section" id="resumen">
@@ -4672,13 +4903,15 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         <div class="debt-card"><h4>Ausencia de pruebas de regresión en flujos de emisión/cotización</h4><p>Los flujos de emisión, cotización y modificación de pólizas en Simón Web y Cotizadores carecen de pruebas automatizadas de regresión. Cada deploy puede introducir errores que solo se detectan cuando los usuarios los reportan.</p><p><strong>Servicios afectados:</strong> Simon Web, Simon Cotizadores</p><p><strong>Recomendación:</strong> Implementar suite de pruebas E2E con Playwright que cubra los flujos críticos de cotización, emisión, modificación y anulación de pólizas. Ejecutar en cada PR y deploy.</p></div><div class="debt-card"><h4>Falta de monitoreo proactivo de errores en aplicaciones core</h4><p>Los incidentes se detectan por reportes de usuarios, no por alertas de monitoreo. No hay monitors sintéticos ni alertas de tasa de error para los flujos críticos de negocio.</p><p><strong>Servicios afectados:</strong> Simon Web, Simon Cotizadores, SAI, Portal Libertador, SIOS</p><p><strong>Recomendación:</strong> Implementar monitors sintéticos en Datadog que ejecuten transacciones de negocio cada 5 minutos. Configurar alertas de tasa de error (&gt;1%) y latencia (&gt;5s) para cada servicio.</p></div><div class="debt-card"><h4>Parametrización de BD frágil y sin validación</h4><p>Múltiples incidentes se originan por datos incorrectos o faltantes en tablas de parametrización (c9999909, SIM_MOTOR_DATOS_*, etc.). Los cambios en BD no tienen validación ni rollback automático.</p><p><strong>Servicios afectados:</strong> Motor de tarifación, Facturación, Emisión de pólizas</p><p><strong>Recomendación:</strong> Implementar migrations versionadas para cambios de parametrización. Agregar validaciones de integridad referencial y alertas cuando falten datos esperados en tablas de configuración.</p></div><div class="debt-card"><h4>Workarounds manuales como solución permanente</h4><p>Gran cantidad de incidentes se resuelven con scripts manuales de corrección de datos (Solicitud de Cambios de Datos) en lugar de corregir la causa raíz en el código. Esto genera recurrencia.</p><p><strong>Servicios afectados:</strong> Facturación, Emisión</p><p><strong>Recomendación:</strong> Para cada script de corrección recurrente, crear un ticket de mejora que implemente la corrección automática en el flujo de negocio. Priorizar los 5 scripts más ejecutados.</p></div><div class="debt-card"><h4>Gestión de perfiles y accesos sin automatización</h4><p>Los cambios de cargo, contrato o perfil de usuario no se propagan automáticamente entre sistemas (SAI, Simón, Huella Digital). Esto genera incidentes de acceso que requieren intervención manual.</p><p><strong>Servicios afectados:</strong> SAI, Simon Web, Huella Digital, Portal Libertador</p><p><strong>Recomendación:</strong> Implementar sincronización automática de perfiles entre sistemas mediante eventos (event-driven). Cuando RRHH actualiza un cargo, los permisos deben propagarse automáticamente.</p></div><div class="debt-card"><h4>Logging insuficiente para diagnóstico de errores</h4><p>Los equipos de soporte no pueden diagnosticar errores sin contactar al usuario porque los logs no capturan el contexto completo del error (request, response, stack trace, datos de sesión).</p><p><strong>Servicios afectados:</strong> Todos los servicios</p><p><strong>Recomendación:</strong> Implementar structured logging (JSON) con correlation-id, user-id, request-id, y contexto de negocio (póliza, endoso, producto). Centralizar en Datadog con dashboards de diagnóstico.</p></div>
     </section>
 
+    </div><!-- end tab-tecnico -->
+
     <footer>
         <p>Informe generado automáticamente el 2026-04-18 09:30 | Fuente: jirasegurosbolivar.atlassian.net | Proyecto MDSB</p>
         <p>Tribu Movilidad — Seguros Bolívar</p>
     </footer>
 </div>
 
-<nav class="toc">
+<nav class="toc" style="display:none">
     <a href="#resumen">1. Resumen</a>
     <a href="#etiquetas">2. Etiquetas</a>
     <a href="#heatmap">3. Mapa de Calor</a>
@@ -4694,6 +4927,13 @@ function filterTickets() {
     document.querySelectorAll('.ticket-card').forEach(c => {
         c.style.display = c.textContent.toLowerCase().includes(q) ? '' : 'none';
     });
+}
+function switchTab(tab) {
+    document.querySelectorAll('.tab-content').forEach(t => t.style.display = 'none');
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('tab-' + tab).style.display = 'block';
+    event.target.classList.add('active');
+    document.querySelector('.toc').style.display = tab === 'tecnico' ? '' : 'none';
 }
 </script>
 </body>
