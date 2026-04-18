@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard de Resolución de Deuda Técnica — Ciencuadras (MDSB)</title>
+<title>Análisis de Causa Raíz 2026 — Tribu Movilidad (MDSB)</title>
 <style>
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -91,8 +91,8 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 <body>
 <div class="container">
     <header class="report-header">
-        <h1>Dashboard de Resolución de Deuda Técnica</h1>
-        <p class="subtitle">Ciencuadras — Seguros Bolívar | Proyecto MDSB (Mesa de Servicio Bolívar)</p>
+        <h1>Análisis de Causa Raíz 2026 — Tribu Movilidad</h1>
+        <p class="subtitle">Seguros Bolívar | Proyecto MDSB (Mesa de Servicio Bolívar)</p>
         <p class="date">Generado: 2026-04-18 | Incidentes analizados: 190 de 202 solicitados</p>
     </header>
 
@@ -135,9 +135,114 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
         </table>
     </section>
 
+    <!-- CLASIFICACIÓN POR ETIQUETAS -->
+    <section class="section" id="etiquetas">
+        <h2>2. Clasificación por Etiquetas de Causante</h2>
+        <p class="section-desc">Distribución de los 190 incidentes según la etiqueta de origen/causante del error. Cada ticket fue clasificado según su causa raíz técnica.</p>
+        
+        <div class="stats-grid">
+            <div class="stat-card" style="border-left-color:#00CED1">
+                <span class="stat-value" style="color:#00CED1">89</span>
+                <span class="stat-label">NA_ERROR_MOTOR</span>
+            </div>
+            <div class="stat-card" style="border-left-color:#6495ED">
+                <span class="stat-value" style="color:#6495ED">80</span>
+                <span class="stat-label">NA_TRAZABILIDAD_PROCESO</span>
+            </div>
+            <div class="stat-card" style="border-left-color:#3CB371">
+                <span class="stat-value" style="color:#3CB371">14</span>
+                <span class="stat-label">NA_ORIGEN_BD</span>
+            </div>
+            <div class="stat-card" style="border-left-color:#F4A460">
+                <span class="stat-value" style="color:#F4A460">5</span>
+                <span class="stat-label">NA_ORIGEN_MOTOR_TARIFA</span>
+            </div>
+            <div class="stat-card" style="border-left-color:#9370DB">
+                <span class="stat-value" style="color:#9370DB">2</span>
+                <span class="stat-label">NA_ERROR_USUARIO</span>
+            </div>
+        </div>
+
+        <h3>Distribución Visual por Etiqueta</h3>
+        <div class="heatmap">
+            <div class="heatmap-row">
+                <div class="heatmap-label">NA_ERROR_MOTOR</div>
+                <div class="heatmap-bar-container">
+                    <div class="heatmap-bar" style="width:100%;background:#00CED1"></div>
+                    <span class="heatmap-count">89 (46.8%)</span>
+                </div>
+            </div>
+            <div class="heatmap-row">
+                <div class="heatmap-label">NA_TRAZABILIDAD_PROCESO</div>
+                <div class="heatmap-bar-container">
+                    <div class="heatmap-bar" style="width:89.9%;background:#6495ED"></div>
+                    <span class="heatmap-count">80 (42.1%)</span>
+                </div>
+            </div>
+            <div class="heatmap-row">
+                <div class="heatmap-label">NA_ORIGEN_BD</div>
+                <div class="heatmap-bar-container">
+                    <div class="heatmap-bar" style="width:15.7%;background:#3CB371"></div>
+                    <span class="heatmap-count">14 (7.4%)</span>
+                </div>
+            </div>
+            <div class="heatmap-row">
+                <div class="heatmap-label">NA_ORIGEN_MOTOR_TARIFA</div>
+                <div class="heatmap-bar-container">
+                    <div class="heatmap-bar" style="width:5.6%;background:#F4A460"></div>
+                    <span class="heatmap-count">5 (2.6%)</span>
+                </div>
+            </div>
+            <div class="heatmap-row">
+                <div class="heatmap-label">NA_ERROR_USUARIO</div>
+                <div class="heatmap-bar-container">
+                    <div class="heatmap-bar" style="width:2.2%;background:#9370DB"></div>
+                    <span class="heatmap-count">2 (1.1%)</span>
+                </div>
+            </div>
+        </div>
+
+        <h3>Detalle de Clasificación: Etiqueta → Causa Raíz</h3>
+        <table class="data-table">
+            <thead><tr><th>Etiqueta</th><th>Causas Raíz Incluidas</th><th>Incidentes</th><th>%</th></tr></thead>
+            <tbody>
+                <tr>
+                    <td><span class="badge" style="background:#00CED1">NA_ERROR_MOTOR</span></td>
+                    <td style="font-size:0.85em">RC-27: Falla en Simón Cotizadores Autos — error en cotización o emisión</td>
+                    <td class="count-cell">89</td>
+                    <td class="count-cell">46.8%</td>
+                </tr>
+                <tr>
+                    <td><span class="badge" style="background:#6495ED">NA_TRAZABILIDAD_PROCESO</span></td>
+                    <td style="font-size:0.85em">RC-28: Falla funcional Simón Web (73) + RC-26: Falla Simón Cumplimiento (7)</td>
+                    <td class="count-cell">80</td>
+                    <td class="count-cell">42.1%</td>
+                </tr>
+                <tr>
+                    <td><span class="badge" style="background:#3CB371">NA_ORIGEN_BD</span></td>
+                    <td style="font-size:0.85em">RC-03: Datos cacheados SIM_MOTOR_DATOS (4) + RC-21: Prima incorrecta endosos (4) + RC-06: PDF no suma facturas (2) + RC-07: PRC_DATOSRIES_FAC (2) + RC-15: Conflicto stored procedure (1) + RC-05: Usuario hardcodeado (1)</td>
+                    <td class="count-cell">14</td>
+                    <td class="count-cell">7.4%</td>
+                </tr>
+                <tr>
+                    <td><span class="badge" style="background:#F4A460">NA_ORIGEN_MOTOR_TARIFA</span></td>
+                    <td style="font-size:0.85em">RC-02: Deploy sin pruebas regresión (2) + RC-04: Guía Fasecolda desactualizada (2) + RC-19: Clave asesor no autorizada (1)</td>
+                    <td class="count-cell">5</td>
+                    <td class="count-cell">2.6%</td>
+                </tr>
+                <tr>
+                    <td><span class="badge" style="background:#9370DB">NA_ERROR_USUARIO</span></td>
+                    <td style="font-size:0.85em">RC-01: Script de pruebas ejecutado en producción (2)</td>
+                    <td class="count-cell">2</td>
+                    <td class="count-cell">1.1%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     <!-- MAPA DE CALOR -->
     <section class="section" id="heatmap">
-        <h2>2. Mapa de Calor por Servicio/Plataforma</h2>
+        <h2>3. Mapa de Calor por Servicio/Plataforma</h2>
         <div class="heatmap">
         <div class="heatmap-row">
             <div class="heatmap-label">Simon Cotizadores</div>
@@ -171,7 +276,7 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 
     <!-- CLUSTERS DE CAUSA RAÍZ -->
     <section class="section" id="clusters">
-        <h2>3. Análisis por Clúster de Causa Raíz</h2>
+        <h2>4. Análisis por Clúster de Causa Raíz</h2>
         <p class="section-desc">Agrupación de tickets que comparten la misma causa raíz técnica. Resolver una causa raíz elimina múltiples incidentes simultáneamente.</p>
         
         <div class="cluster-card" style="border-left:5px solid #e67e22">
@@ -321,7 +426,7 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 
     <!-- DETALLE POR TICKET -->
     <section class="section" id="detalle">
-        <h2>4. Detalle por Ticket (190 analizados + 12 no encontrados)</h2>
+        <h2>5. Detalle por Ticket (190 analizados + 12 no encontrados)</h2>
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="Buscar por ID, título, causa raíz o plataforma..." onkeyup="filterTickets()">
         </div>
@@ -8122,7 +8227,7 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 
     <!-- PLAN DE ACCIÓN -->
     <section class="section" id="plan">
-        <h2>5. Plan de Acción Priorizado — Top 10</h2>
+        <h2>6. Plan de Acción Priorizado — Top 10</h2>
         <p class="section-desc">Acciones de ingeniería ordenadas por impacto (número de incidentes que resolverían).</p>
         
         <div class="action-card">
@@ -8249,7 +8354,7 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 
     <!-- DEUDA TÉCNICA -->
     <section class="section" id="deuda">
-        <h2>6. Deuda Técnica Identificada</h2>
+        <h2>7. Deuda Técnica Identificada</h2>
         <p class="section-desc">Patrones sistémicos que requieren refactoring o mejoras arquitectónicas.</p>
         
         <div class="debt-card">
@@ -8292,17 +8397,18 @@ footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.85em; }
 
     <footer>
         <p>Informe generado automáticamente el 2026-04-18 | Fuente: jirasegurosbolivar.atlassian.net | Proyecto MDSB</p>
-        <p>Ciencuadras — Seguros Bolívar | Root Cause Analysis Dashboard</p>
+        <p>Tribu Movilidad — Seguros Bolívar | Análisis de Causa Raíz</p>
     </footer>
 </div>
 
 <nav class="toc">
     <a href="#resumen">1. Resumen</a>
-    <a href="#heatmap">2. Mapa de Calor</a>
-    <a href="#clusters">3. Clústeres</a>
-    <a href="#detalle">4. Detalle</a>
-    <a href="#plan">5. Plan de Acción</a>
-    <a href="#deuda">6. Deuda Técnica</a>
+    <a href="#etiquetas">2. Etiquetas</a>
+    <a href="#heatmap">3. Mapa de Calor</a>
+    <a href="#clusters">4. Clústeres</a>
+    <a href="#detalle">5. Detalle</a>
+    <a href="#plan">6. Plan de Acción</a>
+    <a href="#deuda">7. Deuda Técnica</a>
 </nav>
 
 <script>
