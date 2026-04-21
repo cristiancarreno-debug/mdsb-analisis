@@ -151,7 +151,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
     <header class="report-header">
         <h1>Análisis de Causa Raíz 2026 — Tribu Arrendamiento</h1>
         <p class="subtitle">Seguros Bolívar | Proyecto MDSB | Productos: SAI, Portal Libertador, SIOS</p>
-        <p class="date">Generado: 2026-04-20 19:22 | 88 incidentes de Arrendamiento analizados (7 no encontrados en dataset)</p>
+        <p class="date">Generado: 2026-04-20 19:42 | 88 incidentes de Arrendamiento analizados (7 no encontrados en dataset)</p>
     </header>
 
     <div class="tab-nav">
@@ -213,7 +213,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
             <div class="rc-grid"><div class="rc-tile pri-2">
             <div class="rc-tile-header">P2 — <strong>Datos inconsistentes en BD SAI — stored procedures dejan estados inválidos que requieren corrección manual</strong></div>
             <div class="rc-tile-pct">35.2% incidentes (31)</div>
-            <div class="rc-tile-desc">QUÉ PASA: Los stored procedures de SAI no completan correctamente las transacciones de negocio. Cuando un proceso falla a mitad de ejecución (ej: actualización de póliza, cambio de estado de solicitud, ajuste de saldo), el sistema no hace ROLLBACK. Esto deja registros en estados inválidos: pólizas con ente incorrecto, saldos pendientes marcados como inactivos que impiden facturación, solicitudes con datos parcialmente actualizados.</div>
+            <div class="rc-tile-desc">Los procesos internos de SAI (stored procedures) no completan correctamente las transacciones. Cuando una operación falla a mitad de ejecución, el sistema no revierte los cambios, dejando pólizas con datos incorrectos, saldos en estados inválidos y solicitudes parcialmente actualizadas. El 60% de estos casos se resuelven con correcciones manuales en base de datos por parte del equipo de desarrollo.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">3</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~94</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -222,7 +222,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-2">
             <div class="rc-tile-header">P2 — <strong>Error en Portal Libertador</strong></div>
             <div class="rc-tile-pct">29.5% incidentes (26)</div>
-            <div class="rc-tile-desc">Implementar refresh automático de JWT 5 minutos antes de expiración. Agregar interceptor HTTP en Angular que detecte 401 y refresque token automáticamente</div>
+            <div class="rc-tile-desc">Portal Libertador presenta fallas de sesión, sincronización con SAI y errores en flujos de consulta inmobiliaria. Las sesiones expiran sin aviso, las APIs de sincronización fallan silenciosamente sin retry ni circuit breaker, y no hay trazabilidad suficiente para diagnosticar los errores reportados por los analistas.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">3</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~78</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -231,7 +231,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-2">
             <div class="rc-tile-header">P2 — <strong>Error en módulo SIOS (Indemnizaciones)</strong></div>
             <div class="rc-tile-pct">12.5% incidentes (11)</div>
-            <div class="rc-tile-desc">Auditar los stored procedures de registro de siniestros para manejar campos NULL de pólizas migradas. Agregar COALESCE/NVL en cada campo que pueda ser NULL</div>
+            <div class="rc-tile-desc">El módulo SIOS de indemnizaciones falla al registrar siniestros con datos de pólizas migradas que contienen campos vacíos. Las consultas de indemnizaciones no tienen paginación y se bloquean con volúmenes altos. Errores de concurrencia causan conflictos cuando múltiples usuarios editan el mismo siniestro.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">3</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~34</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -240,7 +240,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Fallas en generación de liquidaciones y órdenes de pago en SAI</strong></div>
             <div class="rc-tile-pct">5.7% incidentes (5)</div>
-            <div class="rc-tile-desc">QUÉ PASA: El módulo de siniestros y liquidaciones de SAI falla al generar liquidaciones y órdenes de pago en escenarios específicos: (1) cuando un siniestro es reemplazado por otro con fechas de mora diferentes, las liquidaciones no se recalculan automáticamente, (2) cuando las fechas de corte son fraccionadas (no del 01 al 30/31 del mes), el cálculo de liquidación produce valores incorrectos, (3) en algunos casos las liquidaciones simplemente no se generan y requieren intervención manual del equipo de desarrollo.</div>
+            <div class="rc-tile-desc">El módulo de siniestros de SAI falla al generar liquidaciones y órdenes de pago cuando un siniestro reemplaza a otro con fechas de mora diferentes, o cuando las fechas de corte son fraccionadas. Las liquidaciones no se recalculan automáticamente y en algunos casos simplemente no se generan, requiriendo intervención manual del equipo de desarrollo.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~14</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -249,7 +249,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Bugs funcionales en módulos operativos de SAI — cesión, reingreso, filtros, expedición</strong></div>
             <div class="rc-tile-pct">4.5% incidentes (4)</div>
-            <div class="rc-tile-desc">QUÉ PASA: Varios módulos operativos de SAI tienen bugs que bloquean procesos de negocio específicos. No es un problema sistémico sino errores puntuales en funcionalidades concretas que afectan a usuarios específicos.</div>
+            <div class="rc-tile-desc">Varios módulos operativos de SAI presentan errores puntuales que bloquean procesos de negocio: la cesión de solicitudes falla por ajustes de BD no aplicados, el listado de sucursales muestra datos de otras compañías, el reingreso de solicitudes se bloquea por mensajes informativos, y la expedición con pago anticipado se demora excesivamente.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~12</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -258,7 +258,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Falla funcional en Simón Web — error en emisión, modificación o consulta</strong></div>
             <div class="rc-tile-pct">3.4% incidentes (3)</div>
-            <div class="rc-tile-desc">Implementar middleware de logging con correlation-id en cada operación de Simón Web</div>
+            <div class="rc-tile-desc">Simón Web presenta errores variados en operaciones de emisión, modificación y consulta de pólizas de arrendamiento. Los errores no tienen trazabilidad suficiente para diagnóstico rápido. La mayoría se resuelven con soporte remoto, scripts de corrección de datos o escalamiento al equipo de desarrollo.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~10</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -267,7 +267,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Arrendatario inactivo en SAI</strong></div>
             <div class="rc-tile-pct">2.3% incidentes (2)</div>
-            <div class="rc-tile-desc">Automatizar el proceso 2→2→47 para que se ejecute automáticamente cuando se registra un cambio de arrendatario en la póliza</div>
+            <div class="rc-tile-desc">Cuando se realiza un cambio de arrendatario en una póliza, el sistema no ejecuta automáticamente el proceso de activación (2→2→47). Esto deja al arrendatario en estado inactivo, bloqueando la facturación y gestión de la póliza hasta que soporte ejecuta el proceso manualmente.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -276,7 +276,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Java desactualizado en equipos</strong></div>
             <div class="rc-tile-pct">2.3% incidentes (2)</div>
-            <div class="rc-tile-desc">Migrar SAI Web a tecnología que no dependa de Java en el cliente (HTML5/JavaScript)</div>
+            <div class="rc-tile-desc">SAI Web requiere una versión específica de Java en el navegador del usuario. Cuando Java está desactualizado o mal configurado, el aplicativo no carga o presenta errores de ejecución. Los usuarios no reciben notificación del problema y reportan la falla como incidente de software.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~6</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -285,7 +285,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Perfiles no aprovisionados automáticamente al cambiar cargo</strong></div>
             <div class="rc-tile-pct">1.1% incidentes (1)</div>
-            <div class="rc-tile-desc">Sincronización automática RRHH→SAI cuando se registra cambio de cargo o contrato</div>
+            <div class="rc-tile-desc">Cuando un funcionario cambia de cargo o contrato, los perfiles de acceso a SAI no se actualizan automáticamente. El usuario queda sin acceso al sistema hasta que alguien solicita manualmente el aprovisionamiento del perfil, generando incidentes que se resuelven con gestión administrativa.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -294,7 +294,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Batch SAI falla por archivo Davivienda</strong></div>
             <div class="rc-tile-pct">1.1% incidentes (1)</div>
-            <div class="rc-tile-desc">Validación de prerequisitos antes de ejecutar batch: verificar formato, tamaño y estructura del archivo</div>
+            <div class="rc-tile-desc">El proceso batch de SAI que procesa archivos de recaudo de Davivienda falla cuando el archivo tiene formato incorrecto, tamaño inesperado o estructura no válida. No hay validación previa del archivo ni retry automático, lo que requiere intervención manual para reprocesar.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -303,7 +303,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Sincronización SAI↔Huella Digital falla</strong></div>
             <div class="rc-tile-pct">1.1% incidentes (1)</div>
-            <div class="rc-tile-desc">Implementar event-driven sync entre SAI y Huella Digital con cola de mensajes</div>
+            <div class="rc-tile-desc">La sincronización entre SAI y Huella Digital falla silenciosamente, dejando registros desactualizados entre ambos sistemas. Los usuarios reportan inconsistencias en datos de arrendatarios y pólizas que no se reflejan en Huella Digital después de ser actualizados en SAI.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -312,7 +312,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
         </div><div class="rc-tile pri-3">
             <div class="rc-tile-header">P3 — <strong>Bug de fechas por uso de Date en lugar de LocalDateTime</strong></div>
             <div class="rc-tile-pct">1.1% incidentes (1)</div>
-            <div class="rc-tile-desc">Migrar a LocalDateTime en Portal Libertador para evitar problemas de zona horaria</div>
+            <div class="rc-tile-desc">Portal Libertador usa el tipo Date de Java que no maneja correctamente zonas horarias. Esto causa que las fechas de pólizas, vencimientos y cortes se registren con un día de diferencia, generando inconsistencias en facturación y reportes que requieren corrección manual.</div>
             <div class="rc-tile-metrics">
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#e74c3c">0</span><span class="rc-m-lbl"># Tickets abiertos</span></div>
                 <div class="rc-tile-metric"><span class="rc-m-val" style="color:#27ae60">~2</span><span class="rc-m-lbl"># Tickets evitados/año</span></div>
@@ -1974,7 +1974,7 @@ footer { text-align:center; padding:30px; color:#7f8c8d; font-size:0.85em; }
     </div><!-- end tab-tecnico -->
 
     <footer>
-        <p>Informe generado automáticamente el 2026-04-20 19:22 | Fuente: jirasegurosbolivar.atlassian.net | Proyecto MDSB</p>
+        <p>Informe generado automáticamente el 2026-04-20 19:42 | Fuente: jirasegurosbolivar.atlassian.net | Proyecto MDSB</p>
         <p>Tribu Arrendamiento — Seguros Bolívar</p>
     </footer>
 </div>
