@@ -42,21 +42,19 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
   <h1>📋 Extracto de Incidencias en Curso — Tribu Empresas</h1>
   <p>EO Cumplimiento (GD941) &amp; Evolutivos Plataforma (GD981) · Sin subtareas</p>
   <div class="hstats">
-    <div class="hstat"><strong>228</strong><span>Total incidencias</span></div>
-    <div class="hstat"><strong>83</strong><span>EO Cumplimiento</span></div>
-    <div class="hstat"><strong>145</strong><span>Evolutivos Plataforma</span></div>
-    <div class="hstat"><strong>5</strong><span>Tipos</span></div>
+    <div class="hstat"><strong>208</strong><span>Total incidencias</span></div>
+    <div class="hstat"><strong>72</strong><span>EO Cumplimiento</span></div>
+    <div class="hstat"><strong>136</strong><span>Evolutivos Plataforma</span></div>
+    <div class="hstat"><strong>3</strong><span>Tipos</span></div>
     <div class="hstat"><strong>13</strong><span>Responsables</span></div>
   </div>
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#6c757d;font-size:.82rem;margin-bottom:1.2rem">Generado: 21 de abril de 2026, 11:29</p>
+  <p style="color:#6c757d;font-size:.82rem;margin-bottom:1.2rem">Generado: 21 de abril de 2026, 11:53</p>
 
   <div class="kpis">
-    <div class="kpi"><div class="num">16</div><div class="lbl">Epic</div></div>
     <div class="kpi"><div class="num">109</div><div class="lbl">Incidente</div></div>
-    <div class="kpi"><div class="num">4</div><div class="lbl">Iniciativa</div></div>
     <div class="kpi"><div class="num">92</div><div class="lbl">Mejora</div></div>
     <div class="kpi"><div class="num">7</div><div class="lbl">Upstream</div></div>
   </div>
@@ -70,9 +68,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
     </select>
     <select id="filterTipo" onchange="filterAll()">
       <option value="">Todos los tipos</option>
-      <option value="Epic">Epic</option>
       <option value="Incidente">Incidente</option>
-      <option value="Iniciativa">Iniciativa</option>
       <option value="Mejora">Mejora</option>
       <option value="Upstream">Upstream</option>
     </select>
@@ -85,6 +81,22 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
       <option value="En Pruebas UAT">En Pruebas UAT</option>
       <option value="Pendiente PAP">Pendiente PAP</option>
       <option value="Por Hacer">Por Hacer</option>
+    </select>
+    <select id="filterAssignee" onchange="filterAll()">
+      <option value="">Todos los responsables</option>
+      <option value="Ana Maria Shaker Medina">Ana Maria Shaker Medina</option>
+      <option value="Cristian David Carreño Ruiz">Cristian David Carreño Ruiz</option>
+      <option value="Gonzalo Chaparro Lopez">Gonzalo Chaparro Lopez</option>
+      <option value="Julian David Martinez Marroquin">Julian David Martinez Marroquin</option>
+      <option value="MARIA CRISTINA GONZALEZ ARDILA [X]">MARIA CRISTINA GONZALEZ ARDILA [X]</option>
+      <option value="Mónica Patiño">Mónica Patiño</option>
+      <option value="Omar Fernando Otavo García">Omar Fernando Otavo García</option>
+      <option value="Ricardo Arturo Salamanca Mora">Ricardo Arturo Salamanca Mora</option>
+      <option value="Santiago Hurtado Solis">Santiago Hurtado Solis</option>
+      <option value="Sheila Paola Uhia Kanmerer">Sheila Paola Uhia Kanmerer</option>
+      <option value="Sin asignar">Sin asignar</option>
+      <option value="Sugey Dayanna Saenz Vanegas">Sugey Dayanna Saenz Vanegas</option>
+      <option value="caiglesias">caiglesias</option>
     </select>
   </div>
 
@@ -102,7 +114,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
         </tr>
       </thead>
       <tbody>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1424" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1424</a></td>
           <td style="max-width:380px">Automatización lineamientos front (Punto 26)</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -111,16 +123,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-16</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1423" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1423</a></td>
-          <td style="max-width:380px">Automatización de pruebas</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Cristian David Carreño Ruiz</td>
-          <td style="white-space:nowrap">2026-04-16</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1422" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1422</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -129,7 +132,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-16</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1421" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1421</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -138,7 +141,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-16</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1420" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1420</a></td>
           <td style="max-width:380px">TEST</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -147,7 +150,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1418" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1418</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -156,7 +159,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1417" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1417</a></td>
           <td style="max-width:380px">INC-SOFTWARE-Simon Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -165,7 +168,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sheila Paola Uhia Kanmerer">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1416" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1416</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -174,16 +177,16 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1415" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1415</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
           <td style="white-space:nowrap">Ricardo Arturo Salamanca Mora</td>
           <td style="white-space:nowrap">2026-04-15</td>
-          <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
+          <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Sheila Paola Uhia Kanmerer">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1414" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1414</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON WEB</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -192,7 +195,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1411" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1411</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -201,7 +204,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-10</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1410" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1410</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -210,7 +213,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-09</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1409" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1409</a></td>
           <td style="max-width:380px">Emisión de producto a cliente restringido</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -219,7 +222,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-09</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1408" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1408</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -228,7 +231,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-09</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1407" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1407</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -237,7 +240,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sheila Paola Uhia Kanmerer">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1406" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1406</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -246,7 +249,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1405" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1405</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -255,7 +258,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1404" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1404</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -264,7 +267,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1400" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1400</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -273,7 +276,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-31</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1399" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1399</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -282,7 +285,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1397" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1397</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -291,7 +294,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-25</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1395" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1395</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -300,7 +303,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-20</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1396" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1396</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -309,7 +312,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-20</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1393" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1393</a></td>
           <td style="max-width:380px">Levantamiento de control técnico </td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -318,7 +321,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-18</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1392" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1392</a></td>
           <td style="max-width:380px">Error de impresión RC producto 214</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -327,7 +330,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-18</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1391" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1391</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON WEB EMISION-TRONADOR CIA 2</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -336,7 +339,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Por Hacer">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Por Hacer" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1375" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1375</a></td>
           <td style="max-width:380px">Tiempo inicidencias sp 20</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -345,7 +348,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-02</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Por Hacer">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Por Hacer" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1374" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1374</a></td>
           <td style="max-width:380px">Tiempo ceremonias sp 20</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -354,7 +357,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-02</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1372" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1372</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -363,7 +366,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1371" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1371</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON - Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -372,7 +375,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1370" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1370</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON - Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -381,7 +384,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1364" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1364</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -390,7 +393,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-26</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1363" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1363</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -399,7 +402,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-26</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Julian David Martinez Marroquin">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1362" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1362</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -408,7 +411,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-26</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Julian David Martinez Marroquin">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1354" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1354</a></td>
           <td style="max-width:380px">INC-SOFTWARE-TRONADOR CIA 3</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -417,7 +420,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-23</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Pendiente PAP">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Pendiente PAP" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1353" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1353</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -426,7 +429,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-23</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1351" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1351</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -435,7 +438,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-23</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1349" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1349</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -444,7 +447,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-19</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1325" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1325</a></td>
           <td style="max-width:380px">Ajuste del endoso de cambio de clave para que la facturación no sea retroactiva</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -453,7 +456,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1317" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1317</a></td>
           <td style="max-width:380px">Parametrización en valor asegurado de 750 millones para autogestión</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -462,7 +465,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-10</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1313" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1313</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -471,7 +474,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-07</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1293" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1293</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -480,7 +483,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-02</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1291" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1291</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON WEB</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -489,7 +492,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-02</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1290" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1290</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -498,7 +501,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-02</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1289" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1289</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -507,7 +510,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-02</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1272" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1272</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON WEB-CUMPLIMIENTO ONLINE</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -516,7 +519,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-29</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1264" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1264</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -525,7 +528,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-23</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1263" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1263</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -534,7 +537,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-23</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1258" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1258</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -543,7 +546,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-21</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="En Progreso" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1252" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1252</a></td>
           <td style="max-width:380px">Caso de Gallagher-pólizas con error</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -552,7 +555,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-16</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1231" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1231</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON - Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -561,7 +564,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-14</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1230" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1230</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -570,88 +573,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-01-14</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1218" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1218</a></td>
-          <td style="max-width:380px">Mejora- Grupos empresariales 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1217" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1217</a></td>
-          <td style="max-width:380px">Mejora- Actividades con intermediarios 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1216" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1216</a></td>
-          <td style="max-width:380px">Mejora- Proceso de actualización de cupo cliente 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1214" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1214</a></td>
-          <td style="max-width:380px">Mejoras Obligatoriedad de contrato cumplimiento 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="En Progreso">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1213" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1213</a></td>
-          <td style="max-width:380px">Tiempos de ceremonias y documentación Cumplimiento 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1212" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1212</a></td>
-          <td style="max-width:380px">Mejoras en el proceso de impresión cumplimiento 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1211" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1211</a></td>
-          <td style="max-width:380px">Mejoras en modificaciones producto de cumplimiento 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="En Progreso">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1210" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1210</a></td>
-          <td style="max-width:380px">Mejoras relacionadas a RC 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Epic" data-status="En Progreso">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1209" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1209</a></td>
-          <td style="max-width:380px">Disponibilidad y estabilidad cumplimiento 2026</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-04</td>
-          <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1183" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1183</a></td>
           <td style="max-width:380px">Retroactividad RC</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -660,7 +582,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-29</td>
           <td><span class="badge" style="background:#607d8b">Bloqueado</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1178" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1178</a></td>
           <td style="max-width:380px">Ajuste prima informada</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -669,16 +591,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-29</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Iniciativa" data-status="En Progreso">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1173" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1173</a></td>
-          <td style="max-width:380px">EO 2026 Cumplimiento</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#00838f">Iniciativa</span></td>
-          <td style="white-space:nowrap">Cristian David Carreño Ruiz</td>
-          <td style="white-space:nowrap">2025-12-23</td>
-          <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1092" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1092</a></td>
           <td style="max-width:380px">Ajuste modificaciones endoso de disminución de vigencia- Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -687,7 +600,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-02</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Mónica Patiño">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1038" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1038</a></td>
           <td style="max-width:380px">control 924 para el ajuste en Reaseguros</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -696,7 +609,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-21</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1036" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1036</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON Cumplimiento | Devolución de Prima por Error Interno de Tasas</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -705,7 +618,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-21</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1030" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1030</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento |  Parámetros opciones de Liquidación RC y Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -714,7 +627,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-14</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1012" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1012</a></td>
           <td style="max-width:380px">Suma disponible Delima para los productos 450, 455 y 440</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -723,7 +636,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-10</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-978" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-978</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON-Cumplimiento | Ajuste de prima póliza para cruce</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -732,7 +645,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-07</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-973" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-973</a></td>
           <td style="max-width:380px">La impresión del endoso 2 en póliza Cumplimiento no muestra la cobertura  Predios , Labor y Operaciones que se emitió en endoso 0 </td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -741,7 +654,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-06</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Sugey Dayanna Saenz Vanegas">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-963" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-963</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON - Cumplimiento |  PDF en 0
 
@@ -756,7 +669,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-05</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-962" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-962</a></td>
           <td style="max-width:380px">INC-SOFTWARE-SIMON - Cumplimiento | Certificado No Sale Prima, IVA y Total</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -765,7 +678,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-05</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Santiago Hurtado Solis">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-945" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-945</a></td>
           <td style="max-width:380px">Mejora proceso de impresión cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -774,7 +687,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-04</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-786" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-786</a></td>
           <td style="max-width:380px">Movimiento de grupos empresariales (desactivar grupo / inactivar o mover miembros)</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -783,7 +696,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-10-02</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-781" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-781</a></td>
           <td style="max-width:380px">Ajuste en clausulados para empresas con condiciones especiales</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -792,7 +705,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-10-01</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas UAT" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-773" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-773</a></td>
           <td style="max-width:380px">No permite generar anulacion </td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -801,7 +714,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-09-29</td>
           <td><span class="badge" style="background:#607d8b">En Pruebas UAT</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-702" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-702</a></td>
           <td style="max-width:380px">Ajuste para Delima</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -810,7 +723,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-09-19</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-619" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-619</a></td>
           <td style="max-width:380px">Entrega a estabilización</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -819,7 +732,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-09-04</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-473" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-473</a></td>
           <td style="max-width:380px">Ajuste fecha de inicio cuando hay traslado de vigencia de la póliza</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -828,7 +741,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-20</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado" data-assignee="Gonzalo Chaparro Lopez">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-156" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-156</a></td>
           <td style="max-width:380px">Ajuste de deducibles y valores asegurados en RC 214 estatal</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -837,7 +750,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-05-20</td>
           <td><span class="badge" style="background:#607d8b">Bloqueado</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Backlog">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Upstream" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-137" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-137</a></td>
           <td style="max-width:380px">Entendimiento cambios de claves productos cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -846,7 +759,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-05-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Bloqueado" data-assignee="Gonzalo Chaparro Lopez">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-20" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-20</a></td>
           <td style="max-width:380px">Obligatoriedad de contrato cuando se convierte de cotización a póliza</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -855,7 +768,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-04-15</td>
           <td><span class="badge" style="background:#607d8b">Bloqueado</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Santiago Hurtado Solis">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1563" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1563</a></td>
           <td style="max-width:380px">Cambio GCP lector de contratos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -864,7 +777,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-20</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1544" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1544</a></td>
           <td style="max-width:380px">16 - Estructuracion y envio de respuesta movimiento generado</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -873,7 +786,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1542" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1542</a></td>
           <td style="max-width:380px">15 - Construccion de link para retomar solicitud</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -882,7 +795,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1538" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1538</a></td>
           <td style="max-width:380px">14 - Almacenamiento de informacion en base de datos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -891,7 +804,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1536" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1536</a></td>
           <td style="max-width:380px">13 - Reglas de negocio de autogestion y completitud de informacion</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -900,7 +813,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1535" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1535</a></td>
           <td style="max-width:380px">12 - Lectura y entendimiento de contratos y documentos adjuntos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -909,7 +822,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1526" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1526</a></td>
           <td style="max-width:380px">11 - Asignacion de solicitud a mesa de operacion</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -918,7 +831,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1522" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1522</a></td>
           <td style="max-width:380px">10 - Respuesta automatica con inicio de atencion</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -927,7 +840,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1520" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1520</a></td>
           <td style="max-width:380px">2 - Enrutamiento de solicitud</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -936,7 +849,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1519" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1519</a></td>
           <td style="max-width:380px">1 - Entendimiento y clasificacion de solicitud</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -945,7 +858,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1515" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1515</a></td>
           <td style="max-width:380px">Validación de politicas de personas</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -954,7 +867,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Santiago Hurtado Solis">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1514" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1514</a></td>
           <td style="max-width:380px">No se visualizan los campos en las tablas A2000020 &amp;&amp; A2010020</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -963,7 +876,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1508" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1508</a></td>
           <td style="max-width:380px">Servicio para mostrar los contratos en SIMON</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -972,25 +885,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-14</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1507" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1507</a></td>
-          <td style="max-width:380px">Modificación de tasa</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-04-14</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1506" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1506</a></td>
-          <td style="max-width:380px">Retoma de solicitudes no finalizadas por usuario</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-04-14</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1491" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1491</a></td>
           <td style="max-width:380px">Implementacion de encuesta de satisfaccion Survicate en el flujo de autogestion</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -999,7 +894,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1484" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1484</a></td>
           <td style="max-width:380px">Implementacion de tags de monitoreo en el front de autogestion de Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1008,7 +903,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1472" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1472</a></td>
           <td style="max-width:380px">Trazabilidad del valor original y valor ajustado de la tasa</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1017,7 +912,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1468" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1468</a></td>
           <td style="max-width:380px">Recálculo automático de prima al modificar la tasa</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1026,7 +921,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1466" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1466</a></td>
           <td style="max-width:380px">Validación de permisos y delegaciones para modificar la tasa</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1035,7 +930,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1465" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1465</a></td>
           <td style="max-width:380px">Validación de rango permitido: tasa solo puede aumentarse hasta el 100% del valor base</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1044,7 +939,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1464" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1464</a></td>
           <td style="max-width:380px">Habilitación del campo de tasa como editable en cotización</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1053,7 +948,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1453" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1453</a></td>
           <td style="max-width:380px">Persistencia y trazabilidad de la sobrecomisión en la emisión de póliza</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1062,7 +957,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1449" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1449</a></td>
           <td style="max-width:380px">Visualización del desglose de comisión con sobrecomisión en el formulario</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1071,7 +966,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1446" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1446</a></td>
           <td style="max-width:380px">Cálculo y aplicación automática de sobrecomisión del 5% para autogestión</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1080,7 +975,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1445" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1445</a></td>
           <td style="max-width:380px">Identificación del tipo de actuación y consulta de comisión base del intermediario</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1089,7 +984,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1444" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1444</a></td>
           <td style="max-width:380px">Identificación del medio de emisión y canal de origen de la solicitud</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1098,7 +993,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1431" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1431</a></td>
           <td style="max-width:380px">Retoma de solicitudes originadas desde correo electrónico</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1107,7 +1002,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1429" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1429</a></td>
           <td style="max-width:380px">Generación de nuevo número de cotización al modificar una cotización existente</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1116,7 +1011,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1425" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1425</a></td>
           <td style="max-width:380px">Bloqueo de cambio de tomador en solicitudes en proceso</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1125,7 +1020,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1421" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1421</a></td>
           <td style="max-width:380px">Retoma de solicitud en el paso exacto con datos precargados</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1134,7 +1029,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1418" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1418</a></td>
           <td style="max-width:380px">Bandeja de solicitudes en proceso para retoma</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1143,7 +1038,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1417" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1417</a></td>
           <td style="max-width:380px">Vigencia de 30 días calendario para solicitudes en proceso</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1152,7 +1047,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1416" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1416</a></td>
           <td style="max-width:380px">Guardado automático de progreso de solicitud en proceso</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1161,34 +1056,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Iniciativa" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1415" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1415</a></td>
-          <td style="max-width:380px">PRY 2026 Fase II Nueva plataforma</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#00838f">Iniciativa</span></td>
-          <td style="white-space:nowrap">Sin asignar</td>
-          <td style="white-space:nowrap">2026-04-13</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Iniciativa" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1413" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1413</a></td>
-          <td style="max-width:380px">PRY 2026 Fase II Nueva plataforma</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#00838f">Iniciativa</span></td>
-          <td style="white-space:nowrap">Sin asignar</td>
-          <td style="white-space:nowrap">2026-04-13</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1412" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1412</a></td>
-          <td style="max-width:380px">Atención de solicitudes autogestionadas por correo electrónico</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-04-13</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1405" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1405</a></td>
           <td style="max-width:380px">Construcción de link para retomar solicitud</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1197,7 +1065,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1404" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1404</a></td>
           <td style="max-width:380px">Almacenamiento de información en base de datos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1206,7 +1074,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1388" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1388</a></td>
           <td style="max-width:380px">Adjuntar documentos adicionales al cotizar y emitir</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1215,7 +1083,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1382" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1382</a></td>
           <td style="max-width:380px">Revalidación de condiciones de negocio al modificar objetivo del contrato en póliza de RC</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1224,7 +1092,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1378" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1378</a></td>
           <td style="max-width:380px">Sincronización de movimientos con Simon WEB</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1233,7 +1101,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1375" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1375</a></td>
           <td style="max-width:380px">Ingreso manual de fechas con formato DD/MM/AAAA y cálculo bidireccional</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1242,7 +1110,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1372" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1372</a></td>
           <td style="max-width:380px">Validación de checks de garantía según etapa del contrato</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1251,7 +1119,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1368" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1368</a></td>
           <td style="max-width:380px">Visualización correcta de tasa y valor asegurado en tabla de coberturas</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1260,7 +1128,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1365" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1365</a></td>
           <td style="max-width:380px">Extracción de valor de contrato expresado en salarios mínimos (SMLMV)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1269,7 +1137,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1361" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1361</a></td>
           <td style="max-width:380px">Cálculo automático de fechas a partir de fecha de firma y plazo en días</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1278,7 +1146,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Bloqueado">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Bloqueado" data-assignee="Santiago Hurtado Solis">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1358" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1358</a></td>
           <td style="max-width:380px">Aumento del límite de tamaño de archivos para carga de documentos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1287,7 +1155,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#607d8b">Bloqueado</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1355" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1355</a></td>
           <td style="max-width:380px">Validación cruzada de NIT del tomador (formulario vs documento)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1296,7 +1164,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1353" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1353</a></td>
           <td style="max-width:380px">Validación del tipo de documento cargado vs tipo seleccionado</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1305,7 +1173,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1352" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1352</a></td>
           <td style="max-width:380px">Validación de campos vacíos en lectura de contratos por IA</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1314,16 +1182,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-13</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1347" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1347</a></td>
-          <td style="max-width:380px">Evolutivos de la Autogestión Fase I</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-04-13</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso" data-assignee="caiglesias">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1334" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1334</a></td>
           <td style="max-width:380px">Paso 2 - Formulario de datos del cliente, intermediario y dirección del riesgo en cotización de Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1332,7 +1191,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso" data-assignee="caiglesias">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1333" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1333</a></td>
           <td style="max-width:380px">Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1341,7 +1200,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1326" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1326</a></td>
           <td style="max-width:380px">Cocorretaje Grandes Beneficiarios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1350,7 +1209,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1322" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1322</a></td>
           <td style="max-width:380px">No inserta en las tablas de cumplimiento con  usuario interno el facility</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1359,7 +1218,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1321" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1321</a></td>
           <td style="max-width:380px">Se muestra error código: 401 mensaje No autorizado</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1368,7 +1227,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso" data-assignee="Ricardo Arturo Salamanca Mora">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1318" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1318</a></td>
           <td style="max-width:380px">Liquidación Garantias Dolares Prima Mínima</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1377,7 +1236,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1317" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1317</a></td>
           <td style="max-width:380px">No se visualiza la cobertura básica y liquida 0 en prima</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1386,7 +1245,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1316" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1316</a></td>
           <td style="max-width:380px">Los Deducibles en Dolares se visualizan en SMML </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1395,7 +1254,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1315" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1315</a></td>
           <td style="max-width:380px">Error en la Emisión de Cumplimiento prima mínima de 70000</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1404,7 +1263,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1311" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1311</a></td>
           <td style="max-width:380px">Hallazgos transversales plataforma cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1413,7 +1272,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-04-06</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1287" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1287</a></td>
           <td style="max-width:380px">Implementación de monitoreo por Datadog</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1422,7 +1281,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1286" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1286</a></td>
           <td style="max-width:380px">No genera el PDF de la cotización o póliza de RC</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1431,7 +1290,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1285" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1285</a></td>
           <td style="max-width:380px">El contador de espera de la lectura del contrato fue más de 30 segundos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1440,7 +1299,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1284" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1284</a></td>
           <td style="max-width:380px">Cuando se realiza una emisión de coaseguro cedido  RC-  No esta mostrando el coaseguro Cedido</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1449,7 +1308,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1283" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1283</a></td>
           <td style="max-width:380px">Al cotizar la poliza 1505003744501 las fchas de las coberturas salen diferentes a las informadas</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1458,7 +1317,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1282" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1282</a></td>
           <td style="max-width:380px">Al modificar el valor del valor asegurado de la cobertura 222 en la póliza de RC no se calcula</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1467,7 +1326,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1281" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1281</a></td>
           <td style="max-width:380px">Se debe mostrar en la impresión solo la cobertura de la seriedad de la oferta</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1476,7 +1335,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1280" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1280</a></td>
           <td style="max-width:380px">Las coberturas estan asociadas al cliente, se valida que el tipo de cliente con el que se ingresa por ej ocasional, cuando llegamos a ver las coberturas no es el mismo tipo que cuando se inicia la sesion</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1485,7 +1344,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sheila Paola Uhia Kanmerer">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1276" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1276</a></td>
           <td style="max-width:380px">Implementación de Clarity</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1494,7 +1353,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1272" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1272</a></td>
           <td style="max-width:380px">Esta dejando 2 meses de Retroactividad y debe ser 6 meses de Prospectividad </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1503,7 +1362,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1271" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1271</a></td>
           <td style="max-width:380px">Cuando se emite directamente la póliza (Sin cotización) sale un error indicando que ahce falta campos por ingresar sin embargo todos los campos se encuentra diligenciados</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1512,7 +1371,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1270" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1270</a></td>
           <td style="max-width:380px">Al tratar de cotizar con un tomador que no existe, sale la opción de sarlaft, sin embargo, al darle continuar me deja continuar el proceso y no sale ninguna alerta que indique que no puedo continuar</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1521,7 +1380,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1269" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1269</a></td>
           <td style="max-width:380px">El formulario de la pantalla 2 esta mostrando unicamente la cobertura 403</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1530,7 +1389,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1268" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1268</a></td>
           <td style="max-width:380px">La cotizacion RC no trae inf en el campo "Prima para una vigencia completa" Validar si debe traer el valor en algunos casos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1539,7 +1398,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1267" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1267</a></td>
           <td style="max-width:380px">La cotizacion RC no trae inf en el campo "Periodicidad del pago" Validar si debe traer el valor en algunos casos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1548,7 +1407,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1266" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1266</a></td>
           <td style="max-width:380px">La cotizacion RC no trae el valor "iva prima" Validar si debe traer el valor en algunos casos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1557,7 +1416,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1265" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1265</a></td>
           <td style="max-width:380px">La cotizacion RC no trae valor en el campo "Valor porcentual perdida en amparos"</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1566,7 +1425,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1264" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1264</a></td>
           <td style="max-width:380px">La cotizacion RC no muestra seccion asegurados</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1575,7 +1434,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1263" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1263</a></td>
           <td style="max-width:380px">La cotizacion CU no trae el valor "iva prima" Validar si debe traer el valor en algunos casos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1584,7 +1443,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1262" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1262</a></td>
           <td style="max-width:380px">Al emitir una póliza directamente esta trayendo la información de un coaseguro de una prueba anterior</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1593,7 +1452,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1261" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1261</a></td>
           <td style="max-width:380px">En la impresioón de la póliza no sale el valor de prima minima. ejemplo Pol 1000171578201</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1602,7 +1461,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1260" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1260</a></td>
           <td style="max-width:380px">En la impresión de la póliza no sale el IVA de la póliza. Ejemplo Pol 1000171578201</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1611,7 +1470,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1259" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1259</a></td>
           <td style="max-width:380px">En pasarela de pagos no esta apareciendo las polizas de RC, ejemplo poliza 1505422419201</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1620,7 +1479,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1258" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1258</a></td>
           <td style="max-width:380px">Cuando se supera la suma disponible de las coberturas el sistema no esta validando con el cupo disponible.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1629,7 +1488,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1257" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1257</a></td>
           <td style="max-width:380px">En la póliza de RC solo deja avanzar cuando se incluye una cobertura adicional a la 222</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1638,7 +1497,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1256" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1256</a></td>
           <td style="max-width:380px">No hay control en el campo del % de coaseguro</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1647,7 +1506,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1255" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1255</a></td>
           <td style="max-width:380px">Al consultar la cotización 1000171578501 para hacer la emisión</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1656,7 +1515,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1254" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1254</a></td>
           <td style="max-width:380px">máximo permitido de la cobertura 222</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1665,7 +1524,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1253" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1253</a></td>
           <td style="max-width:380px">En la cotización de la póliza de RC no esta trayendo el beneficiario.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1674,7 +1533,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1252" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1252</a></td>
           <td style="max-width:380px">No esta validando las palabras restringidas y la ubicacion del riesgo</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1683,7 +1542,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1250" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1250</a></td>
           <td style="max-width:380px">Al generar una póliza que ya habia sido generada y que genero error se trata de generar nuevamente y sale el siguiente mensaje de error</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1692,7 +1551,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1247" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1247</a></td>
           <td style="max-width:380px">Al momento de retomar una cotización y se le da clic en el boton de emitir, sale una pantalla resumen que no deberia salir.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1701,7 +1560,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1242" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1242</a></td>
           <td style="max-width:380px">Al cotizar una póliza de 450 sin RC, en el resumen esta mostrando que la cotización incluye RC</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1710,7 +1569,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1241" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1241</a></td>
           <td style="max-width:380px">Portal: El botón de redigirir al Portal genera error 404 No encontramos esta página</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1719,7 +1578,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso" data-assignee="caiglesias">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1240" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1240</a></td>
           <td style="max-width:380px">Cuando se ingresa dos Cedulas de Ciudadania para tomador y Asegurado, el sistema informa que no se deben ingrear dos Cédulas, sin embargo al darle clic en Aceptar , permite continuar con la emisión o cotización. </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1728,7 +1587,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1239" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1239</a></td>
           <td style="max-width:380px">Al subir un contrato y la IA indique que la información sea diligencia manualmente, se evidencia que en la pantalla del formulario no esta validando reglas, por ejemplo (Ubicación del Riesgo: Amazonas y palabras restringidas</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1737,7 +1596,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1238" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1238</a></td>
           <td style="max-width:380px">El sistema No esta calculando la prima minima por poliza para Cumplimiento y RC Cuando se emite la póliza</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1746,7 +1605,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1237" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1237</a></td>
           <td style="max-width:380px">"En la opción de Cotizar la primera letra en “Producto y contrato, Formulario y Confirmación” debería ir en mayúscula"</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1755,7 +1614,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1236" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1236</a></td>
           <td style="max-width:380px">SARLAFT - El sistema no esta realizando la actualización de Sarlaft y genera el mensaje ocurrio un error. (consulta en terceros)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1764,7 +1623,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1235" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1235</a></td>
           <td style="max-width:380px">EEFF -  El sistema esta insertando un cupo menor al que tenía como ultimo cupo disponible. En la tabla del core.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1773,7 +1632,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1234" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1234</a></td>
           <td style="max-width:380px">Al emitir la cotización se evidencia que en la pantalla final muestra como mensaje Número de Póliza y no Número de Cotización</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1782,7 +1641,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-26</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1224" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1224</a></td>
           <td style="max-width:380px">Ciclo de póliza de cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1791,7 +1650,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1220" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1220</a></td>
           <td style="max-width:380px">Ajuste en modificaciones en Simón</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1800,7 +1659,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1218" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1218</a></td>
           <td style="max-width:380px">Al oprimir el  botón regresar de la pantalla de Sarlaft el sistema se queda cargando  y bloquea continuar el proceso. </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1809,7 +1668,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1217" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1217</a></td>
           <td style="max-width:380px">En las coberturas de RC esta permitiendo ingresar valores sin un limite.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1818,7 +1677,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1212" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1212</a></td>
           <td style="max-width:380px">Permite continuar con el proceso cuando se sube un documento vacio.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1827,7 +1686,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="caiglesias">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1208" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1208</a></td>
           <td style="max-width:380px">Ajuste en el ingreso de la fecha </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1836,7 +1695,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-24</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1176" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1176</a></td>
           <td style="max-width:380px">La IA esta marcando las coberturas (402  - 413) y en la pantalla de formulario unicamente debe marcar una de las dos coberturas.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1845,7 +1704,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1175" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1175</a></td>
           <td style="max-width:380px">Los tipos de contrato que tiene la palabra Penal o Penales estan restrigiendo para continuar con el proceso en el Formulario</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1854,7 +1713,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1174" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1174</a></td>
           <td style="max-width:380px">La IA no identifica la cobertura de Calidad de Suministro de Repuestos.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1863,7 +1722,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1173" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1173</a></td>
           <td style="max-width:380px">Al seleccionar unicamente la cobertura básica de Cumplimiento el sistema no permite continuar ,obligando que seleccione otra garantía.</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1872,7 +1731,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1172" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1172</a></td>
           <td style="max-width:380px">La IA no esta extrayendo el valor de contrato cuando viene cantidad sobre salarios minimos. Y el valor queda nulo  en la pantalla de formulario </td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1881,7 +1740,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="Por Hacer" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1171" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1171</a></td>
           <td style="max-width:380px">Cuando el contrato tenga fecha de firma de contrato y el plazo de ejecución sea mencionado de días, el sistema liquide la fecha inicial y fecha de terminación</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1890,7 +1749,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Incidente" data-status="En Progreso" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1170" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1170</a></td>
           <td style="max-width:380px">La IA No identifica la Actividad Economica de Minas como  palabra restringida</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1899,7 +1758,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-19</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1151" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1151</a></td>
           <td style="max-width:380px">Redireccionamiento a pasarela de pago plataforma de cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1908,7 +1767,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-03-04</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso" data-assignee="Julian David Martinez Marroquin">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1088" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1088</a></td>
           <td style="max-width:380px">Implementación de Excepción de Control Técnico Reaseguros para Emisión Digital de Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1917,25 +1776,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2026-02-20</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Iniciativa" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1037" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1037</a></td>
-          <td style="max-width:380px">PRY 2026 Fase II Nueva plataforma</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#00838f">Iniciativa</span></td>
-          <td style="white-space:nowrap">Sin asignar</td>
-          <td style="white-space:nowrap">2026-01-12</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1018" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1018</a></td>
-          <td style="max-width:380px">Modificación de pólizas de forma autogestionada</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2026-01-08</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-873" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-873</a></td>
           <td style="max-width:380px">RF-019: Reglas Específicas por Tipo de Endoso</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1944,7 +1785,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-869" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-869</a></td>
           <td style="max-width:380px">RF-018: Selección y Validación de Endosos</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1953,7 +1794,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-861" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-861</a></td>
           <td style="max-width:380px">RF-016: Visualización de Negocios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1962,7 +1803,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-857" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-857</a></td>
           <td style="max-width:380px">RF-015: Gestión de Póliza de RC</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1971,7 +1812,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-845" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-845</a></td>
           <td style="max-width:380px">RF-013: Gestión de Coberturas y Cálculo de Prima para Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1980,7 +1821,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Progreso" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-802" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-802</a></td>
           <td style="max-width:380px">RF-002: Acceso de Intermediarios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1989,7 +1830,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-10</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-798" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-798</a></td>
           <td style="max-width:380px">RF-001: Autenticación de Funcionarios Internos (Bolívar)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -1998,7 +1839,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-12-10</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-760" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-760</a></td>
           <td style="max-width:380px">Historia front primera pantalla-Cotización y nueva emisión</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2007,7 +1848,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-21</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-734" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-734</a></td>
           <td style="max-width:380px">Federación en el Frontend para usuarios Intermediarios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2016,16 +1857,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-11-04</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Epic" data-status="Por Hacer">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-733" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-733</a></td>
-          <td style="max-width:380px">Aplicación automática de sobrecomisión</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#6a1b9a">Epic</span></td>
-          <td style="white-space:nowrap">Ana Maria Shaker Medina</td>
-          <td style="white-space:nowrap">2025-08-29</td>
-          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-729" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-729</a></td>
           <td style="max-width:380px">Emisión de Póliza desde Retoma</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2034,7 +1866,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-29</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-725" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-725</a></td>
           <td style="max-width:380px">Retoma de Cotización desde Mongo</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2043,7 +1875,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-29</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-683" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-683</a></td>
           <td style="max-width:380px">Resumen y Emisión de Pólizas CU y RC Pantalla 3</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2052,7 +1884,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-29</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-655" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-655</a></td>
           <td style="max-width:380px">Servicio FE para guardar información</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2061,7 +1893,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-28</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-551" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-551</a></td>
           <td style="max-width:380px">Invocación y visualización de la suma disponible</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2070,7 +1902,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-28</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-511" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-511</a></td>
           <td style="max-width:380px">Manejo de colas para carga en Filenet y S3</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2079,7 +1911,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-28</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-279" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-279</a></td>
           <td style="max-width:380px">CORE - Crear dato variable a los productos 440, 450 y 455</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2088,7 +1920,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-27</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="MARIA CRISTINA GONZALEZ ARDILA [X]">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-182" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-182</a></td>
           <td style="max-width:380px">Emisión de endosos de póliza CU (principal e hija)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2097,7 +1929,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-162" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-162</a></td>
           <td style="max-width:380px">Emisión RC (Producto 214)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2106,7 +1938,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-158" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-158</a></td>
           <td style="max-width:380px">Emisión Cumplimiento</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2115,7 +1947,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Omar Fernando Otavo García">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-96" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-96</a></td>
           <td style="max-width:380px">Implementación de la federación en el backend del portal de Cumplimiento (Infra)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2124,7 +1956,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Ana Maria Shaker Medina">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-88" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-88</a></td>
           <td style="max-width:380px">Implementar login en el nuevo portal de Cumplimiento para Funcionarios Bolívar</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2133,7 +1965,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-80" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-80</a></td>
           <td style="max-width:380px">Implementación de la Redirección en el Portal de Intermediarios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2142,7 +1974,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Upstream" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Upstream" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-79" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-79</a></td>
           <td style="max-width:380px">Diseño de la Interfaz del Botón de Acceso</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2151,7 +1983,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Upstream" data-status="Backlog">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Upstream" data-status="Backlog" data-assignee="Sin asignar">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-21" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-21</a></td>
           <td style="max-width:380px">Funcionamiento de distribuidor de correos y alternativas posibles</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
@@ -2163,7 +1995,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
       </tbody>
     </table>
   </div>
-  <div class="row-count" id="rowCount">228 incidencias mostradas</div>
+  <div class="row-count" id="rowCount">208 incidencias mostradas</div>
 
   <script>
   function filterAll() {
@@ -2171,6 +2003,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
     const equipo = document.getElementById('filterEquipo').value;
     const tipo = document.getElementById('filterTipo').value;
     const status = document.getElementById('filterStatus').value;
+    const assignee = document.getElementById('filterAssignee').value;
     const rows = document.querySelectorAll('#mainTable tbody tr');
     let visible = 0;
     rows.forEach(row => {
@@ -2178,10 +2011,12 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
       const rEquipo = row.dataset.equipo;
       const rTipo = row.dataset.tipo;
       const rStatus = row.dataset.status;
+      const rAssignee = row.dataset.assignee;
       const ok = (!search || text.includes(search))
         && (!equipo || rEquipo === equipo)
         && (!tipo || rTipo === tipo)
-        && (!status || rStatus === status);
+        && (!status || rStatus === status)
+        && (!assignee || rAssignee === assignee);
       row.style.display = ok ? '' : 'none';
       if (ok) visible++;
     });
@@ -2209,7 +2044,7 @@ footer{text-align:center;padding:1.5rem;color:#6c757d;font-size:.82rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 21 de abril de 2026, 11:29 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 21 de abril de 2026, 11:53 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
