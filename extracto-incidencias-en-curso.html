@@ -35,6 +35,12 @@ main{max-width:1600px;margin:0 auto;padding:1.5rem 2rem}
 .filter-row-search input:focus{outline:none;border-color:#1a237e;box-shadow:0 0 0 3px rgba(26,35,126,.08)}
 .clear-btn{padding:.6rem 1rem;border:1.5px solid #dee2e6;border-radius:8px;font-size:.8rem;background:#fff;cursor:pointer;color:#6c757d;white-space:nowrap;transition:all .2s}
 .clear-btn:hover{background:#e8eaf6;border-color:#1a237e;color:#1a237e}
+.refresh-btn{padding:.6rem 1rem;border:1.5px solid #1a237e;border-radius:8px;font-size:.8rem;background:#e8eaf6;cursor:pointer;color:#1a237e;white-space:nowrap;transition:all .2s;font-weight:600}
+.refresh-btn:hover{background:#1a237e;color:#fff}
+.refresh-btn:disabled{opacity:.5;cursor:wait}
+.refresh-btn.loading{animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.refresh-status{font-size:.75rem;color:#6c757d;white-space:nowrap}
 
 .filter-row{display:grid;grid-template-columns:repeat(6,1fr);gap:.5rem}
 @media(max-width:1100px){.filter-row{grid-template-columns:repeat(3,1fr)}}
@@ -88,31 +94,33 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   <h1>📋 Incidencias en Curso — Tribu Empresas</h1>
   <p>EO Cumplimiento (GD941) · Evolutivos Plataforma (GD981)</p>
   <div class="hstats">
-    <div class="hs"><strong>201</strong><span>Total</span></div>
-    <div class="hs"><strong>67</strong><span>EO Cumplimiento</span></div>
-    <div class="hs"><strong>134</strong><span>Evolutivos Plataforma</span></div>
+    <div class="hs"><strong>198</strong><span>Total</span></div>
+    <div class="hs"><strong>66</strong><span>EO Cumplimiento</span></div>
+    <div class="hs"><strong>132</strong><span>Evolutivos Plataforma</span></div>
     <div class="hs"><strong>2</strong><span>Tipos</span></div>
-    <div class="hs"><strong>19</strong><span>Épicas</span></div>
+    <div class="hs"><strong>20</strong><span>Épicas</span></div>
     <div class="hs"><strong>14</strong><span>Responsables</span></div>
   </div>
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 21 de abril de 2026, 15:27</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 21 de abril de 2026, 15:46</p>
 
   <div class="kpis">
-    <div class="kpi"><div class="n">109</div><div class="l">Incidente</div></div>
-    <div class="kpi"><div class="n">92</div><div class="l">Mejora</div></div>
-    <div class="kpi" style="border-top-color:#b71c1c"><div class="n" style="color:#b71c1c">49</div><div class="l">RICE Crítica</div></div>
-    <div class="kpi" style="border-top-color:#e65100"><div class="n" style="color:#e65100">40</div><div class="l">RICE Alta</div></div>
+    <div class="kpi"><div class="n">108</div><div class="l">Incidente</div></div>
+    <div class="kpi"><div class="n">90</div><div class="l">Mejora</div></div>
+    <div class="kpi" style="border-top-color:#b71c1c"><div class="n" style="color:#b71c1c">48</div><div class="l">RICE Crítica</div></div>
+    <div class="kpi" style="border-top-color:#e65100"><div class="n" style="color:#e65100">39</div><div class="l">RICE Alta</div></div>
     <div class="kpi" style="border-top-color:#f9a825"><div class="n" style="color:#f9a825">86</div><div class="l">RICE Media</div></div>
-    <div class="kpi" style="border-top-color:#2e7d32"><div class="n" style="color:#2e7d32">26</div><div class="l">RICE Baja</div></div>
+    <div class="kpi" style="border-top-color:#2e7d32"><div class="n" style="color:#2e7d32">25</div><div class="l">RICE Baja</div></div>
   </div>
 
   <div class="filter-section">
     <div class="filter-row-search">
       <input type="text" id="searchBox" placeholder="🔍 Buscar por HU, nombre, responsable, épica..." oninput="filterAll()">
       <button class="clear-btn" onclick="clearAll()">🗑 Limpiar filtros</button>
+      <button class="refresh-btn" id="refreshBtn" onclick="refreshFromJira()">🔄 Actualizar desde Jira</button>
+      <span class="refresh-status" id="refreshStatus"></span>
     </div>
     <div class="filter-row">
       <div class="fd">
@@ -124,8 +132,8 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fEquipo',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fEquipo" value="EO Cumplimiento" checked onchange="filterAll()"> <span class="fl-text">EO Cumplimiento</span> <span class="fcnt">67</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fEquipo" value="Evolutivos Plataforma" checked onchange="filterAll()"> <span class="fl-text">Evolutivos Plataforma</span> <span class="fcnt">134</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEquipo" value="EO Cumplimiento" checked onchange="filterAll()"> <span class="fl-text">EO Cumplimiento</span> <span class="fcnt">66</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEquipo" value="Evolutivos Plataforma" checked onchange="filterAll()"> <span class="fl-text">Evolutivos Plataforma</span> <span class="fcnt">132</span></label>
         </div>
       </div>
     </div>
@@ -138,8 +146,8 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fTipo',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fTipo" value="Incidente" checked onchange="filterAll()"> <span class="fl-text">Incidente</span> <span class="fcnt">109</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fTipo" value="Mejora" checked onchange="filterAll()"> <span class="fl-text">Mejora</span> <span class="fcnt">92</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fTipo" value="Incidente" checked onchange="filterAll()"> <span class="fl-text">Incidente</span> <span class="fcnt">108</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fTipo" value="Mejora" checked onchange="filterAll()"> <span class="fl-text">Mejora</span> <span class="fcnt">90</span></label>
         </div>
       </div>
     </div>
@@ -152,7 +160,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fStatus',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Backlog" checked onchange="filterAll()"> <span class="fl-text">Backlog</span> <span class="fcnt">86</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Backlog" checked onchange="filterAll()"> <span class="fl-text">Backlog</span> <span class="fcnt">83</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Bloqueado" checked onchange="filterAll()"> <span class="fl-text">Bloqueado</span> <span class="fcnt">4</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="En Progreso" checked onchange="filterAll()"> <span class="fl-text">En Progreso</span> <span class="fcnt">20</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="En Pruebas QA" checked onchange="filterAll()"> <span class="fl-text">En Pruebas QA</span> <span class="fcnt">32</span></label>
@@ -171,9 +179,9 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fRice',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Alta" checked onchange="filterAll()"> <span class="fl-text">Alta</span> <span class="fcnt">40</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Baja" checked onchange="filterAll()"> <span class="fl-text">Baja</span> <span class="fcnt">26</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Crítica" checked onchange="filterAll()"> <span class="fl-text">Crítica</span> <span class="fcnt">49</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Alta" checked onchange="filterAll()"> <span class="fl-text">Alta</span> <span class="fcnt">39</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Baja" checked onchange="filterAll()"> <span class="fl-text">Baja</span> <span class="fcnt">25</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Crítica" checked onchange="filterAll()"> <span class="fl-text">Crítica</span> <span class="fcnt">48</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fRice" value="Media" checked onchange="filterAll()"> <span class="fl-text">Media</span> <span class="fcnt">86</span></label>
         </div>
       </div>
@@ -198,7 +206,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Ricardo Arturo Salamanca Mora" checked onchange="filterAll()"> <span class="fl-text">Ricardo Arturo Salamanca Mora</span> <span class="fcnt">8</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Santiago Hurtado Solis" checked onchange="filterAll()"> <span class="fl-text">Santiago Hurtado Solis</span> <span class="fcnt">3</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Sheila Paola Uhia Kanmerer" checked onchange="filterAll()"> <span class="fl-text">Sheila Paola Uhia Kanmerer</span> <span class="fcnt">4</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Sin asignar" checked onchange="filterAll()"> <span class="fl-text">Sin asignar</span> <span class="fcnt">66</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Sin asignar" checked onchange="filterAll()"> <span class="fl-text">Sin asignar</span> <span class="fcnt">63</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Sugey Dayanna Saenz Vanegas" checked onchange="filterAll()"> <span class="fl-text">Sugey Dayanna Saenz Vanegas</span> <span class="fcnt">14</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="caiglesias" checked onchange="filterAll()"> <span class="fl-text">caiglesias</span> <span class="fcnt">4</span></label>
         </div>
@@ -213,7 +221,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fEpic',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" checked onchange="filterAll()"> <span class="fl-text">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</span> <span class="fcnt">36</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" checked onchange="filterAll()"> <span class="fl-text">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</span> <span class="fcnt">52</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1210 - Mejoras relacionadas a RC 2026" checked onchange="filterAll()"> <span class="fl-text">GD941-1210 - Mejoras relacionadas a RC 2026</span> <span class="fcnt">2</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026" checked onchange="filterAll()"> <span class="fl-text">GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026</span> <span class="fcnt">4</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1212 - Mejoras en el proceso de impresión cumplimiento 2026" checked onchange="filterAll()"> <span class="fl-text">GD941-1212 - Mejoras en el proceso de impresión cumplimiento 2026</span> <span class="fcnt">2</span></label>
@@ -222,32 +230,17 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD941-1423 - Automatización de pruebas" checked onchange="filterAll()"> <span class="fl-text">GD941-1423 - Automatización de pruebas</span> <span class="fcnt">1</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1307 - Defectos IA " checked onchange="filterAll()"> <span class="fl-text">GD981-1307 - Defectos IA </span> <span class="fcnt">11</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1311 - Hallazgos transversales plataforma cumplimiento" checked onchange="filterAll()"> <span class="fl-text">GD981-1311 - Hallazgos transversales plataforma cumplimiento</span> <span class="fcnt">5</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1347 - Evolutivos de la Autogestión Fase I" checked onchange="filterAll()"> <span class="fl-text">GD981-1347 - Evolutivos de la Autogestión Fase I</span> <span class="fcnt">39</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1347 - Evolutivos de la Autogestión Fase I" checked onchange="filterAll()"> <span class="fl-text">GD981-1347 - Evolutivos de la Autogestión Fase I</span> <span class="fcnt">43</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1412 - Atención de solicitudes autogestionadas por correo electrónico" checked onchange="filterAll()"> <span class="fl-text">GD981-1412 - Atención de solicitudes autogestionadas por correo electrónico</span> <span class="fcnt">11</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1506 - Retoma de solicitudes no finalizadas por usuario" checked onchange="filterAll()"> <span class="fl-text">GD981-1506 - Retoma de solicitudes no finalizadas por usuario</span> <span class="fcnt">8</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-1507 - Modificación de tasa" checked onchange="filterAll()"> <span class="fl-text">GD981-1507 - Modificación de tasa</span> <span class="fcnt">5</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-158 - Emisión Cumplimiento" checked onchange="filterAll()"> <span class="fl-text">GD981-158 - Emisión Cumplimiento</span> <span class="fcnt">36</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil" checked onchange="filterAll()"> <span class="fl-text">GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil</span> <span class="fcnt">1</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-279 - CORE - Crear dato variable a los productos 440, 450 y 455" checked onchange="filterAll()"> <span class="fl-text">GD981-279 - CORE - Crear dato variable a los productos 440, 450 y 455</span> <span class="fcnt">1</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-733 - Aplicación automática de sobrecomisión" checked onchange="filterAll()"> <span class="fl-text">GD981-733 - Aplicación automática de sobrecomisión</span> <span class="fcnt">5</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-760 - Historia front primera pantalla-Cotización y nueva emisión" checked onchange="filterAll()"> <span class="fl-text">GD981-760 - Historia front primera pantalla-Cotización y nueva emisión</span> <span class="fcnt">2</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fEpic" value="GD981-845 - RF-013: Gestión de Coberturas y Cálculo de Prima para Cumplimiento" checked onchange="filterAll()"> <span class="fl-text">GD981-845 - RF-013: Gestión de Coberturas y Cálculo de Prima para Cumplimiento</span> <span class="fcnt">1</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="Sin épica" checked onchange="filterAll()"> <span class="fl-text">Sin épica</span> <span class="fcnt">27</span></label>
-        </div>
-      </div>
-    </div>
-      <div class="fd">
-      <button class="fb" onclick="toggleDD('fRice')">🎯 Prioridad RICE <span class="fc" id="fRice-c"></span><span class="arrow">▾</span></button>
-      <div class="fp" id="fRice-p" style="min-width:240px">
-        <div class="fp-search"><input type="text" placeholder="Buscar..." oninput="searchFilter('fRice',this.value)"></div>
-        <div class="fa">
-          <a href="#" onclick="tAll('fRice',true);return false">✓ Todos</a>
-          <a href="#" onclick="tAll('fRice',false);return false">✗ Ninguno</a>
-        </div>
-        <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Alta" checked onchange="filterAll()"> <span class="fl-text">Alta</span> <span class="fcnt">40</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Baja" checked onchange="filterAll()"> <span class="fl-text">Baja</span> <span class="fcnt">26</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Crítica" checked onchange="filterAll()"> <span class="fl-text">Crítica</span> <span class="fcnt">49</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fRice" value="Media" checked onchange="filterAll()"> <span class="fl-text">Media</span> <span class="fcnt">86</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fEpic" value="Sin épica" checked onchange="filterAll()"> <span class="fl-text">Sin épica</span> <span class="fcnt">3</span></label>
         </div>
       </div>
     </div>
@@ -282,45 +275,34 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#2e7d32" title="Score: 1.9 | R:15 I:0.5 C:0.5 E:2 | automatización">Baja (1.9)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1422" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1422</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
           <td style="white-space:nowrap">2026-04-16</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1421" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1421</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
           <td style="white-space:nowrap">2026-04-16</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Baja">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1420" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1420</a></td>
-          <td style="max-width:320px">TEST</td>
-          <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
-          <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
-          <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
-          <td style="white-space:nowrap">2026-04-15</td>
-          <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
-          <td style="text-align:center"><span class="badge" style="background:#2e7d32" title="Score: 0.2 | R:1 I:0.25 C:0.5 E:0.5 | test">Baja (0.2)</span></td>
-        </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1418" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1418</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sugey Dayanna Saenz Vanegas</td>
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -337,12 +319,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 14.0 | R:30 I:1 C:0.7 E:1.5 | incidente genérico">Media (14.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sheila Paola Uhia Kanmerer" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sheila Paola Uhia Kanmerer" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1416" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1416</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sheila Paola Uhia Kanmerer</td>
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -359,12 +341,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 14.0 | R:30 I:1 C:0.7 E:1.5 | incidente genérico">Media (14.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Sheila Paola Uhia Kanmerer" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Pruebas QA" data-assignee="Sheila Paola Uhia Kanmerer" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1414" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1414</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON WEB</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sheila Paola Uhia Kanmerer</td>
           <td style="white-space:nowrap">2026-04-15</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
@@ -381,23 +363,23 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Sugey Dayanna Saenz Vanegas" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1410" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1410</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Sugey Dayanna Saenz Vanegas</td>
           <td style="white-space:nowrap">2026-04-09</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Crítica">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Crítica">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1409" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1409</a></td>
           <td style="max-width:320px">Emisión de producto a cliente restringido</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-04-09</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -414,12 +396,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1407" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1407</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -436,12 +418,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1405" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1405</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -458,12 +440,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1400" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1400</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-03-31</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
@@ -480,12 +462,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1397" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1397</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-03-25</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
@@ -535,45 +517,45 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
           <td style="text-align:center"><span class="badge" style="background:#b71c1c" title="Score: 45.0 | R:45 I:1 C:1.0 E:1 | documentación">Crítica (45.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Crítica">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Crítica">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1391" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1391</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON WEB EMISION-TRONADOR CIA 2</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-03-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#b71c1c" title="Score: 48.0 | R:60 I:2 C:0.8 E:2 | emisión">Crítica (48.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1372" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1372</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1371" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1371</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON - Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1370" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1370</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON - Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-02-27</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -590,12 +572,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 10.0 | R:30 I:1 C:0.5 E:1.5 | incidente genérico">Media (10.0)</span></td>
         </tr>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="Sin épica" data-rice="Media">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Incidente" data-status="En Progreso" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026" data-rice="Media">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1363" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1363</a></td>
           <td style="max-width:320px">INC-SOFTWARE-SIMON-Cumplimiento</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#e53935">Incidente</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026">GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-02-26</td>
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
@@ -1542,12 +1524,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
           <td style="text-align:center"><span class="badge" style="background:#e65100" title="Score: 27.5 | R:55 I:1 C:1.0 E:2 | cotización">Alta (27.5)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García" data-epic="Sin épica" data-rice="Baja">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García" data-epic="GD981-1347 - Evolutivos de la Autogestión Fase I" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-1326" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-1326</a></td>
           <td style="max-width:320px">Cocorretaje Grandes Beneficiarios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD981-1347 - Evolutivos de la Autogestión Fase I">GD981-1347 - Evolutivos de la Autogestión Fase I</td>
           <td style="white-space:nowrap;font-size:.78rem">Omar Fernando Otavo García</td>
           <td style="white-space:nowrap">2026-04-08</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
@@ -2268,12 +2250,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#e65100" title="Score: 25.6 | R:40 I:2 C:0.8 E:2.5 | endosos">Alta (25.6)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Baja">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="GD981-1347 - Evolutivos de la Autogestión Fase I" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-861" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-861</a></td>
           <td style="max-width:320px">RF-016: Visualización de Negocios</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD981-1347 - Evolutivos de la Autogestión Fase I">GD981-1347 - Evolutivos de la Autogestión Fase I</td>
           <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
           <td style="white-space:nowrap">2025-12-11</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -2312,12 +2294,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#607d8b">En Progreso</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 15.0 | R:30 I:1 C:1.0 E:2 | comisiones/intermediarios">Media (15.0)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García" data-epic="Sin épica" data-rice="Baja">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="En Pruebas QA" data-assignee="Omar Fernando Otavo García" data-epic="GD981-1347 - Evolutivos de la Autogestión Fase I" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-798" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-798</a></td>
           <td style="max-width:320px">RF-001: Autenticación de Funcionarios Internos (Bolívar)</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD981-1347 - Evolutivos de la Autogestión Fase I">GD981-1347 - Evolutivos de la Autogestión Fase I</td>
           <td style="white-space:nowrap;font-size:.78rem">Omar Fernando Otavo García</td>
           <td style="white-space:nowrap">2025-12-10</td>
           <td><span class="badge" style="background:#ff9800">En Pruebas QA</span></td>
@@ -2345,28 +2327,6 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
           <td style="text-align:center"><span class="badge" style="background:#f9a825" title="Score: 19.3 | R:30 I:1 C:0.9 E:1.4 | comisiones/intermediarios">Media (19.3)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Crítica">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-729" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-729</a></td>
-          <td style="max-width:320px">Emisión de Póliza desde Retoma</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
-          <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
-          <td style="white-space:nowrap">2025-08-29</td>
-          <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
-          <td style="text-align:center"><span class="badge" style="background:#b71c1c" title="Score: 48.0 | R:60 I:2 C:0.8 E:2 | emisión">Crítica (48.0)</span></td>
-        </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Alta">
-          <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-725" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-725</a></td>
-          <td style="max-width:320px">Retoma de Cotización desde Mongo</td>
-          <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
-          <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
-          <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
-          <td style="white-space:nowrap">2025-08-29</td>
-          <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
-          <td style="text-align:center"><span class="badge" style="background:#e65100" title="Score: 22.0 | R:55 I:1 C:0.8 E:2 | cotización">Alta (22.0)</span></td>
-        </tr>
         <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Ana Maria Shaker Medina" data-epic="GD981-1347 - Evolutivos de la Autogestión Fase I" data-rice="Crítica">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-683" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-683</a></td>
           <td style="max-width:320px">Resumen y Emisión de Pólizas CU y RC Pantalla 3</td>
@@ -2389,12 +2349,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
           <td style="text-align:center"><span class="badge" style="background:#2e7d32" title="Score: 6.2 | R:25 I:1 C:0.5 E:2 | mejora funcional">Baja (6.2)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="Sin épica" data-rice="Baja">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Backlog" data-assignee="Sin asignar" data-epic="GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-551" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-551</a></td>
           <td style="max-width:320px">Invocación y visualización de la suma disponible</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil">GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil</td>
           <td style="white-space:nowrap;font-size:.78rem">Sin asignar</td>
           <td style="white-space:nowrap">2025-08-28</td>
           <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
@@ -2466,12 +2426,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
           <td style="text-align:center"><span class="badge" style="background:#e65100" title="Score: 22.9 | R:40 I:1 C:0.6 E:1.0499999999999998 | canal digital">Alta (22.9)</span></td>
         </tr>
-        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Ana Maria Shaker Medina" data-epic="Sin épica" data-rice="Alta">
+        <tr data-equipo="Evolutivos Plataforma" data-tipo="Mejora" data-status="Pendiente PAP" data-assignee="Ana Maria Shaker Medina" data-epic="GD981-1347 - Evolutivos de la Autogestión Fase I" data-rice="Alta">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD981-88" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD981-88</a></td>
           <td style="max-width:320px">Implementar login en el nuevo portal de Cumplimiento para Funcionarios Bolívar</td>
           <td><span class="badge" style="background:#2e7d32">Evolutivos Plataforma</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="Sin épica">Sin épica</td>
+          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD981-1347 - Evolutivos de la Autogestión Fase I">GD981-1347 - Evolutivos de la Autogestión Fase I</td>
           <td style="white-space:nowrap;font-size:.78rem">Ana Maria Shaker Medina</td>
           <td style="white-space:nowrap">2025-08-19</td>
           <td><span class="badge" style="background:#607d8b">Pendiente PAP</span></td>
@@ -2491,7 +2451,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
       </tbody>
     </table>
   </div>
-  <div class="row-count"><span id="rowCount">201 incidencias mostradas</span></div>
+  <div class="row-count"><span id="rowCount">198 incidencias mostradas</span></div>
 
   <script>
   const FILTERS = ['fEquipo','fTipo','fStatus','fAssignee','fEpic','fRice'];
@@ -2622,10 +2582,82 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   }
 
   updateCounts();
+
+  // ── Jira Live Refresh ──
+  const JIRA_BASE =  + BASE_URL + ;
+  const JIRA_AUTH = 'Basic Y3Jpc3RpYW4uY2FycmVub0BzZWd1cm9zYm9saXZhci5jb206QVRBVFQzeEZmR0Ywb0RlX3BxU2pnWFUtbUxfcWx1Z25rV2tuUDgzMWVKcDJmaHNSdTdlOVk5ZXVNYmwweDQzbHlrVi0wMDQxMW9ZaS1oOUR3UEhYMEtWeTNJaVkyNjIwemdDTTNMVWs1dXJNZk5SYmdrSVA0ZVFqMXFlcWFLdFl6ajY4djRvRjB3U2l5Y3hxbk5aLXA4d2EyMXczc0JWMXpSWmUxWmdLZ2oxLWJrS2JJMTNaVTBrPTg5MTNGRENE';
+
+  async function refreshFromJira() {
+    const btn = document.getElementById('refreshBtn');
+    const sts = document.getElementById('refreshStatus');
+    btn.disabled = true;
+    btn.classList.add('loading');
+    btn.textContent = '⏳ Actualizando...';
+    sts.textContent = '';
+    const rows = document.querySelectorAll('#mainTable tbody tr');
+    const total = rows.length;
+    let updated = 0, errors = 0;
+    for (let i = 0; i < rows.length; i++) {
+      const row = rows[i];
+      const link = row.cells[0].querySelector('a');
+      if (!link) continue;
+      const key = link.textContent.trim();
+      sts.textContent = (i+1)+'/'+total+' — '+key+'...';
+      try {
+        const resp = await fetch(
+          JIRA_BASE+'/rest/api/3/issue/'+key+'?fields=status,assignee,summary',
+          { headers: { 'Authorization': JIRA_AUTH, 'Accept': 'application/json' } }
+        );
+        if (!resp.ok) { errors++; continue; }
+        const data = await resp.json();
+        const f = data.fields;
+        const newSt = f.status ? f.status.name : '';
+        if (newSt && newSt !== row.dataset.status) {
+          row.dataset.status = newSt;
+          const b = row.cells[7].querySelector('.badge');
+          if (b) { b.textContent = newSt; b.style.background = gSC(newSt); }
+          flash(row.cells[7]); updated++;
+        }
+        const newA = f.assignee ? f.assignee.displayName : 'Sin asignar';
+        if (newA !== row.dataset.assignee) {
+          row.dataset.assignee = newA;
+          row.cells[5].textContent = newA;
+          flash(row.cells[5]);
+        }
+        const newSum = f.summary || '';
+        if (newSum && newSum !== row.cells[1].textContent.trim()) {
+          row.cells[1].textContent = newSum;
+          flash(row.cells[1]);
+        }
+      } catch(e) { errors++; }
+      if (i % 10 === 9) await new Promise(r => setTimeout(r, 300));
+    }
+    btn.disabled = false;
+    btn.classList.remove('loading');
+    btn.textContent = '🔄 Actualizar desde Jira';
+    const now = new Date().toLocaleTimeString('es-CO');
+    sts.textContent = '✅ '+updated+' cambios, '+errors+' errores — '+now;
+    sts.style.color = errors > 0 ? '#e65100' : '#2e7d32';
+    filterAll();
+  }
+  function flash(el) {
+    el.style.outline = '2px solid #4caf50';
+    setTimeout(function(){ el.style.outline = ''; }, 3000);
+  }
+  function gSC(s) {
+    s = s.toLowerCase();
+    if (s.includes('progress') || s.includes('curso')) return '#2196F3';
+    if (s.includes('qa') || s.includes('test') || s.includes('review')) return '#ff9800';
+    if (s.includes('backlog') || s.includes('hacer') || s.includes('to do')) return '#9e9e9e';
+    if (s.includes('block') || s.includes('impedido')) return '#c0392b';
+    if (s.includes('pap') || s.includes('espera') || s.includes('pending')) return '#e67e22';
+    if (s.includes('done') || s.includes('hecho') || s.includes('producción')) return '#2e7d32';
+    return '#607d8b';
+  }
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 21 de abril de 2026, 15:27 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 21 de abril de 2026, 15:46 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
