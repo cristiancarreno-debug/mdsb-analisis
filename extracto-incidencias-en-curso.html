@@ -119,7 +119,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:07</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:11</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -2853,41 +2853,60 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     html += '</div>';
     html += '<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">';
     html += '<button onclick="closeTransModal()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">Cancelar</button>';
+    html += '<button id="confirmAssignBtn" disabled style="padding:.4rem .8rem;border:none;border-radius:6px;background:#9e9e9e;color:#fff;cursor:not-allowed;font-size:.8rem;font-weight:600">Cambiar</button>';
     html += '</div>';
     document.getElementById('transKey').textContent = issueKey;
     document.getElementById('transList').innerHTML = html;
     document.getElementById('transStatus').textContent = '';
+    // Hide the modal's own close button since we have Cancelar
+    document.querySelector('.trans-close').style.display = 'none';
     document.getElementById('transModal').classList.add('open');
-    // Focus search
     document.getElementById('assigneeSearch').focus();
-    // Hover effect + click
+    let selectedId = null;
+    let selectedName = null;
+    // Click to select (highlight only)
     document.querySelectorAll('#assigneeList .aopt').forEach(el => {
-      el.addEventListener('mouseenter', function() { this.style.background = '#e8eaf6'; });
-      el.addEventListener('mouseleave', function() { this.style.background = ''; });
-      el.addEventListener('click', async function() {
-        const accountId = this.dataset.id;
-        const name = this.textContent.trim();
-        document.getElementById('transStatus').textContent = 'Asignando a ' + name + '...';
-        try {
-          const body = accountId ? {accountId: accountId} : null;
-          const resp = await fetch(PROXY_BASE + '/rest/api/3/issue/' + issueKey + '/assignee', {
-            method: 'PUT', headers: {'Content-Type':'application/json'},
-            body: JSON.stringify(body)
-          });
-          if (!resp.ok) { const e = await resp.text(); throw new Error(e.substring(0,150)); }
-          const newName = accountId ? name : 'Sin asignar';
-          document.getElementById('transStatus').textContent = '✅ Asignado a ' + newName;
-          document.querySelectorAll('#mainTable tbody tr').forEach(row => {
-            const link = row.cells[0].querySelector('a');
-            if (link && link.textContent.trim() === issueKey) {
-              row.dataset.assignee = newName;
-              row.cells[5].childNodes[0].textContent = newName + ' ';
-              flash(row.cells[5]);
-            }
-          });
-          setTimeout(closeTransModal, 1200);
-        } catch(e) { document.getElementById('transStatus').textContent = '❌ ' + e.message; }
+      el.addEventListener('mouseenter', function() { if(this.dataset.id !== selectedId) this.style.background = '#f5f5ff'; });
+      el.addEventListener('mouseleave', function() { if(this.dataset.id !== selectedId) this.style.background = ''; });
+      el.addEventListener('click', function() {
+        document.querySelectorAll('#assigneeList .aopt').forEach(o => { o.style.background = ''; o.style.fontWeight = ''; });
+        this.style.background = '#e8eaf6';
+        this.style.fontWeight = '600';
+        selectedId = this.dataset.id;
+        selectedName = this.textContent.trim();
+        const btn = document.getElementById('confirmAssignBtn');
+        btn.disabled = false;
+        btn.style.background = '#1a237e';
+        btn.style.cursor = 'pointer';
       });
+    });
+    // Confirm button
+    document.getElementById('confirmAssignBtn').addEventListener('click', async function() {
+      if (selectedId === null) return;
+      document.getElementById('transStatus').textContent = 'Asignando a ' + selectedName + '...';
+      this.disabled = true;
+      try {
+        const body = selectedId ? {accountId: selectedId} : null;
+        const resp = await fetch(PROXY_BASE + '/rest/api/3/issue/' + issueKey + '/assignee', {
+          method: 'PUT', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify(body)
+        });
+        if (!resp.ok) { const e = await resp.text(); throw new Error(e.substring(0,150)); }
+        const newName = selectedId ? selectedName : 'Sin asignar';
+        document.getElementById('transStatus').textContent = '✅ Asignado a ' + newName;
+        document.querySelectorAll('#mainTable tbody tr').forEach(row => {
+          const link = row.cells[0].querySelector('a');
+          if (link && link.textContent.trim() === issueKey) {
+            row.dataset.assignee = newName;
+            row.cells[5].childNodes[0].textContent = newName + ' ';
+            flash(row.cells[5]);
+          }
+        });
+        setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); }, 1200);
+      } catch(e) {
+        document.getElementById('transStatus').textContent = '❌ ' + e.message;
+        this.disabled = false;
+      }
     });
   }
 
@@ -3103,6 +3122,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 
   function closeTransModal() {
     document.getElementById('transModal').classList.remove('open');
+    document.querySelector('.trans-close').style.display = '';
   }
   // Close modal on backdrop click
   document.getElementById('transModal').addEventListener('click', function(e) {
@@ -3111,7 +3131,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 21:07 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 21:11 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
