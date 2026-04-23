@@ -130,7 +130,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 22:04</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 22:30</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -2573,41 +2573,84 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 
   updateCounts();
 
-  // ── RICE Detail Popover ──
-  // Close popover when clicking outside
+  // ── RICE Detail Popover (editable) ──
   document.addEventListener('mousedown', function(e) {
-    const pop = document.getElementById('ricePop');
-    if (pop.classList.contains('open') && !e.target.closest('.rice-pop') && !e.target.closest('.rice-detail')) {
+    var pop = document.getElementById('ricePop');
+    if (pop.classList.contains('open') && !e.target.closest('#ricePop') && !e.target.closest('.rice-detail')) {
       pop.classList.remove('open');
     }
   });
-  // Open popover on RICE badge click
   document.querySelector('#mainTable').addEventListener('click', function(e) {
-    const badge = e.target.closest('.rice-detail');
+    var badge = e.target.closest('.rice-detail');
     if (!badge) return;
-    const pop = document.getElementById('ricePop');
-    const r = badge.dataset.r, i = badge.dataset.i, c = badge.dataset.c, ef = badge.dataset.e;
-    const s = badge.dataset.s, p = badge.dataset.p, risk = badge.dataset.risk;
-    const impactLabel = {'3':'Masivo','2':'Alto','1':'Medio','0.5':'Bajo','0.25':'Minimo'}[i] || i;
-    const confLabel = {'1':'Alta (100%)','0.8':'Media (80%)','0.5':'Baja (50%)'}[c] || (c*100)+'%';
-    pop.innerHTML = '<h4><span>RICE: ' + p + ' (' + s + ')</span><span style="cursor:pointer;color:#9e9e9e;font-size:.9rem" id="ricePopClose">&times;</span></h4>'
-      + '<div class="rvar"><span class="lbl">Reach (Alcance)</span><span class="val">' + r + ' / 100</span></div>'
-      + '<div class="rvar"><span class="lbl">Impact (Impacto)</span><span class="val">' + i + ' — ' + impactLabel + '</span></div>'
-      + '<div class="rvar"><span class="lbl">Confidence (Confianza)</span><span class="val">' + confLabel + '</span></div>'
-      + '<div class="rvar"><span class="lbl">Effort (Esfuerzo)</span><span class="val">' + ef + ' personas-mes</span></div>'
-      + '<div class="rformula">(' + r + ' &times; ' + i + ' &times; ' + c + ') / ' + ef + ' = <strong>' + s + '</strong></div>'
-      + '<div class="rrisk">Riesgo: ' + risk + '</div>';
-    const rect = badge.getBoundingClientRect();
-    let top = rect.bottom + 6;
-    let left = rect.left - 100;
-    if (top + 250 > window.innerHeight) top = rect.top - 250;
+    var pop = document.getElementById('ricePop');
+    var r = badge.dataset.r, im = badge.dataset.i, c = badge.dataset.c, ef = badge.dataset.e;
+    var s = badge.dataset.s, p = badge.dataset.p, risk = badge.dataset.risk;
+    var key = badge.closest('tr').querySelector('a').textContent.trim();
+    var h = '<h4 style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem"><span style="color:#1a237e;font-size:.85rem">RICE: '+key+'</span><span id="ricePopClose" style="cursor:pointer;color:#9e9e9e;font-size:1rem">&times;</span></h4>';
+    h += '<div style="display:flex;flex-direction:column;gap:.5rem">';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Reach (1-100)</label><input type="number" id="riceR" value="'+r+'" min="1" max="100" style="width:60px;padding:.2rem .4rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem;text-align:center" oninput="recalcRice()"></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Impact</label><select id="riceI" style="padding:.2rem .3rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem" onchange="recalcRice()">';
+    [['3','Masivo'],['2','Alto'],['1','Medio'],['0.5','Bajo'],['0.25','Minimo']].forEach(function(o){h+='<option value="'+o[0]+'"'+(im===o[0]?' selected':'')+'>'+o[0]+' - '+o[1]+'</option>';});
+    h += '</select></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Confidence</label><select id="riceC" style="padding:.2rem .3rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem" onchange="recalcRice()">';
+    [['1','100% Alta'],['0.8','80% Media'],['0.5','50% Baja']].forEach(function(o){h+='<option value="'+o[0]+'"'+(c===o[0]?' selected':'')+'>'+o[1]+'</option>';});
+    h += '</select></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Effort (pers-mes)</label><input type="number" id="riceE" value="'+ef+'" min="0.5" max="20" step="0.5" style="width:60px;padding:.2rem .4rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem;text-align:center" oninput="recalcRice()"></div>';
+    h += '</div>';
+    h += '<div id="riceCalc" style="margin-top:.5rem;padding:.4rem .6rem;background:#f5f5ff;border-radius:6px;font-size:.72rem;color:#6c757d;text-align:center"></div>';
+    h += '<div style="font-size:.7rem;color:#9e9e9e;margin-top:.3rem;font-style:italic">Riesgo: '+risk+'</div>';
+    h += '<div style="margin-top:.6rem;display:flex;gap:.4rem;justify-content:flex-end"><button id="riceSaveBtn" style="padding:.3rem .7rem;border:none;border-radius:6px;background:#1a237e;color:#fff;cursor:pointer;font-size:.75rem;font-weight:600">Guardar</button></div>';
+    pop.innerHTML = h;
+    var rect = badge.getBoundingClientRect();
+    var top = rect.bottom + 6;
+    var left = rect.left - 100;
+    if (top + 300 > window.innerHeight) top = rect.top - 300;
     if (left < 10) left = 10;
     if (left + 280 > window.innerWidth) left = window.innerWidth - 290;
     pop.style.top = top + 'px';
     pop.style.left = left + 'px';
     pop.classList.add('open');
+    recalcRice();
     document.getElementById('ricePopClose').addEventListener('click', function() { pop.classList.remove('open'); });
+    document.getElementById('riceSaveBtn').addEventListener('click', function() {
+      var nr=parseFloat(document.getElementById('riceR').value)||1;
+      var ni=parseFloat(document.getElementById('riceI').value)||1;
+      var nc=parseFloat(document.getElementById('riceC').value)||0.5;
+      var ne=parseFloat(document.getElementById('riceE').value)||1;
+      var ns=Math.round((nr*ni*nc/ne)*10)/10;
+      var np=ns>=40?'Critica':ns>=20?'Alta':ns>=10?'Media':'Baja';
+      var nc2=np==='Critica'?'#b71c1c':np==='Alta'?'#e65100':np==='Media'?'#f9a825':'#2e7d32';
+      badge.dataset.r=nr;badge.dataset.i=ni;badge.dataset.c=nc;badge.dataset.e=ne;badge.dataset.s=ns;badge.dataset.p=np;
+      badge.textContent=np+' ('+ns+')';badge.style.background=nc2;
+      var ov=JSON.parse(localStorage.getItem('riceOverrides')||'{}');
+      ov[key]={r:nr,i:ni,c:nc,e:ne,s:ns,p:np};
+      localStorage.setItem('riceOverrides',JSON.stringify(ov));
+      pop.classList.remove('open');
+    });
   });
+  function recalcRice(){
+    var r=parseFloat(document.getElementById('riceR').value)||0;
+    var i=parseFloat(document.getElementById('riceI').value)||0;
+    var c=parseFloat(document.getElementById('riceC').value)||0;
+    var e=parseFloat(document.getElementById('riceE').value)||1;
+    var s=Math.round((r*i*c/e)*10)/10;
+    var p=s>=40?'Critica':s>=20?'Alta':s>=10?'Media':'Baja';
+    document.getElementById('riceCalc').innerHTML='('+r+' &times; '+i+' &times; '+c+') / '+e+' = <strong>'+s+'</strong> &rarr; '+p;
+  }
+  // Apply saved RICE overrides on load
+  (function(){
+    var ov=JSON.parse(localStorage.getItem('riceOverrides')||'{}');
+    if(!Object.keys(ov).length)return;
+    document.querySelectorAll('#mainTable tbody tr').forEach(function(row){
+      var link=row.querySelector('a');if(!link)return;
+      var key=link.textContent.trim();var o=ov[key];if(!o)return;
+      var b=row.querySelector('.rice-detail');if(!b)return;
+      b.dataset.r=o.r;b.dataset.i=o.i;b.dataset.c=o.c;b.dataset.e=o.e;b.dataset.s=o.s;b.dataset.p=o.p;
+      b.textContent=o.p+' ('+o.s+')';
+      b.style.background=o.p==='Critica'?'#b71c1c':o.p==='Alta'?'#e65100':o.p==='Media'?'#f9a825':'#2e7d32';
+    });
+  })();
 
   // ── Jira Live Refresh ──
   const JIRA_BASE = "https://jirasegurosbolivar.atlassian.net";
@@ -3023,7 +3066,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 22:04 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 22:30 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
