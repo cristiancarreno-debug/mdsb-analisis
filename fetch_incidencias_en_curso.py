@@ -12,14 +12,13 @@ from datetime import datetime
 USER = os.environ.get("JIRA_USER", "")
 TOKEN = os.environ.get("JIRA_TOKEN", "")
 if not USER or not TOKEN:
-    # Fallback: try to read from local config
     _cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env.local")
     if os.path.exists(_cfg):
         for line in open(_cfg):
             if line.startswith("JIRA_USER="): USER = line.strip().split("=",1)[1]
             if line.startswith("JIRA_TOKEN="): TOKEN = line.strip().split("=",1)[1]
     if not USER or not TOKEN:
-        print("⚠ Set JIRA_USER and JIRA_TOKEN env vars or create .env.local")
+        print("Set JIRA_USER and JIRA_TOKEN env vars or create .env.local")
         exit(1)
 BASE_URL = "https://jirasegurosbolivar.atlassian.net"
 AUTH = base64.b64encode(f"{USER}:{TOKEN}".encode()).decode()
@@ -441,14 +440,44 @@ main{{max-width:1600px;margin:0 auto;padding:1.5rem 2rem}}
 
 /* Table */
 .table-wrap{{overflow-x:auto;border-radius:12px;box-shadow:0 1px 6px rgba(0,0,0,.06);margin-bottom:.4rem}}
-table{{width:100%;border-collapse:collapse;background:#fff;font-size:.8rem}}
+table{{width:100%;border-collapse:collapse;background:#fff;font-size:.75rem}}
 thead{{background:#1a237e;color:#fff;position:sticky;top:0;z-index:10}}
-th{{padding:.65rem .7rem;text-align:left;font-weight:600;white-space:nowrap;cursor:pointer;user-select:none;font-size:.75rem}}
+th{{padding:.4rem .5rem;text-align:left;font-weight:600;white-space:nowrap;cursor:pointer;user-select:none;font-size:.7rem}}
 th:hover{{background:#283593}}
-td{{padding:.45rem .7rem;border-bottom:1px solid #eee;vertical-align:middle}}
+td{{padding:.3rem .5rem;border-bottom:1px solid #f0f0f0;vertical-align:middle;white-space:nowrap}}
 tr:hover td{{background:#f8f9ff}}
-.badge{{display:inline-block;padding:.15rem .5rem;border-radius:20px;font-size:.68rem;font-weight:600;color:#fff;white-space:nowrap}}
+td.truncate{{overflow:hidden;text-overflow:ellipsis;max-width:220px}}
+.badge{{display:inline-block;padding:.12rem .45rem;border-radius:20px;font-size:.64rem;font-weight:600;color:#fff;white-space:nowrap}}
 .row-count{{margin-top:.4rem;color:#6c757d;font-size:.8rem;display:flex;align-items:center;gap:.5rem}}
+/* RICE detail popover */
+.rice-pop{{display:none;position:fixed;z-index:600;background:#fff;border:1px solid #dee2e6;border-radius:10px;box-shadow:0 8px 28px rgba(0,0,0,.18);padding:1rem;width:280px;font-size:.78rem}}
+.rice-pop.open{{display:block}}
+.rice-pop h4{{font-size:.85rem;color:#1a237e;margin-bottom:.6rem;display:flex;justify-content:space-between;align-items:center}}
+.rice-pop .rvar{{display:flex;justify-content:space-between;padding:.3rem 0;border-bottom:1px solid #f5f5f5}}
+.rice-pop .rvar:last-child{{border:none}}
+.rice-pop .rvar .lbl{{color:#6c757d}}
+.rice-pop .rvar .val{{font-weight:700;color:#1a237e}}
+.rice-pop .rformula{{margin-top:.5rem;padding:.4rem .6rem;background:#f5f5ff;border-radius:6px;font-size:.72rem;color:#6c757d;text-align:center}}
+.rice-pop .rrisk{{margin-top:.4rem;font-size:.72rem;color:#9e9e9e;font-style:italic}}
+/* Action button & transition modal */
+.action-btn{{background:none;border:1px solid #dee2e6;border-radius:4px;padding:.1rem .35rem;cursor:pointer;font-size:.7rem;transition:all .15s}}
+.action-btn:hover{{background:#e8eaf6;border-color:#1a237e}}
+/* Notes */
+.note-input{{width:100%;min-width:120px;padding:.2rem .3rem;border:1px solid transparent;border-radius:4px;font-size:.7rem;font-family:inherit;resize:vertical;background:transparent;color:#333;transition:border-color .2s}}
+.note-input:hover{{border-color:#dee2e6}}
+.note-input:focus{{border-color:#1a237e;background:#fff;outline:none;box-shadow:0 0 0 2px rgba(26,35,126,.08)}}
+.trans-modal{{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);z-index:500;align-items:center;justify-content:center;padding:1rem}}
+.trans-modal.open{{display:flex}}
+.trans-box{{background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 12px 40px rgba(0,0,0,.2);width:90%;max-width:500px;max-height:85vh;display:flex;flex-direction:column}}
+.trans-box h3{{font-size:1rem;margin-bottom:.8rem;color:#1a237e;flex-shrink:0}}
+.trans-box .trans-list{{overflow-y:auto;flex:1;min-height:0;padding-right:.3rem}}
+.trans-box .trans-list::-webkit-scrollbar{{width:5px}}
+.trans-box .trans-list::-webkit-scrollbar-thumb{{background:#ccc;border-radius:4px}}
+.trans-box .trans-item{{padding:.6rem .8rem;border:1px solid #dee2e6;border-radius:8px;cursor:pointer;font-size:.82rem;transition:all .15s;display:flex;justify-content:space-between;align-items:center;margin-bottom:.4rem}}
+.trans-box .trans-item:hover{{background:#e8eaf6;border-color:#1a237e}}
+.trans-box .trans-close{{margin-top:.8rem;text-align:right;flex-shrink:0}}
+.trans-box .trans-close button{{padding:.4rem 1rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem}}
+.trans-status{{font-size:.72rem;color:#6c757d;margin-top:.5rem;flex-shrink:0}}
 footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-top:1px solid #eee;margin-top:2rem}}
 </style>
 </head>
@@ -511,11 +540,12 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
           <th onclick="sortT(1)">Nombre de HU ↕</th>
           <th onclick="sortT(2)">Equipo ↕</th>
           <th onclick="sortT(3)">Tipo ↕</th>
-          <th onclick="sortT(4)">Épica ↕</th>
-          <th onclick="sortT(5)">Responsable ↕</th>
-          <th onclick="sortT(6)">Fecha Inicio ↕</th>
-          <th onclick="sortT(7)">Estado ↕</th>
+          <th onclick="sortT(4)">Responsable ↕</th>
+          <th onclick="sortT(5)">Fecha Inicio ↕</th>
+          <th onclick="sortT(6)">Estado ↕</th>
+          <th>Acción</th>
           <th onclick="sortT(8)">RICE ↕</th>
+          <th>Notas PO</th>
         </tr>
       </thead>
       <tbody>
@@ -530,21 +560,22 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             rs = rice["score"]
             rc = rice_priority_color(rp)
             rk = rice["risk"]
-            rice_td = f'<td style="text-align:center"><span class="badge" style="background:{rc}" title="Score: {rs} | R:{rice["reach"]} I:{rice["impact"]} C:{rice["confidence"]} E:{rice["effort"]} | {rk}">{rp} ({rs})</span></td>'
+            rice_td = f'<td style="text-align:center"><span class="badge rice-detail" style="background:{rc};cursor:pointer" data-r="{rice["reach"]}" data-i="{rice["impact"]}" data-c="{rice["confidence"]}" data-e="{rice["effort"]}" data-s="{rs}" data-p="{rp}" data-risk="{rk}">{rp} ({rs})</span></td>'
             rice_data = esc(rp)
         else:
             rice_td = '<td style="text-align:center;color:#ccc;font-size:.72rem">—</td>'
             rice_data = "N/A"
         html += f'''        <tr data-equipo="{esc(i["equipo"])}" data-tipo="{esc(i["tipo"])}" data-status="{esc(i["status"])}" data-assignee="{an}" data-epic="{ep}" data-rice="{rice_data}">
           <td><a href="{u}" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">{i["key"]}</a></td>
-          <td style="max-width:320px">{sm}</td>
+          <td class="truncate" title="{sm}">{sm}</td>
           <td><span class="badge" style="background:{e}">{i["equipo"]}</span></td>
           <td><span class="badge" style="background:{t}">{i["tipo"]}</span></td>
-          <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{ep}">{ep}</td>
-          <td style="white-space:nowrap;font-size:.78rem">{i["assignee"]}</td>
-          <td style="white-space:nowrap">{i["created"]}</td>
+          <td>{i["assignee"]} <span style="cursor:pointer;opacity:.4;font-size:.65rem" onclick="changeAssignee('{i["key"]}')" title="Cambiar responsable">&#9998;</span></td>
+          <td>{i["created"]}</td>
           <td><span class="badge" style="background:{s}">{i["status"]}</span></td>
+          <td style="text-align:center"><button class="action-btn" onclick="openTransitions(this,'{i["key"]}')" title="Cambiar estado">⚡</button></td>
           {rice_td}
+          <td><textarea class="note-input" data-key="{i["key"]}" oninput="saveNote(this)" placeholder="..." rows="1"></textarea></td>
         </tr>
 '''
 
@@ -552,6 +583,19 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     </table>
   </div>
   <div class="row-count"><span id="rowCount">{total} incidencias mostradas</span></div>
+
+  <!-- RICE Detail Popover -->
+  <div class="rice-pop" id="ricePop"></div>
+
+  <!-- Transition Modal -->
+  <div class="trans-modal" id="transModal">
+    <div class="trans-box">
+      <h3>⚡ Cambiar estado de <span id="transKey"></span></h3>
+      <div class="trans-list" id="transList"></div>
+      <div class="trans-status" id="transStatus"></div>
+      <div class="trans-close"><button onclick="closeTransModal()">Cancelar</button></div>
+    </div>
+  </div>
 '''
     html += '''
   <script>
@@ -667,7 +711,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     rows.sort((a,b) => {
       const aT = a.cells[col].textContent.trim();
       const bT = b.cells[col].textContent.trim();
-      if(col===6) {
+      if(col===5) {
         const aD = aT.split('/').reverse().join('');
         const bD = bT.split('/').reverse().join('');
         return sortDirs[k] ? aD.localeCompare(bD) : bD.localeCompare(aD);
@@ -684,7 +728,101 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
 
   updateCounts();
 
+  // ── RICE Detail Popover (editable) ──
+  document.addEventListener('mousedown', function(e) {
+    var pop = document.getElementById('ricePop');
+    if (pop.classList.contains('open') && !e.target.closest('#ricePop') && !e.target.closest('.rice-detail')) {
+      pop.classList.remove('open');
+    }
+  });
+  document.querySelector('#mainTable').addEventListener('click', function(e) {
+    var badge = e.target.closest('.rice-detail');
+    if (!badge) return;
+    var pop = document.getElementById('ricePop');
+    var r = badge.dataset.r, im = badge.dataset.i, c = badge.dataset.c, ef = badge.dataset.e;
+    var s = badge.dataset.s, p = badge.dataset.p, risk = badge.dataset.risk;
+    var key = badge.closest('tr').querySelector('a').textContent.trim();
+    var h = '<h4 style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.6rem"><span style="color:#1a237e;font-size:.85rem">RICE: '+key+'</span><span id="ricePopClose" style="cursor:pointer;color:#9e9e9e;font-size:1rem">&times;</span></h4>';
+    h += '<div style="display:flex;flex-direction:column;gap:.5rem">';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Reach (1-100)</label><input type="number" id="riceR" value="'+r+'" min="1" max="100" style="width:60px;padding:.2rem .4rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem;text-align:center" oninput="recalcRice()"></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Impact</label><select id="riceI" style="padding:.2rem .3rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem" onchange="recalcRice()">';
+    [['3','Masivo'],['2','Alto'],['1','Medio'],['0.5','Bajo'],['0.25','Minimo']].forEach(function(o){h+='<option value="'+o[0]+'"'+(im===o[0]?' selected':'')+'>'+o[0]+' - '+o[1]+'</option>';});
+    h += '</select></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Confidence</label><select id="riceC" style="padding:.2rem .3rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem" onchange="recalcRice()">';
+    [['1','100% Alta'],['0.8','80% Media'],['0.5','50% Baja']].forEach(function(o){h+='<option value="'+o[0]+'"'+(c===o[0]?' selected':'')+'>'+o[1]+'</option>';});
+    h += '</select></div>';
+    h += '<div style="display:flex;justify-content:space-between;align-items:center"><label style="font-size:.75rem;color:#6c757d">Effort (pers-mes)</label><input type="number" id="riceE" value="'+ef+'" min="0.5" max="20" step="0.5" style="width:60px;padding:.2rem .4rem;border:1px solid #dee2e6;border-radius:4px;font-size:.78rem;text-align:center" oninput="recalcRice()"></div>';
+    h += '</div>';
+    h += '<div id="riceCalc" style="margin-top:.5rem;padding:.4rem .6rem;background:#f5f5ff;border-radius:6px;font-size:.72rem;color:#6c757d;text-align:center"></div>';
+    h += '<div style="font-size:.7rem;color:#9e9e9e;margin-top:.3rem;font-style:italic">Riesgo: '+risk+'</div>';
+    h += '<div style="margin-top:.6rem;display:flex;gap:.4rem;justify-content:flex-end"><button id="riceSaveBtn" style="padding:.3rem .7rem;border:none;border-radius:6px;background:#1a237e;color:#fff;cursor:pointer;font-size:.75rem;font-weight:600">Guardar</button></div>';
+    pop.innerHTML = h;
+    var rect = badge.getBoundingClientRect();
+    var top = rect.bottom + 6;
+    var left = rect.left - 100;
+    if (top + 300 > window.innerHeight) top = rect.top - 300;
+    if (left < 10) left = 10;
+    if (left + 280 > window.innerWidth) left = window.innerWidth - 290;
+    pop.style.top = top + 'px';
+    pop.style.left = left + 'px';
+    pop.classList.add('open');
+    recalcRice();
+    document.getElementById('ricePopClose').addEventListener('click', function() { pop.classList.remove('open'); });
+    document.getElementById('riceSaveBtn').addEventListener('click', function() {
+      var nr=parseFloat(document.getElementById('riceR').value)||1;
+      var ni=parseFloat(document.getElementById('riceI').value)||1;
+      var nc=parseFloat(document.getElementById('riceC').value)||0.5;
+      var ne=parseFloat(document.getElementById('riceE').value)||1;
+      var ns=Math.round((nr*ni*nc/ne)*10)/10;
+      var np=ns>=40?'Critica':ns>=20?'Alta':ns>=10?'Media':'Baja';
+      var nc2=np==='Critica'?'#b71c1c':np==='Alta'?'#e65100':np==='Media'?'#f9a825':'#2e7d32';
+      badge.dataset.r=nr;badge.dataset.i=ni;badge.dataset.c=nc;badge.dataset.e=ne;badge.dataset.s=ns;badge.dataset.p=np;
+      badge.textContent=np+' ('+ns+')';badge.style.background=nc2;
+      var ov=JSON.parse(localStorage.getItem('riceOverrides')||'{}');
+      ov[key]={r:nr,i:ni,c:nc,e:ne,s:ns,p:np};
+      localStorage.setItem('riceOverrides',JSON.stringify(ov));
+      pop.classList.remove('open');
+    });
+  });
+  function recalcRice(){
+    var r=parseFloat(document.getElementById('riceR').value)||0;
+    var i=parseFloat(document.getElementById('riceI').value)||0;
+    var c=parseFloat(document.getElementById('riceC').value)||0;
+    var e=parseFloat(document.getElementById('riceE').value)||1;
+    var s=Math.round((r*i*c/e)*10)/10;
+    var p=s>=40?'Critica':s>=20?'Alta':s>=10?'Media':'Baja';
+    document.getElementById('riceCalc').innerHTML='('+r+' &times; '+i+' &times; '+c+') / '+e+' = <strong>'+s+'</strong> &rarr; '+p;
+  }
+  // Apply saved RICE overrides on load
+  (function(){
+    var ov=JSON.parse(localStorage.getItem('riceOverrides')||'{}');
+    if(!Object.keys(ov).length)return;
+    document.querySelectorAll('#mainTable tbody tr').forEach(function(row){
+      var link=row.querySelector('a');if(!link)return;
+      var key=link.textContent.trim();var o=ov[key];if(!o)return;
+      var b=row.querySelector('.rice-detail');if(!b)return;
+      b.dataset.r=o.r;b.dataset.i=o.i;b.dataset.c=o.c;b.dataset.e=o.e;b.dataset.s=o.s;b.dataset.p=o.p;
+      b.textContent=o.p+' ('+o.s+')';
+      b.style.background=o.p==='Critica'?'#b71c1c':o.p==='Alta'?'#e65100':o.p==='Media'?'#f9a825':'#2e7d32';
+    });
+  })();
+
+  // ── Notes (localStorage) ──
+  function saveNote(el) {
+    var notes = JSON.parse(localStorage.getItem('poNotes') || '{}');
+    notes[el.dataset.key] = el.value;
+    localStorage.setItem('poNotes', JSON.stringify(notes));
+  }
+  (function() {
+    var notes = JSON.parse(localStorage.getItem('poNotes') || '{}');
+    document.querySelectorAll('.note-input').forEach(function(el) {
+      var v = notes[el.dataset.key];
+      if (v) { el.value = v; el.rows = Math.min(Math.max(v.split('\\n').length, 1), 4); }
+    });
+  })();
+
   // ── Jira Live Refresh ──
+  const PROXY_BASE = 'https://delicate-morning-e673jira-proxy.cristian-carreno.workers.dev';
   const JIRA_BASE = "''' + BASE_URL + '''";
   const JIRA_AUTH = "Basic ''' + AUTH + '''";
 
@@ -706,8 +844,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
       sts.textContent = (i+1)+'/'+total+' — '+key+'...';
       try {
         const resp = await fetch(
-          JIRA_BASE+'/rest/api/3/issue/'+key+'?fields=status,assignee,summary',
-          { headers: { 'Authorization': JIRA_AUTH, 'Accept': 'application/json' } }
+          PROXY_BASE+'/rest/api/3/issue/'+key+'?fields=status,assignee,summary'
         );
         if (!resp.ok) { errors++; continue; }
         const data = await resp.json();
@@ -715,15 +852,15 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
         const newSt = f.status ? f.status.name : '';
         if (newSt && newSt !== row.dataset.status) {
           row.dataset.status = newSt;
-          const b = row.cells[7].querySelector('.badge');
+          const b = row.cells[6].querySelector('.badge');
           if (b) { b.textContent = newSt; b.style.background = gSC(newSt); }
-          flash(row.cells[7]); updated++;
+          flash(row.cells[6]); updated++;
         }
         const newA = f.assignee ? f.assignee.displayName : 'Sin asignar';
         if (newA !== row.dataset.assignee) {
           row.dataset.assignee = newA;
-          row.cells[5].textContent = newA;
-          flash(row.cells[5]);
+          row.cells[4].textContent = newA;
+          flash(row.cells[4]);
         }
         const newSum = f.summary || '';
         if (newSum && newSum !== row.cells[1].textContent.trim()) {
@@ -755,6 +892,345 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     if (s.includes('done') || s.includes('hecho') || s.includes('producción')) return '#2e7d32';
     return '#607d8b';
   }
+
+  // ── Jira Transitions (via Cloudflare Worker proxy) ──
+  let currentTransKey = '';
+  let transitionsCache = {};
+  let usersCache = null;
+
+  async function loadUsers() {
+    if (usersCache) return usersCache;
+    try {
+      const [r1, r2] = await Promise.all([
+        fetch(`${PROXY_BASE}/rest/api/3/user/assignable/search?project=GD941&maxResults=50`),
+        fetch(`${PROXY_BASE}/rest/api/3/user/assignable/search?project=GD981&maxResults=50`)
+      ]);
+      const u1 = r1.ok ? await r1.json() : [];
+      const u2 = r2.ok ? await r2.json() : [];
+      const map = {};
+      [...u1, ...u2].forEach(u => { if(u.accountId && u.displayName) map[u.accountId] = u.displayName; });
+      usersCache = Object.entries(map).map(([id,name]) => ({id,name})).sort((a,b) => a.name.localeCompare(b.name));
+      return usersCache;
+    } catch(e) { return []; }
+  }
+
+  async function changeAssignee(issueKey) {
+    const users = await loadUsers();
+    let html = '<div style="font-weight:600;color:#1a237e;margin-bottom:.6rem">&#128100; Reasignar ' + issueKey + '</div>';
+    html += '<input type="text" id="assigneeSearch" placeholder="Buscar responsable..." style="width:100%;padding:.5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.82rem;margin-bottom:.4rem" oninput="filterAssigneeList()">';
+    html += '<div id="assigneeList" style="max-height:220px;overflow-y:auto;border:1px solid #eee;border-radius:6px">';
+    html += '<div class="aopt" data-id="" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5;color:#9e9e9e">Sin asignar</div>';
+    users.forEach(u => {
+      html += '<div class="aopt" data-id="' + u.id + '" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5">' + u.name + '</div>';
+    });
+    html += '</div>';
+    html += '<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">';
+    html += '<button onclick="closeTransModal()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">Cancelar</button>';
+    html += '<button id="confirmAssignBtn" disabled style="padding:.4rem .8rem;border:none;border-radius:6px;background:#9e9e9e;color:#fff;cursor:not-allowed;font-size:.8rem;font-weight:600">Cambiar</button>';
+    html += '</div>';
+    document.getElementById('transKey').textContent = issueKey;
+    document.getElementById('transList').innerHTML = html;
+    document.getElementById('transStatus').textContent = '';
+    // Hide the modal's own close button since we have Cancelar
+    document.querySelector('.trans-close').style.display = 'none';
+    document.getElementById('transModal').classList.add('open');
+    document.getElementById('assigneeSearch').focus();
+    let selectedId = null;
+    let selectedName = null;
+    // Click to select (highlight only)
+    document.querySelectorAll('#assigneeList .aopt').forEach(el => {
+      el.addEventListener('mouseenter', function() { if(this.dataset.id !== selectedId) this.style.background = '#f5f5ff'; });
+      el.addEventListener('mouseleave', function() { if(this.dataset.id !== selectedId) this.style.background = ''; });
+      el.addEventListener('click', function() {
+        document.querySelectorAll('#assigneeList .aopt').forEach(o => { o.style.background = ''; o.style.fontWeight = ''; });
+        this.style.background = '#e8eaf6';
+        this.style.fontWeight = '600';
+        selectedId = this.dataset.id;
+        selectedName = this.textContent.trim();
+        const btn = document.getElementById('confirmAssignBtn');
+        btn.disabled = false;
+        btn.style.background = '#1a237e';
+        btn.style.cursor = 'pointer';
+      });
+    });
+    // Confirm button
+    document.getElementById('confirmAssignBtn').addEventListener('click', async function() {
+      if (selectedId === null) return;
+      document.getElementById('transStatus').textContent = 'Asignando a ' + selectedName + '...';
+      this.disabled = true;
+      try {
+        const body = selectedId ? {accountId: selectedId} : null;
+        const resp = await fetch(PROXY_BASE + '/rest/api/3/issue/' + issueKey + '/assignee', {
+          method: 'PUT', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify(body)
+        });
+        if (!resp.ok) { const e = await resp.text(); throw new Error(e.substring(0,150)); }
+        const newName = selectedId ? selectedName : 'Sin asignar';
+        document.getElementById('transStatus').textContent = '\u2705 Asignado a ' + newName;
+        document.querySelectorAll('#mainTable tbody tr').forEach(row => {
+          const link = row.cells[0].querySelector('a');
+          if (link && link.textContent.trim() === issueKey) {
+            row.dataset.assignee = newName;
+            row.cells[4].childNodes[0].textContent = newName + ' ';
+            flash(row.cells[4]);
+          }
+        });
+        setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); }, 1200);
+      } catch(e) {
+        document.getElementById('transStatus').textContent = '\u274c ' + e.message;
+        this.disabled = false;
+      }
+    });
+  }
+
+  function filterAssigneeList() {
+    const q = document.getElementById('assigneeSearch').value.toLowerCase();
+    document.querySelectorAll('#assigneeList .aopt').forEach(el => {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+
+  function filterTransAssignee() {
+    const q = document.getElementById('tf-assignee-search').value.toLowerCase();
+    const list = document.getElementById('tf-assignee-list');
+    list.style.display = q.length > 0 ? '' : 'none';
+    list.querySelectorAll('.taopt').forEach(el => {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+
+  function bindTransAssigneeClicks() {
+    document.querySelectorAll('#tf-assignee-list .taopt').forEach(el => {
+      el.addEventListener('mouseenter', function() { this.style.background = '#e8eaf6'; });
+      el.addEventListener('mouseleave', function() { this.style.background = ''; });
+      el.addEventListener('click', function() {
+        document.getElementById('tf-assignee').value = this.dataset.id;
+        document.getElementById('tf-assignee-search').value = this.dataset.id ? this.textContent.trim() : '';
+        document.getElementById('tf-assignee-list').style.display = 'none';
+      });
+    });
+  }
+
+  async function openTransitions(btn, issueKey) {
+    currentTransKey = issueKey;
+    document.getElementById('transKey').textContent = issueKey;
+    document.getElementById('transList').innerHTML = '<div style="color:#6c757d;font-size:.8rem">Cargando transiciones...</div>';
+    document.getElementById('transStatus').textContent = '';
+    document.getElementById('transModal').classList.add('open');
+
+    try {
+      const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/transitions?expand=transitions.fields`);
+      if (!resp.ok) throw new Error('Error ' + resp.status);
+      const data = await resp.json();
+      const transitions = data.transitions || [];
+      transitionsCache = {};
+      let html = '';
+      // Assignee button at top
+      html += '<div class="trans-item" data-action="assignee" data-key="' + issueKey + '" style="background:#f5f5ff;border-color:#1a237e"><span>&#128100; Cambiar responsable</span><span style="font-size:.7rem;color:#1a237e">Reasignar</span></div>';
+      if (transitions.length === 0) {
+        html += '<div style="color:#e65100;font-size:.8rem;margin-top:.5rem">No hay transiciones de estado disponibles</div>';
+      } else {
+        transitions.forEach(t => {
+          transitionsCache[t.id] = t;
+          const hasFields = t.fields && Object.keys(t.fields).length > 0;
+          const fieldIcon = hasFields ? ' &#128221;' : '';
+          html += '<div class="trans-item" data-action="transition" data-key="' + issueKey + '" data-tid="' + t.id + '">';
+          html += '<span>' + t.name + fieldIcon + '</span>';
+          html += '<span style="font-size:.7rem;color:#9e9e9e">\u2192 ' + (t.to?.name || '') + '</span></div>';
+        });
+      }
+      document.getElementById('transList').innerHTML = html;
+      // Event delegation for clicks
+      document.getElementById('transList').querySelectorAll('.trans-item').forEach(el => {
+        el.addEventListener('click', function() {
+          const action = this.dataset.action;
+          const key = this.dataset.key;
+          if (action === 'assignee') changeAssignee(key);
+          else if (action === 'transition') prepareTransition(key, this.dataset.tid);
+        });
+      });
+    } catch(e) {
+      document.getElementById('transList').innerHTML = '<div style="color:#c62828;font-size:.8rem">Error: ' + e.message + '</div>';
+    }
+  }
+
+  async function prepareTransition(issueKey, transitionId) {
+    const t = transitionsCache[transitionId];
+    if (!t) return;
+    const fields = t.fields || {};
+    const fieldKeys = Object.keys(fields);
+    // Load users for assignee dropdown
+    const users = await loadUsers();
+    // Build form
+    let formHtml = `<div style="margin-bottom:.8rem;font-weight:600;color:#1a237e">${t.name} \u2192 ${t.to?.name || ''}</div>`;
+    formHtml += '<div style="display:flex;flex-direction:column;gap:.6rem">';
+    // Assignee field (always shown) - searchable
+    formHtml += '<div><label style="font-size:.78rem;font-weight:600">&#128100; Reasignar (opcional)</label>';
+    formHtml += '<input type="text" id="tf-assignee-search" placeholder="Buscar responsable..." style="width:100%;padding:.35rem .5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.78rem;margin-top:.2rem" oninput="filterTransAssignee()">';
+    formHtml += '<input type="hidden" id="tf-assignee" value="">';
+    formHtml += '<div id="tf-assignee-list" style="max-height:120px;overflow-y:auto;border:1px solid #eee;border-radius:6px;display:none;margin-top:.2rem">';
+    formHtml += '<div class="taopt" data-id="" style="padding:.35rem .5rem;cursor:pointer;font-size:.75rem;border-bottom:1px solid #f5f5f5;color:#9e9e9e">No cambiar</div>';
+    users.forEach(u => { formHtml += '<div class="taopt" data-id="' + u.id + '" style="padding:.35rem .5rem;cursor:pointer;font-size:.75rem;border-bottom:1px solid #f5f5f5">' + u.name + '</div>'; });
+    formHtml += '</div></div>';
+    fieldKeys.forEach(fk => {
+      const fv = fields[fk];
+      const name = fv.name || fk;
+      const ftype = fv.schema?.type || '';
+      const req = fv.required ? ' *' : '';
+      if (ftype === 'datetime' || ftype === 'date') {
+        formHtml += `<div style="margin-bottom:.3rem"><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <div style="display:flex;gap:.4rem;align-items:center;margin-top:.2rem">
+            <input type="date" id="tf-${fk}-date" style="flex:1;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem">
+            <input type="time" id="tf-${fk}-time" value="09:00" style="width:100px;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem">
+            <span id="tf-${fk}-check" style="color:#ccc;font-size:1rem">&#9675;</span>
+          </div>
+          <input type="hidden" id="tf-${fk}">
+        </div>`;
+      } else if (ftype === 'option' || ftype === 'option-with-child') {
+        const opts = fv.allowedValues || [];
+        formHtml += `<div><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <select id="tf-${fk}" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem">
+          <option value="">-- Seleccionar --</option>`;
+        opts.forEach(o => {
+          const val = o.id || o.value || '';
+          const label = o.name || o.value || val;
+          const children = o.children || [];
+          formHtml += `<option value="${val}">${label}</option>`;
+        });
+        formHtml += '</select></div>';
+      } else {
+        formHtml += `<div><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <input type="text" id="tf-${fk}" placeholder="${name}" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem"></div>`;
+      }
+    });
+    formHtml += '</div>';
+    formHtml += `<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">
+      <button onclick="goBackToList()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">\u2190 Volver</button>
+      <button id="applyTransBtn" style="padding:.4rem .8rem;border:none;border-radius:6px;background:#1a237e;color:#fff;cursor:pointer;font-size:.8rem;font-weight:600">Aplicar</button>
+    </div>`;
+    document.getElementById('transList').innerHTML = formHtml;
+    // Bind click after DOM is ready
+    document.getElementById('applyTransBtn').addEventListener('click', function() {
+      submitTransition(issueKey, transitionId, t.name, fieldKeys);
+    });
+    bindTransAssigneeClicks();
+    // Bind date+time fields to hidden combined field
+    fieldKeys.forEach(fk => {
+      const fv = fields[fk];
+      const ftype = fv?.schema?.type || '';
+      if (ftype === 'datetime' || ftype === 'date') {
+        const dateEl = document.getElementById('tf-' + fk + '-date');
+        const timeEl = document.getElementById('tf-' + fk + '-time');
+        const hiddenEl = document.getElementById('tf-' + fk);
+        const checkEl = document.getElementById('tf-' + fk + '-check');
+        function syncDate() {
+          if (dateEl.value) {
+            hiddenEl.value = dateEl.value + 'T' + (timeEl.value || '09:00');
+            checkEl.innerHTML = '&#9989;';
+            checkEl.style.color = '#2e7d32';
+          } else {
+            hiddenEl.value = '';
+            checkEl.innerHTML = '&#9675;';
+            checkEl.style.color = '#ccc';
+          }
+        }
+        dateEl.addEventListener('change', syncDate);
+        timeEl.addEventListener('change', syncDate);
+      }
+    });
+  }
+
+  function goBackToList() {
+    openTransitions(null, currentTransKey);
+  }
+
+  function submitTransition(issueKey, transitionId, transitionName, fieldKeys) {
+    const t = transitionsCache[transitionId];
+    const fields = t?.fields || {};
+    const payload = {};
+    for (const fk of fieldKeys) {
+      const el = document.getElementById('tf-' + fk);
+      if (!el || !el.value) continue;
+      const fv = fields[fk];
+      const ftype = fv?.schema?.type || '';
+      if (ftype === 'datetime' || ftype === 'date') {
+        const d = new Date(el.value);
+        payload[fk] = d.toISOString().replace('Z','+0000');
+      } else if (ftype === 'option') {
+        payload[fk] = { id: el.value };
+      } else if (ftype === 'option-with-child') {
+        payload[fk] = { id: el.value };
+      } else {
+        payload[fk] = el.value;
+      }
+    }
+    // Handle assignee separately
+    const assigneeEl = document.getElementById('tf-assignee');
+    const assigneeId = assigneeEl ? assigneeEl.value : '';
+    doTransition(issueKey, transitionId, transitionName, payload, assigneeId);
+  }
+
+  async function doTransition(issueKey, transitionId, transitionName, fieldPayload, assigneeId) {
+    document.getElementById('transStatus').textContent = `Aplicando "${transitionName}"...`;
+    const body = { transition: { id: transitionId } };
+    if (fieldPayload && Object.keys(fieldPayload).length > 0) {
+      body.fields = fieldPayload;
+    }
+    try {
+      const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/transitions`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body)
+      });
+      if (!resp.ok) {
+        const err = await resp.text();
+        throw new Error('Error ' + resp.status + ': ' + err.substring(0, 200));
+      }
+      document.getElementById('transStatus').textContent = `\u2705 "${transitionName}" aplicado`;
+      // Reassign if requested
+      if (assigneeId) {
+        try {
+          await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/assignee`, {
+            method: 'PUT', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({accountId: assigneeId})
+          });
+        } catch(e) {}
+      }
+      const rows = document.querySelectorAll('#mainTable tbody tr');
+      rows.forEach(row => {
+        const link = row.cells[0].querySelector('a');
+        if (link && link.textContent.trim() === issueKey) {
+          fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}?fields=status,assignee`)
+            .then(r => r.json())
+            .then(d => {
+              const newStatus = d.fields?.status?.name || transitionName;
+              row.dataset.status = newStatus;
+              const badge = row.cells[6].querySelector('.badge');
+              if (badge) { badge.textContent = newStatus; badge.style.background = gSC(newStatus); }
+              flash(row.cells[6]);
+              const newA = d.fields?.assignee?.displayName || 'Sin asignar';
+              if (newA !== row.dataset.assignee) {
+                row.dataset.assignee = newA;
+                row.cells[4].textContent = newA;
+                flash(row.cells[4]);
+              }
+            });
+        }
+      });
+      setTimeout(closeTransModal, 1500);
+    } catch(e) {
+      document.getElementById('transStatus').textContent = `\u274c ${e.message}`;
+    }
+  }
+
+  function closeTransModal() {
+    document.getElementById('transModal').classList.remove('open');
+    document.querySelector('.trans-close').style.display = '';
+  }
+  // Close modal on backdrop click
+  document.getElementById('transModal').addEventListener('click', function(e) {
+    if (e.target === this) closeTransModal();
+  });
   </script>
 </main>
 <footer>
