@@ -130,7 +130,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:55</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 22:04</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -2590,7 +2590,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     const s = badge.dataset.s, p = badge.dataset.p, risk = badge.dataset.risk;
     const impactLabel = {'3':'Masivo','2':'Alto','1':'Medio','0.5':'Bajo','0.25':'Minimo'}[i] || i;
     const confLabel = {'1':'Alta (100%)','0.8':'Media (80%)','0.5':'Baja (50%)'}[c] || (c*100)+'%';
-    pop.innerHTML = '<h4><span>RICE: ' + p + ' (' + s + ')</span><span style="cursor:pointer;color:#9e9e9e;font-size:.9rem" onclick="document.getElementById('ricePop').classList.remove('open')">&times;</span></h4>'
+    pop.innerHTML = '<h4><span>RICE: ' + p + ' (' + s + ')</span><span style="cursor:pointer;color:#9e9e9e;font-size:.9rem" id="ricePopClose">&times;</span></h4>'
       + '<div class="rvar"><span class="lbl">Reach (Alcance)</span><span class="val">' + r + ' / 100</span></div>'
       + '<div class="rvar"><span class="lbl">Impact (Impacto)</span><span class="val">' + i + ' — ' + impactLabel + '</span></div>'
       + '<div class="rvar"><span class="lbl">Confidence (Confianza)</span><span class="val">' + confLabel + '</span></div>'
@@ -2606,6 +2606,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     pop.style.top = top + 'px';
     pop.style.left = left + 'px';
     pop.classList.add('open');
+    document.getElementById('ricePopClose').addEventListener('click', function() { pop.classList.remove('open'); });
   });
 
   // ── Jira Live Refresh ──
@@ -3022,7 +3023,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 21:55 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 22:04 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
