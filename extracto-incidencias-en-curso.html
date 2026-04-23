@@ -119,7 +119,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 20:55</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 20:59</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -2898,7 +2898,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
       transitionsCache = {};
       let html = '';
       // Assignee button at top
-      html += '<div class="trans-item" onclick="changeAssignee('' + issueKey + '')" style="background:#f5f5ff;border-color:#1a237e"><span>👤 Cambiar responsable</span><span style="font-size:.7rem;color:#1a237e">Reasignar</span></div>';
+      html += '<div class="trans-item" data-action="assignee" data-key="' + issueKey + '" style="background:#f5f5ff;border-color:#1a237e"><span>&#128100; Cambiar responsable</span><span style="font-size:.7rem;color:#1a237e">Reasignar</span></div>';
       if (transitions.length === 0) {
         html += '<div style="color:#e65100;font-size:.8rem;margin-top:.5rem">No hay transiciones de estado disponibles</div>';
       } else {
@@ -2906,12 +2906,21 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           transitionsCache[t.id] = t;
           const hasFields = t.fields && Object.keys(t.fields).length > 0;
           const fieldIcon = hasFields ? ' &#128221;' : '';
-          html += '<div class="trans-item" onclick="prepareTransition('' + issueKey + '','' + t.id + '')">';
+          html += '<div class="trans-item" data-action="transition" data-key="' + issueKey + '" data-tid="' + t.id + '">';
           html += '<span>' + t.name + fieldIcon + '</span>';
           html += '<span style="font-size:.7rem;color:#9e9e9e">→ ' + (t.to?.name || '') + '</span></div>';
         });
       }
       document.getElementById('transList').innerHTML = html;
+      // Event delegation for clicks
+      document.getElementById('transList').querySelectorAll('.trans-item').forEach(el => {
+        el.addEventListener('click', function() {
+          const action = this.dataset.action;
+          const key = this.dataset.key;
+          if (action === 'assignee') changeAssignee(key);
+          else if (action === 'transition') prepareTransition(key, this.dataset.tid);
+        });
+      });
     } catch(e) {
       document.getElementById('transList').innerHTML = '<div style="color:#c62828;font-size:.8rem">Error: ' + e.message + '</div>';
     }
@@ -3062,7 +3071,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 20:55 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 20:59 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
