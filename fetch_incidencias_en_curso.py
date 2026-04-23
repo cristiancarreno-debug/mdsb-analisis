@@ -540,7 +540,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
           <th onclick="sortT(6)">Estado ↕</th>
           <th>Acción</th>
           <th onclick="sortT(8)">RICE ↕</th>
-          <th>Notas PO</th>
+          <th style="min-width:140px">Observaciones <input type="text" id="notesFilter" placeholder="Filtrar..." oninput="filterAll()" style="display:block;width:100%;margin-top:.2rem;padding:.15rem .3rem;border:1px solid rgba(255,255,255,.3);border-radius:4px;font-size:.62rem;background:rgba(255,255,255,.1);color:#fff"></th>
         </tr>
       </thead>
       <tbody>
@@ -698,13 +698,18 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
 
   function filterAll() {
     const search = document.getElementById('searchBox').value.toLowerCase();
+    const notesQ = (document.getElementById('notesFilter') ? document.getElementById('notesFilter').value.toLowerCase() : '');
     const sets = {};
     FILTERS.forEach(fid => sets[fid] = new Set(getChecked(fid)));
+    const notes = JSON.parse(localStorage.getItem('poNotes') || '{}');
     const rows = document.querySelectorAll('#mainTable tbody tr');
     let visible = 0;
     rows.forEach(row => {
       const text = row.textContent.toLowerCase();
+      const key = row.querySelector('a') ? row.querySelector('a').textContent.trim() : '';
+      const noteText = (notes[key] || '').toLowerCase();
       const ok = (!search || text.includes(search))
+        && (!notesQ || noteText.includes(notesQ))
         && sets.fEquipo.has(row.dataset.equipo)
         && sets.fTipo.has(row.dataset.tipo)
         && sets.fStatus.has(row.dataset.status)
