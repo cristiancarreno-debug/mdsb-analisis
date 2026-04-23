@@ -1,0 +1,42 @@
+name: Refresh Jira Data
+
+on:
+  # Cada 2 horas a partir de las 3 PM Colombia (UTC-5 = 20:00 UTC)
+  # 20:00, 22:00, 00:00, 02:00, 04:00 UTC = 3PM, 5PM, 7PM, 9PM, 11PM COT
+  schedule:
+    - cron: '0 20,22,0,2,4 * * 1-5'  # Lunes a Viernes
+  # Manual trigger - ejecutar por comando
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run fetch script
+        env:
+          JIRA_USER: ${{ secrets.JIRA_USER }}
+          JIRA_TOKEN: ${{ secrets.JIRA_TOKEN }}
+        run: python3 fetch_incidencias_en_curso.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add extracto-incidencias-en-curso.html incidencias_en_curso.json
+          if git diff --staged --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "auto: refresh Jira data $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
