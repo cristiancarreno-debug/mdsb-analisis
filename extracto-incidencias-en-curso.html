@@ -130,7 +130,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:41</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:51</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -2574,10 +2574,19 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   updateCounts();
 
   // ── RICE Detail Popover ──
-  document.addEventListener('click', function(e) {
-    const badge = e.target.closest('.rice-detail');
+  // Close popover when clicking outside
+  document.addEventListener('mousedown', function(e) {
     const pop = document.getElementById('ricePop');
-    if (!badge) { pop.classList.remove('open'); return; }
+    if (pop.classList.contains('open') && !e.target.closest('.rice-pop') && !e.target.closest('.rice-detail')) {
+      pop.classList.remove('open');
+    }
+  });
+  // Open popover on RICE badge click
+  document.querySelector('#mainTable').addEventListener('click', function(e) {
+    const badge = e.target.closest('.rice-detail');
+    if (!badge) return;
+    e.stopPropagation();
+    const pop = document.getElementById('ricePop');
     const r = badge.dataset.r, i = badge.dataset.i, c = badge.dataset.c, ef = badge.dataset.e;
     const s = badge.dataset.s, p = badge.dataset.p, risk = badge.dataset.risk;
     const impactLabel = {'3':'Masivo','2':'Alto','1':'Medio','0.5':'Bajo','0.25':'Minimo'}[i] || i;
@@ -3014,7 +3023,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 21:41 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 21:51 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
