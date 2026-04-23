@@ -119,7 +119,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 20:59</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 21:07</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -211,12 +211,12 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
         </div>
         <div class="fl">
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Ana Maria Shaker Medina" checked onchange="filterAll()"> <span class="fl-text">Ana Maria Shaker Medina</span> <span class="fcnt">9</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Cristian David Carreño Ruiz" checked onchange="filterAll()"> <span class="fl-text">Cristian David Carreño Ruiz</span> <span class="fcnt">21</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Cristian David Carreño Ruiz" checked onchange="filterAll()"> <span class="fl-text">Cristian David Carreño Ruiz</span> <span class="fcnt">20</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Gonzalo Chaparro Lopez" checked onchange="filterAll()"> <span class="fl-text">Gonzalo Chaparro Lopez</span> <span class="fcnt">2</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Julian David Martinez Marroquin" checked onchange="filterAll()"> <span class="fl-text">Julian David Martinez Marroquin</span> <span class="fcnt">5</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="MARIA CRISTINA GONZALEZ ARDILA [X]" checked onchange="filterAll()"> <span class="fl-text">MARIA CRISTINA GONZALEZ ARDILA [X]</span> <span class="fcnt">12</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Mónica Patiño" checked onchange="filterAll()"> <span class="fl-text">Mónica Patiño</span> <span class="fcnt">1</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Omar Fernando Otavo García" checked onchange="filterAll()"> <span class="fl-text">Omar Fernando Otavo García</span> <span class="fcnt">61</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Omar Fernando Otavo García" checked onchange="filterAll()"> <span class="fl-text">Omar Fernando Otavo García</span> <span class="fcnt">62</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Ricardo Arturo Salamanca Mora" checked onchange="filterAll()"> <span class="fl-text">Ricardo Arturo Salamanca Mora</span> <span class="fcnt">5</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Santiago Hurtado Solis" checked onchange="filterAll()"> <span class="fl-text">Santiago Hurtado Solis</span> <span class="fcnt">3</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fAssignee" value="Sheila Paola Uhia Kanmerer" checked onchange="filterAll()"> <span class="fl-text">Sheila Paola Uhia Kanmerer</span> <span class="fcnt">4</span></label>
@@ -280,13 +280,13 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
         </tr>
       </thead>
       <tbody>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1423 - Automatización de pruebas" data-rice="Baja">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Omar Fernando Otavo García" data-epic="GD941-1423 - Automatización de pruebas" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1432" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1432</a></td>
           <td style="max-width:320px">Item de prueba de actualización de kiro</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
           <td><span class="badge" style="background:#43a047">Mejora</span></td>
           <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1423 - Automatización de pruebas">GD941-1423 - Automatización de pruebas</td>
-          <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz <span style="cursor:pointer;opacity:.4;font-size:.7rem" onclick="changeAssignee('GD941-1432')" title="Cambiar responsable">&#9998;</span></td>
+          <td style="white-space:nowrap;font-size:.78rem">Omar Fernando Otavo García <span style="cursor:pointer;opacity:.4;font-size:.7rem" onclick="changeAssignee('GD941-1432')" title="Cambiar responsable">&#9998;</span></td>
           <td style="white-space:nowrap">2026-04-22</td>
           <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
           <td style="text-align:center"><button class="action-btn" onclick="openTransitions(this,'GD941-1432')" title="Cambiar estado">⚡</button></td>
@@ -2843,43 +2843,79 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 
   async function changeAssignee(issueKey) {
     const users = await loadUsers();
-    const current = '';
-    let html = '<div style="font-weight:600;color:#1a237e;margin-bottom:.6rem">👤 Reasignar ' + issueKey + '</div>';
-    html += '<select id="assigneeSelect" style="width:100%;padding:.5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.82rem"><option value="">-- Sin asignar --</option>';
-    users.forEach(u => { html += '<option value="' + u.id + '">' + u.name + '</option>'; });
-    html += '</select>';
+    let html = '<div style="font-weight:600;color:#1a237e;margin-bottom:.6rem">&#128100; Reasignar ' + issueKey + '</div>';
+    html += '<input type="text" id="assigneeSearch" placeholder="Buscar responsable..." style="width:100%;padding:.5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.82rem;margin-bottom:.4rem" oninput="filterAssigneeList()">';
+    html += '<div id="assigneeList" style="max-height:220px;overflow-y:auto;border:1px solid #eee;border-radius:6px">';
+    html += '<div class="aopt" data-id="" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5;color:#9e9e9e">Sin asignar</div>';
+    users.forEach(u => {
+      html += '<div class="aopt" data-id="' + u.id + '" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5">' + u.name + '</div>';
+    });
+    html += '</div>';
     html += '<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">';
     html += '<button onclick="closeTransModal()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">Cancelar</button>';
-    html += '<button id="assignBtn" style="padding:.4rem .8rem;border:none;border-radius:6px;background:#1a237e;color:#fff;cursor:pointer;font-size:.8rem;font-weight:600">Asignar</button>';
     html += '</div>';
     document.getElementById('transKey').textContent = issueKey;
     document.getElementById('transList').innerHTML = html;
     document.getElementById('transStatus').textContent = '';
     document.getElementById('transModal').classList.add('open');
-    document.getElementById('assignBtn').addEventListener('click', async function() {
-      const sel = document.getElementById('assigneeSelect');
-      const accountId = sel.value;
-      document.getElementById('transStatus').textContent = 'Asignando...';
-      try {
-        const body = accountId ? {accountId: accountId} : null;
-        const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/assignee`, {
-          method: 'PUT',
-          headers: {'Content-Type':'application/json'},
-          body: JSON.stringify(body)
-        });
-        if (!resp.ok) { const e = await resp.text(); throw new Error(e.substring(0,150)); }
-        const newName = accountId ? sel.options[sel.selectedIndex].text : 'Sin asignar';
-        document.getElementById('transStatus').textContent = '✅ Asignado a ' + newName;
-        document.querySelectorAll('#mainTable tbody tr').forEach(row => {
-          const link = row.cells[0].querySelector('a');
-          if (link && link.textContent.trim() === issueKey) {
-            row.dataset.assignee = newName;
-            row.cells[5].textContent = newName;
-            flash(row.cells[5]);
-          }
-        });
-        setTimeout(closeTransModal, 1200);
-      } catch(e) { document.getElementById('transStatus').textContent = '❌ ' + e.message; }
+    // Focus search
+    document.getElementById('assigneeSearch').focus();
+    // Hover effect + click
+    document.querySelectorAll('#assigneeList .aopt').forEach(el => {
+      el.addEventListener('mouseenter', function() { this.style.background = '#e8eaf6'; });
+      el.addEventListener('mouseleave', function() { this.style.background = ''; });
+      el.addEventListener('click', async function() {
+        const accountId = this.dataset.id;
+        const name = this.textContent.trim();
+        document.getElementById('transStatus').textContent = 'Asignando a ' + name + '...';
+        try {
+          const body = accountId ? {accountId: accountId} : null;
+          const resp = await fetch(PROXY_BASE + '/rest/api/3/issue/' + issueKey + '/assignee', {
+            method: 'PUT', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify(body)
+          });
+          if (!resp.ok) { const e = await resp.text(); throw new Error(e.substring(0,150)); }
+          const newName = accountId ? name : 'Sin asignar';
+          document.getElementById('transStatus').textContent = '✅ Asignado a ' + newName;
+          document.querySelectorAll('#mainTable tbody tr').forEach(row => {
+            const link = row.cells[0].querySelector('a');
+            if (link && link.textContent.trim() === issueKey) {
+              row.dataset.assignee = newName;
+              row.cells[5].childNodes[0].textContent = newName + ' ';
+              flash(row.cells[5]);
+            }
+          });
+          setTimeout(closeTransModal, 1200);
+        } catch(e) { document.getElementById('transStatus').textContent = '❌ ' + e.message; }
+      });
+    });
+  }
+
+  function filterAssigneeList() {
+    const q = document.getElementById('assigneeSearch').value.toLowerCase();
+    document.querySelectorAll('#assigneeList .aopt').forEach(el => {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+
+  function filterTransAssignee() {
+    const q = document.getElementById('tf-assignee-search').value.toLowerCase();
+    const list = document.getElementById('tf-assignee-list');
+    list.style.display = q.length > 0 ? '' : 'none';
+    list.querySelectorAll('.taopt').forEach(el => {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+
+  function bindTransAssigneeClicks() {
+    document.querySelectorAll('#tf-assignee-list .taopt').forEach(el => {
+      el.addEventListener('mouseenter', function() { this.style.background = '#e8eaf6'; });
+      el.addEventListener('mouseleave', function() { this.style.background = ''; });
+      el.addEventListener('click', function() {
+        document.getElementById('tf-assignee').value = this.dataset.id;
+        document.getElementById('tf-assignee-search').value = this.dataset.id ? this.textContent.trim() : '';
+        document.getElementById('tf-assignee-list').style.display = 'none';
+      });
     });
   }
 
@@ -2936,11 +2972,14 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     // Build form
     let formHtml = `<div style="margin-bottom:.8rem;font-weight:600;color:#1a237e">${t.name} → ${t.to?.name || ''}</div>`;
     formHtml += '<div style="display:flex;flex-direction:column;gap:.6rem">';
-    // Assignee field (always shown)
+    // Assignee field (always shown) - searchable
     formHtml += '<div><label style="font-size:.78rem;font-weight:600">&#128100; Reasignar (opcional)</label>';
-    formHtml += '<select id="tf-assignee" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem"><option value="">-- No cambiar --</option>';
-    users.forEach(u => { formHtml += '<option value="' + u.id + '">' + u.name + '</option>'; });
-    formHtml += '</select></div>';
+    formHtml += '<input type="text" id="tf-assignee-search" placeholder="Buscar responsable..." style="width:100%;padding:.35rem .5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.78rem;margin-top:.2rem" oninput="filterTransAssignee()">';
+    formHtml += '<input type="hidden" id="tf-assignee" value="">';
+    formHtml += '<div id="tf-assignee-list" style="max-height:120px;overflow-y:auto;border:1px solid #eee;border-radius:6px;display:none;margin-top:.2rem">';
+    formHtml += '<div class="taopt" data-id="" style="padding:.35rem .5rem;cursor:pointer;font-size:.75rem;border-bottom:1px solid #f5f5f5;color:#9e9e9e">No cambiar</div>';
+    users.forEach(u => { formHtml += '<div class="taopt" data-id="' + u.id + '" style="padding:.35rem .5rem;cursor:pointer;font-size:.75rem;border-bottom:1px solid #f5f5f5">' + u.name + '</div>'; });
+    formHtml += '</div></div>';
     fieldKeys.forEach(fk => {
       const fv = fields[fk];
       const name = fv.name || fk;
@@ -2976,6 +3015,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     document.getElementById('applyTransBtn').addEventListener('click', function() {
       submitTransition(issueKey, transitionId, t.name, fieldKeys);
     });
+    bindTransAssigneeClicks();
   }
 
   function goBackToList() {
@@ -3071,7 +3111,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 20:59 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 21:07 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
