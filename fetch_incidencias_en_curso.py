@@ -11,15 +11,6 @@ from datetime import datetime
 
 USER = os.environ.get("JIRA_USER", "")
 TOKEN = os.environ.get("JIRA_TOKEN", "")
-if not USER or not TOKEN:
-    _cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env.local")
-    if os.path.exists(_cfg):
-        for line in open(_cfg):
-            if line.startswith("JIRA_USER="): USER = line.strip().split("=",1)[1]
-            if line.startswith("JIRA_TOKEN="): TOKEN = line.strip().split("=",1)[1]
-    if not USER or not TOKEN:
-        print("Set JIRA_USER and JIRA_TOKEN env vars or create .env.local")
-        exit(1)
 BASE_URL = "https://jirasegurosbolivar.atlassian.net"
 AUTH = base64.b64encode(f"{USER}:{TOKEN}".encode()).decode()
 
@@ -329,17 +320,18 @@ def cb_html(fid, icon, label, items, wide=False):
     h = f'''<div class="fd{' fd-wide' if wide else ''}">
       <button class="fb" onclick="toggleDD('{fid}')">{icon} {label} <span class="fc" id="{fid}-c"></span><span class="arrow">▾</span></button>
       <div class="fp" id="{fid}-p" style="min-width:{w}px">
-        <div class="fp-search"><input type="text" placeholder="Buscar..." oninput="searchFilter('{fid}',this.value)"></div>
+        <div class="fp-search"><input type="text" placeholder="Buscar y filtrar..." oninput="searchFilter('{fid}',this.value)" onkeydown="if(event.key==='Enter')selectOnlyVisible('{fid}')"></div>
         <div class="fa">
-          <a href="#" onclick="tAll('{fid}',true);return false">✓ Todos</a>
-          <a href="#" onclick="tAll('{fid}',false);return false">✗ Ninguno</a>
+          <a href="#" onclick="tAll('{fid}',true);return false">&#10003; Todos</a>
+          <a href="#" onclick="tAll('{fid}',false);return false">&#10007; Ninguno</a>
+          <a href="#" onclick="selectOnlyVisible('{fid}');return false">&#9654; Solo visibles</a>
         </div>
         <div class="fl">
 '''
     for item in sorted(items.keys()):
         cnt = items[item]
         safe = esc(item)
-        h += f'          <label><input type="checkbox" class="fcb" data-filter="{fid}" value="{safe}" checked onchange="filterAll()"> <span class="fl-text">{safe}</span> <span class="fcnt">{cnt}</span></label>\n'
+        h += f'          <label><input type="checkbox" class="fcb" data-filter="{fid}" value="{safe}" checked onchange="filterAll()"> <span class="fl-text">{safe}</span> <span class="fcnt">{cnt}</span> <span class="fl-only" onclick="selectOnly(\'{fid}\',\'{safe}\');event.stopPropagation()">solo</span></label>\n'
     h += '        </div>\n      </div>\n    </div>'
     return h
 
@@ -438,6 +430,8 @@ main{{max-width:1600px;margin:0 auto;padding:1.5rem 2rem}}
 .fl input[type=checkbox]{{margin:0;accent-color:#1a237e;flex-shrink:0}}
 .fl-text{{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 .fcnt{{color:#bbb;font-size:.68rem;flex-shrink:0}}
+.fl-only{{color:#1a237e;font-size:.62rem;cursor:pointer;opacity:0;transition:opacity .15s;margin-left:.2rem;text-decoration:underline}}
+.fl label:hover .fl-only{{opacity:1}}
 
 /* Table */
 .table-wrap{{overflow-x:auto;border-radius:12px;box-shadow:0 1px 6px rgba(0,0,0,.06);margin-bottom:.4rem}}
@@ -624,6 +618,21 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     document.querySelectorAll(`#${fid}-p .fl label`).forEach(lbl => {
       lbl.style.display = lbl.textContent.toLowerCase().includes(q) ? '' : 'none';
     });
+  }
+
+  function selectOnly(fid, value) {
+    document.querySelectorAll(`input.fcb[data-filter="${fid}"]`).forEach(cb => {
+      cb.checked = (cb.value === value);
+    });
+    filterAll();
+  }
+
+  function selectOnlyVisible(fid) {
+    document.querySelectorAll(`#${fid}-p .fl label`).forEach(lbl => {
+      var cb = lbl.querySelector('input');
+      cb.checked = (lbl.style.display !== 'none');
+    });
+    filterAll();
   }
 
   function getChecked(fid) {
