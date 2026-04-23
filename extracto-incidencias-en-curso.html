@@ -117,7 +117,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
 </header>
 <main>
   <a href="index.html" class="back-link">← Volver al índice</a>
-  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 20:31</p>
+  <p style="color:#9e9e9e;font-size:.78rem;margin-bottom:1rem">Generado: 22 de abril de 2026, 20:35</p>
 
   <div class="kpis">
     <div class="kpi"><div class="n">102</div><div class="l">Incidente</div></div>
@@ -173,13 +173,13 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <a href="#" onclick="tAll('fStatus',false);return false">✗ Ninguno</a>
         </div>
         <div class="fl">
-          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Backlog" checked onchange="filterAll()"> <span class="fl-text">Backlog</span> <span class="fcnt">69</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Backlog" checked onchange="filterAll()"> <span class="fl-text">Backlog</span> <span class="fcnt">68</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Bloqueado" checked onchange="filterAll()"> <span class="fl-text">Bloqueado</span> <span class="fcnt">4</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="En Progreso" checked onchange="filterAll()"> <span class="fl-text">En Progreso</span> <span class="fcnt">24</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="En Pruebas QA" checked onchange="filterAll()"> <span class="fl-text">En Pruebas QA</span> <span class="fcnt">33</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="En Pruebas UAT" checked onchange="filterAll()"> <span class="fl-text">En Pruebas UAT</span> <span class="fcnt">15</span></label>
           <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Pendiente PAP" checked onchange="filterAll()"> <span class="fl-text">Pendiente PAP</span> <span class="fcnt">11</span></label>
-          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Por Hacer" checked onchange="filterAll()"> <span class="fl-text">Por Hacer</span> <span class="fcnt">37</span></label>
+          <label><input type="checkbox" class="fcb" data-filter="fStatus" value="Por Hacer" checked onchange="filterAll()"> <span class="fl-text">Por Hacer</span> <span class="fcnt">38</span></label>
         </div>
       </div>
     </div>
@@ -278,7 +278,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
         </tr>
       </thead>
       <tbody>
-        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Backlog" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1423 - Automatización de pruebas" data-rice="Baja">
+        <tr data-equipo="EO Cumplimiento" data-tipo="Mejora" data-status="Por Hacer" data-assignee="Cristian David Carreño Ruiz" data-epic="GD941-1423 - Automatización de pruebas" data-rice="Baja">
           <td><a href="https://jirasegurosbolivar.atlassian.net/browse/GD941-1432" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">GD941-1432</a></td>
           <td style="max-width:320px">Item de prueba de actualización de kiro</td>
           <td><span class="badge" style="background:#1565c0">EO Cumplimiento</span></td>
@@ -286,7 +286,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
           <td style="font-size:.73rem;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="GD941-1423 - Automatización de pruebas">GD941-1423 - Automatización de pruebas</td>
           <td style="white-space:nowrap;font-size:.78rem">Cristian David Carreño Ruiz</td>
           <td style="white-space:nowrap">2026-04-22</td>
-          <td><span class="badge" style="background:#9e9e9e">Backlog</span></td>
+          <td><span class="badge" style="background:#9e9e9e">Por Hacer</span></td>
           <td style="text-align:center"><button class="action-btn" onclick="openTransitions(this,'GD941-1432')" title="Cambiar estado">⚡</button></td>
           <td style="text-align:center"><span class="badge" style="background:#2e7d32" title="Score: 6.2 | R:25 I:1 C:0.5 E:2 | mejora funcional">Baja (6.2)</span></td>
         </tr>
@@ -2820,6 +2820,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   // ── Jira Transitions (via Cloudflare Worker proxy) ──
   const PROXY_BASE = 'https://delicate-morning-e673jira-proxy.cristian-carreno.workers.dev';
   let currentTransKey = '';
+  let transitionsCache = {};
 
   async function openTransitions(btn, issueKey) {
     currentTransKey = issueKey;
@@ -2829,46 +2830,124 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
     document.getElementById('transModal').classList.add('open');
 
     try {
-      const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/transitions`);
+      const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/transitions?expand=transitions.fields`);
       if (!resp.ok) throw new Error('Error ' + resp.status);
       const data = await resp.json();
       const transitions = data.transitions || [];
+      transitionsCache = {};
       if (transitions.length === 0) {
         document.getElementById('transList').innerHTML = '<div style="color:#e65100;font-size:.8rem">No hay transiciones disponibles</div>';
         return;
       }
       let html = '';
       transitions.forEach(t => {
-        html += `<div class="trans-item" onclick="doTransition('${issueKey}','${t.id}','${t.name.replace(/'/g,"\'")}')">
-          <span>${t.name}</span>
+        transitionsCache[t.id] = t;
+        const hasFields = t.fields && Object.keys(t.fields).length > 0;
+        const fieldIcon = hasFields ? ' 📝' : '';
+        html += `<div class="trans-item" onclick="prepareTransition('${issueKey}','${t.id}')">
+          <span>${t.name}${fieldIcon}</span>
           <span style="font-size:.7rem;color:#9e9e9e">→ ${t.to?.name || ''}</span>
         </div>`;
       });
       document.getElementById('transList').innerHTML = html;
     } catch(e) {
-      document.getElementById('transList').innerHTML = `<div style="color:#c62828;font-size:.8rem">Error: ${e.message}<br><br>Si el proxy no está configurado, despliega el Worker de Cloudflare (ver worker-jira-proxy.js)</div>`;
+      document.getElementById('transList').innerHTML = `<div style="color:#c62828;font-size:.8rem">Error: ${e.message}</div>`;
     }
   }
 
-  async function doTransition(issueKey, transitionId, transitionName) {
+  function prepareTransition(issueKey, transitionId) {
+    const t = transitionsCache[transitionId];
+    if (!t) return;
+    const fields = t.fields || {};
+    const fieldKeys = Object.keys(fields);
+    if (fieldKeys.length === 0) {
+      doTransition(issueKey, transitionId, t.name, {});
+      return;
+    }
+    // Build form for required fields
+    let formHtml = `<div style="margin-bottom:.8rem;font-weight:600;color:#1a237e">${t.name} → ${t.to?.name || ''}</div>`;
+    formHtml += '<div style="display:flex;flex-direction:column;gap:.6rem">';
+    fieldKeys.forEach(fk => {
+      const fv = fields[fk];
+      const name = fv.name || fk;
+      const ftype = fv.schema?.type || '';
+      const req = fv.required ? ' *' : '';
+      if (ftype === 'datetime' || ftype === 'date') {
+        formHtml += `<div><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <input type="datetime-local" id="tf-${fk}" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem"></div>`;
+      } else if (ftype === 'option' || ftype === 'option-with-child') {
+        const opts = fv.allowedValues || [];
+        formHtml += `<div><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <select id="tf-${fk}" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem">
+          <option value="">-- Seleccionar --</option>`;
+        opts.forEach(o => {
+          const val = o.id || o.value || '';
+          const label = o.name || o.value || val;
+          const children = o.children || [];
+          formHtml += `<option value="${val}">${label}</option>`;
+        });
+        formHtml += '</select></div>';
+      } else {
+        formHtml += `<div><label style="font-size:.78rem;font-weight:600">${name}${req}</label>
+          <input type="text" id="tf-${fk}" placeholder="${name}" style="width:100%;padding:.4rem;border:1px solid #dee2e6;border-radius:6px;font-size:.8rem;margin-top:.2rem"></div>`;
+      }
+    });
+    formHtml += '</div>';
+    formHtml += `<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">
+      <button onclick="goBackToList()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">← Volver</button>
+      <button onclick="submitTransition('${issueKey}','${transitionId}','${t.name.replace(/'/g,"\'")}',${JSON.stringify(fieldKeys)})" style="padding:.4rem .8rem;border:none;border-radius:6px;background:#1a237e;color:#fff;cursor:pointer;font-size:.8rem;font-weight:600">Aplicar</button>
+    </div>`;
+    document.getElementById('transList').innerHTML = formHtml;
+  }
+
+  function goBackToList() {
+    openTransitions(null, currentTransKey);
+  }
+
+  function submitTransition(issueKey, transitionId, transitionName, fieldKeys) {
+    const t = transitionsCache[transitionId];
+    const fields = t?.fields || {};
+    const payload = {};
+    for (const fk of fieldKeys) {
+      const el = document.getElementById('tf-' + fk);
+      if (!el || !el.value) continue;
+      const fv = fields[fk];
+      const ftype = fv?.schema?.type || '';
+      if (ftype === 'datetime' || ftype === 'date') {
+        const d = new Date(el.value);
+        payload[fk] = d.toISOString().replace('Z','+0000');
+      } else if (ftype === 'option') {
+        payload[fk] = { id: el.value };
+      } else if (ftype === 'option-with-child') {
+        payload[fk] = { id: el.value };
+      } else {
+        payload[fk] = el.value;
+      }
+    }
+    doTransition(issueKey, transitionId, transitionName, payload);
+  }
+
+  async function doTransition(issueKey, transitionId, transitionName, fieldPayload) {
     document.getElementById('transStatus').textContent = `Aplicando "${transitionName}"...`;
+    const body = { transition: { id: transitionId } };
+    if (fieldPayload && Object.keys(fieldPayload).length > 0) {
+      body.fields = fieldPayload;
+    }
     try {
       const resp = await fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}/transitions`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ transition: { id: transitionId } })
+        body: JSON.stringify(body)
       });
       if (!resp.ok) {
         const err = await resp.text();
-        throw new Error('Error ' + resp.status + ': ' + err.substring(0, 100));
+        throw new Error('Error ' + resp.status + ': ' + err.substring(0, 200));
       }
       document.getElementById('transStatus').textContent = `✅ "${transitionName}" aplicado`;
-      // Update the row in the table
       const rows = document.querySelectorAll('#mainTable tbody tr');
       rows.forEach(row => {
         const link = row.cells[0].querySelector('a');
         if (link && link.textContent.trim() === issueKey) {
-          // Fetch updated status
           fetch(`${PROXY_BASE}/rest/api/3/issue/${issueKey}?fields=status`)
             .then(r => r.json())
             .then(d => {
@@ -2896,7 +2975,7 @@ footer{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-to
   </script>
 </main>
 <footer>
-  Generado automáticamente desde Jira · 22 de abril de 2026, 20:31 · Seguros Bolívar · Tribu Empresas
+  Generado automáticamente desde Jira · 22 de abril de 2026, 20:35 · Seguros Bolívar · Tribu Empresas
 </footer>
 </body>
 </html>
