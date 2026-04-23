@@ -331,7 +331,7 @@ def cb_html(fid, icon, label, items, wide=False):
     for item in sorted(items.keys()):
         cnt = items[item]
         safe = esc(item)
-        h += f'          <label><input type="checkbox" class="fcb" data-filter="{fid}" value="{safe}" checked onchange="filterAll()"> <span class="fl-text">{safe}</span> <span class="fcnt">{cnt}</span> <span class="fl-only" onclick="selectOnly(\'{fid}\',\'{safe}\');event.stopPropagation()">solo</span></label>\n'
+        h += f'          <label><input type="checkbox" class="fcb" data-filter="{fid}" value="{safe}" checked onchange="filterAll()"> <span class="fl-text">{safe}</span> <span class="fcnt">{cnt}</span> <span class="fl-only" data-fid="{fid}" data-val="{safe}">solo</span></label>\n'
     h += '        </div>\n      </div>\n    </div>'
     return h
 
@@ -618,6 +618,13 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     document.querySelectorAll(`#${fid}-p .fl label`).forEach(lbl => {
       lbl.style.display = lbl.textContent.toLowerCase().includes(q) ? '' : 'none';
     });
+    // Auto-select only visible when typing
+    if (q.length > 0) {
+      document.querySelectorAll(`input.fcb[data-filter="${fid}"]`).forEach(cb => {
+        cb.checked = cb.closest('label').style.display !== 'none';
+      });
+      filterAll();
+    }
   }
 
   function selectOnly(fid, value) {
@@ -634,6 +641,15 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     });
     filterAll();
   }
+
+  // Event delegation for "solo" buttons
+  document.addEventListener('click', function(e) {
+    var solo = e.target.closest('.fl-only');
+    if (!solo) return;
+    e.preventDefault();
+    e.stopPropagation();
+    selectOnly(solo.dataset.fid, solo.dataset.val);
+  });
 
   function getChecked(fid) {
     const r = [];
