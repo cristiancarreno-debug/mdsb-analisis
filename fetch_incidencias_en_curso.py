@@ -30,7 +30,7 @@ PROJECTS = [
 
 TYPE_MAP = {
     "Error Productivo": "Incidente",
-    "Defecto QA":       "Incidente",
+    "Defecto QA":       "Defecto QA",
     "Historia":         "Mejora",
     "Spike":            "Spike",
     "Bug":              "Incidente",
@@ -139,6 +139,7 @@ def sc(s):
 def tc(t):
     t = t.lower()
     if "incidente" in t: return "#e53935"
+    if "defecto" in t: return "#ff6f00"
     if "mejora" in t: return "#43a047"
     if "spike" in t: return "#8e24aa"
     return "#607d8b"
