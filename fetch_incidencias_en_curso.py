@@ -966,7 +966,6 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     var rows = document.querySelectorAll('#mainTable tbody tr');
     var persons = {};
     rows.forEach(function(row) {
-      if (row.style.display === 'none') return;
       var assignee = row.dataset.assignee || 'Sin asignar';
       var status = row.dataset.status || '';
       if (!persons[assignee]) persons[assignee] = {total:0, statuses:{}};
