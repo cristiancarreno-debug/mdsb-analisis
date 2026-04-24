@@ -773,7 +773,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
         if (i % 5 === 4) await new Promise(function(r) { setTimeout(r, 200); });
       }
       sts.textContent = '\u2705 ' + keys.length + ' reasignados a ' + (selectedName || 'Sin asignar');
-      setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); }, 1500);
+      setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); rebuildPersonCards(); }, 1500);
     });
   }
   function filterBulkAssignee() {
@@ -843,7 +843,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             if (i % 5 === 4) await new Promise(function(r) { setTimeout(r, 200); });
           }
           sts.textContent = '\u2705 ' + (keys.length - errors) + ' actualizados' + (errors ? ', ' + errors + ' errores' : '');
-          setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); filterAll(); }, 2000);
+          setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); rebuildPersonCards(); filterAll(); }, 2000);
         });
       });
     } catch(e) {
@@ -1117,6 +1117,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     sts.textContent = '✅ '+updated+' cambios, '+errors+' errores — '+now;
     sts.style.color = errors > 0 ? '#e65100' : '#2e7d32';
     filterAll();
+    rebuildPersonCards();
   }
   function flash(el) {
     el.style.outline = '2px solid #4caf50';
@@ -1135,6 +1136,34 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
 
   // ── Jira Transitions (via Cloudflare Worker proxy) ──
   let currentTransKey = '';
+
+  function rebuildPersonCards() {
+    var rows = document.querySelectorAll('#mainTable tbody tr');
+    var persons = {};
+    rows.forEach(function(row) {
+      var a = row.dataset.assignee || 'Sin asignar';
+      var s = row.dataset.status || '';
+      if (!persons[a]) persons[a] = {total:0, statuses:{}};
+      persons[a].total++;
+      persons[a].statuses[s] = (persons[a].statuses[s] || 0) + 1;
+    });
+    var c = document.getElementById('personCards');
+    if (!c) return;
+    var so = ['Backlog','Por Hacer','En Progreso','En Pruebas QA','En Pruebas UAT','Pendiente PAP','Bloqueado'];
+    var sc = {'Backlog':'#9e9e9e','Por Hacer':'#9e9e9e','En Progreso':'#2196F3','En Pruebas QA':'#ff9800','En Pruebas UAT':'#ff9800','Pendiente PAP':'#e67e22','Bloqueado':'#c0392b'};
+    var sorted = Object.keys(persons).sort(function(a,b){return persons[b].total-persons[a].total;});
+    var h = '';
+    sorted.forEach(function(n){
+      var p=persons[n];
+      h+='<div style="background:#fff;border-radius:8px;padding:.7rem;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:3px solid #1a237e">';
+      h+='<div style="font-size:.78rem;font-weight:700;color:#1a237e;margin-bottom:.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="'+n+'">'+n+'</div>';
+      h+='<div style="font-size:.7rem;color:#6c757d;margin-bottom:.4rem">'+p.total+' asignaciones</div>';
+      so.forEach(function(st){var cnt=p.statuses[st]||0;if(cnt>0){h+='<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:'+(sc[st]||'#607d8b')+'">'+st+'</span><span style="font-weight:600">'+cnt+'</span></div>';}});
+      Object.keys(p.statuses).sort().forEach(function(st){if(so.indexOf(st)===-1&&p.statuses[st]>0){h+='<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:#607d8b">'+st+'</span><span style="font-weight:600">'+p.statuses[st]+'</span></div>';}});
+      h+='</div>';
+    });
+    c.innerHTML=h;
+  }
   let transitionsCache = {};
   let usersCache = null;
 
@@ -1215,7 +1244,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             flash(row.cells[5]);
           }
         });
-        setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); }, 1200);
+        setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); rebuildPersonCards(); }, 1200);
       } catch(e) {
         document.getElementById('transStatus').textContent = '\u274c ' + e.message;
         this.disabled = false;
@@ -1457,7 +1486,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             });
         }
       });
-      setTimeout(function(){ closeTransModal(); }, 1500);
+      setTimeout(function(){ closeTransModal(); rebuildPersonCards(); }, 1500);
     } catch(e) {
       document.getElementById('transStatus').textContent = `\u274c ${e.message}`;
     }
