@@ -507,7 +507,44 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
 
     html += '''  </div>
 
-  <div class="filter-section">
+'''
+    # ── Person cards with status breakdown ──
+    person_data = {}
+    for i in all_issues:
+        a = i["assignee"]
+        st = i["status"]
+        if a not in person_data:
+            person_data[a] = {"total": 0, "statuses": {}}
+        person_data[a]["total"] += 1
+        person_data[a]["statuses"][st] = person_data[a]["statuses"].get(st, 0) + 1
+
+    status_order = ["Backlog", "Por Hacer", "En Progreso", "En Pruebas QA", "En Pruebas UAT", "Pendiente PAP", "Bloqueado"]
+    status_colors = {"Backlog":"#9e9e9e","Por Hacer":"#9e9e9e","En Progreso":"#2196F3","En Pruebas QA":"#ff9800","En Pruebas UAT":"#ff9800","Pendiente PAP":"#e67e22","Bloqueado":"#c0392b"}
+
+    html += '  <div style="margin-bottom:1.2rem">\n'
+    html += '    <div style="font-size:.82rem;font-weight:600;color:#1a237e;margin-bottom:.6rem">Asignaciones por profesional</div>\n'
+    html += '    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem">\n'
+
+    for person in sorted(person_data.keys(), key=lambda x: -person_data[x]["total"]):
+        pd = person_data[person]
+        short_name = person.split()[0] + " " + person.split()[1] if len(person.split()) > 1 else person
+        html += f'      <div style="background:#fff;border-radius:8px;padding:.7rem;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:3px solid #1a237e">\n'
+        html += f'        <div style="font-size:.78rem;font-weight:700;color:#1a237e;margin-bottom:.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="{esc(person)}">{esc(person)}</div>\n'
+        html += f'        <div style="font-size:.7rem;color:#6c757d;margin-bottom:.4rem">{pd["total"]} asignaciones</div>\n'
+        for st in status_order:
+            cnt = pd["statuses"].get(st, 0)
+            if cnt > 0:
+                sc2 = status_colors.get(st, "#607d8b")
+                html += f'        <div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:{sc2}">{st}</span><span style="font-weight:600">{cnt}</span></div>\n'
+        # Any other statuses not in the order
+        for st, cnt in sorted(pd["statuses"].items()):
+            if st not in status_order and cnt > 0:
+                html += f'        <div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:#607d8b">{st}</span><span style="font-weight:600">{cnt}</span></div>\n'
+        html += '      </div>\n'
+
+    html += '    </div>\n  </div>\n\n'
+
+    html += '''  <div class="filter-section">
     <div class="filter-row-search">
       <input type="text" id="searchBox" placeholder="🔍 Buscar por HU, nombre, responsable, épica..." oninput="filterAll()">
       <button class="clear-btn" onclick="clearAll()">🗑 Limpiar filtros</button>
