@@ -523,7 +523,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
 
     html += '  <div style="margin-bottom:1.2rem">\n'
     html += '    <div style="font-size:.82rem;font-weight:600;color:#1a237e;margin-bottom:.6rem">Asignaciones por profesional</div>\n'
-    html += '    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem">\n'
+    html += '    <div id="personCards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem">\n'
 
     for person in sorted(person_data.keys(), key=lambda x: -person_data[x]["total"]):
         pd = person_data[person]
@@ -945,6 +945,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     sts.textContent = '✅ '+updated+' cambios, '+errors+' errores — '+now;
     sts.style.color = errors > 0 ? '#e65100' : '#2e7d32';
     filterAll();
+    rebuildPersonCards();
   }
   function flash(el) {
     el.style.outline = '2px solid #4caf50';
@@ -959,6 +960,45 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     if (s.includes('pap') || s.includes('espera') || s.includes('pending')) return '#e67e22';
     if (s.includes('done') || s.includes('hecho') || s.includes('producción')) return '#2e7d32';
     return '#607d8b';
+  }
+
+  function rebuildPersonCards() {
+    var rows = document.querySelectorAll('#mainTable tbody tr');
+    var persons = {};
+    rows.forEach(function(row) {
+      if (row.style.display === 'none') return;
+      var assignee = row.dataset.assignee || 'Sin asignar';
+      var status = row.dataset.status || '';
+      if (!persons[assignee]) persons[assignee] = {total:0, statuses:{}};
+      persons[assignee].total++;
+      persons[assignee].statuses[status] = (persons[assignee].statuses[status] || 0) + 1;
+    });
+    var container = document.getElementById('personCards');
+    if (!container) return;
+    var statusOrder = ['Backlog','Por Hacer','En Progreso','En Pruebas QA','En Pruebas UAT','Pendiente PAP','Bloqueado'];
+    var statusColors = {'Backlog':'#9e9e9e','Por Hacer':'#9e9e9e','En Progreso':'#2196F3','En Pruebas QA':'#ff9800','En Pruebas UAT':'#ff9800','Pendiente PAP':'#e67e22','Bloqueado':'#c0392b'};
+    var sorted = Object.keys(persons).sort(function(a,b) { return persons[b].total - persons[a].total; });
+    var h = '';
+    sorted.forEach(function(name) {
+      var pd = persons[name];
+      h += '<div style="background:#fff;border-radius:8px;padding:.7rem;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:3px solid #1a237e">';
+      h += '<div style="font-size:.78rem;font-weight:700;color:#1a237e;margin-bottom:.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="'+name+'">'+name+'</div>';
+      h += '<div style="font-size:.7rem;color:#6c757d;margin-bottom:.4rem">'+pd.total+' asignaciones</div>';
+      statusOrder.forEach(function(st) {
+        var cnt = pd.statuses[st] || 0;
+        if (cnt > 0) {
+          var c = statusColors[st] || '#607d8b';
+          h += '<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:'+c+'">'+st+'</span><span style="font-weight:600">'+cnt+'</span></div>';
+        }
+      });
+      Object.keys(pd.statuses).sort().forEach(function(st) {
+        if (statusOrder.indexOf(st) === -1 && pd.statuses[st] > 0) {
+          h += '<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:#607d8b">'+st+'</span><span style="font-weight:600">'+pd.statuses[st]+'</span></div>';
+        }
+      });
+      h += '</div>';
+    });
+    container.innerHTML = h;
   }
 
   // ── Jira Transitions (via Cloudflare Worker proxy) ──
@@ -1285,7 +1325,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             });
         }
       });
-      setTimeout(closeTransModal, 1500);
+      setTimeout(function(){ closeTransModal(); rebuildPersonCards(); }, 1500);
     } catch(e) {
       document.getElementById('transStatus').textContent = `\u274c ${e.message}`;
     }
