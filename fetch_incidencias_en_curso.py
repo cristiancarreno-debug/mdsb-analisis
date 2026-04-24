@@ -655,13 +655,6 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     document.querySelectorAll(`#${fid}-p .fl label`).forEach(lbl => {
       lbl.style.display = lbl.textContent.toLowerCase().includes(q) ? '' : 'none';
     });
-    // Auto-select only visible when typing
-    if (q.length > 0) {
-      document.querySelectorAll(`input.fcb[data-filter="${fid}"]`).forEach(cb => {
-        cb.checked = cb.closest('label').style.display !== 'none';
-      });
-      filterAll();
-    }
   }
 
   function selectOnly(fid, value) {
