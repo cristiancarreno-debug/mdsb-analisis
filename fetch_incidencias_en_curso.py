@@ -945,7 +945,6 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     sts.textContent = '✅ '+updated+' cambios, '+errors+' errores — '+now;
     sts.style.color = errors > 0 ? '#e65100' : '#2e7d32';
     filterAll();
-    rebuildPersonCards();
   }
   function flash(el) {
     el.style.outline = '2px solid #4caf50';
@@ -1324,7 +1323,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             });
         }
       });
-      setTimeout(function(){ closeTransModal(); rebuildPersonCards(); }, 1500);
+      setTimeout(function(){ closeTransModal(); }, 1500);
     } catch(e) {
       document.getElementById('transStatus').textContent = `\u274c ${e.message}`;
     }
