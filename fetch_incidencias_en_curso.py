@@ -961,44 +961,6 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     return '#607d8b';
   }
 
-  function rebuildPersonCards() {
-    var rows = document.querySelectorAll('#mainTable tbody tr');
-    var persons = {};
-    rows.forEach(function(row) {
-      var assignee = row.dataset.assignee || 'Sin asignar';
-      var status = row.dataset.status || '';
-      if (!persons[assignee]) persons[assignee] = {total:0, statuses:{}};
-      persons[assignee].total++;
-      persons[assignee].statuses[status] = (persons[assignee].statuses[status] || 0) + 1;
-    });
-    var container = document.getElementById('personCards');
-    if (!container) return;
-    var statusOrder = ['Backlog','Por Hacer','En Progreso','En Pruebas QA','En Pruebas UAT','Pendiente PAP','Bloqueado'];
-    var statusColors = {'Backlog':'#9e9e9e','Por Hacer':'#9e9e9e','En Progreso':'#2196F3','En Pruebas QA':'#ff9800','En Pruebas UAT':'#ff9800','Pendiente PAP':'#e67e22','Bloqueado':'#c0392b'};
-    var sorted = Object.keys(persons).sort(function(a,b) { return persons[b].total - persons[a].total; });
-    var h = '';
-    sorted.forEach(function(name) {
-      var pd = persons[name];
-      h += '<div style="background:#fff;border-radius:8px;padding:.7rem;box-shadow:0 1px 4px rgba(0,0,0,.06);border-left:3px solid #1a237e">';
-      h += '<div style="font-size:.78rem;font-weight:700;color:#1a237e;margin-bottom:.1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="'+name+'">'+name+'</div>';
-      h += '<div style="font-size:.7rem;color:#6c757d;margin-bottom:.4rem">'+pd.total+' asignaciones</div>';
-      statusOrder.forEach(function(st) {
-        var cnt = pd.statuses[st] || 0;
-        if (cnt > 0) {
-          var c = statusColors[st] || '#607d8b';
-          h += '<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:'+c+'">'+st+'</span><span style="font-weight:600">'+cnt+'</span></div>';
-        }
-      });
-      Object.keys(pd.statuses).sort().forEach(function(st) {
-        if (statusOrder.indexOf(st) === -1 && pd.statuses[st] > 0) {
-          h += '<div style="display:flex;justify-content:space-between;font-size:.68rem;padding:.1rem 0"><span style="color:#607d8b">'+st+'</span><span style="font-weight:600">'+pd.statuses[st]+'</span></div>';
-        }
-      });
-      h += '</div>';
-    });
-    container.innerHTML = h;
-  }
-
   // ── Jira Transitions (via Cloudflare Worker proxy) ──
   let currentTransKey = '';
   let transitionsCache = {};
