@@ -461,6 +461,11 @@ td.truncate{{overflow:hidden;text-overflow:ellipsis;max-width:220px}}
 .note-input{{width:100%;min-width:120px;padding:.2rem .3rem;border:1px solid transparent;border-radius:4px;font-size:.7rem;font-family:inherit;resize:vertical;background:transparent;color:#333;transition:border-color .2s}}
 .note-input:hover{{border-color:#dee2e6}}
 .note-input:focus{{border-color:#1a237e;background:#fff;outline:none;box-shadow:0 0 0 2px rgba(26,35,126,.08)}}
+/* Bulk action bar */
+.bulk-bar{{display:none;position:sticky;top:0;z-index:20;background:#1a237e;color:#fff;padding:.5rem 1rem;border-radius:8px;margin-bottom:.6rem;align-items:center;gap:.8rem;font-size:.8rem;box-shadow:0 4px 12px rgba(0,0,0,.2)}}
+.bulk-bar.show{{display:flex}}
+.bulk-bar button{{padding:.3rem .7rem;border:1px solid rgba(255,255,255,.3);border-radius:6px;background:transparent;color:#fff;cursor:pointer;font-size:.75rem;transition:all .15s}}
+.bulk-bar button:hover{{background:rgba(255,255,255,.15)}}
 .trans-modal{{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.4);z-index:500;align-items:center;justify-content:center;padding:1rem}}
 .trans-modal.open{{display:flex}}
 .trans-box{{background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 12px 40px rgba(0,0,0,.2);width:90%;max-width:500px;max-height:85vh;display:flex;flex-direction:column}}
@@ -564,19 +569,27 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     <div class="active-tags" id="activeTags"></div>
   </div>
 
+  <div class="bulk-bar" id="bulkBar">
+    <span id="bulkCount">0 seleccionados</span>
+    <button onclick="bulkChangeAssignee()">&#128100; Cambiar responsable</button>
+    <button onclick="bulkChangeStatus()">&#9889; Cambiar estado</button>
+    <button onclick="clearSelection()" style="margin-left:auto;opacity:.7">&#10005; Deseleccionar</button>
+  </div>
+
   <div class="table-wrap">
     <table id="mainTable">
       <thead>
         <tr>
-          <th onclick="sortT(0)">HU ↕</th>
-          <th onclick="sortT(1)">Nombre de HU ↕</th>
-          <th onclick="sortT(2)">Equipo ↕</th>
-          <th onclick="sortT(3)">Tipo ↕</th>
-          <th onclick="sortT(4)">Responsable ↕</th>
-          <th onclick="sortT(5)">Fecha Inicio ↕</th>
-          <th onclick="sortT(6)">Estado ↕</th>
+          <th style="width:30px"><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)"></th>
+          <th onclick="sortT(1)">HU ↕</th>
+          <th onclick="sortT(2)">Nombre de HU ↕</th>
+          <th onclick="sortT(3)">Equipo ↕</th>
+          <th onclick="sortT(4)">Tipo ↕</th>
+          <th onclick="sortT(5)">Responsable ↕</th>
+          <th onclick="sortT(6)">Fecha Inicio ↕</th>
+          <th onclick="sortT(7)">Estado ↕</th>
           <th>Acción</th>
-          <th onclick="sortT(8)">RICE ↕</th>
+          <th onclick="sortT(9)">RICE ↕</th>
           <th style="min-width:140px">Observaciones <input type="text" id="notesFilter" placeholder="Filtrar..." oninput="filterAll()" style="display:block;width:100%;margin-top:.2rem;padding:.15rem .3rem;border:1px solid rgba(255,255,255,.3);border-radius:4px;font-size:.62rem;background:rgba(255,255,255,.1);color:#fff"></th>
         </tr>
       </thead>
@@ -598,6 +611,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             rice_td = '<td style="text-align:center;color:#ccc;font-size:.72rem">—</td>'
             rice_data = "N/A"
         html += f'''        <tr data-equipo="{esc(i["equipo"])}" data-tipo="{esc(i["tipo"])}" data-status="{esc(i["status"])}" data-assignee="{an}" data-epic="{ep}" data-rice="{rice_data}">
+          <td><input type="checkbox" class="row-select" data-key="{i["key"]}" onchange="updateBulkBar()"></td>
           <td><a href="{u}" target="_blank" style="color:#3949ab;text-decoration:none;font-weight:600">{i["key"]}</a></td>
           <td class="truncate" title="{sm}">{sm}</td>
           <td><span class="badge" style="background:{e}">{i["equipo"]}</span></td>
@@ -670,6 +684,171 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
       cb.checked = (lbl.style.display !== 'none');
     });
     filterAll();
+  }
+
+  // ── Bulk selection ──
+  function toggleSelectAll(el) {
+    document.querySelectorAll('#mainTable tbody tr').forEach(function(row) {
+      if (row.style.display !== 'none') {
+        var cb = row.querySelector('.row-select');
+        if (cb) cb.checked = el.checked;
+      }
+    });
+    updateBulkBar();
+  }
+  function getSelectedKeys() {
+    var keys = [];
+    document.querySelectorAll('.row-select:checked').forEach(function(cb) { keys.push(cb.dataset.key); });
+    return keys;
+  }
+  function updateBulkBar() {
+    var keys = getSelectedKeys();
+    var bar = document.getElementById('bulkBar');
+    if (keys.length > 0) {
+      bar.classList.add('show');
+      document.getElementById('bulkCount').textContent = keys.length + ' seleccionados';
+    } else {
+      bar.classList.remove('show');
+    }
+  }
+  function clearSelection() {
+    document.querySelectorAll('.row-select').forEach(function(cb) { cb.checked = false; });
+    document.getElementById('selectAll').checked = false;
+    updateBulkBar();
+  }
+
+  async function bulkChangeAssignee() {
+    var keys = getSelectedKeys();
+    if (!keys.length) return;
+    var users = await loadUsers();
+    var h = '<div style="font-weight:600;color:#1a237e;margin-bottom:.6rem">&#128100; Reasignar ' + keys.length + ' incidencias</div>';
+    h += '<input type="text" id="bulkAssigneeSearch" placeholder="Buscar responsable..." style="width:100%;padding:.5rem;border:1px solid #dee2e6;border-radius:6px;font-size:.82rem;margin-bottom:.4rem" oninput="filterBulkAssignee()">';
+    h += '<div id="bulkAssigneeList" style="max-height:220px;overflow-y:auto;border:1px solid #eee;border-radius:6px">';
+    h += '<div class="baopt" data-id="" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5;color:#9e9e9e">Sin asignar</div>';
+    users.forEach(function(u) { h += '<div class="baopt" data-id="' + u.id + '" style="padding:.45rem .6rem;cursor:pointer;font-size:.8rem;border-bottom:1px solid #f5f5f5">' + u.name + '</div>'; });
+    h += '</div>';
+    h += '<div style="margin-top:.8rem;display:flex;gap:.5rem;justify-content:flex-end">';
+    h += '<button onclick="closeTransModal()" style="padding:.4rem .8rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.8rem">Cancelar</button>';
+    h += '<button id="bulkAssignBtn" disabled style="padding:.4rem .8rem;border:none;border-radius:6px;background:#9e9e9e;color:#fff;cursor:not-allowed;font-size:.8rem;font-weight:600">Cambiar ' + keys.length + '</button>';
+    h += '</div>';
+    document.getElementById('transKey').textContent = keys.length + ' incidencias';
+    document.getElementById('transList').innerHTML = h;
+    document.getElementById('transStatus').textContent = '';
+    document.querySelector('.trans-close').style.display = 'none';
+    document.getElementById('transModal').classList.add('open');
+    document.getElementById('bulkAssigneeSearch').focus();
+    var selectedId = null, selectedName = null;
+    document.querySelectorAll('#bulkAssigneeList .baopt').forEach(function(el) {
+      el.addEventListener('mouseenter', function() { if (this.dataset.id !== selectedId) this.style.background = '#f5f5ff'; });
+      el.addEventListener('mouseleave', function() { if (this.dataset.id !== selectedId) this.style.background = ''; });
+      el.addEventListener('click', function() {
+        document.querySelectorAll('#bulkAssigneeList .baopt').forEach(function(o) { o.style.background = ''; o.style.fontWeight = ''; });
+        this.style.background = '#e8eaf6'; this.style.fontWeight = '600';
+        selectedId = this.dataset.id; selectedName = this.textContent.trim();
+        var btn = document.getElementById('bulkAssignBtn');
+        btn.disabled = false; btn.style.background = '#1a237e'; btn.style.cursor = 'pointer';
+      });
+    });
+    document.getElementById('bulkAssignBtn').addEventListener('click', async function() {
+      if (selectedId === null) return;
+      this.disabled = true;
+      var sts = document.getElementById('transStatus');
+      for (var i = 0; i < keys.length; i++) {
+        sts.textContent = 'Asignando ' + (i+1) + '/' + keys.length + '...';
+        try {
+          var body = selectedId ? {accountId: selectedId} : null;
+          await fetch(PROXY_BASE + '/rest/api/3/issue/' + keys[i] + '/assignee', {
+            method: 'PUT', headers: {'Content-Type':'application/json'}, body: JSON.stringify(body)
+          });
+          var newName = selectedId ? selectedName : 'Sin asignar';
+          document.querySelectorAll('#mainTable tbody tr').forEach(function(row) {
+            var link = row.querySelector('a');
+            if (link && link.textContent.trim() === keys[i]) {
+              row.dataset.assignee = newName;
+              row.cells[5].childNodes[0].textContent = newName + ' ';
+              flash(row.cells[5]);
+            }
+          });
+        } catch(e) {}
+        if (i % 5 === 4) await new Promise(function(r) { setTimeout(r, 200); });
+      }
+      sts.textContent = '\u2705 ' + keys.length + ' reasignados a ' + (selectedName || 'Sin asignar');
+      setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); }, 1500);
+    });
+  }
+  function filterBulkAssignee() {
+    var q = document.getElementById('bulkAssigneeSearch').value.toLowerCase();
+    document.querySelectorAll('#bulkAssigneeList .baopt').forEach(function(el) {
+      el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+    });
+  }
+
+  async function bulkChangeStatus() {
+    var keys = getSelectedKeys();
+    if (!keys.length) return;
+    document.getElementById('transKey').textContent = keys.length + ' incidencias';
+    document.getElementById('transList').innerHTML = '<div style="color:#6c757d;font-size:.8rem">Cargando transiciones comunes...</div>';
+    document.getElementById('transStatus').textContent = '';
+    document.querySelector('.trans-close').style.display = 'none';
+    document.getElementById('transModal').classList.add('open');
+    // Get transitions for first issue to show options
+    try {
+      var resp = await fetch(PROXY_BASE + '/rest/api/3/issue/' + keys[0] + '/transitions');
+      if (!resp.ok) throw new Error('Error ' + resp.status);
+      var data = await resp.json();
+      var transitions = data.transitions || [];
+      var h = '<div style="font-weight:600;color:#1a237e;margin-bottom:.6rem">&#9889; Cambiar estado de ' + keys.length + ' incidencias</div>';
+      if (!transitions.length) { h += '<div style="color:#e65100;font-size:.8rem">No hay transiciones disponibles</div>'; }
+      else {
+        h += '<div style="font-size:.7rem;color:#9e9e9e;margin-bottom:.4rem">Transiciones basadas en ' + keys[0] + '</div>';
+        transitions.forEach(function(t) {
+          h += '<div class="trans-item" data-tid="' + t.id + '" data-tname="' + t.name + '" style="margin-bottom:.3rem">';
+          h += '<span>' + t.name + '</span><span style="font-size:.7rem;color:#9e9e9e">\u2192 ' + (t.to ? t.to.name : '') + '</span></div>';
+        });
+      }
+      h += '<div style="margin-top:.6rem;text-align:right"><button id="bulkStatusCancel" style="padding:.3rem .7rem;border:1px solid #dee2e6;border-radius:6px;background:#fff;cursor:pointer;font-size:.78rem">Cancelar</button></div>';
+      document.getElementById('transList').innerHTML = h;
+      document.getElementById('bulkStatusCancel').addEventListener('click', function() {
+        document.querySelector('.trans-close').style.display = '';
+        closeTransModal();
+      });
+      document.querySelectorAll('#transList .trans-item').forEach(function(el) {
+        el.addEventListener('click', async function() {
+          var tid = this.dataset.tid, tname = this.dataset.tname;
+          var sts = document.getElementById('transStatus');
+          var errors = 0;
+          for (var i = 0; i < keys.length; i++) {
+            sts.textContent = tname + ': ' + (i+1) + '/' + keys.length + '...';
+            try {
+              var r = await fetch(PROXY_BASE + '/rest/api/3/issue/' + keys[i] + '/transitions', {
+                method: 'POST', headers: {'Content-Type':'application/json'},
+                body: JSON.stringify({transition:{id:tid}})
+              });
+              if (!r.ok) errors++;
+              else {
+                var d = await fetch(PROXY_BASE + '/rest/api/3/issue/' + keys[i] + '?fields=status');
+                var j = await d.json();
+                var ns = j.fields && j.fields.status ? j.fields.status.name : tname;
+                document.querySelectorAll('#mainTable tbody tr').forEach(function(row) {
+                  var link = row.querySelector('a');
+                  if (link && link.textContent.trim() === keys[i]) {
+                    row.dataset.status = ns;
+                    var badge = row.cells[7].querySelector('.badge');
+                    if (badge) { badge.textContent = ns; badge.style.background = gSC(ns); }
+                    flash(row.cells[7]);
+                  }
+                });
+              }
+            } catch(e) { errors++; }
+            if (i % 5 === 4) await new Promise(function(r) { setTimeout(r, 200); });
+          }
+          sts.textContent = '\u2705 ' + (keys.length - errors) + ' actualizados' + (errors ? ', ' + errors + ' errores' : '');
+          setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); clearSelection(); filterAll(); }, 2000);
+        });
+      });
+    } catch(e) {
+      document.getElementById('transList').innerHTML = '<div style="color:#c62828;font-size:.8rem">Error: ' + e.message + '</div>';
+    }
   }
 
   // Event delegation for "solo" buttons
@@ -772,12 +951,12 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
     rows.sort((a,b) => {
       const aT = a.cells[col].textContent.trim();
       const bT = b.cells[col].textContent.trim();
-      if(col===5) {
+      if(col===6) {
         const aD = aT.split('/').reverse().join('');
         const bD = bT.split('/').reverse().join('');
         return sortDirs[k] ? aD.localeCompare(bD) : bD.localeCompare(aD);
       }
-      if(col===8) {
+      if(col===9) {
         const aN = parseFloat(aT.replace(/[^0-9.]/g,'')) || 0;
         const bN = parseFloat(bT.replace(/[^0-9.]/g,'')) || 0;
         return sortDirs[k] ? aN - bN : bN - aN;
@@ -913,15 +1092,15 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
         const newSt = f.status ? f.status.name : '';
         if (newSt && newSt !== row.dataset.status) {
           row.dataset.status = newSt;
-          const b = row.cells[6].querySelector('.badge');
+          const b = row.cells[7].querySelector('.badge');
           if (b) { b.textContent = newSt; b.style.background = gSC(newSt); }
-          flash(row.cells[6]); updated++;
+          flash(row.cells[7]); updated++;
         }
         const newA = f.assignee ? f.assignee.displayName : 'Sin asignar';
         if (newA !== row.dataset.assignee) {
           row.dataset.assignee = newA;
-          row.cells[4].textContent = newA;
-          flash(row.cells[4]);
+          row.cells[5].textContent = newA;
+          flash(row.cells[5]);
         }
         const newSum = f.summary || '';
         if (newSum && newSum !== row.cells[1].textContent.trim()) {
@@ -1032,8 +1211,8 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
           const link = row.cells[0].querySelector('a');
           if (link && link.textContent.trim() === issueKey) {
             row.dataset.assignee = newName;
-            row.cells[4].childNodes[0].textContent = newName + ' ';
-            flash(row.cells[4]);
+            row.cells[5].childNodes[0].textContent = newName + ' ';
+            flash(row.cells[5]);
           }
         });
         setTimeout(function() { document.querySelector('.trans-close').style.display = ''; closeTransModal(); }, 1200);
@@ -1266,14 +1445,14 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
             .then(d => {
               const newStatus = d.fields?.status?.name || transitionName;
               row.dataset.status = newStatus;
-              const badge = row.cells[6].querySelector('.badge');
+              const badge = row.cells[7].querySelector('.badge');
               if (badge) { badge.textContent = newStatus; badge.style.background = gSC(newStatus); }
-              flash(row.cells[6]);
+              flash(row.cells[7]);
               const newA = d.fields?.assignee?.displayName || 'Sin asignar';
               if (newA !== row.dataset.assignee) {
                 row.dataset.assignee = newA;
-                row.cells[4].textContent = newA;
-                flash(row.cells[4]);
+                row.cells[5].textContent = newA;
+                flash(row.cells[5]);
               }
             });
         }
