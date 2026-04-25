@@ -647,6 +647,7 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
   <script>
   const FILTERS = ['fEquipo','fTipo','fStatus','fAssignee','fEpic','fRice'];
   const LABELS = {fEquipo:'Equipo',fTipo:'Tipo',fStatus:'Estado',fAssignee:'Responsable',fEpic:'Épica',fRice:'RICE'};
+  const PROXY_BASE = 'https://delicate-morning-e673jira-proxy.cristian-carreno.workers.dev';
 
   function toggleDD(id) {
     document.querySelectorAll('.fp').forEach(p => { if(p.id!==id+'-p') p.classList.remove('open'); });
@@ -1062,7 +1063,6 @@ footer{{text-align:center;padding:1.2rem;color:#9e9e9e;font-size:.78rem;border-t
   })();
 
   // ── Jira Live Refresh ──
-  const PROXY_BASE = 'https://delicate-morning-e673jira-proxy.cristian-carreno.workers.dev';
   const JIRA_BASE = "''' + BASE_URL + '''";
   const JIRA_AUTH = "Basic ''' + AUTH + '''";
 
