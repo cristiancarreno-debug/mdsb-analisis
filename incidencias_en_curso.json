@@ -181,7 +181,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T09:06:25.791-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -191,9 +191,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -907,7 +907,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:20:10.916-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1171,7 +1171,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:41:40.916-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1181,10 +1181,10 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
