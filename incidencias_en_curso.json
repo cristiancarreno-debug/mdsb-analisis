@@ -2,7 +2,7 @@
   {
     "key": "GD941-1462",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T11:02:31.040-0500",
     "status": "Por Hacer",
@@ -24,7 +24,7 @@
   {
     "key": "GD941-1457",
     "summary": "INC-SOFTWARE-SIMON Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T11:24:18.744-0500",
     "status": "Por Hacer",
@@ -112,7 +112,7 @@
   {
     "key": "GD941-1422",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "16/04/2026",
     "created_raw": "2026-04-16T11:51:10.089-0500",
     "status": "Por Hacer",
@@ -464,7 +464,7 @@
   {
     "key": "GD941-1391",
     "summary": "INC-SOFTWARE-SIMON WEB EMISION-TRONADOR CIA 2",
-    "assignee": "Sin asignar",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "11/03/2026",
     "created_raw": "2026-03-11T08:52:43.302-0500",
     "status": "Por Hacer",
@@ -904,7 +904,7 @@
   {
     "key": "GD941-1178",
     "summary": "Ajuste prima informada",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Omar Fernando Otavo García",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:20:10.916-0500",
     "status": "En Pruebas QA",
@@ -1163,6 +1163,50 @@
       "effort": 3.0,
       "score": 14.7,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1604",
+    "summary": "Diferencia en el cupo asignado",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "27/04/2026",
+    "created_raw": "2026-04-27T18:55:05.692-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1603",
+    "summary": "Liquidación de prima de acuerdo a la tasas",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "27/04/2026",
+    "created_raw": "2026-04-27T18:51:29.526-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1537,28 +1581,6 @@
       "effort": 2,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1514",
-    "summary": "No se visualizan los campos en las tablas A2000020 && A2010020",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T10:40:14.047-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-279 - CORE - Crear dato variable a los productos 440, 450 y 455",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
     }
   },
   {
@@ -2202,7 +2224,7 @@
   {
     "key": "GD981-1317",
     "summary": "No se visualiza la cobertura básica y liquida 0 en prima",
-    "assignee": "caiglesias",
+    "assignee": "Omar Fernando Otavo García",
     "created": "06/04/2026",
     "created_raw": "2026-04-06T09:44:39.343-0500",
     "status": "En Progreso",
@@ -2444,10 +2466,10 @@
   {
     "key": "GD981-1173",
     "summary": "Al seleccionar unicamente la cobertura básica de Cumplimiento el sistema no permite continuar ,obligando que seleccione otra garantía.",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Omar Fernando Otavo García",
     "created": "19/03/2026",
     "created_raw": "2026-03-19T08:55:20.464-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -2738,7 +2760,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-186 - Emitir Póliza de Cumplimiento y Responsabilidad Civil",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2777,7 +2799,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "27/08/2025",
     "created_raw": "2025-08-27T10:21:55.867-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
