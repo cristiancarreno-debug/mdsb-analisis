@@ -442,10 +442,10 @@
   {
     "key": "GD941-1396",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "20/03/2026",
     "created_raw": "2026-03-20T09:44:16.853-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -1166,6 +1166,204 @@
     }
   },
   {
+    "key": "GD981-1630",
+    "summary": "Condiciones generales y reglas transversales de modificacion",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:54:17.431-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1626",
+    "summary": "Retoma de modificaciones no finalizadas",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:54:14.154-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1622",
+    "summary": "Generacion de endoso en el core y emision de PDF",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:54:11.122-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-1619",
+    "summary": "Modificaciones combinadas en un solo movimiento",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:54:08.192-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1612",
+    "summary": "Validacion de permisos por tipo de usuario para modificaciones",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:53:56.043-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1611",
+    "summary": "Modificacion de inclusion y exclusion de coberturas",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:53:52.808-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1610",
+    "summary": "Modificación Cambio de valor asegurado",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:53:49.887-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1609",
+    "summary": "Modificaciones nominativas",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:53:46.637-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1608",
+    "summary": "Ingreso y busqueda de polizas susceptibles de modificacion",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:53:43.592-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1605",
     "summary": "No permite incluir las garantias necesarias",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1633,7 +1831,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:36:44.141-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1643,10 +1841,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -2553,7 +2751,7 @@
   },
   {
     "key": "GD981-873",
-    "summary": "RF-019: Reglas Específicas por Tipo de Endoso",
+    "summary": "Modificación de vigencia",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:50:46.748-0500",
@@ -2575,7 +2773,7 @@
   },
   {
     "key": "GD981-869",
-    "summary": "RF-018: Selección y Validación de Endosos",
+    "summary": "Modificación de prorrogas",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:49:42.650-0500",
@@ -2586,13 +2784,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -2840,10 +3038,10 @@
   {
     "key": "GD981-182",
     "summary": "Emisión de endosos de póliza CU (principal e hija)",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "19/08/2025",
     "created_raw": "2025-08-19T15:58:09.510-0500",
-    "status": "Por Hacer",
+    "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
