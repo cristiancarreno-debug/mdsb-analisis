@@ -24,10 +24,10 @@
   {
     "key": "GD941-1457",
     "summary": "INC-SOFTWARE-SIMON Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T11:24:18.744-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +37,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -107,28 +107,6 @@
       "effort": 2,
       "score": 1.9,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-1422",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
-    "created": "16/04/2026",
-    "created_raw": "2026-04-16T11:51:10.089-0500",
-    "status": "Por Hacer",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
     }
   },
   {
@@ -929,7 +907,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "02/12/2025",
     "created_raw": "2025-12-02T12:18:38.922-0500",
-    "status": "En Progreso",
+    "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -939,9 +917,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2.5,
-      "score": 32.0,
+      "score": 25.6,
       "priority": "Alta"
     }
   },
@@ -1210,55 +1188,11 @@
     }
   },
   {
-    "key": "GD981-1622",
-    "summary": "Generacion de endoso en el core y emision de PDF",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:54:11.122-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 48.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1619",
     "summary": "Modificaciones combinadas en un solo movimiento",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:08.192-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1612",
-    "summary": "Validacion de permisos por tipo de usuario para modificaciones",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:53:56.043-0500",
     "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
@@ -2466,10 +2400,10 @@
   {
     "key": "GD981-1315",
     "summary": "Error en la Emisión de Cumplimiento prima mínima de 70000",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Omar Fernando Otavo García",
     "created": "06/04/2026",
     "created_raw": "2026-04-06T09:35:19.889-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -2579,7 +2513,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "26/03/2026",
     "created_raw": "2026-03-26T15:09:41.986-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -2598,10 +2532,10 @@
   {
     "key": "GD981-1255",
     "summary": "Al consultar la cotización 1000171578501 para hacer la emisión",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Omar Fernando Otavo García",
     "created": "26/03/2026",
     "created_raw": "2026-03-26T14:44:58.301-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -2620,7 +2554,7 @@
   {
     "key": "GD981-1250",
     "summary": "Al generar una póliza que ya habia sido generada y que genero error se trata de generar nuevamente y sale el siguiente mensaje de error",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/03/2026",
     "created_raw": "2026-03-26T14:32:25.006-0500",
     "status": "En Progreso",
@@ -2680,28 +2614,6 @@
       "confidence": 0.7,
       "effort": 2,
       "score": 8.8,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1173",
-    "summary": "Al seleccionar unicamente la cobertura básica de Cumplimiento el sistema no permite continuar ,obligando que seleccione otra garantía.",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "19/03/2026",
-    "created_raw": "2026-03-19T08:55:20.464-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1307 - Defectos IA ",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -3033,28 +2945,6 @@
       "effort": 2,
       "score": 8.8,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-182",
-    "summary": "Emisión de endosos de póliza CU (principal e hija)",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "19/08/2025",
-    "created_raw": "2025-08-19T15:58:09.510-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 48.0,
-      "priority": "Crítica"
     }
   },
   {
