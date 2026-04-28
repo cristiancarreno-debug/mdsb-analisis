@@ -1166,6 +1166,28 @@
     }
   },
   {
+    "key": "GD981-1605",
+    "summary": "No permite incluir las garantias necesarias",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "27/04/2026",
+    "created_raw": "2026-04-27T18:57:13.149-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD981-1604",
     "summary": "Diferencia en el cupo asignado",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1300,7 +1322,7 @@
   {
     "key": "GD981-1578",
     "summary": "Pantalla de Emisión - Flujo desde cotización existente y nueva póliza",
-    "assignee": "caiglesias",
+    "assignee": "Omar Fernando Otavo García",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:46:04.803-0500",
     "status": "En Progreso",
@@ -1322,10 +1344,10 @@
   {
     "key": "GD981-1574",
     "summary": "Paso 3 - Confirmación de cotización de Cumplimiento",
-    "assignee": "caiglesias",
+    "assignee": "Omar Fernando Otavo García",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:45:30.141-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
