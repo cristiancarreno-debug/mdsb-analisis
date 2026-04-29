@@ -1765,28 +1765,6 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:36:44.141-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1484",
-    "summary": "Implementacion de tags de monitoreo en el front de autogestion de Cumplimiento",
-    "assignee": "caiglesias",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T21:36:34.201-0500",
     "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
@@ -1801,6 +1779,28 @@
       "effort": 1.5,
       "score": 16.0,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1484",
+    "summary": "Implementacion de tags de monitoreo en el front de autogestion de Cumplimiento",
+    "assignee": "caiglesias",
+    "created": "13/04/2026",
+    "created_raw": "2026-04-13T21:36:34.201-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -2491,7 +2491,7 @@
     "assignee": "caiglesias",
     "created": "27/03/2026",
     "created_raw": "2026-03-27T13:13:22.882-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2501,9 +2501,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
