@@ -1166,6 +1166,28 @@
     }
   },
   {
+    "key": "GD981-1655",
+    "summary": "Definir la descripción de producto Particulares ya que el figma sale diferente al front",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T16:37:19.736-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1333 - Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD981-1653",
     "summary": "Error al ingresar Caracter campo Agente ",
     "assignee": "caiglesias",
@@ -1391,7 +1413,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T18:51:29.526-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1401,9 +1423,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -1501,7 +1523,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:46:04.803-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
