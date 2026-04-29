@@ -1,8 +1,96 @@
 [
   {
+    "key": "GD941-1473",
+    "summary": "NC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T10:37:17.414-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1472",
+    "summary": "INC-SOFTWARE-TRONADOR CIA 3",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T10:35:13.344-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1471",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T10:34:02.223-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1470",
+    "summary": "INC-SOFTWARE-Tronador",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T10:31:34.554-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1462",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Omar Fernando Otavo García",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T11:02:31.040-0500",
     "status": "En Pruebas QA",
@@ -27,7 +115,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T11:24:18.744-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -266,10 +354,10 @@
   {
     "key": "GD941-1407",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T15:31:13.344-0500",
-    "status": "Por Hacer",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -279,9 +367,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -310,7 +398,7 @@
   {
     "key": "GD941-1405",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T15:26:34.639-0500",
     "status": "Por Hacer",
@@ -530,7 +618,7 @@
   {
     "key": "GD941-1364",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/02/2026",
     "created_raw": "2026-02-26T15:01:09.884-0500",
     "status": "Por Hacer",
@@ -973,7 +1061,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "07/11/2025",
     "created_raw": "2025-11-07T16:47:44.871-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -983,16 +1071,16 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 50.0,
+      "score": 40.0,
       "priority": "Crítica"
     }
   },
   {
     "key": "GD941-786",
     "summary": "Movimiento de grupos empresariales (desactivar grupo / inactivar o mover miembros)",
-    "assignee": "Sin asignar",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "02/10/2025",
     "created_raw": "2025-10-02T08:42:39.160-0500",
     "status": "Por Hacer",
@@ -1140,6 +1228,28 @@
       "confidence": 0.8,
       "effort": 3.0,
       "score": 14.7,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1653",
+    "summary": "Error al ingresar Caracter campo Agente ",
+    "assignee": "caiglesias",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T10:28:14.556-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1333 - Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
+    "rice": {
+      "risk": "error técnico",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
       "priority": "Media"
     }
   },
@@ -1388,7 +1498,7 @@
   {
     "key": "GD981-1592",
     "summary": "Ajuste en la liberación del Cúmulo",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:36:26.492-0500",
     "status": "Por Hacer",
@@ -1765,7 +1875,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:36:44.141-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1775,10 +1885,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -2510,7 +2620,7 @@
   {
     "key": "GD981-1269",
     "summary": "El formulario de la pantalla 2 esta mostrando unicamente la cobertura 403",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Omar Fernando Otavo García",
     "created": "26/03/2026",
     "created_raw": "2026-03-26T15:09:41.986-0500",
     "status": "En Pruebas QA",
@@ -2579,7 +2689,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/03/2026",
     "created_raw": "2026-03-24T17:02:11.390-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
