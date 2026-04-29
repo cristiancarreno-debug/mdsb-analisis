@@ -1166,6 +1166,28 @@
     }
   },
   {
+    "key": "GD981-1657",
+    "summary": "El modal de Procesando No aparece como el Figma ",
+    "assignee": "caiglesias",
+    "created": "29/04/2026",
+    "created_raw": "2026-04-29T17:43:26.945-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1333 - Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD981-1655",
     "summary": "Definir la descripción de producto Particulares ya que el figma sale diferente al front",
     "assignee": "Cristian David Carreño Ruiz",
@@ -1831,7 +1853,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:36:44.141-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
