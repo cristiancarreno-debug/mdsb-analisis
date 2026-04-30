@@ -1,5 +1,137 @@
 [
   {
+    "key": "GD941-1500",
+    "summary": "Generación e Impresión de Póliza Electrónica",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T16:52:59.311-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1496",
+    "summary": "Reglas de Modificación y Cese de Cobertura sin Devolución",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T16:51:17.664-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "devolución prima",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1492",
+    "summary": "Reglas de Suscripción Automática y Validación de Terceros",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T16:21:24.062-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "validaciones/reglas",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1488",
+    "summary": "Cálculo de Prima, IVA y Deducibles",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T16:01:28.971-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1484",
+    "summary": "Definición de Protocolo de Entrada para Gestión de Pólizas",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T16:00:42.339-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1480",
+    "summary": "Parametrización Estructural del Ramo 085 (Seguro de Crédito)",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "30/04/2026",
+    "created_raw": "2026-04-30T15:59:32.201-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1473",
     "summary": "NC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sugey Dayanna Saenz Vanegas",
@@ -10,7 +142,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -32,7 +164,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "plataforma core",
       "reach": 50,
@@ -54,7 +186,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -76,7 +208,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "plataforma core",
       "reach": 50,
