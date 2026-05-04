@@ -2772,28 +2772,6 @@
     }
   },
   {
-    "key": "GD981-1250",
-    "summary": "Al generar una póliza que ya habia sido generada y que genero error se trata de generar nuevamente y sale el siguiente mensaje de error",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "26/03/2026",
-    "created_raw": "2026-03-26T14:32:25.006-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-760 - Historia front primera pantalla-Cotización y nueva emisión",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1220",
     "summary": "Ajuste en modificaciones en Simón",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
