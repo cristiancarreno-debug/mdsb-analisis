@@ -2425,7 +2425,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:30.807-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2435,10 +2435,10 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 12.4,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 23.3,
+      "priority": "Alta"
     }
   },
   {
