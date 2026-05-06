@@ -24,10 +24,10 @@
   {
     "key": "GD941-1523",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "06/05/2026",
     "created_raw": "2026-05-06T10:33:44.980-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +37,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -49,7 +49,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "05/05/2026",
     "created_raw": "2026-05-05T11:50:50.519-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
