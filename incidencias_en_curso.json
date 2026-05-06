@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1524",
+    "summary": "INC-SOFTWARE-Facturación Inconsistente",
+    "assignee": "Sin asignar",
+    "created": "06/05/2026",
+    "created_raw": "2026-05-06T11:06:28.137-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1523",
+    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "06/05/2026",
+    "created_raw": "2026-05-06T10:33:44.980-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1512",
     "summary": "INC-SOFTWARE-SIMON WEB",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -1652,7 +1696,7 @@
   {
     "key": "GD981-1578",
     "summary": "Pantalla de Emisión - Flujo desde cotización existente y nueva póliza",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:46:04.803-0500",
     "status": "En Pruebas QA",
@@ -1674,7 +1718,7 @@
   {
     "key": "GD981-1574",
     "summary": "Paso 3 - Confirmación de cotización de Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:45:30.141-0500",
     "status": "En Pruebas QA",
@@ -2510,7 +2554,7 @@
   {
     "key": "GD981-1334",
     "summary": "Paso 2 - Formulario de datos del cliente, intermediario y dirección del riesgo en cotización de Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T18:07:41.853-0500",
     "status": "En Progreso",
@@ -2532,7 +2576,7 @@
   {
     "key": "GD981-1333",
     "summary": "Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T18:07:40.190-0500",
     "status": "En Progreso",
@@ -2557,7 +2601,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T14:59:25.606-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2576,7 +2620,7 @@
   {
     "key": "GD981-1317",
     "summary": "No se visualiza la cobertura básica y liquida 0 en prima",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "06/04/2026",
     "created_raw": "2026-04-06T09:44:39.343-0500",
     "status": "En Progreso",
@@ -2708,7 +2752,7 @@
   {
     "key": "GD981-1208",
     "summary": "Ajuste en el ingreso de la fecha ",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "24/03/2026",
     "created_raw": "2026-03-24T07:11:10.904-0500",
     "status": "En Pruebas QA",
