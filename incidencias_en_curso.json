@@ -462,28 +462,6 @@
     }
   },
   {
-    "key": "GD941-1411",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
-    "created": "10/04/2026",
-    "created_raw": "2026-04-10T10:27:42.766-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1410",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Cristian David Carreño Ruiz",
@@ -530,10 +508,10 @@
   {
     "key": "GD941-1408",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "09/04/2026",
     "created_raw": "2026-04-09T16:27:03.840-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -543,9 +521,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -2711,7 +2689,7 @@
     "assignee": "caiglesias",
     "created": "27/03/2026",
     "created_raw": "2026-03-27T13:13:22.882-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2721,9 +2699,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 2,
-      "score": 8.8,
+      "score": 6.2,
       "priority": "Baja"
     }
   },
@@ -2733,7 +2711,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/03/2026",
     "created_raw": "2026-03-24T17:02:11.390-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2796,7 +2774,7 @@
   {
     "key": "GD981-1088",
     "summary": "Implementación de Excepción de Control Técnico Reaseguros para Emisión Digital de Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Omar Fernando Otavo García",
     "created": "20/02/2026",
     "created_raw": "2026-02-20T10:22:55.114-0500",
     "status": "En Pruebas QA",
