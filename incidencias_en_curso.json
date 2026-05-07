@@ -376,7 +376,7 @@
   {
     "key": "GD941-1424",
     "summary": "Automatización lineamientos front (Punto 26)",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "caiglesias",
     "created": "16/04/2026",
     "created_raw": "2026-04-16T16:13:23.667-0500",
     "status": "Por Hacer",
@@ -2799,7 +2799,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "20/02/2026",
     "created_raw": "2026-02-20T10:22:55.114-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
