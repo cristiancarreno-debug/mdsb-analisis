@@ -1652,10 +1652,10 @@
   {
     "key": "GD981-1588",
     "summary": "Nuevo microservicio para generarPDF",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Omar Fernando Otavo García",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:34:02.501-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
