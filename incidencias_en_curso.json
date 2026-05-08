@@ -379,7 +379,7 @@
     "assignee": "caiglesias",
     "created": "16/04/2026",
     "created_raw": "2026-04-16T16:13:23.667-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "automatización",
       "reach": 15,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 1.9,
+      "score": 2.6,
       "priority": "Baja"
     }
   },
