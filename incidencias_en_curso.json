@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1529",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "08/05/2026",
+    "created_raw": "2026-05-08T11:28:45.728-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1524",
     "summary": "INC-SOFTWARE-Facturación Inconsistente",
     "assignee": "Sin asignar",
