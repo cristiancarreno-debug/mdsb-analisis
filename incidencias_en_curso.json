@@ -310,7 +310,7 @@
   {
     "key": "GD941-1457",
     "summary": "INC-SOFTWARE-SIMON Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Omar Fernando Otavo García",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T11:24:18.744-0500",
     "status": "En Pruebas QA",
@@ -420,7 +420,7 @@
   {
     "key": "GD941-1415",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T09:13:30.540-0500",
     "status": "En Progreso",
@@ -442,7 +442,7 @@
   {
     "key": "GD941-1414",
     "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T09:06:25.791-0500",
     "status": "En Progreso",
@@ -574,10 +574,10 @@
   {
     "key": "GD941-1405",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T15:26:34.639-0500",
-    "status": "Por Hacer",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -587,9 +587,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -706,10 +706,10 @@
   {
     "key": "GD941-1370",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "27/02/2026",
     "created_raw": "2026-02-27T15:49:23.470-0500",
-    "status": "Por Hacer",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -719,9 +719,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1325,7 +1325,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "07/05/2026",
     "created_raw": "2026-05-07T14:34:37.763-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1335,9 +1335,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 12.0,
+      "score": 15.0,
       "priority": "Media"
     }
   },
@@ -2598,7 +2598,7 @@
   {
     "key": "GD981-1326",
     "summary": "Cocorretaje Grandes Beneficiarios",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T14:59:25.606-0500",
     "status": "En Pruebas UAT",
@@ -2689,7 +2689,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "27/03/2026",
     "created_raw": "2026-03-27T14:28:55.621-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -3082,7 +3082,7 @@
   {
     "key": "GD981-279",
     "summary": "CORE - Crear dato variable a los productos 440, 450 y 455",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "27/08/2025",
     "created_raw": "2025-08-27T10:21:55.867-0500",
     "status": "En Pruebas UAT",
