@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1536",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento ",
+    "assignee": "Sin asignar",
+    "created": "11/05/2026",
+    "created_raw": "2026-05-11T15:04:33.532-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1535",
+    "summary": "GARANTIA DE CUMPLIMIENTP NO GENERA LA DEVOLUCIÓN CORRECTA (POL 1540132447801)",
+    "assignee": "Sin asignar",
+    "created": "11/05/2026",
+    "created_raw": "2026-05-11T15:04:21.238-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "devolución prima",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1529",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -1339,6 +1383,28 @@
       "effort": 3.0,
       "score": 14.7,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1679",
+    "summary": "Modal de confirmación de proceso",
+    "assignee": "caiglesias",
+    "created": "11/05/2026",
+    "created_raw": "2026-05-11T12:30:49.639-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1574 - Paso 3 - Confirmación de cotización de Cumplimiento",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
     }
   },
   {
