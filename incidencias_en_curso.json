@@ -1,8 +1,52 @@
 [
   {
+    "key": "GD941-1539",
+    "summary": "INC-SOFTWARE-SIMON WEB SINIESTROS CIA 3",
+    "assignee": "Sin asignar",
+    "created": "12/05/2026",
+    "created_raw": "2026-05-12T11:12:40.042-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1538",
+    "summary": "INC-SOFTWARE-TRONADOR CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "12/05/2026",
+    "created_raw": "2026-05-12T11:12:33.078-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1536",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento ",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "11/05/2026",
     "created_raw": "2026-05-11T15:04:33.532-0500",
     "status": "Backlog",
@@ -24,7 +68,7 @@
   {
     "key": "GD941-1535",
     "summary": "GARANTIA DE CUMPLIMIENTP NO GENERA LA DEVOLUCIÓN CORRECTA (POL 1540132447801)",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "11/05/2026",
     "created_raw": "2026-05-11T15:04:21.238-0500",
     "status": "Backlog",
@@ -46,7 +90,7 @@
   {
     "key": "GD941-1529",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "08/05/2026",
     "created_raw": "2026-05-08T11:28:45.728-0500",
     "status": "Backlog",
@@ -68,7 +112,7 @@
   {
     "key": "GD941-1524",
     "summary": "INC-SOFTWARE-Facturación Inconsistente",
-    "assignee": "Sin asignar",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "06/05/2026",
     "created_raw": "2026-05-06T11:06:28.137-0500",
     "status": "Backlog",
@@ -313,7 +357,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "29/04/2026",
     "created_raw": "2026-04-29T10:34:02.223-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -323,9 +367,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -335,7 +379,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "29/04/2026",
     "created_raw": "2026-04-29T10:31:34.554-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -345,9 +389,9 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 25.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -376,10 +420,10 @@
   {
     "key": "GD941-1457",
     "summary": "INC-SOFTWARE-SIMON Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T11:24:18.744-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -508,7 +552,7 @@
   {
     "key": "GD941-1414",
     "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T09:06:25.791-0500",
     "status": "En Progreso",
@@ -2774,10 +2818,10 @@
   {
     "key": "GD981-1088",
     "summary": "Implementación de Excepción de Control Técnico Reaseguros para Emisión Digital de Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "20/02/2026",
     "created_raw": "2026-02-20T10:22:55.114-0500",
-    "status": "En Pruebas QA",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
