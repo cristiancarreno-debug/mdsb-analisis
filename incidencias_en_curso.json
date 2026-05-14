@@ -68,10 +68,10 @@
   {
     "key": "GD941-1535",
     "summary": "GARANTIA DE CUMPLIMIENTP NO GENERA LA DEVOLUCIÓN CORRECTA (POL 1540132447801)",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "11/05/2026",
     "created_raw": "2026-05-11T15:04:21.238-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +81,9 @@
       "risk": "devolución prima",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -1743,7 +1743,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:41:40.916-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
