@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1548",
+    "summary": "INC-SOFTWARE-SIMON -RESPONSABILIDAD CIVIL",
+    "assignee": "Sin asignar",
+    "created": "14/05/2026",
+    "created_raw": "2026-05-14T16:40:34.747-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1545",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
     "assignee": "Sugey Dayanna Saenz Vanegas",
@@ -27,7 +49,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "14/05/2026",
     "created_raw": "2026-05-14T14:23:12.353-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -49,7 +71,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "14/05/2026",
     "created_raw": "2026-05-14T14:22:59.291-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,9 +81,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -203,7 +225,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "06/05/2026",
     "created_raw": "2026-05-06T11:06:28.137-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,9 +235,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
