@@ -2,7 +2,7 @@
   {
     "key": "GD941-1539",
     "summary": "INC-SOFTWARE-SIMON WEB SINIESTROS CIA 3",
-    "assignee": "Sin asignar",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "12/05/2026",
     "created_raw": "2026-05-12T11:12:40.042-0500",
     "status": "Backlog",
@@ -24,7 +24,7 @@
   {
     "key": "GD941-1538",
     "summary": "INC-SOFTWARE-TRONADOR CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "12/05/2026",
     "created_raw": "2026-05-12T11:12:33.078-0500",
     "status": "Backlog",
@@ -885,7 +885,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "23/02/2026",
     "created_raw": "2026-02-23T15:34:49.886-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -895,10 +895,10 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 42.9,
+      "priority": "Crítica"
     }
   },
   {
