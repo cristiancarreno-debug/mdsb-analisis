@@ -1,5 +1,115 @@
 [
   {
+    "key": "GD941-1579",
+    "summary": "Ajuste cuando hay cambio de póliza de RC atada a una de Cumplimiento",
+    "assignee": "Julian David Martinez Marroquin",
+    "created": "15/05/2026",
+    "created_raw": "2026-05-15T14:26:46.037-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1572",
+    "summary": "Ajuste en endoso de devolución de prórroga",
+    "assignee": "Luis Felipe Villegas Sanchez",
+    "created": "15/05/2026",
+    "created_raw": "2026-05-15T14:09:23.474-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "devolución prima",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1567",
+    "summary": "Controles técnicos para pólizas principales e hijas",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "15/05/2026",
+    "created_raw": "2026-05-15T14:02:21.029-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1563",
+    "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "15/05/2026",
+    "created_raw": "2026-05-15T13:56:22.205-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1558",
+    "summary": "Automatización Plataforma Cumplimiento",
+    "assignee": "Omar Fernando Otavo García",
+    "created": "15/05/2026",
+    "created_raw": "2026-05-15T13:49:39.524-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1423 - Automatización de pruebas",
+    "rice": {
+      "risk": "automatización",
+      "reach": 15,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 1.9,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-1548",
     "summary": "INC-SOFTWARE-SIMON -RESPONSABILIDAD CIVIL",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -68,7 +178,7 @@
   {
     "key": "GD941-1543",
     "summary": "Error en prima Póliza 455-1060000065101 END 16",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "14/05/2026",
     "created_raw": "2026-05-14T14:22:59.291-0500",
     "status": "En Pruebas QA",
