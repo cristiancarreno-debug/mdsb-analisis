@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1593",
+    "summary": "INC-SOFTWARE-SIMON WEB",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "19/05/2026",
+    "created_raw": "2026-05-19T08:27:02.621-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1589",
     "summary": "Parametrización de datos variables",
     "assignee": "Regner Leonardo Bernal Garnica",
@@ -291,7 +313,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "11/05/2026",
     "created_raw": "2026-05-11T15:04:33.532-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -301,9 +323,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
