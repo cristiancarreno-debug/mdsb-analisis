@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1605",
+    "summary": "INC-SOFTWARE-POLIZA-DIGITAL | Póliza de cumplimiento y RC sin IVA. póliza 440- 1004103909901 214- 1004101353901 ",
+    "assignee": "Sin asignar",
+    "created": "20/05/2026",
+    "created_raw": "2026-05-20T14:05:57.782-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1604",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "20/05/2026",
+    "created_raw": "2026-05-20T14:02:17.374-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1603",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -332,10 +376,10 @@
   {
     "key": "GD941-1539",
     "summary": "INC-SOFTWARE-SIMON WEB SINIESTROS CIA 3",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Omar Fernando Otavo García",
     "created": "12/05/2026",
     "created_raw": "2026-05-12T11:12:40.042-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -357,7 +401,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "12/05/2026",
     "created_raw": "2026-05-12T11:12:33.078-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -367,9 +411,9 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 25.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -904,10 +948,10 @@
   {
     "key": "GD941-978",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento | Ajuste de prima póliza para cruce",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "07/11/2025",
     "created_raw": "2025-11-07T16:47:44.871-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
