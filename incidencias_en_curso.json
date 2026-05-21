@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-1617",
+    "summary": "Parametrización de siniestros",
+    "assignee": "Francy Corredor ",
+    "created": "21/05/2026",
+    "created_raw": "2026-05-21T14:28:27.785-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1613",
+    "summary": "Reaseguro y reserva",
+    "assignee": "Regner Leonardo Bernal Garnica",
+    "created": "21/05/2026",
+    "created_raw": "2026-05-21T14:15:21.813-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "reaseguro",
+      "reach": 30,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 24.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1609",
+    "summary": "Contabilización de producto",
+    "assignee": "Francy Corredor ",
+    "created": "21/05/2026",
+    "created_raw": "2026-05-21T14:14:38.015-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-1605",
     "summary": "INC-SOFTWARE-POLIZA-DIGITAL | Póliza de cumplimiento y RC sin IVA. póliza 440- 1004103909901 214- 1004101353901 ",
     "assignee": "Sin asignar",
@@ -264,28 +330,6 @@
     }
   },
   {
-    "key": "GD941-1548",
-    "summary": "INC-SOFTWARE-SIMON -RESPONSABILIDAD CIVIL",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "14/05/2026",
-    "created_raw": "2026-05-14T16:40:34.747-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1545",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
     "assignee": "Omar Fernando Otavo García",
@@ -418,28 +462,6 @@
     }
   },
   {
-    "key": "GD941-1536",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento ",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "11/05/2026",
-    "created_raw": "2026-05-11T15:04:33.532-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1529",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Omar Fernando Otavo García",
@@ -502,28 +524,6 @@
       "confidence": 0.7,
       "effort": 1.5,
       "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1512",
-    "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "05/05/2026",
-    "created_raw": "2026-05-05T11:50:50.519-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -838,7 +838,7 @@
   {
     "key": "GD941-1183",
     "summary": "Retroactividad RC",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Omar Fernando Otavo García",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:36:35.437-0500",
     "status": "En Progreso",
@@ -943,28 +943,6 @@
       "effort": 1.4,
       "score": 12.9,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-978",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento | Ajuste de prima póliza para cruce",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "07/11/2025",
-    "created_raw": "2025-11-07T16:47:44.871-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
     }
   },
   {
@@ -1853,7 +1831,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:54:17.559-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1863,9 +1841,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 12.0,
+      "score": 15.0,
       "priority": "Media"
     }
   },
