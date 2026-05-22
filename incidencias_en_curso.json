@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1624",
+    "summary": "Solicitud de reversión de prima negativa generada por cambio de intermediario – Póliza 1001105703601",
+    "assignee": "Sin asignar",
+    "created": "22/05/2026",
+    "created_raw": "2026-05-22T09:48:52.270-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1622",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Luis Felipe Villegas Sanchez",
+    "created": "22/05/2026",
+    "created_raw": "2026-05-22T09:23:21.082-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1617",
     "summary": "Parametrización de siniestros",
     "assignee": "Francy Corredor ",
@@ -243,23 +287,23 @@
   },
   {
     "key": "GD941-1572",
-    "summary": "Ajuste en endoso de devolución de prórroga",
+    "summary": "Ajuste en disminución de valor asegurado a prorrata en Rc 214",
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:09:23.474-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
-      "risk": "devolución prima",
+      "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 35.0,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
@@ -354,10 +398,10 @@
   {
     "key": "GD941-1544",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "14/05/2026",
     "created_raw": "2026-05-14T14:23:12.353-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -684,7 +728,7 @@
   {
     "key": "GD941-1449",
     "summary": "Mejora control de lo emitido grupo empresarial",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/04/2026",
     "created_raw": "2026-04-23T16:51:50.573-0500",
     "status": "En Pruebas QA",
@@ -841,7 +885,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:36:35.437-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -992,7 +1036,7 @@
   {
     "key": "GD941-473",
     "summary": "Ajuste fecha de inicio cuando hay traslado de vigencia de la póliza",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "20/08/2025",
     "created_raw": "2025-08-20T16:26:45.239-0500",
     "status": "Por Hacer",
@@ -1058,7 +1102,7 @@
   {
     "key": "GD981-1682",
     "summary": "Ajuste de los hallazgos de seguridad",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Julian David Martinez Marroquin",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T15:23:31.365-0500",
     "status": "En Progreso",
@@ -1124,10 +1168,10 @@
   {
     "key": "GD981-1668",
     "summary": "Funcionalidad de acceso segmentado desde portal de intermediarios",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Omar Fernando Otavo García",
     "created": "07/05/2026",
     "created_raw": "2026-05-07T14:34:37.763-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1344,7 +1388,7 @@
   {
     "key": "GD981-1605",
     "summary": "No permite incluir las garantias necesarias",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T18:57:13.149-0500",
     "status": "En Progreso",
@@ -2312,7 +2356,7 @@
   {
     "key": "GD981-1088",
     "summary": "Implementación de Excepción de Control Técnico Reaseguros para Emisión Digital de Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Omar Fernando Otavo García",
     "created": "20/02/2026",
     "created_raw": "2026-02-20T10:22:55.114-0500",
     "status": "En Pruebas QA",
