@@ -137,7 +137,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:15:21.813-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -159,7 +159,7 @@
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:14:38.015-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -169,9 +169,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -313,7 +313,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "16/05/2026",
     "created_raw": "2026-05-16T18:38:59.073-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -323,10 +323,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -618,10 +618,10 @@
   {
     "key": "GD941-1523",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Omar Fernando Otavo García",
     "created": "06/05/2026",
     "created_raw": "2026-05-06T10:33:44.980-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -665,7 +665,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:51:17.664-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -675,9 +675,9 @@
       "risk": "devolución prima",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -753,7 +753,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T15:59:32.201-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -763,10 +763,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1476,10 +1476,10 @@
   {
     "key": "GD981-1605",
     "summary": "No permite incluir las garantias necesarias",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Omar Fernando Otavo García",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T18:57:13.149-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
