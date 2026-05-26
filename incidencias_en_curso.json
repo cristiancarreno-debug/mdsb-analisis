@@ -332,7 +332,7 @@
   {
     "key": "GD941-1579",
     "summary": "Ajuste cuando hay cambio de póliza de RC atada a una de Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:26:46.037-0500",
     "status": "Por Hacer",
@@ -379,7 +379,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:02:21.029-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -464,10 +464,10 @@
   {
     "key": "GD941-1544",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "14/05/2026",
     "created_raw": "2026-05-14T14:23:12.353-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -1014,10 +1014,10 @@
   {
     "key": "GD941-1038",
     "summary": "control 924 para el ajuste en Reaseguros",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "21/11/2025",
     "created_raw": "2025-11-21T15:08:25.129-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -1564,10 +1564,10 @@
   {
     "key": "GD981-1588",
     "summary": "Nuevo microservicio para generarPDF",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:34:02.501-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2395,28 +2395,6 @@
       "effort": 2,
       "score": 8.8,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1208",
-    "summary": "Ajuste en el ingreso de la fecha ",
-    "assignee": "caiglesias",
-    "created": "24/03/2026",
-    "created_raw": "2026-03-24T07:11:10.904-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
     }
   },
   {
