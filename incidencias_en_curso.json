@@ -2,7 +2,7 @@
   {
     "key": "GD941-1637",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T10:37:57.637-0500",
     "status": "Backlog",
@@ -24,7 +24,7 @@
   {
     "key": "GD941-1636",
     "summary": "INC-SOFTWARE-TRONADOR CIA 3",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T10:37:15.596-0500",
     "status": "Backlog",
@@ -200,10 +200,10 @@
   {
     "key": "GD941-1604",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "20/05/2026",
     "created_raw": "2026-05-20T14:02:17.374-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -864,8 +864,8 @@
     "created": "15/04/2026",
     "created_raw": "2026-04-15T09:06:25.791-0500",
     "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
@@ -882,10 +882,10 @@
   {
     "key": "GD941-1362",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Julian David Martinez Marroquin",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "26/02/2026",
     "created_raw": "2026-02-26T10:21:00.577-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -899,28 +899,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1354",
-    "summary": "INC-SOFTWARE-TRONADOR CIA 3",
-    "assignee": "Julian David Martinez Marroquin",
-    "created": "23/02/2026",
-    "created_raw": "2026-02-23T15:34:49.886-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 42.9,
-      "priority": "Crítica"
     }
   },
   {
@@ -1256,10 +1234,10 @@
   {
     "key": "GD981-1668",
     "summary": "Funcionalidad de acceso segmentado desde portal de intermediarios",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "07/05/2026",
     "created_raw": "2026-05-07T14:34:37.763-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
