@@ -244,10 +244,10 @@
   {
     "key": "GD941-1602",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "20/05/2026",
     "created_raw": "2026-05-20T10:53:59.771-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
