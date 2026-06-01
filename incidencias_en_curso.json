@@ -375,7 +375,7 @@
   },
   {
     "key": "GD941-1579",
-    "summary": "Ajuste cuando hay cambio de póliza de RC atada a una de Cumplimiento",
+    "summary": "Ajuste en opción transversal de anulación de póliza de Rc para cuando una póliza de 214 es expedida por sistema origen 102 y está atada a Cu",
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:26:46.037-0500",
@@ -386,12 +386,12 @@
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
+      "risk": "anulación",
+      "reach": 40,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2,
-      "score": 40.0,
+      "effort": 1.5,
+      "score": 42.7,
       "priority": "Crítica"
     }
   },
