@@ -115,7 +115,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "22/05/2026",
     "created_raw": "2026-05-22T09:48:52.270-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -125,9 +125,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -266,7 +266,7 @@
   {
     "key": "GD941-1603",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "20/05/2026",
     "created_raw": "2026-05-20T11:06:13.555-0500",
     "status": "En Pruebas QA",
@@ -379,7 +379,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:26:46.037-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "anulación",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 42.7,
+      "score": 53.3,
       "priority": "Crítica"
     }
   },
@@ -1281,7 +1281,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "07/05/2026",
     "created_raw": "2026-05-07T14:34:37.763-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1291,9 +1291,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 15.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 19.3,
       "priority": "Media"
     }
   },
