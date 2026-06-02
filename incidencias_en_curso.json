@@ -838,10 +838,10 @@
   {
     "key": "GD941-1449",
     "summary": "Mejora control de lo emitido grupo empresarial",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "23/04/2026",
     "created_raw": "2026-04-23T16:51:50.573-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -995,7 +995,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:20:10.916-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1005,9 +1005,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
