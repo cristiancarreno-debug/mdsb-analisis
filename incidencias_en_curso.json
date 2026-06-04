@@ -46,10 +46,10 @@
   {
     "key": "GD941-1672",
     "summary": "INC-SOFTWARE-POLIZA DIGITAL | Póliza 1001106204101 450 end 1 sin factura ",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "03/06/2026",
     "created_raw": "2026-06-03T10:51:11.167-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -106,28 +106,6 @@
       "confidence": 0.5,
       "effort": 1.5,
       "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1650",
-    "summary": "PROVISORIO POL CUMPLIMIENTO",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "28/05/2026",
-    "created_raw": "2026-05-28T17:12:04.939-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -195,28 +173,6 @@
       "effort": 2,
       "score": 35.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1633",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "25/05/2026",
-    "created_raw": "2026-05-25T08:38:28.441-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -349,72 +305,6 @@
       "effort": 2,
       "score": 40.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1604",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "20/05/2026",
-    "created_raw": "2026-05-20T14:02:17.374-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1603",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "20/05/2026",
-    "created_raw": "2026-05-20T11:06:13.555-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1602",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "20/05/2026",
-    "created_raw": "2026-05-20T10:53:59.771-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -594,204 +484,6 @@
     }
   },
   {
-    "key": "GD941-1545",
-    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "14/05/2026",
-    "created_raw": "2026-05-14T14:23:25.265-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1544",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "14/05/2026",
-    "created_raw": "2026-05-14T14:23:12.353-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1543",
-    "summary": "Error en prima Póliza 455-1060000065101 END 16",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "14/05/2026",
-    "created_raw": "2026-05-14T14:22:59.291-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1542",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "14/05/2026",
-    "created_raw": "2026-05-14T14:22:39.257-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1539",
-    "summary": "INC-SOFTWARE-SIMON WEB SINIESTROS CIA 3",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "12/05/2026",
-    "created_raw": "2026-05-12T11:12:40.042-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1538",
-    "summary": "INC-SOFTWARE-TRONADOR CUMPLIMIENTO",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "12/05/2026",
-    "created_raw": "2026-05-12T11:12:33.078-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1529",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "08/05/2026",
-    "created_raw": "2026-05-08T11:28:45.728-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1524",
-    "summary": "INC-SOFTWARE-Facturación Inconsistente",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "06/05/2026",
-    "created_raw": "2026-05-06T11:06:28.137-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1523",
-    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "06/05/2026",
-    "created_raw": "2026-05-06T10:33:44.980-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1500",
     "summary": "Generación e Impresión de Póliza Electrónica",
     "assignee": "JAIME ALBERTO PUENTES RAMIREZ",
@@ -924,28 +616,6 @@
     }
   },
   {
-    "key": "GD941-1472",
-    "summary": "INC-SOFTWARE-TRONADOR CIA 3",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "29/04/2026",
-    "created_raw": "2026-04-29T10:35:13.344-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-1449",
     "summary": "Mejora control de lo emitido grupo empresarial",
     "assignee": "Cristian David Carreño Ruiz",
@@ -990,28 +660,6 @@
     }
   },
   {
-    "key": "GD941-1415",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T09:13:30.540-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1414",
     "summary": "INC-SOFTWARE-SIMON WEB",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1030,28 +678,6 @@
       "confidence": 0.7,
       "effort": 1.5,
       "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1362",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "26/02/2026",
-    "created_raw": "2026-02-26T10:21:00.577-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1140,28 +766,6 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1038",
-    "summary": "control 924 para el ajuste en Reaseguros",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "21/11/2025",
-    "created_raw": "2025-11-21T15:08:25.129-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "reaseguro",
-      "reach": 30,
-      "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 30.0,
       "priority": "Alta"
     }
   },
@@ -1342,53 +946,9 @@
     }
   },
   {
-    "key": "GD981-1679",
-    "summary": "Modal de confirmación de proceso",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "11/05/2026",
-    "created_raw": "2026-05-11T12:30:49.639-0500",
-    "status": "En Progreso",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1574 - Paso 3 - Confirmación de cotización de Cumplimiento",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1674",
-    "summary": "Ajuste de forma en pantalla 3",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "10/05/2026",
-    "created_raw": "2026-05-10T15:35:50.855-0500",
-    "status": "En Progreso",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1578 - Pantalla de Emisión - Flujo desde cotización existente y nueva póliza",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1668",
     "summary": "Funcionalidad de acceso segmentado desde portal de intermediarios",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "07/05/2026",
     "created_raw": "2026-05-07T14:34:37.763-0500",
     "status": "Pendiente PAP",
@@ -1405,50 +965,6 @@
       "effort": 1.4,
       "score": 19.3,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1657",
-    "summary": "El modal de Procesando No aparece como el Figma ",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "29/04/2026",
-    "created_raw": "2026-04-29T17:43:26.945-0500",
-    "status": "En Progreso",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1333 - Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1655",
-    "summary": "Definir la descripción de producto Particulares ya que el figma sale diferente al front",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "29/04/2026",
-    "created_raw": "2026-04-29T16:37:19.736-0500",
-    "status": "En Progreso",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1333 - Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
     }
   },
   {
@@ -1652,7 +1168,7 @@
   {
     "key": "GD981-1596",
     "summary": "Reintentos en consulta de Suma disponible",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:41:40.916-0500",
     "status": "En Pruebas UAT",
@@ -1740,10 +1256,10 @@
   {
     "key": "GD981-1578",
     "summary": "Pantalla de Emisión - Flujo desde cotización existente y nueva póliza",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:46:04.803-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1753,19 +1269,19 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
   {
     "key": "GD981-1574",
     "summary": "Paso 3 - Confirmación de cotización de Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "22/04/2026",
     "created_raw": "2026-04-22T12:45:30.141-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1775,9 +1291,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
@@ -2444,10 +1960,10 @@
   {
     "key": "GD981-1333",
     "summary": "Paso 1 - Selección de producto, identificación de partes y carga de contrato en cotización de Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "08/04/2026",
     "created_raw": "2026-04-08T18:07:40.190-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2457,9 +1973,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
