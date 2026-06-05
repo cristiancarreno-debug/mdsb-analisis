@@ -247,7 +247,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "28/05/2026",
     "created_raw": "2026-05-28T10:57:22.645-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -257,9 +257,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -357,7 +357,7 @@
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:28:27.785-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -367,10 +367,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -687,7 +687,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:01:28.971-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -697,9 +697,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
