@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1714",
+    "summary": "INC-SOFTWARE-POLIZA DIGITAL ",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "created": "09/06/2026",
+    "created_raw": "2026-06-09T09:41:27.131-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-1704",
     "summary": "Automatización de Pruebas",
     "assignee": "Omar Fernando Otavo García",
@@ -35,28 +57,6 @@
     "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 40.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1690",
-    "summary": "Corregir cálculo de prima en endoso de disminución de suma asegurada para RC 214 en Simon Web - aplicar prorrata en lugar de prima mínima positiva",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "04/06/2026",
-    "created_raw": "2026-06-04T09:48:54.003-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
       "confidence": 0.8,
