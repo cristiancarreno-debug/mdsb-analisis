@@ -1347,7 +1347,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:41:40.916-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1357,9 +1357,9 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
       "priority": "Alta"
     }
   },
@@ -1388,7 +1388,7 @@
   {
     "key": "GD981-1588",
     "summary": "Nuevo microservicio para generarPDF",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "24/04/2026",
     "created_raw": "2026-04-24T10:34:02.501-0500",
     "status": "Pendiente PAP",
@@ -1787,7 +1787,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:54:17.559-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1797,9 +1797,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 15.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 19.3,
       "priority": "Media"
     }
   },
