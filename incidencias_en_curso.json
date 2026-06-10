@@ -10,7 +10,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -1105,7 +1105,7 @@
     "assignee": "Julian David Martinez Marroquin",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T15:23:31.365-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1115,10 +1115,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
