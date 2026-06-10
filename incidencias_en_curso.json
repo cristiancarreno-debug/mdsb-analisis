@@ -1017,7 +1017,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "20/08/2025",
     "created_raw": "2025-08-20T16:26:45.239-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1027,9 +1027,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2.5,
-      "score": 32.0,
+      "score": 25.6,
       "priority": "Alta"
     }
   },
