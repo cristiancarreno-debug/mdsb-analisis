@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1734",
+    "summary": "INC-SOFTWARE-Simon Cotizadores",
+    "assignee": "Omar Fernando Otavo García",
+    "created": "12/06/2026",
+    "created_raw": "2026-06-12T16:29:42.189-0500",
+    "status": "En Pruebas QA",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1733",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
