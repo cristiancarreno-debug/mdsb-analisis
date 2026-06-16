@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1737",
+    "summary": "INC-SOFTWARE-Tronador",
+    "assignee": "Sin asignar",
+    "created": "16/06/2026",
+    "created_raw": "2026-06-16T10:06:38.558-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1736",
+    "summary": "INC-SOFTWARE-Simon Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "16/06/2026",
+    "created_raw": "2026-06-16T09:40:12.647-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1734",
     "summary": "INC-SOFTWARE-Simon Cotizadores",
     "assignee": "Omar Fernando Otavo García",
@@ -68,10 +112,10 @@
   {
     "key": "GD941-1726",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "11/06/2026",
     "created_raw": "2026-06-11T10:51:30.681-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -596,7 +640,7 @@
   {
     "key": "GD941-1558",
     "summary": "Automatización Plataforma Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:49:39.524-0500",
     "status": "Pendiente PAP",
