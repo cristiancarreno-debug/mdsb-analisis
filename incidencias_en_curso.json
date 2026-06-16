@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1739",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "16/06/2026",
+    "created_raw": "2026-06-16T11:00:42.604-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1738",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento || Se devuelve la vigencia de la póliza y esta cobrando prima",
+    "assignee": "Sin asignar",
+    "created": "16/06/2026",
+    "created_raw": "2026-06-16T11:00:27.163-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-1737",
     "summary": "INC-SOFTWARE-Tronador",
     "assignee": "Sin asignar",
@@ -987,6 +1031,28 @@
       "effort": 2,
       "score": 24.0,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-702",
+    "summary": "Ajuste para Delima",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "19/09/2025",
+    "created_raw": "2025-09-19T09:17:27.960-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1217 - Mejora- Actividades con intermediarios 2026",
+    "rice": {
+      "risk": "intermediarios",
+      "reach": 20,
+      "impact": 1,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 12.9,
+      "priority": "Media"
     }
   },
   {
