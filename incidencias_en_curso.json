@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1743",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "17/06/2026",
+    "created_raw": "2026-06-17T10:06:23.691-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1739",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -68,7 +90,7 @@
   {
     "key": "GD941-1736",
     "summary": "INC-SOFTWARE-Simon Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "16/06/2026",
     "created_raw": "2026-06-16T09:40:12.647-0500",
     "status": "Backlog",
@@ -200,10 +222,10 @@
   {
     "key": "GD941-1717",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "10/06/2026",
     "created_raw": "2026-06-10T10:29:29.883-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,9 +235,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -898,6 +920,28 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1317",
+    "summary": "Parametrización en valor asegurado de 750 millones para autogestión",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "10/02/2026",
+    "created_raw": "2026-02-10T08:50:20.657-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
       "priority": "Crítica"
     }
   },
