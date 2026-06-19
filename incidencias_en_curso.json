@@ -220,28 +220,6 @@
     }
   },
   {
-    "key": "GD941-1718",
-    "summary": "INC-SOFTWARE-TRONADOR CIA 2",
-    "assignee": "Sin asignar",
-    "created": "10/06/2026",
-    "created_raw": "2026-06-10T10:30:39.004-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 25.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-1717",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sugey Dayanna Saenz Vanegas",
@@ -1933,28 +1911,6 @@
       "effort": 2,
       "score": 50.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1446",
-    "summary": "Cálculo y aplicación automática de sobrecomisión del 5% para autogestión",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T20:54:17.559-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-733 - Aplicación automática de sobrecomisión",
-    "rice": {
-      "risk": "comisiones/intermediarios",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 19.3,
-      "priority": "Media"
     }
   },
   {
