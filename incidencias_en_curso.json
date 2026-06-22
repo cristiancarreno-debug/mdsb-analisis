@@ -1210,6 +1210,28 @@
     }
   },
   {
+    "key": "GD981-1801",
+    "summary": "Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "22/06/2026",
+    "created_raw": "2026-06-22T15:19:04.324-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1412 - Atención de solicitudes autogestionadas por correo electrónico",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1799",
     "summary": "Cambio de orden en funcionalidad de busqueda para Grandes beneficiarios",
     "assignee": "Sin asignar",
@@ -2224,7 +2246,7 @@
   {
     "key": "GD981-1416",
     "summary": "Guardado automático de progreso de solicitud en proceso",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:48.729-0500",
     "status": "Por Hacer",
