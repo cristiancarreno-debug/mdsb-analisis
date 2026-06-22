@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1753",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "22/06/2026",
+    "created_raw": "2026-06-22T10:56:07.100-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1750",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sugey Dayanna Saenz Vanegas",
@@ -1454,7 +1476,7 @@
   {
     "key": "GD981-1774",
     "summary": "Microservicio para descargar los archivos soporte de los negocios",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:54:48.909-0500",
     "status": "En Progreso",
@@ -1498,7 +1520,7 @@
   {
     "key": "GD981-1766",
     "summary": "Modificar microservicios de mongo para inserción de solicitudes de emisión",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:41:44.739-0500",
     "status": "En Progreso",
@@ -1520,7 +1542,7 @@
   {
     "key": "GD981-1762",
     "summary": "Cola en aws para manejo de inserción en mongo de los datos de las solicitudes de emisión",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:40:12.666-0500",
     "status": "En Progreso",
@@ -1541,7 +1563,7 @@
   },
   {
     "key": "GD981-1760",
-    "summary": "No aparecen las cotizaciones correpsondientes",
+    "summary": "No aparecen las cotizaciones correspondientes",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
@@ -1586,7 +1608,7 @@
   {
     "key": "GD981-1734",
     "summary": "Asignación de cupo",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "caiglesias",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T17:10:23.176-0500",
     "status": "En Progreso",
