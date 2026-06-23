@@ -1210,6 +1210,28 @@
     }
   },
   {
+    "key": "GD981-1803",
+    "summary": "Disponibilidad de servicios de emisión",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "22/06/2026",
+    "created_raw": "2026-06-22T19:40:06.853-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-1802",
     "summary": "Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
     "assignee": "Santiago Hurtado Solis",
