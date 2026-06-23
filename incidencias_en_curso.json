@@ -1210,6 +1210,28 @@
     }
   },
   {
+    "key": "GD981-1802",
+    "summary": "Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "22/06/2026",
+    "created_raw": "2026-06-22T18:42:26.525-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1412 - Atención de solicitudes autogestionadas por correo electrónico",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1801",
     "summary": "Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
     "assignee": "Santiago Hurtado Solis",
@@ -1844,50 +1866,6 @@
       "confidence": 0.5,
       "effort": 2,
       "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1603",
-    "summary": "Liquidación de prima de acuerdo a la tasas",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "27/04/2026",
-    "created_raw": "2026-04-27T18:51:29.526-0500",
-    "status": "Bloqueado",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 26.7,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1592",
-    "summary": "Ajuste en la liberación del Cúmulo",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "24/04/2026",
-    "created_raw": "2026-04-24T10:36:26.492-0500",
-    "status": "Bloqueado",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 3.0,
-      "score": 4.2,
       "priority": "Baja"
     }
   },
