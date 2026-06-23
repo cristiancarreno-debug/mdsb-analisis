@@ -1633,7 +1633,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1643,9 +1643,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
