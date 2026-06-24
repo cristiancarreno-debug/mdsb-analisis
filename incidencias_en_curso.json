@@ -1567,7 +1567,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:51:34.393-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1577,9 +1577,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
