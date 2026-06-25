@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1773",
+    "summary": "INF-INFORMATIVO-PROCEDIMIENTO USUARIO",
+    "assignee": "Sin asignar",
+    "created": "25/06/2026",
+    "created_raw": "2026-06-25T16:52:47.550-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1771",
     "summary": "Permite Anular el proceso cuando se hace por proceso Transversal",
     "assignee": "Luis Felipe Villegas Sanchez",
@@ -222,7 +244,7 @@
   {
     "key": "GD941-1737",
     "summary": "INC-SOFTWARE-Tronador",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Mónica Patiño",
     "created": "16/06/2026",
     "created_raw": "2026-06-16T10:06:38.558-0500",
     "status": "En Pruebas QA",
@@ -929,7 +951,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "23/04/2026",
     "created_raw": "2026-04-23T16:51:50.573-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -939,10 +961,10 @@
       "risk": "controles",
       "reach": 25,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 16.7,
-      "priority": "Media"
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 21.4,
+      "priority": "Alta"
     }
   },
   {
@@ -1017,7 +1039,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:36:35.437-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1027,10 +1049,10 @@
       "risk": "retroactividad",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 33.3,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 42.9,
+      "priority": "Crítica"
     }
   },
   {
@@ -1633,7 +1655,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:41:44.739-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1643,9 +1665,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1655,7 +1677,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:40:12.666-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1665,9 +1687,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -2549,28 +2571,6 @@
       "effort": 1.5,
       "score": 18.7,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1326",
-    "summary": "Cocorretaje Grandes Beneficiarios",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "08/04/2026",
-    "created_raw": "2026-04-08T14:59:25.606-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
     }
   },
   {
