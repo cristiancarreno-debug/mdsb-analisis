@@ -5,7 +5,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/06/2026",
     "created_raw": "2026-06-26T11:50:34.448-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -90,7 +90,7 @@
   {
     "key": "GD941-1774",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "26/06/2026",
     "created_raw": "2026-06-26T10:58:26.209-0500",
     "status": "En Progreso",
@@ -247,7 +247,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "19/06/2026",
     "created_raw": "2026-06-19T15:45:46.011-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -257,9 +257,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 1.5,
-      "score": 14.0,
+      "score": 10.0,
       "priority": "Media"
     }
   },
@@ -643,7 +643,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "22/05/2026",
     "created_raw": "2026-05-22T09:23:21.082-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -653,9 +653,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
