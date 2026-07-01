@@ -533,7 +533,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "03/06/2026",
     "created_raw": "2026-06-03T11:04:15.296-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -543,9 +543,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -1809,7 +1809,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "05/06/2026",
     "created_raw": "2026-06-05T09:53:09.546-0500",
-    "status": "Por Hacer",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1819,9 +1819,9 @@
       "risk": "automatización",
       "reach": 15,
       "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 1.9,
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 3.2,
       "priority": "Baja"
     }
   },
