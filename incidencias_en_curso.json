@@ -797,7 +797,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:26:46.037-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -807,9 +807,9 @@
       "risk": "anulación",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 53.3,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 68.6,
       "priority": "Crítica"
     }
   },
@@ -2579,7 +2579,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:30.807-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2589,9 +2589,9 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 30.0,
       "priority": "Alta"
     }
   },
