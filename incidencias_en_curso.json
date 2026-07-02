@@ -1408,6 +1408,28 @@
     }
   },
   {
+    "key": "GD981-1823",
+    "summary": "El tomador no queda asociado en la póliza de RCE",
+    "assignee": "Sin asignar",
+    "created": "01/07/2026",
+    "created_raw": "2026-07-01T19:00:16.215-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-1821",
     "summary": "Acceso a usuarios a Plataforma de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -2642,7 +2664,7 @@
   {
     "key": "GD981-1358",
     "summary": "Aumento del límite de tamaño de archivos para carga de documentos",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:30.807-0500",
     "status": "Pendiente PAP",
