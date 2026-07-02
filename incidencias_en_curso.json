@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1816",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Luis Felipe Villegas Sanchez",
+    "created": "02/07/2026",
+    "created_raw": "2026-07-02T14:41:28.291-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1807",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -24,10 +46,10 @@
   {
     "key": "GD941-1805",
     "summary": "INC-SOFTWARE-Tronador CIA 3",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T12:10:49.293-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -178,10 +200,10 @@
   {
     "key": "GD941-1765",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento | Valor a pagar Errado Cumplimiento. 1000171139001 Producto 440 Endoso 3 Factura 7",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Omar Fernando Otavo García",
     "created": "25/06/2026",
     "created_raw": "2026-06-25T08:42:34.637-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
