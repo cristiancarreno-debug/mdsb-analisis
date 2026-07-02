@@ -1408,12 +1408,34 @@
     }
   },
   {
+    "key": "GD981-1824",
+    "summary": "Demora en la impresión del PDF",
+    "assignee": "Sin asignar",
+    "created": "01/07/2026",
+    "created_raw": "2026-07-01T19:17:38.984-0500",
+    "status": "Por Hacer",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1823",
     "summary": "El tomador no queda asociado en la póliza de RCE",
     "assignee": "Sin asignar",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T19:00:16.215-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
