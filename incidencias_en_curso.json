@@ -5,7 +5,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "02/07/2026",
     "created_raw": "2026-07-02T08:25:02.202-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -72,28 +72,6 @@
     "created": "01/07/2026",
     "created_raw": "2026-07-01T09:32:06.330-0500",
     "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1786",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "01/07/2026",
-    "created_raw": "2026-07-01T09:21:35.779-0500",
-    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -203,7 +181,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "25/06/2026",
     "created_raw": "2026-06-25T08:42:34.637-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,9 +191,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -1608,7 +1586,7 @@
   {
     "key": "GD981-1774",
     "summary": "Microservicio para descargar los archivos soporte de los negocios",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:54:48.909-0500",
     "status": "Pendiente PAP",
@@ -1674,7 +1652,7 @@
   {
     "key": "GD981-1762",
     "summary": "Cola en aws para manejo de inserción en mongo de los datos de las solicitudes de emisión",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:40:12.666-0500",
     "status": "Pendiente PAP",
@@ -1691,28 +1669,6 @@
       "effort": 1.4,
       "score": 77.1,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1760",
-    "summary": "No aparecen las cotizaciones correspondientes",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "14/06/2026",
-    "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
-      "priority": "Alta"
     }
   },
   {
@@ -2315,7 +2271,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:48.729-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2325,9 +2281,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
