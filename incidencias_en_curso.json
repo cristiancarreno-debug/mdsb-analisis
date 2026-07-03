@@ -621,7 +621,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "20/05/2026",
     "created_raw": "2026-05-20T14:05:57.782-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -631,9 +631,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -1586,7 +1586,7 @@
   {
     "key": "GD981-1778",
     "summary": "CNTI-2480 - Hardening de Seguridad en API Gateway — cumplimientodigital-servicios-proxy",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T15:18:15.711-0500",
     "status": "Por Hacer",
