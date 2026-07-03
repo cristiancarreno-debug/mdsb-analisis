@@ -2,7 +2,7 @@
   {
     "key": "GD941-1819",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "03/07/2026",
     "created_raw": "2026-07-03T14:24:37.437-0500",
     "status": "Backlog",
@@ -970,7 +970,7 @@
   {
     "key": "GD941-1183",
     "summary": "Retroactividad RC",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:36:35.437-0500",
     "status": "Pendiente PAP",
@@ -1237,7 +1237,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "25/06/2026",
     "created_raw": "2026-06-25T15:25:13.203-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD981",
