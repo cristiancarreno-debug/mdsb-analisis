@@ -330,28 +330,6 @@
     }
   },
   {
-    "key": "GD941-1746",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "18/06/2026",
-    "created_raw": "2026-06-18T14:44:58.193-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1738",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento || Se devuelve la vigencia de la póliza y esta cobrando prima",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -926,7 +904,7 @@
   {
     "key": "GD941-1178",
     "summary": "Ajuste prima informada",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:20:10.916-0500",
     "status": "En Progreso",
@@ -1080,7 +1058,7 @@
   {
     "key": "GD941-156",
     "summary": "Ajuste de deducibles y valores asegurados en RC 214 estatal",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "20/05/2025",
     "created_raw": "2025-05-20T16:18:44.558-0500",
     "status": "Por Hacer",
