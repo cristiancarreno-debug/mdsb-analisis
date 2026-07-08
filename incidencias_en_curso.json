@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1841",
+    "summary": "INC-SOFTWARE-TRONADOR CIA 3",
+    "assignee": "Sin asignar",
+    "created": "08/07/2026",
+    "created_raw": "2026-07-08T14:39:11.855-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1840",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "08/07/2026",
+    "created_raw": "2026-07-08T14:33:35.954-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1824",
     "summary": "INC-SOFTWARE-Simon Cumplimiento",
     "assignee": "Sugey Dayanna Saenz Vanegas",
