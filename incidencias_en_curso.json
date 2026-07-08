@@ -2,7 +2,7 @@
   {
     "key": "GD941-1824",
     "summary": "INC-SOFTWARE-Simon Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "06/07/2026",
     "created_raw": "2026-07-06T16:59:00.078-0500",
     "status": "Backlog",
@@ -313,7 +313,7 @@
     "assignee": "Sugey Dayanna Saenz Vanegas",
     "created": "19/06/2026",
     "created_raw": "2026-06-19T15:45:46.011-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -323,9 +323,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -547,28 +547,6 @@
       "effort": 2,
       "score": 8.8,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-1605",
-    "summary": "INC-SOFTWARE-POLIZA-DIGITAL | Póliza de cumplimiento y RC sin IVA. póliza 440- 1004103909901 214- 1004101353901 ",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "20/05/2026",
-    "created_raw": "2026-05-20T14:05:57.782-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
     }
   },
   {
@@ -1259,7 +1237,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T19:42:14.242-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1269,9 +1247,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
