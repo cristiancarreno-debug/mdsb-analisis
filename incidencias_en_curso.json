@@ -27,7 +27,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "08/07/2026",
     "created_raw": "2026-07-08T14:39:11.855-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +37,9 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 25.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -194,28 +194,6 @@
       "confidence": 0.6,
       "effort": 1.0499999999999998,
       "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1776",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "26/06/2026",
-    "created_raw": "2026-06-26T11:01:48.203-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
       "priority": "Media"
     }
   },
@@ -1111,6 +1089,28 @@
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1214 - Mejoras Obligatoriedad de contrato cumplimiento 2026",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1848",
+    "summary": "Al crear una nueva solicitud de Cotización el sistema no limpia los dato",
+    "assignee": "caiglesias",
+    "created": "09/07/2026",
+    "created_raw": "2026-07-09T12:27:35.819-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1542 - 15 - Construccion de link para retomar solicitud",
     "rice": {
       "risk": "cotización",
       "reach": 55,
@@ -2117,7 +2117,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:14:13.068-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
