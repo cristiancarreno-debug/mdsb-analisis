@@ -32,7 +32,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "plataforma core",
       "reach": 50,
@@ -1097,6 +1097,28 @@
       "effort": 2,
       "score": 22.0,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1849",
+    "summary": "Fortalecimiento de seguridad: sesiones e identidad del usuario",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "09/07/2026",
+    "created_raw": "2026-07-09T16:55:16.720-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
