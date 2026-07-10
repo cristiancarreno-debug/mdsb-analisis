@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1852",
+    "summary": "INC-SOFTWARE-Simon Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "10/07/2026",
+    "created_raw": "2026-07-10T15:11:18.853-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1848",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -1030,50 +1052,6 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-156",
-    "summary": "Ajuste de deducibles y valores asegurados en RC 214 estatal",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "20/05/2025",
-    "created_raw": "2025-05-20T16:18:44.558-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1210 - Mejoras relacionadas a RC 2026",
-    "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-20",
-    "summary": "Obligatoriedad de contrato cuando se convierte de cotización a póliza",
-    "assignee": "Sugey Dayanna Saenz Vanegas",
-    "created": "15/04/2025",
-    "created_raw": "2025-04-15T08:02:10.671-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1214 - Mejoras Obligatoriedad de contrato cumplimiento 2026",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 22.0,
       "priority": "Alta"
     }
   },
