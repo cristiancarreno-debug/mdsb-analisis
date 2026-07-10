@@ -1144,28 +1144,6 @@
     }
   },
   {
-    "key": "GD981-1843",
-    "summary": "FALLA AL INGRESO DE LA PLATAFORMA DE CUMPLIMIENTO",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "06/07/2026",
-    "created_raw": "2026-07-06T17:05:41.531-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD981-1824",
     "summary": "Demora en la impresión del PDF",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1563,7 +1541,7 @@
   },
   {
     "key": "GD981-1774",
-    "summary": "Microservicio para descargar los archivos soporte de los negocios",
+    "summary": "HU TEC - Microservicio para descargar los archivos soporte de los negocios",
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:54:48.909-0500",
@@ -1585,7 +1563,7 @@
   },
   {
     "key": "GD981-1766",
-    "summary": "Modificar microservicios de mongo para inserción de solicitudes de emisión",
+    "summary": "HU TEC - Modificar microservicios de mongo para inserción de solicitudes de emisión",
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:41:44.739-0500",
@@ -1607,7 +1585,7 @@
   },
   {
     "key": "GD981-1762",
-    "summary": "Cola en aws para manejo de inserción en mongo de los datos de las solicitudes de emisión",
+    "summary": "HU TEC - Cola en aws para manejo de inserción en mongo de los datos de las solicitudes de emisión",
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T14:40:12.666-0500",
@@ -1651,7 +1629,7 @@
   },
   {
     "key": "GD981-1695",
-    "summary": "Despliegue monitoreo Datadog",
+    "summary": "HU TEC - Despliegue monitoreo Datadog",
     "assignee": "Santiago Hurtado Solis",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T08:28:42.367-0500",
