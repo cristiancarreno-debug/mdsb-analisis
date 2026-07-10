@@ -507,7 +507,7 @@
   },
   {
     "key": "GD941-1617",
-    "summary": "Parametrización de siniestros",
+    "summary": "SC- Parametrización de siniestros",
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:28:27.785-0500",
@@ -516,7 +516,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "parametrización",
       "reach": 30,
@@ -529,29 +529,29 @@
   },
   {
     "key": "GD941-1613",
-    "summary": "Reaseguro y reserva",
+    "summary": "SC- Reaseguro y reserva",
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:15:21.813-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "reaseguro",
       "reach": 30,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 24.0,
+      "score": 30.0,
       "priority": "Alta"
     }
   },
   {
     "key": "GD941-1609",
-    "summary": "Contabilización de producto",
+    "summary": "SC - Contabilización de producto",
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:14:38.015-0500",
@@ -560,7 +560,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -573,7 +573,7 @@
   },
   {
     "key": "GD941-1589",
-    "summary": "Parametrización de datos variables",
+    "summary": "SC - Parametrización de datos variables",
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "16/05/2026",
     "created_raw": "2026-05-16T18:38:59.073-0500",
@@ -582,7 +582,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "parametrización",
       "reach": 30,
@@ -683,7 +683,7 @@
   },
   {
     "key": "GD941-1500",
-    "summary": "Generación e Impresión de Póliza Electrónica",
+    "summary": "SC - Generación e Impresión de Póliza Electrónica",
     "assignee": "JAIME ALBERTO PUENTES RAMIREZ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:52:59.311-0500",
@@ -692,7 +692,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "documentación",
       "reach": 45,
@@ -705,7 +705,7 @@
   },
   {
     "key": "GD941-1496",
-    "summary": "Reglas de Modificación y Cese de Cobertura sin Devolución",
+    "summary": "SC- Reglas de Modificación y Cese de Cobertura sin Devolución",
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:51:17.664-0500",
@@ -714,7 +714,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "devolución prima",
       "reach": 35,
@@ -727,29 +727,29 @@
   },
   {
     "key": "GD941-1492",
-    "summary": "Reglas de Suscripción Automática y Validación de Terceros",
+    "summary": "SC - Reglas de Suscripción Automática y Validación de Terceros",
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:21:24.062-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 14.0,
+      "score": 17.5,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-1488",
-    "summary": "Cálculo de Prima, IVA y Deducibles",
+    "summary": "SC - Cálculo de Prima, IVA y Deducibles",
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:01:28.971-0500",
@@ -758,7 +758,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "primas/tasas",
       "reach": 50,
@@ -771,29 +771,29 @@
   },
   {
     "key": "GD941-1484",
-    "summary": "Definición de Protocolo de Entrada para Gestión de Pólizas",
+    "summary": "SC. Definición de Protocolo de Entrada para Gestión de Pólizas",
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:00:42.339-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
   {
     "key": "GD941-1480",
-    "summary": "Parametrización Estructural del Ramo 085 (Seguro de Crédito)",
+    "summary": "SC - Parametrización Estructural del Ramo 085 (Seguro de Crédito)",
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T15:59:32.201-0500",
@@ -802,7 +802,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - Creación de producto en sistemas Core",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
     "rice": {
       "risk": "parametrización",
       "reach": 30,
@@ -1061,7 +1061,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "09/07/2026",
     "created_raw": "2026-07-09T16:55:16.720-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1071,9 +1071,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -1875,7 +1875,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T17:46:40.506-0500",
-    "status": "En Progreso",
+    "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1885,10 +1885,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
@@ -2073,7 +2073,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:14:13.068-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2083,9 +2083,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
