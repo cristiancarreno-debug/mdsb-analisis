@@ -814,6 +814,28 @@
     }
   },
   {
+    "key": "GD941-1857",
+    "summary": "Modificaciones combinadas en un solo movimiento",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "28/04/2026",
+    "created_raw": "2026-04-28T09:54:08.192-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1449",
     "summary": "Mejora control de lo emitido grupo empresarial",
     "assignee": "Luis Felipe Villegas Sanchez",
@@ -1066,7 +1088,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1088,7 +1110,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "documentación",
       "reach": 45,
@@ -1110,7 +1132,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -1132,7 +1154,7 @@
     "tipo": "Service Request N2",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -1154,7 +1176,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -1220,7 +1242,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1242,7 +1264,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1851 - Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1264,7 +1286,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1851 - Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1286,7 +1308,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1851 - Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1308,7 +1330,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1851 - Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1330,7 +1352,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1851 - Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "cobertura",
       "reach": 35,
@@ -1352,7 +1374,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "comisiones/intermediarios",
       "reach": 30,
@@ -1374,7 +1396,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -1396,7 +1418,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -1418,7 +1440,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -1540,6 +1562,28 @@
     }
   },
   {
+    "key": "GD981-1760",
+    "summary": "No aparecen las cotizaciones correspondientes",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "14/06/2026",
+    "created_raw": "2026-06-14T12:51:25.632-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 27.5,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1734",
     "summary": "INC - Asignación de cupo",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1550,7 +1594,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -1572,7 +1616,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1594,7 +1638,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1616,29 +1660,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1619",
-    "summary": "Modificaciones combinadas en un solo movimiento",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:54:08.192-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1660,7 +1682,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1682,7 +1704,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "cobertura",
       "reach": 35,
@@ -1704,7 +1726,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1726,7 +1748,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1748,7 +1770,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1770,7 +1792,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -1990,7 +2012,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2012,7 +2034,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "parametrización",
       "reach": 30,
@@ -2034,7 +2056,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "parametrización",
       "reach": 30,
@@ -2144,7 +2166,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2166,7 +2188,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -2188,7 +2210,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "canal digital",
       "reach": 40,
@@ -2210,7 +2232,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2232,7 +2254,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2254,7 +2276,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2276,7 +2298,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2298,7 +2320,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2320,7 +2342,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2342,7 +2364,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2364,7 +2386,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2386,7 +2408,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2408,7 +2430,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2430,7 +2452,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -2452,7 +2474,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - Modificación de pólizas de forma autogestionada",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2474,7 +2496,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2496,7 +2518,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2518,7 +2540,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2540,7 +2562,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2562,7 +2584,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1347 - Evolutivos de la Autogestión Fase I",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
     "rice": {
       "risk": "comisiones/intermediarios",
       "reach": 30,
