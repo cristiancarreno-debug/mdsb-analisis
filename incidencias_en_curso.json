@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1862",
+    "summary": "COMISIONES",
+    "assignee": "Sin asignar",
+    "created": "14/07/2026",
+    "created_raw": "2026-07-14T09:18:34.528-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "comisiones/intermediarios",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 12.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1852",
     "summary": "INC-SOFTWARE-Simon Cumplimiento",
     "assignee": "Sin asignar",
@@ -1189,7 +1211,7 @@
   },
   {
     "key": "GD981-1802",
-    "summary": "Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
+    "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
     "assignee": "Santiago Hurtado Solis",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T18:42:26.525-0500",
@@ -1211,7 +1233,7 @@
   },
   {
     "key": "GD981-1801",
-    "summary": "Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
+    "summary": "HU TEC - Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
     "assignee": "Santiago Hurtado Solis",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T15:19:04.324-0500",
@@ -1453,7 +1475,7 @@
   },
   {
     "key": "GD981-1782",
-    "summary": "Modificación servicios Mongo para cifrado del id de mongo",
+    "summary": "HU TEC - Modificación servicios Mongo para cifrado del id de mongo",
     "assignee": "Santiago Hurtado Solis",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T16:28:37.259-0500",
