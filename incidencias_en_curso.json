@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1863",
+    "summary": "Ajuste de deducibles y valores asegurados en RC 214 estatal",
+    "assignee": "Luis Felipe Villegas Sanchez",
+    "created": "14/07/2026",
+    "created_raw": "2026-07-14T11:30:37.867-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1210 - Mejoras relacionadas a RC 2026",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1862",
     "summary": "COMISIONES",
     "assignee": "Sin asignar",
