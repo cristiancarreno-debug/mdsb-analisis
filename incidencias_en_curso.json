@@ -946,28 +946,6 @@
     }
   },
   {
-    "key": "GD941-1317",
-    "summary": "Parametrización en valor asegurado de 750 millones para autogestión",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "10/02/2026",
-    "created_raw": "2026-02-10T08:50:20.657-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026",
-    "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 45.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1183",
     "summary": "Retroactividad RC",
     "assignee": "Luis Felipe Villegas Sanchez",
@@ -1031,28 +1009,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1012",
-    "summary": "Suma disponible Delima para los productos 450, 455 y 440",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "10/11/2025",
-    "created_raw": "2025-11-10T17:00:44.348-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1217 - Mejora- Actividades con intermediarios 2026",
-    "rice": {
-      "risk": "intermediarios",
-      "reach": 20,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 12.9,
-      "priority": "Media"
     }
   },
   {
