@@ -49,7 +49,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "14/07/2026",
     "created_raw": "2026-07-14T11:30:37.867-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -1190,10 +1190,10 @@
   {
     "key": "GD981-1803",
     "summary": "Disponibilidad de servicios de emisión",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Santiago Hurtado Solis",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T19:40:06.853-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1203,9 +1203,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
