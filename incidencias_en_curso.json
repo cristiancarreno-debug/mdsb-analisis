@@ -176,28 +176,6 @@
     }
   },
   {
-    "key": "GD941-1841",
-    "summary": "INC-SOFTWARE-TRONADOR CIA 3",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "08/07/2026",
-    "created_raw": "2026-07-08T14:39:11.855-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-1840",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
