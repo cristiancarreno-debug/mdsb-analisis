@@ -1,27 +1,5 @@
 [
   {
-    "key": "GD941-1886",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "16/07/2026",
-    "created_raw": "2026-07-16T10:35:22.015-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1874",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -40,28 +18,6 @@
       "confidence": 0.5,
       "effort": 1.5,
       "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1873",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "14/07/2026",
-    "created_raw": "2026-07-14T15:07:33.083-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1097,6 +1053,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1873",
+    "summary": "HU TEC - nivelación de ambiente productivo en terrafom",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "17/07/2026",
+    "created_raw": "2026-07-17T10:40:24.867-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
