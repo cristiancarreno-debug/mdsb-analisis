@@ -1012,28 +1012,6 @@
     }
   },
   {
-    "key": "GD941-702",
-    "summary": "Ajuste para Delima",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "19/09/2025",
-    "created_raw": "2025-09-19T09:17:27.960-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1217 - Mejora- Actividades con intermediarios 2026",
-    "rice": {
-      "risk": "intermediarios",
-      "reach": 20,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 12.9,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-473",
     "summary": "Ajuste fecha de inicio cuando hay traslado de vigencia de la póliza",
     "assignee": "Ricardo Arturo Salamanca Mora",
