@@ -1,24 +1,24 @@
 [
   {
-    "key": "GD941-1899",
-    "summary": "Paso entre ambientes",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "key": "GD941-1901",
+    "summary": "Soporte para Póliza Electrónica (Operaciones) | Póliza de RC sin datos de asegurado",
+    "assignee": "Sin asignar",
     "created": "21/07/2026",
-    "created_raw": "2026-07-21T13:08:52.092-0500",
+    "created_raw": "2026-07-21T14:35:56.742-0500",
     "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1391,7 +1391,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T19:42:14.242-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1401,10 +1401,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1638,7 +1638,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
+    "epic": "GD981-1850 - Evolutivos de la Autogestión fase I",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1743,7 +1743,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T17:10:23.176-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1753,9 +1753,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
