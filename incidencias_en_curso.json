@@ -1,5 +1,181 @@
 [
   {
+    "key": "GD941-1899",
+    "summary": "Paso entre ambientes",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T13:08:52.092-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-1898",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:59:00.458-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1897",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:54:18.020-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1896",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:46:41.352-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1895",
+    "summary": "INC-SOFTWARE-Poliza Digital | Error cálculo de factura en endosos de pólizas de cumplimiento para producto 440 ",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:44:37.539-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-1894",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:40:52.726-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1893",
+    "summary": "COMISIONES POL CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T11:30:00.912-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "comisiones/intermediarios",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 12.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1891",
+    "summary": "Producto Rc 215 renovada no permite levantar control",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T10:05:29.841-0500",
+    "status": "En Pruebas QA",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "controles",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 16.7,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1889",
     "summary": "No permite Ajustar la suma disponible de RC durante el endoso 0",
     "assignee": "Luis Felipe Villegas Sanchez",
@@ -239,28 +415,6 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-1819",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "03/07/2026",
-    "created_raw": "2026-07-03T14:24:37.437-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
     }
   },
   {
@@ -511,7 +665,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T10:37:15.596-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -687,7 +841,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:02:21.029-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1052,6 +1206,28 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1874",
+    "summary": "Refinamiento y estimación Fase 2 - Endosos",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T12:53:52.970-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2.5,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
