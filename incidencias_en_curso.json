@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1902",
+    "summary": "INC-SOFTWARE-SIMON CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T18:03:01.838-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1901",
     "summary": "Soporte para Póliza Electrónica (Operaciones) | Póliza de RC sin datos de asegurado",
     "assignee": "Sin asignar",
@@ -10,7 +32,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -32,7 +54,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -54,7 +76,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -120,7 +142,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -134,7 +156,7 @@
   {
     "key": "GD941-1893",
     "summary": "COMISIONES POL CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T11:30:00.912-0500",
     "status": "Backlog",
@@ -142,7 +164,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "comisiones/intermediarios",
       "reach": 30,
@@ -156,7 +178,7 @@
   {
     "key": "GD941-1891",
     "summary": "Producto Rc 215 renovada no permite levantar control",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T10:05:29.841-0500",
     "status": "En Pruebas QA",
@@ -164,7 +186,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "controles",
       "reach": 25,
@@ -200,7 +222,7 @@
   {
     "key": "GD941-1874",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "14/07/2026",
     "created_raw": "2026-07-14T15:11:46.174-0500",
     "status": "Backlog",
@@ -208,7 +230,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -244,7 +266,7 @@
   {
     "key": "GD941-1862",
     "summary": "COMISIONES",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "14/07/2026",
     "created_raw": "2026-07-14T09:18:34.528-0500",
     "status": "Backlog",
@@ -252,7 +274,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "comisiones/intermediarios",
       "reach": 30,
@@ -266,7 +288,7 @@
   {
     "key": "GD941-1852",
     "summary": "INC-SOFTWARE-Simon Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "10/07/2026",
     "created_raw": "2026-07-10T15:11:18.853-0500",
     "status": "Backlog",
@@ -274,7 +296,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -288,7 +310,7 @@
   {
     "key": "GD941-1848",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "10/07/2026",
     "created_raw": "2026-07-10T08:54:09.915-0500",
     "status": "Backlog",
@@ -296,7 +318,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -332,7 +354,7 @@
   {
     "key": "GD941-1840",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "08/07/2026",
     "created_raw": "2026-07-08T14:33:35.954-0500",
     "status": "Backlog",
@@ -340,7 +362,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -1014,7 +1036,7 @@
   {
     "key": "GD941-1857",
     "summary": "Modificaciones combinadas en un solo movimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:08.192-0500",
     "status": "Backlog",
@@ -1259,7 +1281,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T19:17:38.984-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1269,10 +1291,10 @@
       "risk": "documentación",
       "reach": 45,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1,
-      "score": 36.0,
-      "priority": "Alta"
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1281,7 +1303,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T19:00:16.215-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1291,9 +1313,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -1696,7 +1718,7 @@
   {
     "key": "GD981-1760",
     "summary": "No aparecen las cotizaciones correspondientes",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Santiago Hurtado Solis",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
     "status": "En Progreso",
