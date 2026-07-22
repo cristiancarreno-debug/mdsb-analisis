@@ -200,10 +200,10 @@
   {
     "key": "GD941-1889",
     "summary": "No permite Ajustar la suma disponible de RC durante el endoso 0",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Omar Fernando Otavo García",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T09:15:41.970-0500",
-    "status": "Por Hacer",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD941",
@@ -213,9 +213,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
