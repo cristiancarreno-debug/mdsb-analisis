@@ -5,7 +5,7 @@
     "assignee": "Sin asignar",
     "created": "22/07/2026",
     "created_raw": "2026-07-22T15:17:36.231-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1735,28 +1735,6 @@
       "effort": 2,
       "score": 27.5,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1734",
-    "summary": "INC - Asignación de cupo",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "04/06/2026",
-    "created_raw": "2026-06-04T17:10:23.176-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
     }
   },
   {
