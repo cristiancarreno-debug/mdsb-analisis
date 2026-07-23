@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1909",
+    "summary": "N.P - No habilita el botón siguiente / no permite avanzar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "23/07/2026",
+    "created_raw": "2026-07-23T14:57:19.082-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1908",
+    "summary": "La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
+    "assignee": "Sin asignar",
+    "created": "23/07/2026",
+    "created_raw": "2026-07-23T14:40:21.452-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-1905",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -10,7 +54,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -437,28 +481,6 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-1816",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "02/07/2026",
-    "created_raw": "2026-07-02T14:41:28.291-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -1229,6 +1251,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1879",
+    "summary": "DELIMA Acceso a usuarios a Plataforma de cumplimiento V2",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "23/07/2026",
+    "created_raw": "2026-07-23T14:03:58.200-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "rice": {
+      "risk": "intermediarios",
+      "reach": 20,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 8.0,
+      "priority": "Baja"
     }
   },
   {
