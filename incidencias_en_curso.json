@@ -506,28 +506,6 @@
     }
   },
   {
-    "key": "GD941-1788",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "01/07/2026",
-    "created_raw": "2026-07-01T09:32:06.330-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1775",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -547,50 +525,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1774",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "26/06/2026",
-    "created_raw": "2026-06-26T10:58:26.209-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1765",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento | Valor a pagar Errado Cumplimiento. 1000171139001 Producto 440 Endoso 3 Factura 7",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "25/06/2026",
-    "created_raw": "2026-06-25T08:42:34.637-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
@@ -2447,7 +2381,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:40.102-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2457,9 +2391,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
