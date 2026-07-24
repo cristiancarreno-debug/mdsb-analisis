@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1911",
+    "summary": "N.P Consulta datos de Agente",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "23/07/2026",
+    "created_raw": "2026-07-23T18:15:48.390-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "reportes/trazabilidad",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1909",
     "summary": "N.P - No habilita el botón siguiente / no permite avanzar",
     "assignee": "Sheila Paola Uhia Kanmerer",
