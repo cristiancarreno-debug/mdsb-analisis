@@ -90,7 +90,7 @@
   {
     "key": "GD941-1908",
     "summary": "La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T14:40:21.452-0500",
     "status": "Backlog",
@@ -1259,7 +1259,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/07/2026",
     "created_raw": "2026-07-24T09:55:24.467-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD981",
@@ -1269,10 +1269,10 @@
       "risk": "intermediarios",
       "reach": 20,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 8.0,
-      "priority": "Baja"
+      "score": 10.0,
+      "priority": "Media"
     }
   },
   {
