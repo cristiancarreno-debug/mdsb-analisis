@@ -176,28 +176,6 @@
     }
   },
   {
-    "key": "GD941-1898",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T11:59:00.458-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1897",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -304,28 +282,6 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 12.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1891",
-    "summary": "Producto Rc 215 renovada no permite levantar control",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T10:05:29.841-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "controles",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 16.7,
       "priority": "Media"
     }
   },
@@ -1251,28 +1207,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1880",
-    "summary": "DELIMA Acceso a usuarios a Plataforma de cumplimiento V2",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "24/07/2026",
-    "created_raw": "2026-07-24T09:55:24.467-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
-    "rice": {
-      "risk": "intermediarios",
-      "reach": 20,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 10.0,
-      "priority": "Media"
     }
   },
   {
