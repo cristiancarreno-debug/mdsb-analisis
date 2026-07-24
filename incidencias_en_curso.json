@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1913",
+    "summary": "Error en póliza con control",
+    "assignee": "Sin asignar",
+    "created": "24/07/2026",
+    "created_raw": "2026-07-24T09:49:55.407-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1912",
+    "summary": "No hace Prorrateo cuando la emisión nace con Prima Mínima en el proceso de Disminución de Valor Asegurado ",
+    "assignee": "Luis Felipe Villegas Sanchez",
+    "created": "24/07/2026",
+    "created_raw": "2026-07-24T09:16:58.218-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1572 - Ajuste en disminución de valor asegurado a prorrata en Rc 214",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-1911",
     "summary": "N.P Consulta datos de Agente",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1210,11 +1254,11 @@
     }
   },
   {
-    "key": "GD981-1879",
+    "key": "GD981-1880",
     "summary": "DELIMA Acceso a usuarios a Plataforma de cumplimiento V2",
     "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "23/07/2026",
-    "created_raw": "2026-07-23T14:03:58.200-0500",
+    "created": "24/07/2026",
+    "created_raw": "2026-07-24T09:55:24.467-0500",
     "status": "Backlog",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
