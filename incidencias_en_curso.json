@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1920",
+    "summary": "CNTI-2808 Vulnerabilidad de repositorios de Cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T14:37:01.615-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-1914",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -46,10 +68,10 @@
   {
     "key": "GD941-1911",
     "summary": "N.P Consulta datos de Agente",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sin asignar",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T18:15:48.390-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,10 +81,10 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -71,7 +93,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T14:57:19.082-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,31 +103,31 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-1908",
-    "summary": "La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
+    "summary": "N.P La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T14:40:21.452-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -357,7 +379,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "10/07/2026",
     "created_raw": "2026-07-10T08:54:09.915-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -367,9 +389,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -379,7 +401,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "09/07/2026",
     "created_raw": "2026-07-09T11:25:34.196-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -389,9 +411,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -401,7 +423,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "08/07/2026",
     "created_raw": "2026-07-08T14:33:35.954-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -411,9 +433,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1146,7 +1168,7 @@
   {
     "key": "GD941-781",
     "summary": "Ajuste en clausulados para empresas con condiciones especiales",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "01/10/2025",
     "created_raw": "2025-10-01T09:52:40.494-0500",
     "status": "Backlog",
@@ -1184,6 +1206,116 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1889",
+    "summary": "PL/SQL - Condiciones generales y reglas transversales de modificacion",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T14:02:58.882-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1888",
+    "summary": "PL/SQL - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T13:49:52.421-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1887",
+    "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T13:49:27.000-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1886",
+    "summary": "PL/SQL - Modificación Cambio de valor asegurado - Cumplimiento",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T13:43:34.796-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1885",
+    "summary": "BACKEND - Modificación Cambio de valor asegurado - Cumplimiento",
+    "assignee": "Cristian David Carreño Ruiz",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T13:42:40.720-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
@@ -1827,7 +1959,7 @@
   },
   {
     "key": "GD981-1611",
-    "summary": "Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
+    "summary": "FRONT Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:52.808-0500",
@@ -1849,7 +1981,7 @@
   },
   {
     "key": "GD981-1610",
-    "summary": "Modificación Cambio de valor asegurado - Cumplimiento",
+    "summary": "FRONT - Modificación Cambio de valor asegurado - Cumplimiento",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:49.887-0500",
