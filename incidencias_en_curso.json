@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1921",
+    "summary": "PRUEBA Análisis detallado en Kiro de hallazgos del equipo de analítica",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T16:45:01.650-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1826 - Informe de Hallazgo",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-1920",
     "summary": "CNTI-2808 Vulnerabilidad de repositorios de Cumplimiento",
     "assignee": "Santiago Hurtado Solis",
@@ -216,28 +238,6 @@
       "confidence": 0.5,
       "effort": 1.5,
       "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1896",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T11:46:41.352-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
