@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1930",
+    "summary": "ATENAS AGENCIA DE SEGUROS LTDA. y Agencia: Seguros y Fianzas - Clave 39369  Acceso a usuarios a Plataforma de cumplimiento V2",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "28/07/2026",
+    "created_raw": "2026-07-28T11:56:58.240-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-1921",
     "summary": "PRUEBA Análisis detallado en Kiro de hallazgos del equipo de analítica",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -841,7 +863,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:02:21.029-0500",
-    "status": "En Pruebas QA",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
