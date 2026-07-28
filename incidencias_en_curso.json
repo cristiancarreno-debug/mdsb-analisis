@@ -2755,7 +2755,7 @@
     "assignee": "caiglesias",
     "created": "27/03/2026",
     "created_raw": "2026-03-27T13:13:22.882-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2765,9 +2765,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 3.0,
-      "score": 4.2,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
