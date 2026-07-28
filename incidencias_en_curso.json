@@ -159,7 +159,7 @@
     "assignee": "Sin asignar",
     "created": "22/07/2026",
     "created_raw": "2026-07-22T15:17:36.231-0500",
-    "status": "En Progreso",
+    "status": "Backlog",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -169,9 +169,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 1.5,
-      "score": 14.0,
+      "score": 10.0,
       "priority": "Media"
     }
   },
@@ -357,7 +357,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "14/07/2026",
     "created_raw": "2026-07-14T11:30:37.867-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -367,10 +367,10 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -485,8 +485,8 @@
   },
   {
     "key": "GD941-1821",
-    "summary": "reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "summary": "validar la posibilidad de que el proceso de importación acepte archivos CSV con delimitador coma (,) y punto y coma (;), o que de",
+    "assignee": "Sin asignar",
     "created": "04/07/2026",
     "created_raw": "2026-07-04T12:29:25.632-0500",
     "status": "Por Hacer",
@@ -494,7 +494,7 @@
     "tipo": "Hito",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1924 - Mejoras propias de Simon Cumplimiento ",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -1206,6 +1206,28 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1892",
+    "summary": "Ajuste de deducibles y valores asegurados en RC 214 estatal",
+    "assignee": "Sin asignar",
+    "created": "27/07/2026",
+    "created_raw": "2026-07-27T18:31:19.838-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
