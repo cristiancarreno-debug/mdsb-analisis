@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1931",
+    "summary": "INC-SOFTWARE-SIMON WEB",
+    "assignee": "Sin asignar",
+    "created": "28/07/2026",
+    "created_raw": "2026-07-28T16:36:16.967-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1930",
     "summary": "ATENAS AGENCIA DE SEGUROS LTDA. y Agencia: Seguros y Fianzas - Clave 39369  Acceso a usuarios a Plataforma de cumplimiento V2",
     "assignee": "Sheila Paola Uhia Kanmerer",
