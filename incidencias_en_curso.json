@@ -44,28 +44,6 @@
     }
   },
   {
-    "key": "GD941-1930",
-    "summary": "ATENAS AGENCIA DE SEGUROS LTDA. y Agencia: Seguros y Fianzas - Clave 39369  Acceso a usuarios a Plataforma de cumplimiento V2",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "28/07/2026",
-    "created_raw": "2026-07-28T11:56:58.240-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-1935",
     "summary": "N. P Ajuste de deducibles y valores asegurados en RC 214 estatal",
     "assignee": "Sin asignar",
@@ -1696,10 +1674,10 @@
   {
     "key": "GD981-1792",
     "summary": "Ajuste de Experiencia front Cotización y emisión Paso 3",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T16:04:41.024-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1718,10 +1696,10 @@
   {
     "key": "GD981-1791",
     "summary": "Ajuste de Experiencia front Cotización y emisión Paso 2",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T14:53:06.196-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1740,10 +1718,10 @@
   {
     "key": "GD981-1790",
     "summary": "Ajuste de Experiencia front Cotización y emisión Paso 1",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T14:28:52.095-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2200,28 +2178,6 @@
     }
   },
   {
-    "key": "GD981-1484",
-    "summary": "Implementacion de tags de monitoreo en el front de autogestion de Cumplimiento",
-    "assignee": "caiglesias",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T21:36:34.201-0500",
-    "status": "Bloqueado",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD981-1429",
     "summary": "Generación de nuevo número de cotización al modificar una cotización existente",
     "assignee": "Santiago Hurtado Solis",
@@ -2505,28 +2461,6 @@
       "effort": 1.5,
       "score": 18.7,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1276",
-    "summary": "HU TEC - Implementación de Clarity",
-    "assignee": "caiglesias",
-    "created": "27/03/2026",
-    "created_raw": "2026-03-27T13:13:22.882-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
     }
   },
   {
