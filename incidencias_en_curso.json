@@ -222,7 +222,7 @@
   {
     "key": "GD941-1908",
     "summary": "N.P La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Santiago Hurtado Solis",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T14:40:21.452-0500",
     "status": "En Progreso",
@@ -1809,7 +1809,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1819,10 +1819,10 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 14.7,
+      "priority": "Media"
     }
   },
   {
