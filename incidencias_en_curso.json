@@ -1410,7 +1410,7 @@
   {
     "key": "GD981-1849",
     "summary": "Fortalecimiento de seguridad: sesiones e identidad del usuario",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "09/07/2026",
     "created_raw": "2026-07-09T16:55:16.720-0500",
     "status": "En Progreso",
@@ -1677,7 +1677,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T16:04:41.024-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1687,9 +1687,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1699,7 +1699,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T14:53:06.196-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1709,9 +1709,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1721,7 +1721,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "20/06/2026",
     "created_raw": "2026-06-20T14:28:52.095-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1731,9 +1731,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1827,7 +1827,7 @@
   },
   {
     "key": "GD981-1626",
-    "summary": "Retoma de modificaciones no finalizadas",
+    "summary": "reusar",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:14.154-0500",
@@ -1836,15 +1836,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
