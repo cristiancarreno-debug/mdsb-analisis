@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1941",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "31/07/2026",
+    "created_raw": "2026-07-31T08:55:35.562-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1938",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -885,7 +907,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:02:21.029-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -895,9 +917,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -1251,6 +1273,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1918",
+    "summary": "Ajuste parametrización programa Grandes Beneficiarios",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "31/07/2026",
+    "created_raw": "2026-07-31T09:09:23.282-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
