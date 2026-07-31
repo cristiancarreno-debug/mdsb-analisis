@@ -731,7 +731,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T10:37:15.596-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -741,10 +741,10 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 42.9,
+      "priority": "Crítica"
     }
   },
   {
@@ -1276,8 +1276,30 @@
     }
   },
   {
+    "key": "GD981-1919",
+    "summary": "Actualizar commons-gradle-parameter-store-java de 1.0.0.RELEASE a 1.0.1.RELEASE para habilitar AssumeRole",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "31/07/2026",
+    "created_raw": "2026-07-31T12:36:36.816-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD940-2565 - Disponibilidad y estabilidad 2026",
+    "rice": {
+      "risk": "permisos/autorización",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 23.3,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1918",
-    "summary": "Ajuste parametrización programa Grandes Beneficiarios",
+    "summary": "N.P Ajuste parametrización programa Grandes Beneficiarios",
     "assignee": "Santiago Hurtado Solis",
     "created": "31/07/2026",
     "created_raw": "2026-07-31T09:09:23.282-0500",
@@ -2553,7 +2575,7 @@
   },
   {
     "key": "GD981-1605",
-    "summary": "No permite incluir las garantias necesarias",
+    "summary": "N.P No permite incluir las garantias necesarias",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/04/2026",
     "created_raw": "2026-04-27T18:57:13.149-0500",
@@ -2601,7 +2623,7 @@
     "assignee": "Christian Fernando Delgado Perez",
     "created": "15/04/2026",
     "created_raw": "2026-04-15T17:46:48.833-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2611,9 +2633,9 @@
       "risk": "notificaciones",
       "reach": 30,
       "impact": 0.5,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1,
-      "score": 12.0,
+      "score": 15.0,
       "priority": "Media"
     }
   },
@@ -2777,7 +2799,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T21:36:44.141-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2787,10 +2809,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 10.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
