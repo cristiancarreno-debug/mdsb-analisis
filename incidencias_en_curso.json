@@ -489,7 +489,7 @@
     "assignee": "Luis Felipe Villegas Sanchez",
     "created": "09/07/2026",
     "created_raw": "2026-07-09T11:25:34.196-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -499,9 +499,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -775,7 +775,7 @@
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:28:27.785-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -785,10 +785,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 2.25,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -973,7 +973,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:51:17.664-0500",
-    "status": "Por Hacer",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -984,9 +984,9 @@
       "reach": 35,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2,
-      "score": 28.0,
-      "priority": "Alta"
+      "effort": 3.0,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
@@ -1017,7 +1017,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:01:28.971-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1027,10 +1027,10 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 26.7,
+      "priority": "Alta"
     }
   },
   {
@@ -1061,7 +1061,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T15:59:32.201-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1071,10 +1071,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 2.25,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1303,7 +1303,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "31/07/2026",
     "created_raw": "2026-07-31T09:09:23.282-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1313,10 +1313,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1784,7 +1784,7 @@
   {
     "key": "GD981-1895",
     "summary": "BACKEND2- Condiciones generales y reglas transversales de modificacion",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
     "status": "Backlog",
@@ -1806,7 +1806,7 @@
   {
     "key": "GD981-1894",
     "summary": "PL/SQL - Modificaciones nominativas - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
     "status": "Backlog",
@@ -1828,7 +1828,7 @@
   {
     "key": "GD981-1893",
     "summary": "PL/SQL -  Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:46:34.560-0500",
     "status": "Backlog",
@@ -1850,7 +1850,7 @@
   {
     "key": "GD981-1889",
     "summary": "PL/SQL - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:02:58.882-0500",
     "status": "Backlog",
@@ -1938,7 +1938,7 @@
   {
     "key": "GD981-1885",
     "summary": "BACKEND - Modificación Cambio de valor asegurado - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:42:40.720-0500",
     "status": "Backlog",
@@ -1960,7 +1960,7 @@
   {
     "key": "GD981-1884",
     "summary": "BACKEND -  Modificaciones nominativas - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
     "status": "Backlog",
@@ -1982,7 +1982,7 @@
   {
     "key": "GD981-1883",
     "summary": "BACKEND - Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
     "status": "Backlog",
@@ -2004,7 +2004,7 @@
   {
     "key": "GD981-1882",
     "summary": "BACKEND - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
     "status": "Backlog",
@@ -2444,7 +2444,7 @@
   {
     "key": "GD981-1630",
     "summary": "FRONT - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:17.431-0500",
     "status": "Backlog",
@@ -2532,7 +2532,7 @@
   {
     "key": "GD981-1609",
     "summary": "FRONT - Modificaciones nominativas - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:46.637-0500",
     "status": "Backlog",
@@ -2554,7 +2554,7 @@
   {
     "key": "GD981-1608",
     "summary": "FRONT - Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:43.592-0500",
     "status": "Backlog",
