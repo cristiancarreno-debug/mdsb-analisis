@@ -396,28 +396,6 @@
     }
   },
   {
-    "key": "GD941-1893",
-    "summary": "COMISIONES POL CUMPLIMIENTO",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T11:30:00.912-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "comisiones/intermediarios",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 19.3,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1889",
     "summary": "No permite Ajustar la suma disponible de RC durante el endoso 0",
     "assignee": "Omar Fernando Otavo García",
@@ -442,7 +420,7 @@
   {
     "key": "GD941-1863",
     "summary": "Ajuste de deducibles y valores asegurados en RC 214 estatal",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Luis Felipe Villegas Sanchez",
     "created": "14/07/2026",
     "created_raw": "2026-07-14T11:30:37.867-0500",
     "status": "Pendiente PAP",
@@ -484,28 +462,6 @@
     }
   },
   {
-    "key": "GD941-1843",
-    "summary": "INC-SOFTWARE-POLIZA-DIGITAL | Póliza de cumplimiento sin IVA. póliza 440- 1004103909901 214- 1004101353901",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "09/07/2026",
-    "created_raw": "2026-07-09T11:25:34.196-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1840",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -517,28 +473,6 @@
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1824",
-    "summary": "INC-SOFTWARE-Simon Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "06/07/2026",
-    "created_raw": "2026-07-06T16:59:00.078-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1 - Disponibilidad y estabilidad",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -599,28 +533,6 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "26/06/2026",
     "created_raw": "2026-06-26T10:58:42.308-0500",
-    "status": "En Pruebas QA",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1760",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "24/06/2026",
-    "created_raw": "2026-06-24T16:49:46.235-0500",
     "status": "En Pruebas QA",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
