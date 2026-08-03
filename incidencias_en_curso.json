@@ -1193,7 +1193,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "31/07/2026",
     "created_raw": "2026-07-31T12:36:36.816-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1203,9 +1203,9 @@
       "risk": "permisos/autorización",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 30.0,
       "priority": "Alta"
     }
   },
@@ -1936,28 +1936,6 @@
     }
   },
   {
-    "key": "GD981-1873",
-    "summary": "HU TEC - nivelación de ambiente productivo en terrafom",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "17/07/2026",
-    "created_raw": "2026-07-17T10:40:24.867-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1849",
     "summary": "Fortalecimiento de seguridad: sesiones e identidad del usuario",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -2315,7 +2293,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -2325,10 +2303,10 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 14.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 27.5,
+      "priority": "Alta"
     }
   },
   {
@@ -2483,28 +2461,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1605",
-    "summary": "N.P No permite incluir las garantias necesarias",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "27/04/2026",
-    "created_raw": "2026-04-27T18:57:13.149-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
     }
   },
   {
