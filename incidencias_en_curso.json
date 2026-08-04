@@ -2,7 +2,7 @@
   {
     "key": "GD941-1953",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T16:08:42.545-0500",
     "status": "Backlog",
@@ -10,7 +10,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -24,7 +24,7 @@
   {
     "key": "GD941-1952",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T16:06:20.732-0500",
     "status": "Backlog",
@@ -32,7 +32,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -46,7 +46,7 @@
   {
     "key": "GD941-1951",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T16:04:47.058-0500",
     "status": "Backlog",
@@ -54,7 +54,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -68,7 +68,7 @@
   {
     "key": "GD941-1950",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T16:04:01.337-0500",
     "status": "Backlog",
@@ -76,7 +76,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -90,7 +90,7 @@
   {
     "key": "GD941-1949",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T15:56:47.876-0500",
     "status": "Backlog",
@@ -98,7 +98,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -112,7 +112,7 @@
   {
     "key": "GD941-1948",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T15:54:33.078-0500",
     "status": "Backlog",
@@ -120,7 +120,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -134,7 +134,7 @@
   {
     "key": "GD941-1941",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "31/07/2026",
     "created_raw": "2026-07-31T08:55:35.562-0500",
     "status": "Backlog",
@@ -142,7 +142,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -156,7 +156,7 @@
   {
     "key": "GD941-1938",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T10:01:59.306-0500",
     "status": "Backlog",
@@ -164,7 +164,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -178,7 +178,7 @@
   {
     "key": "GD941-1937",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T09:59:42.505-0500",
     "status": "Backlog",
@@ -186,7 +186,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -200,7 +200,7 @@
   {
     "key": "GD941-1934",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "29/07/2026",
     "created_raw": "2026-07-29T08:21:56.870-0500",
     "status": "Backlog",
@@ -222,7 +222,7 @@
   {
     "key": "GD941-1931",
     "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "28/07/2026",
     "created_raw": "2026-07-28T16:36:16.967-0500",
     "status": "Backlog",
@@ -230,7 +230,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "canal digital",
       "reach": 40,
@@ -310,7 +310,7 @@
   {
     "key": "GD941-1914",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/07/2026",
     "created_raw": "2026-07-24T15:49:30.360-0500",
     "status": "Backlog",
@@ -318,7 +318,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -398,7 +398,7 @@
   {
     "key": "GD941-1905",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "22/07/2026",
     "created_raw": "2026-07-22T15:17:36.231-0500",
     "status": "Backlog",
@@ -420,7 +420,7 @@
   {
     "key": "GD941-1902",
     "summary": "INC-SOFTWARE-SIMON CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T18:03:01.838-0500",
     "status": "Backlog",
@@ -442,7 +442,7 @@
   {
     "key": "GD941-1901",
     "summary": "Soporte para Póliza Electrónica (Operaciones) | Póliza de RC sin datos de asegurado",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T14:35:56.742-0500",
     "status": "Backlog",
@@ -464,7 +464,7 @@
   {
     "key": "GD941-1897",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T11:54:18.020-0500",
     "status": "Backlog",
@@ -486,7 +486,7 @@
   {
     "key": "GD941-1895",
     "summary": "INC-SOFTWARE-Poliza Digital | Error cálculo de factura en endosos de pólizas de cumplimiento para producto 440 ",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T11:44:37.539-0500",
     "status": "Backlog",
@@ -508,7 +508,7 @@
   {
     "key": "GD941-1894",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T11:40:52.726-0500",
     "status": "Backlog",
@@ -728,7 +728,7 @@
   {
     "key": "GD941-1678",
     "summary": "Control técnico de rechazado para producto 214",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Sin asignar",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:33:21.759-0500",
     "status": "En Progreso",
@@ -1234,7 +1234,7 @@
   {
     "key": "GD941-1092",
     "summary": "Ajuste modificaciones endoso de disminución de vigencia- Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Sin asignar",
     "created": "02/12/2025",
     "created_raw": "2025-12-02T12:18:38.922-0500",
     "status": "Por Hacer",
@@ -1256,7 +1256,7 @@
   {
     "key": "GD941-786",
     "summary": "Movimiento de grupos empresariales (desactivar grupo / inactivar o mover miembros)",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "02/10/2025",
     "created_raw": "2025-10-02T08:42:39.160-0500",
     "status": "Por Hacer",
