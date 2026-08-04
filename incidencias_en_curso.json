@@ -379,7 +379,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "23/07/2026",
     "created_raw": "2026-07-23T14:40:21.452-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -744,28 +744,6 @@
       "confidence": 1.0,
       "effort": 1.5,
       "score": 16.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1671",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "03/06/2026",
-    "created_raw": "2026-06-03T10:48:26.905-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
