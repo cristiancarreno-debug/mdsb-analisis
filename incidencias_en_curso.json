@@ -1320,28 +1320,6 @@
     }
   },
   {
-    "key": "GD981-1925",
-    "summary": "MARSH Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "03/08/2026",
-    "created_raw": "2026-08-03T13:05:52.520-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1919",
     "summary": "Actualizar commons-gradle-parameter-store-java de 1.0.0.RELEASE a 1.0.1.RELEASE para habilitar AssumeRole",
     "assignee": "Santiago Hurtado Solis",
@@ -2381,7 +2359,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "14/06/2026",
     "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -2391,9 +2369,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
