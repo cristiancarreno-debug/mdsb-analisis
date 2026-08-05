@@ -1320,28 +1320,6 @@
     }
   },
   {
-    "key": "GD981-1918",
-    "summary": "N.P Ajuste parametrización programa Grandes Beneficiarios",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "31/07/2026",
-    "created_raw": "2026-07-31T09:09:23.282-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 25.7,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-1916",
     "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
     "assignee": "Sin asignar",
