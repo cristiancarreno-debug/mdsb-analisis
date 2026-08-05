@@ -379,7 +379,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:37:01.615-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -660,28 +660,6 @@
     }
   },
   {
-    "key": "GD941-1848",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "10/07/2026",
-    "created_raw": "2026-07-10T08:54:09.915-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1840",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -855,28 +833,6 @@
       "effort": 1.4,
       "score": 42.9,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1622",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "22/05/2026",
-    "created_raw": "2026-05-22T09:23:21.082-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
     }
   },
   {
@@ -1386,6 +1342,72 @@
     }
   },
   {
+    "key": "GD981-1934",
+    "summary": "BACKEND [GD981-1630]: Emisión de Endoso — Servicio Orquestador",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "05/08/2026",
+    "created_raw": "2026-08-05T12:02:25.875-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-1933",
+    "summary": "BACKEND [GD981-1630]: Gestión de Documentos S3 + Retroactividad",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "05/08/2026",
+    "created_raw": "2026-08-05T11:56:49.096-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "gestión documental",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1932",
+    "summary": "BACKEND [GD981-1630]: Scaffolding del MS + Endpoint de Emisión de Endosos",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "05/08/2026",
+    "created_raw": "2026-08-05T11:40:44.482-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-1919",
     "summary": "Actualizar commons-gradle-parameter-store-java de 1.0.0.RELEASE a 1.0.1.RELEASE para habilitar AssumeRole",
     "assignee": "Santiago Hurtado Solis",
@@ -1871,7 +1893,7 @@
   },
   {
     "key": "GD981-1895",
-    "summary": "BACKEND2- Condiciones generales y reglas transversales de modificacion",
+    "summary": "BACKEND [GD981-1630]: Servicios de Validación Transversales",
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
@@ -1882,18 +1904,18 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
+      "risk": "validaciones/reglas",
+      "reach": 35,
+      "impact": 1,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 2,
+      "score": 14.0,
+      "priority": "Media"
     }
   },
   {
     "key": "GD981-1894",
-    "summary": "PL/SQL - Modificaciones nominativas - Cumplimiento",
+    "summary": "BACKEND [GD981-1630]: PL/SQL — Ajuste de Procedures para Patrón sistema_origen=196",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
@@ -1904,18 +1926,18 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1893",
-    "summary": "PL/SQL -  Búsqueda de polizas susceptibles de modificacion",
+    "summary": "BACKEND [GD981-1630]: PL/SQL — Procedure de Emisión de Endosos RC (Póliza Individual)",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:46:34.560-0500",
@@ -1926,18 +1948,18 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
+      "risk": "emisión",
+      "reach": 60,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
     }
   },
   {
     "key": "GD981-1889",
-    "summary": "PL/SQL - Condiciones generales y reglas transversales de modificacion",
+    "summary": "BACKEND [GD981-1630]: PL/SQL — Procedure de Emisión de Endosos CU (Póliza Principal + Hija)",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:02:58.882-0500",
@@ -1948,13 +1970,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
+      "risk": "emisión",
+      "reach": 60,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -2091,7 +2113,7 @@
   },
   {
     "key": "GD981-1882",
-    "summary": "BACKEND - Condiciones generales y reglas transversales de modificacion",
+    "summary": "BACKEND [GD981-1630]: Exclusividad — Bloqueo/Liberación de Póliza con Timeout",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
@@ -2102,13 +2124,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
+      "risk": "gestión pólizas",
+      "reach": 50,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
