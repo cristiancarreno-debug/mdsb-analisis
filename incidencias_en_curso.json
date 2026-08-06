@@ -1897,7 +1897,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1907,9 +1907,9 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 14.0,
+      "score": 17.5,
       "priority": "Media"
     }
   },
