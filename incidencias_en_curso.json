@@ -2,7 +2,7 @@
   {
     "key": "GD941-1965",
     "summary": "Falla en la impresión del PDF RC ",
-    "assignee": "CARLOS ANDRES IGLESIAS ARRIETA",
+    "assignee": "caiglesias",
     "created": "06/08/2026",
     "created_raw": "2026-08-06T16:45:57.964-0500",
     "status": "Backlog",
@@ -481,28 +481,6 @@
       "effort": 1.5,
       "score": 20.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1908",
-    "summary": "N.P La nueva plataforma no esta cotizando ni emitiendo correctamente las pólizas de RCE",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "23/07/2026",
-    "created_raw": "2026-07-23T14:40:21.452-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
     }
   },
   {
@@ -2156,28 +2134,6 @@
     }
   },
   {
-    "key": "GD981-1849",
-    "summary": "Fortalecimiento de seguridad: sesiones e identidad del usuario",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "09/07/2026",
-    "created_raw": "2026-07-09T16:55:16.720-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD981-1824",
     "summary": "Demora en la impresión del PDF",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -2439,28 +2395,6 @@
       "effort": 2,
       "score": 6.2,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1760",
-    "summary": "No aparecen las cotizaciones correspondientes",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "14/06/2026",
-    "created_raw": "2026-06-14T12:51:25.632-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
     }
   },
   {
