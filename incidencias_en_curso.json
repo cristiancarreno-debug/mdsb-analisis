@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1965",
+    "summary": "Falla en la impresión del PDF RC ",
+    "assignee": "CARLOS ANDRES IGLESIAS ARRIETA",
+    "created": "06/08/2026",
+    "created_raw": "2026-08-06T16:45:57.964-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-1961",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -49,7 +71,7 @@
     "assignee": "Sin asignar",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T08:59:06.453-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,9 +81,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -375,7 +397,7 @@
   },
   {
     "key": "GD941-1920",
-    "summary": "CNTI-2808 Vulnerabilidad de repositorios de Cumplimiento",
+    "summary": "N.P CNTI-2808 Vulnerabilidad de repositorios de Cumplimiento",
     "assignee": "Santiago Hurtado Solis",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:37:01.615-0500",
@@ -489,7 +511,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "22/07/2026",
     "created_raw": "2026-07-22T15:17:36.231-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -499,9 +521,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -555,7 +577,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/07/2026",
     "created_raw": "2026-07-21T11:54:18.020-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -565,9 +587,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -775,7 +797,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:43:09.122-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -995,7 +1017,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:56:22.205-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
