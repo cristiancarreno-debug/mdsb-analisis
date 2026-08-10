@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1967",
+    "summary": "Se requiere ajuste manual de devolución de prima",
+    "assignee": "Sin asignar",
+    "created": "10/08/2026",
+    "created_raw": "2026-08-10T15:02:52.260-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-1965",
     "summary": "Falla en la impresión del PDF RC ",
     "assignee": "caiglesias",
