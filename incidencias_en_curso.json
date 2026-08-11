@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1969",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "11/08/2026",
+    "created_raw": "2026-08-11T10:37:02.103-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1967",
     "summary": "Se requiere ajuste manual de devolución de prima",
     "assignee": "Sin asignar",
@@ -728,7 +750,7 @@
   {
     "key": "GD941-1682",
     "summary": "Corregir endoso de cambio de valor asegurado en Cumplimiento para conservar fechas futuras de garantías",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Omar Fernando Otavo García",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:43:09.122-0500",
     "status": "En Pruebas QA",
@@ -772,7 +794,7 @@
   {
     "key": "GD941-1636",
     "summary": "INC-SOFTWARE-TRONADOR CIA 3",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T10:37:15.596-0500",
     "status": "Pendiente PAP",
@@ -948,7 +970,7 @@
   {
     "key": "GD941-1563",
     "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Omar Fernando Otavo García",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:56:22.205-0500",
     "status": "En Pruebas QA",
@@ -1875,7 +1897,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1885,9 +1907,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
