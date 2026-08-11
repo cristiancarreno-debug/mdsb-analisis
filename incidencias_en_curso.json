@@ -2095,7 +2095,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2105,9 +2105,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
