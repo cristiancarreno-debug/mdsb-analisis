@@ -44,28 +44,6 @@
     }
   },
   {
-    "key": "GD941-1965",
-    "summary": "Falla en la impresión del PDF RC ",
-    "assignee": "caiglesias",
-    "created": "06/08/2026",
-    "created_raw": "2026-08-06T16:45:57.964-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 0.7,
-      "score": 57.9,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1961",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
