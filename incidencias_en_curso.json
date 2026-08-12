@@ -49,7 +49,7 @@
     "assignee": "caiglesias",
     "created": "06/08/2026",
     "created_raw": "2026-08-06T16:45:57.964-0500",
-    "status": "Backlog",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,10 +59,10 @@
       "risk": "documentación",
       "reach": 45,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 1,
-      "score": 36.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 0.7,
+      "score": 57.9,
+      "priority": "Crítica"
     }
   },
   {
@@ -291,7 +291,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T10:01:59.306-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -301,9 +301,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
