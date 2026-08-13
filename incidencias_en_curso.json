@@ -22,28 +22,6 @@
     }
   },
   {
-    "key": "GD941-1975",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "12/08/2026",
-    "created_raw": "2026-08-12T15:27:28.525-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1967",
     "summary": "Se requiere ajuste manual de devolución de prima",
     "assignee": "Sin asignar",
@@ -379,7 +357,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:37:01.615-0500",
-    "status": "Bloqueado",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,10 +367,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 3.0,
-      "score": 4.2,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
