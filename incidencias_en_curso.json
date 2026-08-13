@@ -5,7 +5,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "12/08/2026",
     "created_raw": "2026-08-12T15:27:28.525-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -379,7 +379,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T14:37:01.615-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
+      "confidence": 0.5,
+      "effort": 3.0,
+      "score": 4.2,
       "priority": "Baja"
     }
   },
@@ -731,7 +731,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:15:21.813-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -741,10 +741,10 @@
       "risk": "reaseguro",
       "reach": 30,
       "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 30.0,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 4.5,
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
@@ -775,7 +775,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "16/05/2026",
     "created_raw": "2026-05-16T18:38:59.073-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -785,10 +785,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 2.25,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -907,7 +907,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:21:24.062-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -917,10 +917,10 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 17.5,
-      "priority": "Media"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 9.3,
+      "priority": "Baja"
     }
   },
   {
@@ -951,7 +951,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:00:42.339-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -961,10 +961,10 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 26.7,
+      "priority": "Alta"
     }
   },
   {
@@ -1168,7 +1168,7 @@
   {
     "key": "GD941-473",
     "summary": "Ajuste fecha de inicio cuando hay traslado de vigencia de la póliza",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Sin asignar",
     "created": "20/08/2025",
     "created_raw": "2025-08-20T16:26:45.239-0500",
     "status": "Backlog",
