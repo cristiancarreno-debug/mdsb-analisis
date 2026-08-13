@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-1978",
+    "summary": "ajustar el Front-end validación palabras restringidas ",
+    "assignee": "caiglesias",
+    "created": "13/08/2026",
+    "created_raw": "2026-08-13T15:34:04.159-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "validaciones/reglas",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1975",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -1163,6 +1185,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1974",
+    "summary": "Ajuste boton de emitir en experiencia de emisión",
+    "assignee": "caiglesias",
+    "created": "13/08/2026",
+    "created_raw": "2026-08-13T16:09:06.195-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
     }
   },
   {
