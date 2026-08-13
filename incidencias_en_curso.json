@@ -836,28 +836,6 @@
     }
   },
   {
-    "key": "GD941-1567",
-    "summary": "Controles técnicos para pólizas principales e hijas",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "15/05/2026",
-    "created_raw": "2026-05-15T14:02:21.029-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1563",
     "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
     "assignee": "Omar Fernando Otavo García",
@@ -1206,6 +1184,28 @@
       "confidence": 0.8,
       "effort": 2.5,
       "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1972",
+    "summary": "Mejoras al procedimiento de listado de cotizaciones y pólizas de Cumplimiento y RC",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "12/08/2026",
+    "created_raw": "2026-08-12T20:41:44.244-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
