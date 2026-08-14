@@ -1,27 +1,5 @@
 [
   {
-    "key": "GD941-1978",
-    "summary": "ajustar el Front-end validación palabras restringidas ",
-    "assignee": "caiglesias",
-    "created": "13/08/2026",
-    "created_raw": "2026-08-13T15:34:04.159-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "validaciones/reglas",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1967",
     "summary": "Se requiere ajuste manual de devolución de prima",
     "assignee": "Sin asignar",
@@ -318,7 +296,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "cobertura",
       "reach": 35,
@@ -748,28 +726,6 @@
     }
   },
   {
-    "key": "GD941-1579",
-    "summary": "Ajuste en opción transversal de anulación de póliza de Rc para cuando una póliza de 214 es expedida por sistema origen 102 y está atada a Cu",
-    "assignee": "Luis Felipe Villegas Sanchez",
-    "created": "15/05/2026",
-    "created_raw": "2026-05-15T14:26:46.037-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "anulación",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 68.6,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1572",
     "summary": "Ajuste en disminución de valor asegurado a prorrata en Rc 214",
     "assignee": "Omar Fernando Otavo García",
@@ -956,7 +912,7 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "endosos",
       "reach": 40,
@@ -1144,6 +1100,28 @@
     }
   },
   {
+    "key": "GD981-1978",
+    "summary": "Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "14/08/2026",
+    "created_raw": "2026-08-14T08:20:49.139-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 64.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-1974",
     "summary": "Ajuste boton de emitir en experiencia de emisión",
     "assignee": "caiglesias",
@@ -1163,6 +1141,28 @@
       "effort": 2,
       "score": 48.0,
       "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-1976",
+    "summary": "ajustar el Front-end validación palabras restringidas ",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "13/08/2026",
+    "created_raw": "2026-08-13T15:34:04.159-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "validaciones/reglas",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 14.0,
+      "priority": "Media"
     }
   },
   {
@@ -1990,7 +1990,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "documentación",
       "reach": 45,
@@ -2012,7 +2012,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -2034,7 +2034,7 @@
     "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -2254,7 +2254,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2408,7 +2408,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2584,7 +2584,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2672,7 +2672,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2694,7 +2694,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -2716,7 +2716,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "canal digital",
       "reach": 40,
@@ -2738,7 +2738,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2782,7 +2782,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "contratos",
       "reach": 35,
@@ -2804,7 +2804,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2826,7 +2826,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2848,7 +2848,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2870,7 +2870,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "gestión documental",
       "reach": 35,
@@ -2892,7 +2892,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2958,7 +2958,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -2980,7 +2980,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -3002,7 +3002,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -3024,7 +3024,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -3046,7 +3046,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Plataforma de cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "comisiones/intermediarios",
       "reach": 30,
