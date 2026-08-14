@@ -309,7 +309,7 @@
   },
   {
     "key": "GD941-1921",
-    "summary": "Reusar",
+    "summary": "Cargue de los documentos a Oleary ",
     "assignee": "Sin asignar",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T16:45:01.650-0500",
@@ -318,15 +318,15 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1826 - Informe de Hallazgo",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "gestión documental",
+      "reach": 35,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
@@ -538,7 +538,7 @@
     "tipo": "Hito",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1924 - Mejoras propias de Simon Cumplimiento ",
+    "epic": "GD941-1924 - Mejoras - Simon Cumplimiento ",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -1154,7 +1154,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
     "rice": {
       "risk": "validaciones/reglas",
       "reach": 35,
