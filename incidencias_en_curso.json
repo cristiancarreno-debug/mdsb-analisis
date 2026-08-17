@@ -330,28 +330,6 @@
     }
   },
   {
-    "key": "GD941-1920",
-    "summary": "N.P CNTI-2808 Vulnerabilidad de repositorios de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "27/07/2026",
-    "created_raw": "2026-07-27T14:37:01.615-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1914",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -1167,7 +1145,7 @@
   },
   {
     "key": "GD981-1972",
-    "summary": "Mejoras al procedimiento de listado de cotizaciones y pólizas de Cumplimiento y RC",
+    "summary": "BACKEND [GD981-1608]: Mejoras al procedimiento de listado de cotizaciones y pólizas de Cumplimiento y RC",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "12/08/2026",
     "created_raw": "2026-08-12T20:41:44.244-0500",
