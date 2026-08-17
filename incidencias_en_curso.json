@@ -1078,6 +1078,28 @@
     }
   },
   {
+    "key": "GD981-1984",
+    "summary": "PL/SQL [GD981-1610]: Procedures Nuevos para Validaciones de Endoso Valor Asegurado",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "17/08/2026",
+    "created_raw": "2026-08-17T15:46:13.336-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-1978",
     "summary": "Envío del Formulario Sarlaft (ordinario o simplificado)",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1915,7 +1937,7 @@
   },
   {
     "key": "GD981-1883",
-    "summary": "BACKEND - Búsqueda de polizas susceptibles de modificacion",
+    "summary": "Backend [GD981-1610]: Validaciones y Cálculos para Cambio de Valor Asegurado CU",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
@@ -1926,12 +1948,12 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
+      "risk": "cobertura",
+      "reach": 35,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
+      "effort": 2,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
@@ -2312,7 +2334,7 @@
   {
     "key": "GD981-1610",
     "summary": "FRONT - Modificación Cambio de valor asegurado - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:49.887-0500",
     "status": "Backlog",
