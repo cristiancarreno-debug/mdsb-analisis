@@ -552,10 +552,10 @@
   {
     "key": "GD941-1682",
     "summary": "Corregir endoso de cambio de valor asegurado en Cumplimiento para conservar fechas futuras de garantías",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:43:09.122-0500",
-    "status": "En Pruebas QA",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -565,10 +565,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -706,10 +706,10 @@
   {
     "key": "GD941-1572",
     "summary": "Ajuste en disminución de valor asegurado a prorrata en Rc 214",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:09:23.474-0500",
-    "status": "En Pruebas QA",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1982,7 +1982,7 @@
   {
     "key": "GD981-1824",
     "summary": "Demora en la impresión del PDF",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "caiglesias",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T19:17:38.984-0500",
     "status": "En Progreso",
