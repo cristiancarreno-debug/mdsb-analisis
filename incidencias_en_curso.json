@@ -418,28 +418,6 @@
     }
   },
   {
-    "key": "GD941-1894",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T11:40:52.726-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1889",
     "summary": "No permite Ajustar la suma disponible de RC durante el endoso 0",
     "assignee": "Omar Fernando Otavo García",
