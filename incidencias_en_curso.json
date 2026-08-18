@@ -1718,10 +1718,10 @@
   {
     "key": "GD981-1894",
     "summary": "BACKEND [GD981-1630]: PL/SQL — Ajuste de Procedures para Patrón sistema_origen=196",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
