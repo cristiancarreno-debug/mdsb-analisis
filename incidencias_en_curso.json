@@ -154,28 +154,6 @@
     }
   },
   {
-    "key": "GD941-1950",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "03/08/2026",
-    "created_raw": "2026-08-03T16:04:01.337-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1949",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -1762,10 +1740,10 @@
   {
     "key": "GD981-1894",
     "summary": "BACKEND [GD981-1630]: PL/SQL — Ajuste de Procedures para Patrón sistema_origen=196",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
