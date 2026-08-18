@@ -1149,7 +1149,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/08/2026",
     "created_raw": "2026-08-13T15:34:04.159-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1159,9 +1159,9 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 14.0,
+      "score": 17.5,
       "priority": "Media"
     }
   },
