@@ -225,7 +225,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T09:59:42.505-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -235,9 +235,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
