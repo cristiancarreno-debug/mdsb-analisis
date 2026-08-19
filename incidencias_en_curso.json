@@ -1083,7 +1083,7 @@
     "assignee": "caiglesias",
     "created": "13/08/2026",
     "created_raw": "2026-08-13T16:09:06.195-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1093,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
