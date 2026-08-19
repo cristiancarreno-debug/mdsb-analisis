@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-1993",
+    "summary": "INC-SOFTWARE-SIMON WEB CIA 3",
+    "assignee": "Sin asignar",
+    "created": "19/08/2026",
+    "created_raw": "2026-08-19T11:25:17.799-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-1992",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "19/08/2026",
+    "created_raw": "2026-08-19T11:15:17.161-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-1967",
     "summary": "Se requiere ajuste manual de devolución de prima",
     "assignee": "Sin asignar",
@@ -1102,7 +1146,7 @@
   {
     "key": "GD981-1976",
     "summary": "ajustar el Front-end validación palabras restringidas ",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "13/08/2026",
     "created_raw": "2026-08-13T15:34:04.159-0500",
     "status": "En Progreso",
