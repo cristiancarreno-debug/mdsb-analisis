@@ -90,10 +90,10 @@
   {
     "key": "GD941-1967",
     "summary": "Se requiere ajuste manual de devolución de prima",
-    "assignee": "Francy Corredor ",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "10/08/2026",
     "created_raw": "2026-08-10T15:02:52.260-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +103,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -137,7 +137,7 @@
     "assignee": "Sin asignar",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T08:55:34.243-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -147,9 +147,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1146,7 +1146,7 @@
   {
     "key": "GD981-1976",
     "summary": "ajustar el Front-end validación palabras restringidas ",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/08/2026",
     "created_raw": "2026-08-13T15:34:04.159-0500",
     "status": "Pendiente PAP",
@@ -1919,7 +1919,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1929,9 +1929,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
