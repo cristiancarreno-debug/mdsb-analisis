@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2015",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T10:31:42.402-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2014",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T10:31:17.110-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2013",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T10:20:43.852-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2002",
     "summary": "INC-SOFTWARE-SIMON WEB",
     "assignee": "Sin asignar",
@@ -24,10 +90,10 @@
   {
     "key": "GD941-2001",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "20/08/2026",
     "created_raw": "2026-08-20T17:20:26.328-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,16 +103,16 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-1993",
     "summary": "INC-SOFTWARE-SIMON WEB CIA 3",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "19/08/2026",
     "created_raw": "2026-08-19T11:25:17.799-0500",
     "status": "Backlog",
