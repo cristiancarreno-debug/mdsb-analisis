@@ -93,7 +93,7 @@
     "assignee": "Sin asignar",
     "created": "20/08/2026",
     "created_raw": "2026-08-20T17:26:32.785-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +103,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -159,7 +159,7 @@
     "assignee": "Sin asignar",
     "created": "19/08/2026",
     "created_raw": "2026-08-19T11:15:17.161-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -169,9 +169,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1100,6 +1100,116 @@
     }
   },
   {
+    "key": "GD981-2000",
+    "summary": "Backend [GD981-1610]: B7: Validar Coberturas Endoso — Endpoint Unificado",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T18:04:23.716-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1999",
+    "summary": "Backend [GD981-1610]: B3: Validar Doble Valor Inicial — Solo Intermediario",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T17:54:04.933-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "comisiones/intermediarios",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 12.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-1998",
+    "summary": "Backend [GD981-1610]: B2: Validar Cupo para Endoso",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T17:47:46.303-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1997",
+    "summary": "BACKEND [GD981-1630]: EP3: Ajustes CUMPL_042/CUMPL_047 — Carga y Descarga S3 para Endosos",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T17:16:39.957-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1996",
+    "summary": "BACKEND [GD981-1630]: EP2: Documentos Requeridos + Validación",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T17:13:41.435-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "gestión documental",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD981-1995",
     "summary": "BACKEND [GD981-1630]: EP4: Exclusividad — Scheduled Job de Timeout Automático",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1211,7 +1321,7 @@
   },
   {
     "key": "GD981-1933",
-    "summary": "BACKEND [GD981-1630]: Gestión de Documentos S3 + Retroactividad",
+    "summary": "BACKEND [GD981-1630]: EP1: Cálculo de Retroactividad",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T11:56:49.096-0500",
@@ -1222,12 +1332,12 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
-      "impact": 1,
+      "risk": "retroactividad",
+      "reach": 50,
+      "impact": 2,
       "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
+      "effort": 3,
+      "score": 33.3,
       "priority": "Alta"
     }
   },
@@ -1915,7 +2025,7 @@
   },
   {
     "key": "GD981-1883",
-    "summary": "Backend [GD981-1610]: Validaciones y Cálculos para Cambio de Valor Asegurado CU",
+    "summary": "Backend [GD981-1610]: B1: Obtener Suma Vigente Último Endoso",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
@@ -1926,12 +2036,12 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "cobertura",
-      "reach": 35,
+      "risk": "endosos",
+      "reach": 40,
       "impact": 2,
       "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
+      "effort": 2.5,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
