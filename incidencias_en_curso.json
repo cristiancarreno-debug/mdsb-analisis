@@ -1100,6 +1100,28 @@
     }
   },
   {
+    "key": "GD981-1995",
+    "summary": "BACKEND [GD981-1630]: EP4: Exclusividad — Scheduled Job de Timeout Automático",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/08/2026",
+    "created_raw": "2026-08-24T16:17:08.992-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD981-1984",
     "summary": "PL/SQL [GD981-1610]: Procedures Nuevos para Validaciones de Endoso Valor Asegurado",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1849,7 +1871,7 @@
   },
   {
     "key": "GD981-1885",
-    "summary": "BACKEND - Modificación Cambio de valor asegurado - Cumplimiento",
+    "summary": "BACKEND [GD981-1630]: EP3: Exclusividad — Heartbeat de Póliza",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:42:40.720-0500",
@@ -1860,18 +1882,18 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "cobertura",
-      "reach": 35,
+      "risk": "gestión pólizas",
+      "reach": 50,
       "impact": 2,
       "confidence": 0.8,
       "effort": 2,
-      "score": 28.0,
-      "priority": "Alta"
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
     "key": "GD981-1884",
-    "summary": "BACKEND -  Modificaciones nominativas - Cumplimiento",
+    "summary": "BACKEND [GD981-1630]: EP2: Exclusividad — Liberación de Póliza",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
@@ -1882,13 +1904,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
+      "risk": "gestión pólizas",
+      "reach": 50,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1915,7 +1937,7 @@
   },
   {
     "key": "GD981-1882",
-    "summary": "BACKEND [GD981-1630]: Exclusividad — Bloqueo/Liberación de Póliza con Timeout",
+    "summary": "BACKEND [GD981-1630]: EP1: Exclusividad — Bloqueo de Póliza",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
