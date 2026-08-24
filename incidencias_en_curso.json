@@ -134,10 +134,10 @@
   {
     "key": "GD941-1993",
     "summary": "INC-SOFTWARE-SIMON WEB CIA 3",
-    "assignee": "Francy Corredor ",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "19/08/2026",
     "created_raw": "2026-08-19T11:25:17.799-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -266,10 +266,10 @@
   {
     "key": "GD941-1949",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T15:56:47.876-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -1721,7 +1721,7 @@
     "assignee": "Cristian David Carreño Ruiz",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1731,10 +1731,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -2681,6 +2681,28 @@
       "effort": 2.5,
       "score": 22.4,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-1368",
+    "summary": "Ajuste de la experiencia responsive",
+    "assignee": "caiglesias",
+    "created": "13/04/2026",
+    "created_raw": "2026-04-13T17:50:40.102-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
