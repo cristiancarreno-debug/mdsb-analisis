@@ -486,7 +486,7 @@
   {
     "key": "GD941-1682",
     "summary": "Corregir endoso de cambio de valor asegurado en Cumplimiento para conservar fechas futuras de garantías",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:43:09.122-0500",
     "status": "Pendiente PAP",
@@ -1075,50 +1075,6 @@
       "effort": 3,
       "score": 64.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1974",
-    "summary": "Ajuste boton de emitir en experiencia de emisión",
-    "assignee": "caiglesias",
-    "created": "13/08/2026",
-    "created_raw": "2026-08-13T16:09:06.195-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1976",
-    "summary": "ajustar el Front-end validación palabras restringidas ",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/08/2026",
-    "created_raw": "2026-08-13T15:34:04.159-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "validaciones/reglas",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 22.5,
-      "priority": "Alta"
     }
   },
   {
@@ -1914,28 +1870,6 @@
     }
   },
   {
-    "key": "GD981-1824",
-    "summary": "Demora en la impresión del PDF",
-    "assignee": "caiglesias",
-    "created": "01/07/2026",
-    "created_raw": "2026-07-01T19:17:38.984-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 0.7,
-      "score": 57.9,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1823",
     "summary": "El tomador no queda asociado en la póliza de RCE",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -2205,7 +2139,7 @@
     "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:17.431-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2215,9 +2149,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
