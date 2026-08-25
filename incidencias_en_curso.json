@@ -88,28 +88,6 @@
     }
   },
   {
-    "key": "GD941-2002",
-    "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Sin asignar",
-    "created": "20/08/2026",
-    "created_raw": "2026-08-20T17:26:32.785-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1992",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -181,7 +159,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T08:55:34.243-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -244,32 +222,10 @@
   {
     "key": "GD941-1948",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T15:54:33.078-0500",
-    "status": "Por Hacer",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1938",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T10:01:59.306-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -286,11 +242,11 @@
     }
   },
   {
-    "key": "GD941-1937",
+    "key": "GD941-1938",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "30/07/2026",
-    "created_raw": "2026-07-30T09:59:42.505-0500",
+    "created_raw": "2026-07-30T10:01:59.306-0500",
     "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
@@ -706,10 +662,10 @@
   {
     "key": "GD941-1563",
     "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
-    "assignee": "Omar Fernando Otavo García",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:56:22.205-0500",
-    "status": "En Pruebas QA",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1061,7 +1017,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T18:04:23.716-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1071,9 +1027,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -1083,7 +1039,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:54:04.933-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1049,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 12.0,
+      "score": 15.0,
       "priority": "Media"
     }
   },
@@ -1127,7 +1083,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:16:39.957-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1137,9 +1093,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -1149,7 +1105,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:13:41.435-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1159,10 +1115,10 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "score": 23.3,
+      "priority": "Alta"
     }
   },
   {
@@ -1171,7 +1127,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T16:17:08.992-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1181,9 +1137,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -1941,7 +1897,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:42:40.720-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1951,9 +1907,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -1963,7 +1919,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1973,9 +1929,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
