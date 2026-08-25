@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2025",
+    "summary": "Proceso de conversión de cotización de RC en simon web",
+    "assignee": "Regner Leonardo Bernal Garnica",
+    "created": "25/08/2026",
+    "created_raw": "2026-08-25T10:43:25.842-0500",
+    "status": "Backlog",
+    "issuetype": "Spike",
+    "tipo": "Spike",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2015",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
