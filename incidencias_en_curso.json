@@ -1012,6 +1012,28 @@
     }
   },
   {
+    "key": "GD981-2008",
+    "summary": "HU Técnica: Agregar 9 campos nuevos del TYPE SIM_CUD_TYP_COTIZ_POL a la respuesta del servicio listarCotizacionesYPolizas",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "25/08/2026",
+    "created_raw": "2026-08-25T18:53:00.691-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2000",
     "summary": "Backend [GD981-1610]: B7: Validar Coberturas Endoso — Endpoint Unificado",
     "assignee": "JUAN DAVID YARA CIFUENTES",
