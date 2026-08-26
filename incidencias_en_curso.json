@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2034",
+    "summary": "Error en la aplicacion // No permite cargue de cupo",
+    "assignee": "Sin asignar",
+    "created": "26/08/2026",
+    "created_raw": "2026-08-26T08:52:43.521-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "error técnico",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2033",
+    "summary": "INC-SOFTWARE-SIMON Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "26/08/2026",
+    "created_raw": "2026-08-26T08:52:23.248-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2029",
     "summary": "INC-SOFTWARE-Póliza Digital",
     "assignee": "Sin asignar",
@@ -1058,7 +1102,7 @@
   {
     "key": "GD981-1999",
     "summary": "Backend [GD981-1610]: B3: Validar Doble Valor Inicial — Solo Intermediario",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:54:04.933-0500",
     "status": "En Progreso",
