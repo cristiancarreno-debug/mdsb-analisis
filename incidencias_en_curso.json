@@ -46,7 +46,7 @@
   {
     "key": "GD941-2029",
     "summary": "INC-SOFTWARE-Póliza Digital",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T15:04:23.087-0500",
     "status": "En Progreso",
@@ -225,28 +225,6 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T15:56:47.876-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1948",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Regner Leonardo Bernal Garnica",
-    "created": "03/08/2026",
-    "created_raw": "2026-08-03T15:54:33.078-0500",
     "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
@@ -1034,6 +1012,28 @@
     }
   },
   {
+    "key": "GD981-2019",
+    "summary": "[GD981-1978] Marcas Sarlaft - Crear endpoint REST POST /api/v1/sarlaft/evaluar-formulario que invoca Proc_Evaluar_Formulario_Sarlaft y retorna las marcas SARLAFT dinamicas",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "26/08/2026",
+    "created_raw": "2026-08-26T11:37:40.982-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 64.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2011",
     "summary": "[GD981-1978] Marcas Sarlaft - Crear procedures prc_obtener_cumulo_real y Proc_Evaluar_Formulario_Sarlaft para retornar marcas dinamicas de formulario SARLAFT",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1083,7 +1083,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T18:53:00.691-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1093,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
@@ -1212,7 +1212,7 @@
   {
     "key": "GD981-1995",
     "summary": "BACKEND [GD981-1630]: EP4: Exclusividad — Scheduled Job de Timeout Automático",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T16:17:08.992-0500",
     "status": "En Progreso",
@@ -1982,7 +1982,7 @@
   {
     "key": "GD981-1885",
     "summary": "BACKEND [GD981-1630]: EP3: Exclusividad — Heartbeat de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:42:40.720-0500",
     "status": "En Progreso",
@@ -2004,7 +2004,7 @@
   {
     "key": "GD981-1884",
     "summary": "BACKEND [GD981-1630]: EP2: Exclusividad — Liberación de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
     "status": "En Progreso",
@@ -2048,7 +2048,7 @@
   {
     "key": "GD981-1882",
     "summary": "BACKEND [GD981-1630]: EP1: Exclusividad — Bloqueo de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
     "status": "En Progreso",
