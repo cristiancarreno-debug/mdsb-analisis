@@ -5,7 +5,7 @@
     "assignee": "Sin asignar",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T08:52:43.521-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "error técnico",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -27,7 +27,7 @@
     "assignee": "Sin asignar",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T08:52:23.248-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +37,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -260,28 +260,6 @@
       "confidence": 0.7,
       "effort": 1.5,
       "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1931",
-    "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "28/07/2026",
-    "created_raw": "2026-07-28T16:36:16.967-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -838,7 +816,7 @@
   {
     "key": "GD941-1449",
     "summary": "Mejora control de lo emitido grupo empresarial",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "23/04/2026",
     "created_raw": "2026-04-23T16:51:50.573-0500",
     "status": "Pendiente PAP",
@@ -882,7 +860,7 @@
   {
     "key": "GD941-1183",
     "summary": "Retroactividad RC",
-    "assignee": "Luis Felipe Villegas Sanchez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:36:35.437-0500",
     "status": "Pendiente PAP",
@@ -1039,7 +1017,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T10:30:16.459-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1049,9 +1027,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 64.0,
+      "score": 80.0,
       "priority": "Crítica"
     }
   },
@@ -1080,7 +1058,7 @@
   {
     "key": "GD981-2008",
     "summary": "HU Técnica: Agregar 9 campos nuevos del TYPE SIM_CUD_TYP_COTIZ_POL a la respuesta del servicio listarCotizacionesYPolizas",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T18:53:00.691-0500",
     "status": "En Progreso",
@@ -1168,7 +1146,7 @@
   {
     "key": "GD981-1997",
     "summary": "BACKEND [GD981-1630]: EP3: Ajustes CUMPL_042/CUMPL_047 — Carga y Descarga S3 para Endosos",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:16:39.957-0500",
     "status": "En Progreso",
@@ -1190,7 +1168,7 @@
   {
     "key": "GD981-1996",
     "summary": "BACKEND [GD981-1630]: EP2: Documentos Requeridos + Validación",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:13:41.435-0500",
     "status": "En Progreso",
