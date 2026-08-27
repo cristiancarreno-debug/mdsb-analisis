@@ -88,28 +88,6 @@
     }
   },
   {
-    "key": "GD941-2013",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "24/08/2026",
-    "created_raw": "2026-08-24T10:20:43.852-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2016",
     "summary": "Mejora al programa de emisión para mostrar cuando la póliza queda con Control Técnico",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -216,28 +194,6 @@
       "confidence": 0.5,
       "effort": 1.5,
       "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1949",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "03/08/2026",
-    "created_raw": "2026-08-03T15:56:47.876-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -990,6 +946,50 @@
     }
   },
   {
+    "key": "GD981-2025",
+    "summary": "PL/SQL — Emisión de Endosos CU (Nominativos + Cambio de Valor Asegurado)",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "27/08/2026",
+    "created_raw": "2026-08-27T11:00:30.752-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 60.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-2022",
+    "summary": "Ajuste de prima anualizada (PRIMA_ANU) en pólizas de RC expedidas por SIM_SISTEMA_ORIGEN 196",
+    "assignee": "Sin asignar",
+    "created": "27/08/2026",
+    "created_raw": "2026-08-27T10:12:33.736-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2019",
     "summary": "[GD981-1978] Marcas Sarlaft - Crear endpoint REST POST /api/v1/sarlaft/evaluar-formulario que invoca Proc_Evaluar_Formulario_Sarlaft y retorna las marcas SARLAFT dinamicas",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1083,7 +1083,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T18:04:23.716-0500",
-    "status": "En Progreso",
+    "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1093,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2.5,
-      "score": 32.0,
+      "score": 25.6,
       "priority": "Alta"
     }
   },
@@ -2048,7 +2048,7 @@
   {
     "key": "GD981-1823",
     "summary": "El tomador no queda asociado en la póliza de RCE",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Cristian David Carreño Ruiz",
     "created": "01/07/2026",
     "created_raw": "2026-07-01T19:00:16.215-0500",
     "status": "En Progreso",
@@ -2290,7 +2290,7 @@
   {
     "key": "GD981-1695",
     "summary": "HU TEC - Despliegue monitoreo Datadog",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "25/05/2026",
     "created_raw": "2026-05-25T08:28:42.367-0500",
     "status": "Por Hacer",
