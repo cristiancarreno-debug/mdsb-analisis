@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2044",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "27/08/2026",
+    "created_raw": "2026-08-27T16:32:47.385-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2034",
     "summary": "Error en la aplicacion // No permite cargue de cupo",
     "assignee": "Sin asignar",
@@ -992,10 +1014,10 @@
   {
     "key": "GD981-2019",
     "summary": "[GD981-1978] Marcas Sarlaft - Crear endpoint REST POST /api/v1/sarlaft/evaluar-formulario que invoca Proc_Evaluar_Formulario_Sarlaft y retorna las marcas SARLAFT dinamicas",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T11:37:40.982-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1005,9 +1027,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 64.0,
+      "score": 80.0,
       "priority": "Crítica"
     }
   },
@@ -2425,7 +2447,7 @@
     "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:43.592-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2435,9 +2457,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
