@@ -49,7 +49,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:11:51.062-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -1432,7 +1432,7 @@
   {
     "key": "GD981-1995",
     "summary": "BACKEND [GD981-1630]: EP4: Exclusividad — Scheduled Job de Timeout Automático",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T16:17:08.992-0500",
     "status": "En Progreso",
@@ -2224,7 +2224,7 @@
   {
     "key": "GD981-1884",
     "summary": "BACKEND [GD981-1630]: EP2: Exclusividad — Liberación de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
     "status": "En Progreso",
@@ -2575,7 +2575,7 @@
   },
   {
     "key": "GD981-1626",
-    "summary": "reusar",
+    "summary": "Ajuste impresión de PDF de Cumplimiento en la Nueva Plataforma",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:14.154-0500",
@@ -2584,15 +2584,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "documentación",
+      "reach": 45,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
     }
   },
   {
