@@ -1,8 +1,30 @@
 [
   {
+    "key": "GD941-2061",
+    "summary": "INC-SOFTWARE-Producto 455",
+    "assignee": "Sin asignar",
+    "created": "01/09/2026",
+    "created_raw": "2026-09-01T15:44:06.854-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2059",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:58:08.192-0500",
     "status": "Backlog",
@@ -10,7 +32,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -24,7 +46,7 @@
   {
     "key": "GD941-2058",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:51:23.748-0500",
     "status": "Backlog",
@@ -32,7 +54,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -46,7 +68,7 @@
   {
     "key": "GD941-2057",
     "summary": "Soporte para Póliza Electrónica (Operaciones)",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:45:36.192-0500",
     "status": "En Progreso",
@@ -54,7 +76,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -90,7 +112,7 @@
   {
     "key": "GD941-2055",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T12:01:03.023-0500",
     "status": "Backlog",
@@ -98,7 +120,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -112,7 +134,7 @@
   {
     "key": "GD941-2051",
     "summary": "INC-SOFTWARE-SIMON WEB",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:18:55.058-0500",
     "status": "Backlog",
@@ -120,7 +142,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "canal digital",
       "reach": 40,
@@ -134,7 +156,7 @@
   {
     "key": "GD941-2050",
     "summary": "INC-SOFTWARE- SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:15:05.242-0500",
     "status": "Backlog",
@@ -142,7 +164,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -178,7 +200,7 @@
   {
     "key": "GD941-2048",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:08:48.020-0500",
     "status": "Backlog",
@@ -200,23 +222,23 @@
   {
     "key": "GD941-2047",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:05:55.300-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
@@ -225,19 +247,19 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:00:45.991-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
