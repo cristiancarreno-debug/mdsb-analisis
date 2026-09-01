@@ -134,7 +134,7 @@
   {
     "key": "GD941-2034",
     "summary": "Error en la aplicacion // No permite cargue de cupo",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T08:52:43.521-0500",
     "status": "En Progreso",
@@ -156,7 +156,7 @@
   {
     "key": "GD941-2033",
     "summary": "INC-SOFTWARE-SIMON Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T08:52:23.248-0500",
     "status": "En Progreso",
@@ -164,7 +164,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -181,7 +181,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T10:43:25.842-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Spike",
     "tipo": "Spike",
     "project": "GD941",
@@ -191,9 +191,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
@@ -222,7 +222,7 @@
   {
     "key": "GD941-1992",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "19/08/2026",
     "created_raw": "2026-08-19T11:15:17.161-0500",
     "status": "En Progreso",
@@ -230,7 +230,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -266,7 +266,7 @@
   {
     "key": "GD941-1960",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T09:01:36.387-0500",
     "status": "En Progreso",
@@ -274,7 +274,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -291,7 +291,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "03/08/2026",
     "created_raw": "2026-08-03T16:06:20.732-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -301,9 +301,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -992,10 +992,10 @@
   {
     "key": "GD981-2047",
     "summary": "El scheduled job de timeout marca el documento como EXPIRADA en MongoDB aunque la liberación en Oracle falle, generando inconsistencia MongoDB↔Oracle sin auto-recuperación.",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:35:26.056-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -1005,10 +1005,10 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "score": 23.3,
+      "priority": "Alta"
     }
   },
   {
@@ -1017,7 +1017,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:20:03.735-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD981",
@@ -1027,9 +1027,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -1124,10 +1124,10 @@
   {
     "key": "GD981-2040",
     "summary": "Robustecer contrato y señalización del endpoint de liberación de exclusividad",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T14:48:26.130-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1137,19 +1137,19 @@
       "risk": "contratos",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 22.4,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
   {
     "key": "GD981-2039",
     "summary": "Validar que numSecuPolPpal sea obligatorio para pólizas de Cumplimiento (CU) en el bloqueo por exclusividad.",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T14:25:08.980-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1159,19 +1159,19 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
   {
     "key": "GD981-2038",
     "summary": "Robustez de exclusividad: validar propietario en heartbeat (vía proceso) y crear los índices de MongoDB de exclusividad_endosos",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T14:07:44.979-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1181,9 +1181,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -1237,7 +1237,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T11:37:40.982-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1303,7 +1303,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T18:53:00.691-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1435,7 +1435,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T16:17:08.992-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1894,7 +1894,7 @@
   {
     "key": "GD981-1902",
     "summary": "BACKEND2 - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:08:08.218-0500",
     "status": "Backlog",
@@ -1916,7 +1916,7 @@
   {
     "key": "GD981-1901",
     "summary": "BACKEND2 - Modificación de prorroga - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:06:54.260-0500",
     "status": "Backlog",
@@ -1938,7 +1938,7 @@
   {
     "key": "GD981-1900",
     "summary": "BACKEND2 - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:05:32.105-0500",
     "status": "Backlog",
@@ -1960,7 +1960,7 @@
   {
     "key": "GD981-1899",
     "summary": "PL/SQL - Modificación de Traslado de vigencia - Cumplimientoa",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:04:10.364-0500",
     "status": "Backlog",
@@ -1982,7 +1982,7 @@
   {
     "key": "GD981-1898",
     "summary": "PL/SQL  - Modificación de prorroga - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:02:40.633-0500",
     "status": "Backlog",
@@ -2004,7 +2004,7 @@
   {
     "key": "GD981-1897",
     "summary": "BACKEND - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:00:09.245-0500",
     "status": "Backlog",
@@ -2026,7 +2026,7 @@
   {
     "key": "GD981-1896",
     "summary": "BACKEND- Modificación de prorroga - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:58:33.457-0500",
     "status": "Backlog",
@@ -2136,7 +2136,7 @@
   {
     "key": "GD981-1888",
     "summary": "PL/SQL - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:49:52.421-0500",
     "status": "Backlog",
@@ -2158,7 +2158,7 @@
   {
     "key": "GD981-1887",
     "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:49:27.000-0500",
     "status": "Backlog",
@@ -2180,7 +2180,7 @@
   {
     "key": "GD981-1886",
     "summary": "PL/SQL - Modificación Cambio de valor asegurado - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:43:34.796-0500",
     "status": "Backlog",
@@ -2227,7 +2227,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:14:30.075-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2249,7 +2249,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2598,7 +2598,7 @@
   {
     "key": "GD981-1611",
     "summary": "FRONT Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:52.808-0500",
     "status": "Backlog",
@@ -3192,7 +3192,7 @@
   {
     "key": "GD981-873",
     "summary": "FRONT - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:50:46.748-0500",
     "status": "Backlog",
@@ -3214,7 +3214,7 @@
   {
     "key": "GD981-869",
     "summary": "FRONT - Modificación de prorroga - Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "caiglesias",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:49:42.650-0500",
     "status": "Backlog",
