@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2067",
+    "summary": "Las fechas de vigencia y certificado cambian al reversar la prorroga sin derjarlo en el ultimo endoso ",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "02/09/2026",
+    "created_raw": "2026-09-02T08:34:58.528-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QA",
+    "tipo": "Defecto QA",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1563 - Ajuste a endoso de Movimiento de vigencia con cobro",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2066",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "02/09/2026",
+    "created_raw": "2026-09-02T08:18:29.523-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2061",
     "summary": "INC-SOFTWARE-Producto 455",
     "assignee": "Sin asignar",
@@ -203,7 +247,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:08:48.020-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,9 +257,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -772,10 +816,10 @@
   {
     "key": "GD941-1563",
     "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:56:22.205-0500",
-    "status": "En Pruebas UAT",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1633,7 +1677,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T12:02:25.875-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1643,9 +1687,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
