@@ -178,10 +178,10 @@
   {
     "key": "GD941-2050",
     "summary": "INC-SOFTWARE- SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:15:05.242-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
