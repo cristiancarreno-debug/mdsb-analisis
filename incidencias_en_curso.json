@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2073",
+    "summary": "Seguros especiales - Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "03/09/2026",
+    "created_raw": "2026-09-03T07:39:03.161-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2067",
     "summary": "Las fechas de vigencia y certificado cambian al reversar la prorroga sin derjarlo en el ultimo endoso ",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -134,10 +156,10 @@
   {
     "key": "GD941-2055",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Regner Leonardo Bernal Garnica",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T12:01:03.023-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -3033,28 +3055,6 @@
       "effort": 2.5,
       "score": 22.4,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1368",
-    "summary": "Ajuste de la experiencia responsive",
-    "assignee": "caiglesias",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:40.102-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1850 - F2: Evolutivos de la Autogestión fase I",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
     }
   },
   {
