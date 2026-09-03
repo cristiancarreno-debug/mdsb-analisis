@@ -22,28 +22,6 @@
     }
   },
   {
-    "key": "GD941-2073",
-    "summary": "Seguros especiales - Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "03/09/2026",
-    "created_raw": "2026-09-03T07:39:03.161-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-2067",
     "summary": "Las fechas de vigencia y certificado cambian al reversar la prorroga sin derjarlo en el ultimo endoso ",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -965,6 +943,72 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2073",
+    "summary": "Manejo de veredicto \"asegurable\" (mostrar cupo, persistir y almacenar origen)",
+    "assignee": "Sin asignar",
+    "created": "03/09/2026",
+    "created_raw": "2026-09-03T14:19:12.653-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-2072",
+    "summary": "Manejo de veredicto \"no asegurable\" (bloqueo de radicación)",
+    "assignee": "Sin asignar",
+    "created": "03/09/2026",
+    "created_raw": "2026-09-03T14:17:58.833-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-2071",
+    "summary": "Consumo condicional del validador de cupos y envío de parámetros",
+    "assignee": "Sin asignar",
+    "created": "03/09/2026",
+    "created_raw": "2026-09-03T14:16:04.144-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
