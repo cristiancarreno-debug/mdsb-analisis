@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2075",
+    "summary": "DEvolucion prima genera error",
+    "assignee": "Regner Leonardo Bernal Garnica",
+    "created": "03/09/2026",
+    "created_raw": "2026-09-03T10:52:34.116-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2073",
     "summary": "Seguros especiales - Acceso a usuarios a Plataforma de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -93,7 +115,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:51:23.748-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,32 +125,10 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2057",
-    "summary": "Soporte para Póliza Electrónica (Operaciones)",
-    "assignee": "Francy Corredor ",
-    "created": "01/09/2026",
-    "created_raw": "2026-09-01T13:45:36.192-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
     }
   },
   {
@@ -154,34 +154,12 @@
     }
   },
   {
-    "key": "GD941-2055",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "01/09/2026",
-    "created_raw": "2026-09-01T12:01:03.023-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2051",
     "summary": "INC-SOFTWARE-SIMON WEB",
     "assignee": "Francy Corredor ",
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:18:55.058-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -191,31 +169,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 13.3,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2050",
-    "summary": "INC-SOFTWARE- SIMON - Cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "31/08/2026",
-    "created_raw": "2026-08-31T10:15:05.242-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
       "confidence": 0.7,
       "effort": 1.5,
-      "score": 14.0,
+      "score": 18.7,
       "priority": "Media"
     }
   },
