@@ -49,7 +49,7 @@
     "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T15:44:06.854-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -902,9 +902,31 @@
     }
   },
   {
+    "key": "GD981-2077",
+    "summary": "Revisión lentitud en impresión de PDF de Cumplimiento en la Nueva Plataforma",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "04/09/2026",
+    "created_raw": "2026-09-04T10:45:01.814-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.9,
+      "effort": 0.7,
+      "score": 57.9,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2073",
     "summary": "Manejo de veredicto \"asegurable\" (mostrar cupo, persistir y almacenar origen)",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:19:12.653-0500",
     "status": "Backlog",
@@ -926,7 +948,7 @@
   {
     "key": "GD981-2072",
     "summary": "Manejo de veredicto \"no asegurable\" (bloqueo de radicación)",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:17:58.833-0500",
     "status": "Backlog",
@@ -948,7 +970,7 @@
   {
     "key": "GD981-2071",
     "summary": "Consumo condicional del validador de cupos y envío de parámetros",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:16:04.144-0500",
     "status": "Backlog",
