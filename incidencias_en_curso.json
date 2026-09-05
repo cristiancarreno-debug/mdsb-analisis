@@ -2,10 +2,10 @@
   {
     "key": "GD941-2081",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "04/09/2026",
     "created_raw": "2026-09-04T14:20:21.792-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -115,7 +115,7 @@
     "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:37:27.040-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -125,9 +125,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
