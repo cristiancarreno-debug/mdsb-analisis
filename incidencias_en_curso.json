@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2092",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "07/09/2026",
+    "created_raw": "2026-09-07T15:32:53.068-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2090",
     "summary": "investigacion Ajuste del endoso de cambio de clave para que la facturación no sea retroactiva",
     "assignee": "Francy Corredor ",
@@ -115,28 +137,6 @@
     "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T15:44:06.854-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2058",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Regner Leonardo Bernal Garnica",
-    "created": "01/09/2026",
-    "created_raw": "2026-09-01T13:51:23.748-0500",
     "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
@@ -1039,7 +1039,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T17:54:51.004-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1049,9 +1049,9 @@
       "risk": "retroactividad",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 26.7,
+      "score": 33.3,
       "priority": "Alta"
     }
   },
