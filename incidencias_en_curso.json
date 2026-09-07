@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2090",
+    "summary": "investigacion Ajuste del endoso de cambio de clave para que la facturación no sea retroactiva",
+    "assignee": "Francy Corredor ",
+    "created": "07/09/2026",
+    "created_raw": "2026-09-07T14:53:50.283-0500",
+    "status": "Backlog",
+    "issuetype": "Spike",
+    "tipo": "Spike",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2089",
     "summary": "Determinar porque en Emisión de Póliza y/o Modificación de Póliza no queda el porcentaje de participación",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -24,10 +46,10 @@
   {
     "key": "GD941-2088",
     "summary": "Proceso de conversión de cotización de RC en simon web",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "07/09/2026",
     "created_raw": "2026-09-07T10:16:32.291-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
