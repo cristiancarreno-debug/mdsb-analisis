@@ -1036,7 +1036,7 @@
   {
     "key": "GD981-2044",
     "summary": "BACKEND [GD981-1630]: Retroactividad: detalle de resultado por cobertura",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T17:54:51.004-0500",
     "status": "En Progreso",
@@ -1237,28 +1237,6 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T11:37:40.982-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-2011",
-    "summary": "[GD981-1978] Marcas Sarlaft - Crear procedures prc_obtener_cumulo_real y Proc_Evaluar_Formulario_Sarlaft para retornar marcas dinamicas de formulario SARLAFT",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "26/08/2026",
-    "created_raw": "2026-08-26T10:30:16.459-0500",
     "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
@@ -2645,7 +2623,7 @@
     "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:46.637-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2655,9 +2633,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
