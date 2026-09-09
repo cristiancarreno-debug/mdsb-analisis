@@ -1,10 +1,10 @@
 [
   {
-    "key": "GD941-2106",
-    "summary": "Al liquidar un expediente de reintegros me sale esto: El usuario no tiene acceso a realizar esta operación en la sección o producto seleccionado.",
+    "key": "GD941-2109",
+    "summary": "Soporte para Póliza Electrónica (Operaciones)",
     "assignee": "Sin asignar",
     "created": "09/09/2026",
-    "created_raw": "2026-09-09T09:55:22.464-0500",
+    "created_raw": "2026-09-09T16:53:55.104-0500",
     "status": "Backlog",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
@@ -12,19 +12,19 @@
     "equipo": "EO Cumplimiento",
     "epic": "Sin épica",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
     "key": "GD941-2105",
     "summary": "Solicitud de Generación de Información",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "09/09/2026",
     "created_raw": "2026-09-09T09:54:24.241-0500",
     "status": "Backlog",
@@ -106,28 +106,6 @@
       "confidence": 0.7,
       "effort": 2,
       "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2092",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "07/09/2026",
-    "created_raw": "2026-09-07T15:32:53.068-0500",
-    "status": "Por Hacer",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
       "priority": "Baja"
     }
   },
@@ -308,28 +286,6 @@
     }
   },
   {
-    "key": "GD941-1952",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "03/08/2026",
-    "created_raw": "2026-08-03T16:06:20.732-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-1935",
     "summary": "N. P Ajuste de deducibles y valores asegurados en RC 214 estatal",
     "assignee": "Sin asignar",
@@ -415,28 +371,6 @@
       "effort": 2,
       "score": 60.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-1902",
-    "summary": "INC-SOFTWARE-SIMON CUMPLIMIENTO",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "21/07/2026",
-    "created_raw": "2026-07-21T18:03:01.838-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -678,28 +612,6 @@
       "confidence": 1.0,
       "effort": 2.5,
       "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1500",
-    "summary": "SC - Generación e Impresión de Póliza Electrónica",
-    "assignee": "JAIME ALBERTO PUENTES RAMIREZ",
-    "created": "30/04/2026",
-    "created_raw": "2026-04-30T16:52:59.311-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 1,
-      "score": 36.0,
       "priority": "Alta"
     }
   },
@@ -965,6 +877,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2134",
+    "summary": "Arreglo de error de CORS en servicios de Comunes",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "09/09/2026",
+    "created_raw": "2026-09-09T16:14:11.904-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "error técnico",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
     }
   },
   {
