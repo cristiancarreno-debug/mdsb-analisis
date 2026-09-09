@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2106",
+    "summary": "Al liquidar un expediente de reintegros me sale esto: El usuario no tiene acceso a realizar esta operación en la sección o producto seleccionado.",
+    "assignee": "Sin asignar",
+    "created": "09/09/2026",
+    "created_raw": "2026-09-09T09:55:22.464-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2105",
+    "summary": "Solicitud de Generación de Información",
+    "assignee": "Sin asignar",
+    "created": "09/09/2026",
+    "created_raw": "2026-09-09T09:54:24.241-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2100",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -357,7 +401,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "24/07/2026",
     "created_raw": "2026-07-24T09:16:58.218-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QA",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD941",
@@ -771,7 +815,7 @@
   },
   {
     "key": "GD941-1857",
-    "summary": "Modificaciones combinadas en un solo movimiento",
+    "summary": "reusar",
     "assignee": "Sin asignar",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:08.192-0500",
@@ -780,15 +824,15 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -858,34 +902,12 @@
     }
   },
   {
-    "key": "GD941-1092",
-    "summary": "Ajuste modificaciones endoso de disminución de vigencia- Cumplimiento",
-    "assignee": "Sin asignar",
-    "created": "02/12/2025",
-    "created_raw": "2025-12-02T12:18:38.922-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-786",
     "summary": "Movimiento de grupos empresariales (desactivar grupo / inactivar o mover miembros)",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "assignee": "Sin asignar",
     "created": "02/10/2025",
     "created_raw": "2025-10-02T08:42:39.160-0500",
-    "status": "Por Hacer",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -896,8 +918,8 @@
       "reach": 20,
       "impact": 1,
       "confidence": 0.8,
-      "effort": 2,
-      "score": 8.0,
+      "effort": 3.0,
+      "score": 5.3,
       "priority": "Baja"
     }
   },
