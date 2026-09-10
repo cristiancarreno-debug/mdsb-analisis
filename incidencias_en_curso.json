@@ -1,24 +1,24 @@
 [
   {
-    "key": "GD941-2109",
-    "summary": "Soporte para Póliza Electrónica (Operaciones)",
-    "assignee": "Sin asignar",
+    "key": "GD941-2106",
+    "summary": "Al liquidar un expediente de reintegros me sale esto: El usuario no tiene acceso a realizar esta operación en la sección o producto seleccionado.",
+    "assignee": "Francy Corredor ",
     "created": "09/09/2026",
-    "created_raw": "2026-09-09T16:53:55.104-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "created_raw": "2026-09-09T09:55:22.464-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 40.0,
-      "priority": "Crítica"
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
@@ -287,7 +287,7 @@
   },
   {
     "key": "GD941-1935",
-    "summary": "N. P Ajuste de deducibles y valores asegurados en RC 214 estatal",
+    "summary": "Nueva Pl. Ajuste de deducibles y valores asegurados en RC 214 estatal",
     "assignee": "Sin asignar",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T18:31:19.838-0500",
@@ -371,6 +371,28 @@
       "effort": 2,
       "score": 60.0,
       "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-1902",
+    "summary": "INC-SOFTWARE-SIMON CUMPLIMIENTO",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "21/07/2026",
+    "created_raw": "2026-07-21T18:03:01.838-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
@@ -885,7 +907,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "09/09/2026",
     "created_raw": "2026-09-09T16:14:11.904-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -895,9 +917,9 @@
       "risk": "error técnico",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
