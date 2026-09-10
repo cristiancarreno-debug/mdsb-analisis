@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2114",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Francy Corredor ",
+    "created": "10/09/2026",
+    "created_raw": "2026-09-10T15:20:31.866-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2106",
     "summary": "Al liquidar un expediente de reintegros me sale esto: El usuario no tiene acceso a realizar esta operación en la sección o producto seleccionado.",
     "assignee": "Francy Corredor ",
@@ -27,7 +49,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "09/09/2026",
     "created_raw": "2026-09-09T09:54:24.241-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -54,7 +76,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -181,7 +203,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "02/09/2026",
     "created_raw": "2026-09-02T08:34:58.528-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Defecto QA",
     "tipo": "Defecto QA",
     "project": "GD941",
@@ -191,10 +213,10 @@
       "risk": "documentación",
       "reach": 45,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1,
-      "score": 36.0,
-      "priority": "Alta"
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -269,7 +291,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "21/08/2026",
     "created_raw": "2026-08-21T08:29:25.489-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -279,9 +301,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
@@ -899,6 +921,28 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2135",
+    "summary": "CNTI-2895 Hallazgos de seguridad (backend) - https://github.com/segurosbolivar/cumplimientodigital-servicios-proxy",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "10/09/2026",
+    "created_raw": "2026-09-10T15:01:57.384-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
