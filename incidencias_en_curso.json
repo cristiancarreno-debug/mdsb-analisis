@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2123",
+    "summary": "INC-SOFTWARE-Simon Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "11/09/2026",
+    "created_raw": "2026-09-11T15:40:32.176-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2118",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Regner Leonardo Bernal Garnica",
@@ -50,19 +72,19 @@
     "created": "10/09/2026",
     "created_raw": "2026-09-10T15:20:31.866-0500",
     "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
       "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
