@@ -1,11 +1,33 @@
 [
   {
+    "key": "GD941-2118",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Regner Leonardo Bernal Garnica",
+    "created": "11/09/2026",
+    "created_raw": "2026-09-11T08:42:46.787-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2116",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Francy Corredor ",
     "created": "10/09/2026",
     "created_raw": "2026-09-10T17:03:34.736-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,9 +37,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
