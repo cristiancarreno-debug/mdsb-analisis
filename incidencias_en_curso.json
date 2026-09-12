@@ -1,27 +1,5 @@
 [
   {
-    "key": "GD941-2123",
-    "summary": "INC-SOFTWARE-Simon Cumplimiento",
-    "assignee": "Sin asignar",
-    "created": "11/09/2026",
-    "created_raw": "2026-09-11T15:40:32.176-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2118",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Regner Leonardo Bernal Garnica",
@@ -2651,28 +2629,6 @@
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1695",
-    "summary": "HU TEC - Despliegue monitoreo Datadog",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "25/05/2026",
-    "created_raw": "2026-05-25T08:28:42.367-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
