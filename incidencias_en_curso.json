@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2128",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T15:32:29.196-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2127",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -46,37 +68,15 @@
   {
     "key": "GD941-2125",
     "summary": "INC-SOFTWARE - Cumplimiento Digital",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T08:48:01.607-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2118",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Regner Leonardo Bernal Garnica",
-    "created": "11/09/2026",
-    "created_raw": "2026-09-11T08:42:46.787-0500",
     "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "epic": "Sin épica",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -156,10 +156,10 @@
   {
     "key": "GD941-2100",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T14:15:35.886-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
