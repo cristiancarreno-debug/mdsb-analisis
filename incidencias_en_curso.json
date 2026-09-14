@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2132",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T18:14:18.447-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2128",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -24,10 +46,10 @@
   {
     "key": "GD941-2127",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T10:06:13.342-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,16 +59,16 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-2126",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Regner Leonardo Bernal Garnica",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T10:03:57.700-0500",
     "status": "Backlog",
