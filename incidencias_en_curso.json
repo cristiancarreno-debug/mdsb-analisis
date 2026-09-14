@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2127",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T10:06:13.342-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2126",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T10:03:57.700-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2125",
+    "summary": "INC-SOFTWARE - Cumplimiento Digital",
+    "assignee": "Sin asignar",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T08:48:01.607-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2118",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Regner Leonardo Bernal Garnica",
@@ -77,28 +143,6 @@
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2105",
-    "summary": "Solicitud de Generación de Información",
-    "assignee": "Regner Leonardo Bernal Garnica",
-    "created": "09/09/2026",
-    "created_raw": "2026-09-09T09:54:24.241-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -968,6 +1012,28 @@
     }
   },
   {
+    "key": "GD981-2140",
+    "summary": "Cambio nombre \"Valor contrato\" a \"Valor asegurado\" ",
+    "assignee": "caiglesias",
+    "created": "14/09/2026",
+    "created_raw": "2026-09-14T11:23:12.644-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2135",
     "summary": "CNTI-2895 Hallazgos de seguridad (backend) - https://github.com/segurosbolivar/cumplimientodigital-servicios-proxy",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1061,7 +1127,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:19:12.653-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1071,9 +1137,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -1083,7 +1149,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:17:58.833-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1159,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -1105,7 +1171,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:16:04.144-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1115,10 +1181,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1364,28 +1430,6 @@
     }
   },
   {
-    "key": "GD981-2019",
-    "summary": "[GD981-1978] Marcas Sarlaft - Crear endpoint REST POST /api/v1/sarlaft/evaluar-formulario que invoca Proc_Evaluar_Formulario_Sarlaft y retorna las marcas SARLAFT dinamicas",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "26/08/2026",
-    "created_raw": "2026-08-26T11:37:40.982-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-2010",
     "summary": "Consulta de estado de endoso CU para emisión asíncrona",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -1581,28 +1625,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1978",
-    "summary": "Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "14/08/2026",
-    "created_raw": "2026-08-14T08:20:49.139-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
     }
   },
   {
