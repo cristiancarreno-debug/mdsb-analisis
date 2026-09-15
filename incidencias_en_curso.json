@@ -71,7 +71,7 @@
     "assignee": "Regner Leonardo Bernal Garnica",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T10:03:57.700-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +81,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -2438,28 +2438,6 @@
       "confidence": 0.9,
       "effort": 1.4,
       "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1823",
-    "summary": "El tomador no queda asociado en la póliza de RCE",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "01/07/2026",
-    "created_raw": "2026-07-01T19:00:16.215-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
       "priority": "Crítica"
     }
   },
