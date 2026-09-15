@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2136",
+    "summary": "AJUSTES ARCHIVO SISCONC",
+    "assignee": "Regner Leonardo Bernal Garnica",
+    "created": "15/09/2026",
+    "created_raw": "2026-09-15T16:20:59.898-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 8.8,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2128",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -71,7 +93,7 @@
     "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T08:48:01.607-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -81,9 +103,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -436,28 +458,6 @@
       "confidence": 0.8,
       "effort": 1.5,
       "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-1914",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "24/07/2026",
-    "created_raw": "2026-07-24T15:49:30.360-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -2425,7 +2425,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T19:40:06.853-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -2435,9 +2435,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
