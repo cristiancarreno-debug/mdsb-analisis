@@ -1,27 +1,5 @@
 [
   {
-    "key": "GD941-2132",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "14/09/2026",
-    "created_raw": "2026-09-14T18:14:18.447-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-2128",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -49,20 +27,20 @@
     "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T10:06:13.342-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "status": "Por Hacer",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
     }
   },
   {
@@ -93,20 +71,20 @@
     "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T08:48:01.607-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "status": "Por Hacer",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
     }
   },
   {
@@ -2711,7 +2689,7 @@
     "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:52.808-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2721,9 +2699,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -2733,7 +2711,7 @@
     "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:49.887-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2743,9 +2721,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -3302,10 +3280,10 @@
   {
     "key": "GD981-869",
     "summary": "FRONT - Modificación de prorroga - Cumplimiento",
-    "assignee": "caiglesias",
+    "assignee": "Santiago Hurtado Solis",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:49:42.650-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3315,9 +3293,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
