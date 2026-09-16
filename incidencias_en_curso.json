@@ -181,19 +181,19 @@
     "assignee": "Francy Corredor ",
     "created": "10/09/2026",
     "created_raw": "2026-09-10T17:03:34.736-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
@@ -1193,7 +1193,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:19:12.653-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1203,10 +1203,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1215,7 +1215,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:17:58.833-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1225,10 +1225,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1237,7 +1237,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "03/09/2026",
     "created_raw": "2026-09-03T14:16:04.144-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1247,9 +1247,9 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
       "priority": "Alta"
     }
   },
