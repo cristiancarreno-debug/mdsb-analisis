@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2157",
+    "summary": "INC-SOFTWARE-SIMON-CIA 3",
+    "assignee": "Sin asignar",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T15:41:43.797-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2156",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -24,10 +46,10 @@
   {
     "key": "GD941-2155",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T14:45:27.694-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
