@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2156",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T14:47:49.739-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2155",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T14:45:27.694-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2154",
+    "summary": "Solicitud de Cambio de Datos",
+    "assignee": "Sin asignar",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T14:41:31.979-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2148",
     "summary": "INC-SOFTWARE - Cumplimiento",
     "assignee": "Sin asignar",
@@ -88,28 +154,6 @@
     }
   },
   {
-    "key": "GD941-2144",
-    "summary": "Al realizar el aumento de valor por tronador en el endoso No.12 no aparece la póliza hija de cumplimiento",
-    "assignee": "Sin asignar",
-    "created": "16/09/2026",
-    "created_raw": "2026-09-16T10:09:49.207-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2143",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -194,28 +238,6 @@
       "confidence": 0.5,
       "effort": 2,
       "score": 2.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2125",
-    "summary": "INC-SOFTWARE - Cumplimiento Digital",
-    "assignee": "Francy Corredor ",
-    "created": "14/09/2026",
-    "created_raw": "2026-09-14T08:48:01.607-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -1122,6 +1144,28 @@
     }
   },
   {
+    "key": "GD981-2199",
+    "summary": "Calcular correctamente PRIMA_ANU y END_PRIMA_ANU en las coberturas de la póliza de RC atada a Cumplimiento emitida por el canal digital (sistema origen 196)",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T13:50:22.095-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2140",
     "summary": "Cambio nombre \"Valor contrato\" a \"Valor asegurado\" ",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1536,6 +1580,28 @@
       "confidence": 1.0,
       "effort": 2,
       "score": 50.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-2010",
+    "summary": "Consulta de estado de endoso CU para emisión asíncrona",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "26/08/2026",
+    "created_raw": "2026-08-26T10:22:11.686-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
