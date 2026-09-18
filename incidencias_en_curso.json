@@ -1,16 +1,16 @@
 [
   {
-    "key": "GD941-2161",
-    "summary": "FALLA EN LA MODIFICACIÓN DE POLIZAS POR SIMON CUMPLIMIENTO",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "key": "GD941-2163",
+    "summary": "Se crea HU para corregir pólizas NP ",
+    "assignee": "Francy Corredor ",
     "created": "18/09/2026",
-    "created_raw": "2026-09-18T08:13:06.237-0500",
+    "created_raw": "2026-09-18T12:09:34.296-0500",
     "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "epic": "Sin épica",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -19,6 +19,28 @@
       "effort": 2,
       "score": 40.0,
       "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2162",
+    "summary": "INC-SOFTWARE - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "18/09/2026",
+    "created_raw": "2026-09-18T09:51:56.930-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
     }
   },
   {
@@ -76,7 +98,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -231,28 +253,6 @@
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2143",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
-    "created": "16/09/2026",
-    "created_raw": "2026-09-16T09:30:04.464-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -1212,7 +1212,7 @@
   {
     "key": "GD981-2207",
     "summary": "Ajuste regla aumento de tasa y claridad nombres botones SARLAFT",
-    "assignee": "Sin asignar",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T07:55:39.280-0500",
     "status": "Backlog",
