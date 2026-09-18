@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2161",
+    "summary": "FALLA EN LA MODIFICACIÓN DE POLIZAS POR SIMON CUMPLIMIENTO",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "18/09/2026",
+    "created_raw": "2026-09-18T08:13:06.237-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2160",
+    "summary": "IMAC-SOFTWARE-SIMON-WEB",
+    "assignee": "Sin asignar",
+    "created": "18/09/2026",
+    "created_raw": "2026-09-18T02:38:16.749-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2159",
+    "summary": "Nueva pla. Cotizaciones desaparecen y aparece",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "18/09/2026",
+    "created_raw": "2026-09-18T00:23:55.910-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2157",
     "summary": "INC-SOFTWARE-SIMON-CIA 3",
     "assignee": "Sin asignar",
@@ -90,10 +156,10 @@
   {
     "key": "GD941-2148",
     "summary": "INC-SOFTWARE - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "16/09/2026",
     "created_raw": "2026-09-16T14:57:40.713-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,19 +169,19 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-2147",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "16/09/2026",
     "created_raw": "2026-09-16T14:55:36.551-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -125,9 +191,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -186,7 +252,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -332,7 +398,7 @@
   {
     "key": "GD941-2100",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Francy Corredor ",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T14:15:35.886-0500",
     "status": "En Pruebas UAT",
@@ -1056,28 +1122,6 @@
     }
   },
   {
-    "key": "GD941-1183",
-    "summary": "Retroactividad RC",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "29/12/2025",
-    "created_raw": "2025-12-29T08:36:35.437-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1210 - Mejoras relacionadas a RC 2026",
-    "rice": {
-      "risk": "retroactividad",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 42.9,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1178",
     "summary": "Ajuste prima informada",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -1166,6 +1210,94 @@
     }
   },
   {
+    "key": "GD981-2207",
+    "summary": "Ajuste regla aumento de tasa y claridad nombres botones SARLAFT",
+    "assignee": "Sin asignar",
+    "created": "18/09/2026",
+    "created_raw": "2026-09-18T07:55:39.280-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 64.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-2206",
+    "summary": " Disminución de vigencia de póliza de Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T18:56:26.236-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2202",
+    "summary": "Ajustes Popups, diseño bolivar",
+    "assignee": "caiglesias",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T18:53:35.944-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-2201",
+    "summary": "Fallas al momento de convertir polizas",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "17/09/2026",
+    "created_raw": "2026-09-17T18:46:37.129-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2199",
     "summary": "Calcular correctamente PRIMA_ANU y END_PRIMA_ANU en las coberturas de la póliza de RC atada a Cumplimiento emitida por el canal digital (sistema origen 196)",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -1184,28 +1316,6 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 40.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-2140",
-    "summary": "Cambio nombre \"Valor contrato\" a \"Valor asegurado\" ",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "14/09/2026",
-    "created_raw": "2026-09-14T11:23:12.644-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 45.0,
       "priority": "Crítica"
     }
   },
@@ -1295,72 +1405,6 @@
       "effort": 2,
       "score": 2.6,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-2073",
-    "summary": "Manejo de veredicto \"asegurable\" (mostrar cupo, persistir y almacenar origen)",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "03/09/2026",
-    "created_raw": "2026-09-03T14:19:12.653-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-2072",
-    "summary": "Manejo de veredicto \"no asegurable\" (bloqueo de radicación)",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "03/09/2026",
-    "created_raw": "2026-09-03T14:17:58.833-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-2071",
-    "summary": "Consumo condicional del validador de cupos y envío de parámetros",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "03/09/2026",
-    "created_raw": "2026-09-03T14:16:04.144-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 25.7,
-      "priority": "Alta"
     }
   },
   {
@@ -1650,28 +1694,6 @@
     }
   },
   {
-    "key": "GD981-2000",
-    "summary": "Backend [GD981-1610]: B7: Validar Coberturas Endoso — Endpoint Unificado",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "24/08/2026",
-    "created_raw": "2026-08-24T18:04:23.716-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-1999",
     "summary": "Backend [GD981-1610]: B3: Validar Doble Valor Inicial — Solo Intermediario",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1787,7 +1809,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "17/08/2026",
     "created_raw": "2026-08-17T15:46:13.336-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1809,7 +1831,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "12/08/2026",
     "created_raw": "2026-08-12T20:41:44.244-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2310,50 +2332,6 @@
     }
   },
   {
-    "key": "GD981-1897",
-    "summary": "BACKEND - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:00:09.245-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1896",
-    "summary": "BACKEND- Modificación de prorroga - Cumplimiento",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T14:58:33.457-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1895",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de precondiciones de póliza para endosos",
     "assignee": "Santiago Hurtado Solis",
@@ -2461,28 +2439,6 @@
       "effort": 1.75,
       "score": 41.1,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1887",
-    "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "27/07/2026",
-    "created_raw": "2026-07-27T13:49:27.000-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
     }
   },
   {
