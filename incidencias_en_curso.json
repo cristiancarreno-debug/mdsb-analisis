@@ -5,7 +5,7 @@
     "assignee": "Francy Corredor ",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T12:09:34.296-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -15,9 +15,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -94,19 +94,19 @@
     "created": "17/09/2026",
     "created_raw": "2026-09-17T15:41:43.797-0500",
     "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
       "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
@@ -555,7 +555,7 @@
     "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T15:44:06.854-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -565,9 +565,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 2,
-      "score": 3.5,
+      "score": 2.5,
       "priority": "Baja"
     }
   },
