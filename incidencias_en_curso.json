@@ -1,24 +1,24 @@
 [
   {
-    "key": "GD941-2175",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "key": "GD941-2177",
+    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
+    "assignee": "Sin asignar",
     "created": "21/09/2026",
-    "created_raw": "2026-09-21T11:15:33.941-0500",
+    "created_raw": "2026-09-21T12:47:53.610-0500",
     "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
       "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
     }
   },
   {
@@ -1303,7 +1303,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T07:55:39.280-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1313,9 +1313,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 64.0,
+      "score": 80.0,
       "priority": "Crítica"
     }
   },
@@ -1369,7 +1369,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:46:37.129-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1379,9 +1379,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -1674,7 +1674,7 @@
   {
     "key": "GD981-2025",
     "summary": "PL/SQL — Emisión de Endosos CU (Nominativos + Cambio de Valor Asegurado)",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/08/2026",
     "created_raw": "2026-08-27T11:00:30.752-0500",
     "status": "Pendiente PAP",
