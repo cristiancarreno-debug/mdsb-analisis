@@ -1,5 +1,93 @@
 [
   {
+    "key": "GD941-2175",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "21/09/2026",
+    "created_raw": "2026-09-21T11:15:33.941-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2174",
+    "summary": "Reporte “Nueva herramienta de Cumplimiento”",
+    "assignee": "Francy Corredor ",
+    "created": "21/09/2026",
+    "created_raw": "2026-09-21T11:12:33.552-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "reportes/trazabilidad",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2173",
+    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "21/09/2026",
+    "created_raw": "2026-09-21T09:49:39.044-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2171",
+    "summary": "Nueva plat. Cupo no coincide con el de simon",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "21/09/2026",
+    "created_raw": "2026-09-21T09:28:38.200-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2163",
     "summary": "Se crea HU para corregir pólizas NP ",
     "assignee": "Francy Corredor ",
@@ -71,7 +159,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T00:23:55.910-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +169,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
@@ -1234,7 +1322,7 @@
   {
     "key": "GD981-2206",
     "summary": " Disminución de vigencia de póliza de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:56:26.236-0500",
     "status": "Backlog",
@@ -1339,28 +1427,6 @@
       "effort": 2,
       "score": 6.2,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-2134",
-    "summary": "Arreglo de error de CORS en servicios de Comunes",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "09/09/2026",
-    "created_raw": "2026-09-09T16:14:11.904-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "error técnico",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
     }
   },
   {
@@ -3349,7 +3415,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:50:46.748-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3359,9 +3425,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
