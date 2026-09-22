@@ -1,11 +1,33 @@
 [
   {
-    "key": "GD941-2181",
-    "summary": " INC-SOFTWARE-SIMON - Cumplimiento\n",
+    "key": "GD941-2184",
+    "summary": "INC-SOFTWARE-POLIZA DIGITAL | Póliza del 470 sin beneficiario",
     "assignee": "Sin asignar",
     "created": "22/09/2026",
-    "created_raw": "2026-09-22T09:10:03.982-0500",
+    "created_raw": "2026-09-22T16:14:05.426-0500",
     "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2181",
+    "summary": " INC-SOFTWARE-SIMON - Cumplimiento\n",
+    "assignee": "Francy Corredor ",
+    "created": "22/09/2026",
+    "created_raw": "2026-09-22T09:10:03.982-0500",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,19 +37,19 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
   {
     "key": "GD941-2177",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "21/09/2026",
     "created_raw": "2026-09-21T12:47:53.610-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -134,10 +156,10 @@
   {
     "key": "GD941-2160",
     "summary": "IMAC-SOFTWARE-SIMON-WEB",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T02:38:16.749-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -147,9 +169,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -1127,7 +1149,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:56:26.236-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3103,7 +3125,7 @@
   },
   {
     "key": "GD981-1353",
-    "summary": "Validación del tipo de documento cargado vs tipo seleccionado",
+    "summary": "RECICLAR",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:24.623-0500",
@@ -3112,37 +3134,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
+      "risk": "mejora funcional",
+      "reach": 25,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1352",
-    "summary": "Validación de campos vacíos en lectura de contratos por IA",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:21.722-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
