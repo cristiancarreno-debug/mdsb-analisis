@@ -10,7 +10,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -32,7 +32,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -44,46 +44,24 @@
     }
   },
   {
-    "key": "GD941-2174",
-    "summary": "Reporte “Nueva herramienta de Cumplimiento”",
-    "assignee": "Francy Corredor ",
-    "created": "21/09/2026",
-    "created_raw": "2026-09-21T11:12:33.552-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "reportes/trazabilidad",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2173",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "21/09/2026",
     "created_raw": "2026-09-21T09:49:39.044-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -142,7 +120,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -181,7 +159,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T00:23:55.910-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -191,54 +169,10 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2157",
-    "summary": "INC-SOFTWARE-SIMON-CIA 3",
-    "assignee": "Francy Corredor ",
-    "created": "17/09/2026",
-    "created_raw": "2026-09-17T15:41:43.797-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2155",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "17/09/2026",
-    "created_raw": "2026-09-17T14:45:27.694-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -274,29 +208,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2147",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "16/09/2026",
-    "created_raw": "2026-09-16T14:55:36.551-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -318,7 +230,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -340,7 +252,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -384,7 +296,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -393,28 +305,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2127",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "14/09/2026",
-    "created_raw": "2026-09-14T10:06:13.342-0500",
-    "status": "Por Hacer",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
     }
   },
   {
@@ -436,72 +326,6 @@
       "confidence": 0.6,
       "effort": 1.0499999999999998,
       "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2114",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "10/09/2026",
-    "created_raw": "2026-09-10T15:20:31.866-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2106",
-    "summary": "Al liquidar un expediente de reintegros me sale esto: El usuario no tiene acceso a realizar esta operación en la sección o producto seleccionado.",
-    "assignee": "Francy Corredor ",
-    "created": "09/09/2026",
-    "created_raw": "2026-09-09T09:55:22.464-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2100",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "08/09/2026",
-    "created_raw": "2026-09-08T14:15:35.886-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -635,28 +459,6 @@
       "effort": 1,
       "score": 45.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2061",
-    "summary": "INC-SOFTWARE-Producto 455",
-    "assignee": "Francy Corredor ",
-    "created": "01/09/2026",
-    "created_raw": "2026-09-01T15:44:06.854-0500",
-    "status": "Por Hacer",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
     }
   },
   {
@@ -929,7 +731,7 @@
     "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:28:27.785-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -939,19 +741,19 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 10.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD941-1613",
     "summary": "SC- Reaseguro y reserva",
-    "assignee": "Regner Leonardo Bernal Garnica",
+    "assignee": "Francy Corredor ",
     "created": "21/05/2026",
     "created_raw": "2026-05-21T14:15:21.813-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -961,10 +763,10 @@
       "risk": "reaseguro",
       "reach": 30,
       "impact": 3,
-      "confidence": 0.8,
-      "effort": 4.5,
-      "score": 16.0,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 3,
+      "score": 30.0,
+      "priority": "Alta"
     }
   },
   {
@@ -992,10 +794,10 @@
   {
     "key": "GD941-1589",
     "summary": "SC - Parametrización de datos variables",
-    "assignee": "Regner Leonardo Bernal Garnica",
+    "assignee": "Francy Corredor ",
     "created": "16/05/2026",
     "created_raw": "2026-05-16T18:38:59.073-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1005,10 +807,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 10.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1039,7 +841,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T13:56:22.205-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1049,10 +851,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1061,7 +863,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:51:17.664-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1071,19 +873,19 @@
       "risk": "devolución prima",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 35.0,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD941-1492",
     "summary": "SC - Reglas de Suscripción Automática y Validación de Terceros",
-    "assignee": "Regner Leonardo Bernal Garnica",
+    "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:21:24.062-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1093,10 +895,10 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 9.3,
-      "priority": "Baja"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 17.5,
+      "priority": "Media"
     }
   },
   {
@@ -1124,10 +926,10 @@
   {
     "key": "GD941-1484",
     "summary": "SC. Definición de Protocolo de Entrada para Gestión de Pólizas",
-    "assignee": "Regner Leonardo Bernal Garnica",
+    "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:00:42.339-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1137,10 +939,10 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 26.7,
-      "priority": "Alta"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1149,7 +951,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T15:59:32.201-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1159,10 +961,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 2.25,
-      "score": 10.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1303,7 +1105,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T07:55:39.280-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1313,9 +1115,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 80.0,
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 102.9,
       "priority": "Crítica"
     }
   },
@@ -1418,7 +1220,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1542,10 +1344,10 @@
   {
     "key": "GD981-2043",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de combinaciones de endosos y resolución de códigos Core",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:49:38.285-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1564,10 +1366,10 @@
   {
     "key": "GD981-2042",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de comisión pactada para endosos",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:45:46.800-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1586,10 +1388,10 @@
   {
     "key": "GD981-2041",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de consulta de tipos de endoso habilitados por póliza",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:37:51.407-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1914,28 +1716,6 @@
     }
   },
   {
-    "key": "GD981-1934",
-    "summary": "BACKEND [GD981-1630]: Consultar el estado de emisión de un endoso",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "05/08/2026",
-    "created_raw": "2026-08-05T12:02:25.875-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1933",
     "summary": "BACKEND [GD981-1630]: EP1: Cálculo de Retroactividad",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1960,10 +1740,10 @@
   {
     "key": "GD981-1932",
     "summary": "BACKEND [GD981-1630]: Scaffolding del MS + Endpoint de Emisión de Endosos",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T11:40:44.482-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2826,7 +2606,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
+    "epic": "Sin épica",
     "rice": {
       "risk": "documentación",
       "reach": 45,
@@ -2927,7 +2707,7 @@
   },
   {
     "key": "GD981-1563",
-    "summary": "Cambio GCP lector de contratos",
+    "summary": "reciclar ",
     "assignee": "Sin asignar",
     "created": "20/04/2026",
     "created_raw": "2026-04-20T11:10:35.916-0500",
@@ -2938,13 +2718,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 22.4,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -3212,30 +2992,8 @@
     }
   },
   {
-    "key": "GD981-1382",
-    "summary": "Revalidación de condiciones de negocio al modificar objetivo del contrato en póliza de RC",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:51.809-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 40.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1378",
-    "summary": "Sincronización de movimientos con Simon WEB",
+    "summary": "RECICLAR",
     "assignee": "Sin asignar",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:48.829-0500",
@@ -3246,18 +3004,18 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "canal digital",
-      "reach": 40,
+      "risk": "mejora funcional",
+      "reach": 25,
       "impact": 1,
       "confidence": 0.5,
-      "effort": 1.5,
-      "score": 13.3,
-      "priority": "Media"
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1372",
-    "summary": "Validación de checks de garantía según etapa del contrato",
+    "summary": "reciclar ",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:42.838-0500",
@@ -3266,20 +3024,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 22.4,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1365",
-    "summary": "Extracción de valor de contrato expresado en salarios mínimos (SMLMV)",
+    "summary": "RECICLAR",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:37.228-0500",
@@ -3288,20 +3046,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 22.4,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1361",
-    "summary": "Cálculo automático de fechas a partir de fecha de firma y plazo en días",
+    "summary": "RECICLAR",
     "assignee": "Cristian David Carreño Ruiz",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:33.616-0500",
@@ -3412,10 +3170,10 @@
   {
     "key": "GD981-873",
     "summary": "FRONT - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:50:46.748-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3434,10 +3192,10 @@
   {
     "key": "GD981-869",
     "summary": "FRONT - Modificación de prorroga - Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:49:42.650-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
