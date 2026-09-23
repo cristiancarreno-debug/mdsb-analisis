@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2191",
+    "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "23/09/2026",
+    "created_raw": "2026-09-23T14:35:55.015-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "comisiones/intermediarios",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 12.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2190",
+    "summary": " INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "23/09/2026",
+    "created_raw": "2026-09-23T11:50:42.136-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2184",
     "summary": "INC-SOFTWARE-POLIZA DIGITAL | Póliza del 470 sin beneficiario",
     "assignee": "Sin asignar",
@@ -142,7 +186,7 @@
     "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "canal digital",
       "reach": 40,
@@ -440,28 +484,6 @@
     }
   },
   {
-    "key": "GD941-2067",
-    "summary": "Las fechas de vigencia y certificado cambian al reversar la prorroga sin derjarlo en el ultimo endoso ",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "02/09/2026",
-    "created_raw": "2026-09-02T08:34:58.528-0500",
-    "status": "En Progreso",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1563 - Ajuste a endoso de Movimiento de vigencia con cobro",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1,
-      "score": 45.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2056",
     "summary": "Desempate de endosos entre póliza principal y pólizas hijas (Cumplimiento)",
     "assignee": "Francy Corredor ",
@@ -578,8 +600,8 @@
     "created": "24/07/2026",
     "created_raw": "2026-07-24T09:16:58.218-0500",
     "status": "En Pruebas QC",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
+    "issuetype": "Defecto QC",
+    "tipo": "Defecto QC",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1572 - Ajuste en disminución de valor asegurado a prorrata en Rc 214",
@@ -1100,6 +1122,28 @@
     }
   },
   {
+    "key": "GD981-2220",
+    "summary": "Validaciones de campos numéricos y restricción de Coaseguro Aceptado en cotización",
+    "assignee": "caiglesias",
+    "created": "23/09/2026",
+    "created_raw": "2026-09-23T10:47:35.305-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2207",
     "summary": "Ajuste regla aumento de tasa y claridad nombres botones SARLAFT",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1238,8 +1282,8 @@
     "created": "09/09/2026",
     "created_raw": "2026-09-09T11:03:24.532-0500",
     "status": "En Pruebas QC",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
+    "issuetype": "Defecto QC",
+    "tipo": "Defecto QC",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-2125 - Automatización septiembre QC",
@@ -1282,8 +1326,8 @@
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:35:26.056-0500",
     "status": "En Pruebas QC",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
+    "issuetype": "Defecto QC",
+    "tipo": "Defecto QC",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1995 - BACKEND [GD981-1630]: EP4: Exclusividad — Scheduled Job de Timeout Automático",
@@ -1304,8 +1348,8 @@
     "created": "31/08/2026",
     "created_raw": "2026-08-31T10:20:03.735-0500",
     "status": "En Pruebas QC",
-    "issuetype": "Defecto QA",
-    "tipo": "Defecto QA",
+    "issuetype": "Defecto QC",
+    "tipo": "Defecto QC",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1884 - BACKEND [GD981-1630]: EP2: Exclusividad — Liberación de Póliza",
@@ -2378,7 +2422,7 @@
   {
     "key": "GD981-1802",
     "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T18:42:26.525-0500",
     "status": "Backlog",
@@ -2400,7 +2444,7 @@
   {
     "key": "GD981-1801",
     "summary": "HU TEC - Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T15:19:04.324-0500",
     "status": "Backlog",
@@ -2554,7 +2598,7 @@
   {
     "key": "GD981-1782",
     "summary": "HU TEC - Modificación servicios Mongo para cifrado del id de mongo",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T16:28:37.259-0500",
     "status": "Backlog",
