@@ -22,28 +22,6 @@
     }
   },
   {
-    "key": "GD941-2181",
-    "summary": " INC-SOFTWARE-SIMON - Cumplimiento\n",
-    "assignee": "Francy Corredor ",
-    "created": "22/09/2026",
-    "created_raw": "2026-09-22T09:10:03.982-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2177",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
     "assignee": "Francy Corredor ",
@@ -266,10 +244,10 @@
   {
     "key": "GD941-2145",
     "summary": "INC-SOFTWARE - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "16/09/2026",
     "created_raw": "2026-09-16T10:13:33.803-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -279,9 +257,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1146,7 +1124,7 @@
   {
     "key": "GD981-2206",
     "summary": " Disminución de vigencia de póliza de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:56:26.236-0500",
     "status": "En Pruebas UAT",
@@ -1233,7 +1211,7 @@
   },
   {
     "key": "GD981-2135",
-    "summary": "CNTI-2895 Hallazgos de seguridad (backend) - https://github.com/segurosbolivar/cumplimientodigital-servicios-proxy",
+    "summary": "CNTI-3015 Hallazgos de seguridad (Frontend) - https://github.com/segurosbolivar/cumplimientodigital-frontend",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "10/09/2026",
     "created_raw": "2026-09-10T15:01:57.384-0500",
@@ -2598,10 +2576,10 @@
   {
     "key": "GD981-1630",
     "summary": "FRONT - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:17.431-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2642,10 +2620,10 @@
   {
     "key": "GD981-1611",
     "summary": "FRONT Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:52.808-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2664,10 +2642,10 @@
   {
     "key": "GD981-1610",
     "summary": "FRONT - Modificación Cambio de valor asegurado - Cumplimiento",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:49.887-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2686,10 +2664,10 @@
   {
     "key": "GD981-1609",
     "summary": "FRONT - Modificaciones nominativas - Cumplimiento",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:46.637-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2708,10 +2686,10 @@
   {
     "key": "GD981-1608",
     "summary": "FRONT - Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:43.592-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2928,7 +2906,7 @@
   {
     "key": "GD981-1429",
     "summary": "Generación de nuevo número de cotización al modificar una cotización existente",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:24:03.893-0500",
     "status": "Por Hacer",
@@ -2950,7 +2928,7 @@
   {
     "key": "GD981-1418",
     "summary": "Bandeja de solicitudes en proceso para retoma",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:54.596-0500",
     "status": "Por Hacer",
@@ -2972,7 +2950,7 @@
   {
     "key": "GD981-1416",
     "summary": "FRONT - Guardado automático de progreso de solicitud en proceso",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:48.729-0500",
     "status": "Por Hacer",
