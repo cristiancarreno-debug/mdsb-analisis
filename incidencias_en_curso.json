@@ -110,50 +110,6 @@
     }
   },
   {
-    "key": "GD941-2177",
-    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Francy Corredor ",
-    "created": "21/09/2026",
-    "created_raw": "2026-09-21T12:47:53.610-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2173",
-    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "21/09/2026",
-    "created_raw": "2026-09-21T09:49:39.044-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2171",
     "summary": "Nueva plat. Cupo no coincide con el de simon",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -396,28 +352,6 @@
     }
   },
   {
-    "key": "GD941-2116",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "10/09/2026",
-    "created_raw": "2026-09-10T17:03:34.736-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2099",
     "summary": "Nueva. Pl. Ajuste generación cotización con fecha de 0 días de vigencia",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -547,28 +481,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2049",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "31/08/2026",
-    "created_raw": "2026-08-31T10:11:51.062-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
     }
   },
   {
@@ -1167,11 +1079,11 @@
   },
   {
     "key": "GD981-2220",
-    "summary": "Validaciones de campos numéricos y restricción de Coaseguro Aceptado en cotización",
+    "summary": "Validaciones de campos numéricos y restricción de Coaseguro Aceptado en cotización y ajuste del campo de cupo disponible",
     "assignee": "caiglesias",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T10:47:35.305-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1181,9 +1093,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 22.0,
+      "score": 27.5,
       "priority": "Alta"
     }
   },
@@ -1281,7 +1193,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T13:50:22.095-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1291,15 +1203,15 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
   {
     "key": "GD981-2135",
-    "summary": "CNTI-3015 Hallazgos de seguridad (Frontend) - https://github.com/segurosbolivar/cumplimientodigital-frontend",
+    "summary": "CNTI-3015, CNTI-3016, CNTI-3017 Y CNTI-3018 Hallazgos de seguridad (Frontend) - https://github.com/segurosbolivar/cumplimientodigital-frontend",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "10/09/2026",
     "created_raw": "2026-09-10T15:01:57.384-0500",
@@ -1567,7 +1479,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/08/2026",
     "created_raw": "2026-08-27T11:00:30.752-0500",
-    "status": "Pendiente PAP",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1577,9 +1489,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
@@ -1611,7 +1523,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T10:22:11.686-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2180,7 +2092,7 @@
   {
     "key": "GD981-1901",
     "summary": "BACKEND2 - Modificación de prorroga - Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sin asignar",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:06:54.260-0500",
     "status": "Backlog",
@@ -2201,7 +2113,7 @@
   },
   {
     "key": "GD981-1900",
-    "summary": "BACKEND2 - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
+    "summary": "Configuración de nueva forma de trabajo - KIRO Crew ",
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:05:32.105-0500",
@@ -2212,13 +2124,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
       "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
@@ -2227,7 +2139,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:04:10.364-0500",
-    "status": "Pendiente PAP",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2237,10 +2149,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
+      "confidence": 1.0,
+      "effort": 2.5,
+      "score": 32.0,
+      "priority": "Alta"
     }
   },
   {
@@ -2249,7 +2161,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:02:40.633-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2359,7 +2271,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:49:52.421-0500",
-    "status": "Pendiente PAP",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2369,10 +2281,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
+      "confidence": 1.0,
+      "effort": 2.5,
+      "score": 32.0,
+      "priority": "Alta"
     }
   },
   {
@@ -3191,8 +3103,8 @@
   },
   {
     "key": "GD981-1353",
-    "summary": "RECICLAR",
-    "assignee": "Cristian David Carreño Ruiz",
+    "summary": "Ajuste servicio SARLAFT ",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:24.623-0500",
     "status": "Backlog",
@@ -3200,15 +3112,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 64.0,
+      "priority": "Crítica"
     }
   },
   {
