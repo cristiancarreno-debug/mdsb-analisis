@@ -154,28 +154,6 @@
     }
   },
   {
-    "key": "GD941-2171",
-    "summary": "Nueva plat. Cupo no coincide con el de simon",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "21/09/2026",
-    "created_raw": "2026-09-21T09:28:38.200-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2163",
     "summary": "Se crea HU para corregir pólizas NP ",
     "assignee": "Francy Corredor ",
@@ -239,28 +217,6 @@
       "effort": 1.5,
       "score": 13.3,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2159",
-    "summary": "Nueva pla. Cotizaciones desaparecen y aparece",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "18/09/2026",
-    "created_raw": "2026-09-18T00:23:55.910-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
     }
   },
   {
@@ -1141,28 +1097,6 @@
       "effort": 2,
       "score": 27.5,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2207",
-    "summary": "Ajuste regla aumento de tasa y claridad nombres botones SARLAFT",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "18/09/2026",
-    "created_raw": "2026-09-18T07:55:39.280-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
     }
   },
   {
