@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2197",
+    "summary": " INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "24/09/2026",
+    "created_raw": "2026-09-24T11:27:30.760-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2196",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "24/09/2026",
+    "created_raw": "2026-09-24T11:10:34.387-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2193",
     "summary": " INC-SOFWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -181,7 +225,7 @@
     "assignee": "Francy Corredor ",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T02:38:16.749-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -191,9 +235,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 1.5,
-      "score": 18.7,
+      "score": 13.3,
       "priority": "Media"
     }
   },
@@ -863,7 +907,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:21:24.062-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -885,7 +929,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:01:28.971-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -895,10 +939,10 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 26.7,
-      "priority": "Alta"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -2180,10 +2224,10 @@
   {
     "key": "GD981-1895",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de precondiciones de póliza para endosos",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
-    "status": "En Pruebas QC",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2193,9 +2237,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
