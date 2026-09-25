@@ -225,7 +225,7 @@
     "assignee": "Francy Corredor ",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T14:41:31.979-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -235,9 +235,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -335,7 +335,7 @@
     "assignee": "Francy Corredor ",
     "created": "14/09/2026",
     "created_raw": "2026-09-14T15:32:29.196-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -445,7 +445,7 @@
     "assignee": "Francy Corredor ",
     "created": "07/09/2026",
     "created_raw": "2026-09-07T10:16:32.291-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -455,10 +455,10 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 14.7,
+      "priority": "Media"
     }
   },
   {
@@ -467,7 +467,7 @@
     "assignee": "Francy Corredor ",
     "created": "01/09/2026",
     "created_raw": "2026-09-01T13:37:27.040-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -477,10 +477,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.8,
+      "effort": 3.75,
+      "score": 17.1,
+      "priority": "Media"
     }
   },
   {
@@ -660,28 +660,6 @@
     }
   },
   {
-    "key": "GD941-1682",
-    "summary": "Corregir endoso de cambio de valor asegurado en Cumplimiento para conservar fechas futuras de garantías",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "04/06/2026",
-    "created_raw": "2026-06-04T09:43:09.122-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1678",
     "summary": "Control técnico de rechazado para producto 214",
     "assignee": "Sin asignar",
@@ -797,7 +775,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:09:23.474-0500",
-    "status": "En Pruebas QC",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -808,31 +786,9 @@
       "reach": 35,
       "impact": 2,
       "confidence": 0.8,
-      "effort": 2,
-      "score": 28.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-1563",
-    "summary": "Ajuste a endoso de Movimiento de vigencia con cobro",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "15/05/2026",
-    "created_raw": "2026-05-15T13:56:22.205-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
+      "effort": 3.0,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
@@ -995,7 +951,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "29/12/2025",
     "created_raw": "2025-12-29T08:20:10.916-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1005,10 +961,10 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 26.7,
+      "priority": "Alta"
     }
   },
   {
@@ -1124,10 +1080,10 @@
   {
     "key": "GD981-2202",
     "summary": "Ajustes Popups, diseño bolivar",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:53:35.944-0500",
-    "status": "Backlog",
+    "status": "En Pruebas QC",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2095,7 +2051,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:05:32.105-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2105,10 +2061,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -3015,8 +2971,8 @@
   },
   {
     "key": "GD981-1365",
-    "summary": "RECICLAR",
-    "assignee": "Cristian David Carreño Ruiz",
+    "summary": "Ajuste modificacion traslado de vigencia - complemento de la HU GD981-873",
+    "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:37.228-0500",
     "status": "Backlog",
@@ -3024,21 +2980,21 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD981-1361",
-    "summary": "RECICLAR",
-    "assignee": "Cristian David Carreño Ruiz",
+    "summary": "Inclusión campo en endosos - Fase II modificaciones ",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:33.616-0500",
     "status": "Backlog",
@@ -3046,15 +3002,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
     }
   },
   {
@@ -3085,7 +3041,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:24.623-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3095,9 +3051,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 64.0,
+      "score": 80.0,
       "priority": "Crítica"
     }
   },
