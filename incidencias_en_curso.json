@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2205",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "25/09/2026",
+    "created_raw": "2026-09-25T14:24:43.110-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2204",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento-Poliza 1505003404801 no genera valor de pago",
+    "assignee": "Sin asignar",
+    "created": "25/09/2026",
+    "created_raw": "2026-09-25T14:22:02.922-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2197",
     "summary": " INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -2641,24 +2685,24 @@
   },
   {
     "key": "GD981-1563",
-    "summary": "reciclar ",
-    "assignee": "Sin asignar",
+    "summary": "Nueva plat. Cupo 0 al momento de emitir",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "20/04/2026",
     "created_raw": "2026-04-20T11:10:35.916-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "incidente genérico",
+      "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
     }
   },
   {
