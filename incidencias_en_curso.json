@@ -71,7 +71,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "28/09/2026",
     "created_raw": "2026-09-28T11:29:06.271-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +81,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
@@ -291,20 +291,20 @@
     "assignee": "Francy Corredor ",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T12:09:34.296-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 26.7,
+      "priority": "Alta"
     }
   },
   {
@@ -1369,7 +1369,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:49:38.285-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1379,10 +1379,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1391,7 +1391,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:45:46.800-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1401,10 +1401,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1413,7 +1413,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:37:51.407-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1423,10 +1423,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1545,7 +1545,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T10:22:11.686-0500",
-    "status": "En Pruebas UAT",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1765,7 +1765,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T11:40:44.482-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1775,9 +1775,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -2205,7 +2205,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2215,10 +2215,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -3063,7 +3063,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:37.228-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3126,10 +3126,10 @@
   {
     "key": "GD981-1353",
     "summary": "Ajuste servicio SARLAFT ",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:24.623-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3139,9 +3139,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 80.0,
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 102.9,
       "priority": "Crítica"
     }
   },
