@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2225",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "30/09/2026",
+    "created_raw": "2026-09-30T15:50:19.103-0500",
+    "status": "Por Hacer",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2224",
     "summary": "INC-SOFTWARE-TRONADOR CIA 3 EXCEPTO AUTOS Y SOAT",
     "assignee": "Sin asignar",
@@ -137,7 +159,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "28/09/2026",
     "created_raw": "2026-09-28T11:29:06.271-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -147,9 +169,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -2025,7 +2047,7 @@
   },
   {
     "key": "GD981-1901",
-    "summary": "BACKEND2 - Modificación de prorroga - Cumplimiento",
+    "summary": "Microservicio para emitir endosos de RC",
     "assignee": "Sin asignar",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:06:54.260-0500",
@@ -2036,13 +2058,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
     }
   },
   {
