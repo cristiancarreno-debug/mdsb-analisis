@@ -1193,7 +1193,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:46:37.129-0500",
-    "status": "En Pruebas QC",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1203,9 +1203,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 40.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -1215,7 +1215,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T13:50:22.095-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1225,9 +1225,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -2532,10 +2532,10 @@
   {
     "key": "GD981-1630",
     "summary": "FRONT - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:17.431-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2545,10 +2545,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -2642,10 +2642,10 @@
   {
     "key": "GD981-1608",
     "summary": "FRONT - Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:43.592-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2655,32 +2655,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1563",
-    "summary": "Nueva plat. Cupo 0 al momento de emitir",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "20/04/2026",
-    "created_raw": "2026-04-20T11:10:35.916-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
