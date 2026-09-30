@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2224",
+    "summary": "INC-SOFTWARE-TRONADOR CIA 3 EXCEPTO AUTOS Y SOAT",
+    "assignee": "Sin asignar",
+    "created": "30/09/2026",
+    "created_raw": "2026-09-30T10:22:01.087-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2222",
+    "summary": "Revisión asignacion de Capacidades de Clientes enfoque que superan el limite",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "30/09/2026",
+    "created_raw": "2026-09-30T07:29:34.889-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2219",
     "summary": "INC-SOFTWARE-Poliza Digital | Póliza sin factura en el endoso 1 póliza 1010108547101 RC 214",
     "assignee": "Sin asignar",
@@ -110,28 +154,6 @@
     }
   },
   {
-    "key": "GD941-2209",
-    "summary": "INC-SOFTWARE-SIMON WEB CIA 3-PÓLIZA AP NO PERMITE CANCELARLA 734 Accidentes Personales",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "28/09/2026",
-    "created_raw": "2026-09-28T09:56:05.832-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2205",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -173,28 +195,6 @@
       "effort": 2,
       "score": 50.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2197",
-    "summary": " INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "24/09/2026",
-    "created_raw": "2026-09-24T11:27:30.760-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
     }
   },
   {
@@ -247,7 +247,7 @@
     "assignee": "Francy Corredor ",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T14:59:32.316-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -257,9 +257,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -436,28 +436,6 @@
       "confidence": 0.7,
       "effort": 1.5,
       "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2136",
-    "summary": "AJUSTES ARCHIVO SISCONC",
-    "assignee": "Regner Leonardo Bernal Garnica",
-    "created": "15/09/2026",
-    "created_raw": "2026-09-15T16:20:59.898-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
       "priority": "Media"
     }
   },
@@ -1124,7 +1102,7 @@
   {
     "key": "GD981-2220",
     "summary": "Validaciones de campos numéricos y restricción de Coaseguro Aceptado en cotización y ajuste del campo de cupo disponible",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T10:47:35.305-0500",
     "status": "Pendiente PAP",
@@ -1168,7 +1146,7 @@
   {
     "key": "GD981-2202",
     "summary": "Ajustes Popups, diseño bolivar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "17/09/2026",
     "created_raw": "2026-09-17T18:53:35.944-0500",
     "status": "Pendiente PAP",
@@ -1300,7 +1278,7 @@
   {
     "key": "GD981-2043",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de combinaciones de endosos y resolución de códigos Core",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:49:38.285-0500",
     "status": "Pendiente PAP",
@@ -1322,7 +1300,7 @@
   {
     "key": "GD981-2042",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de comisión pactada para endosos",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:45:46.800-0500",
     "status": "Pendiente PAP",
@@ -1344,7 +1322,7 @@
   {
     "key": "GD981-2041",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de consulta de tipos de endoso habilitados por póliza",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/08/2026",
     "created_raw": "2026-08-30T15:37:51.407-0500",
     "status": "Pendiente PAP",
@@ -1432,7 +1410,7 @@
   {
     "key": "GD981-2025",
     "summary": "PL/SQL — Emisión de Endosos CU (Nominativos + Cambio de Valor Asegurado)",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "27/08/2026",
     "created_raw": "2026-08-27T11:00:30.752-0500",
     "status": "En Pruebas UAT",
@@ -1696,7 +1674,7 @@
   {
     "key": "GD981-1932",
     "summary": "BACKEND [GD981-1630]: Scaffolding del MS + Endpoint de Emisión de Endosos",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "05/08/2026",
     "created_raw": "2026-08-05T11:40:44.482-0500",
     "status": "Pendiente PAP",
@@ -2092,7 +2070,7 @@
   {
     "key": "GD981-1899",
     "summary": "PL/SQL - Modificación de Traslado de vigencia - Cumplimientoa",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:04:10.364-0500",
     "status": "En Pruebas UAT",
@@ -2114,7 +2092,7 @@
   {
     "key": "GD981-1898",
     "summary": "PL/SQL  - Modificación de prorroga - Cumplimiento",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:02:40.633-0500",
     "status": "En Pruebas UAT",
@@ -2136,7 +2114,7 @@
   {
     "key": "GD981-1895",
     "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de precondiciones de póliza para endosos",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:50:08.480-0500",
     "status": "Pendiente PAP",
@@ -2158,10 +2136,10 @@
   {
     "key": "GD981-1894",
     "summary": "BACKEND [GD981-1630]: PL/SQL — Ajuste de Procedures para Patrón sistema_origen=196",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:47:26.747-0500",
-    "status": "Pendiente PAP",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2171,10 +2149,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 8.8,
+      "priority": "Baja"
     }
   },
   {
@@ -2224,7 +2202,7 @@
   {
     "key": "GD981-1888",
     "summary": "PL/SQL - Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:49:52.421-0500",
     "status": "En Pruebas UAT",
@@ -2246,7 +2224,7 @@
   {
     "key": "GD981-1885",
     "summary": "BACKEND [GD981-1630]: EP3: Exclusividad — Heartbeat de Póliza",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:42:40.720-0500",
     "status": "Pendiente PAP",
@@ -2312,7 +2290,7 @@
   {
     "key": "GD981-1882",
     "summary": "BACKEND [GD981-1630]: EP1: Exclusividad — Bloqueo de Póliza",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:08:02.536-0500",
     "status": "Pendiente PAP",
@@ -2972,7 +2950,7 @@
   {
     "key": "GD981-1365",
     "summary": "Ajuste modificacion traslado de vigencia - complemento de la HU GD981-873",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:37.228-0500",
     "status": "En Pruebas UAT",
@@ -3038,7 +3016,7 @@
   {
     "key": "GD981-1353",
     "summary": "Ajuste servicio SARLAFT ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:24.623-0500",
     "status": "Pendiente PAP",
