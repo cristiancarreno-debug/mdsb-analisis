@@ -2048,10 +2048,10 @@
   {
     "key": "GD981-1901",
     "summary": "Microservicio para emitir endosos de RC",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:06:54.260-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2061,9 +2061,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -2623,7 +2623,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:53:46.637-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2633,10 +2633,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
