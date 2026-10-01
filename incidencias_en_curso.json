@@ -1,16 +1,38 @@
 [
   {
-    "key": "GD941-2225",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "30/09/2026",
-    "created_raw": "2026-09-30T15:50:19.103-0500",
-    "status": "Por Hacer",
+    "key": "GD941-2231",
+    "summary": "INC-SOFTWARE-Poliza Digital",
+    "assignee": "Sin asignar",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T11:03:48.252-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2230",
+    "summary": "IMAC-SOFTWARE-SIMON-CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T10:59:49.816-0500",
+    "status": "Backlog",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "epic": "Sin épica",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -19,6 +41,50 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2229",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T10:45:06.604-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2228",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento - Devolucion prima genera error",
+    "assignee": "Sin asignar",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T10:40:14.755-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -423,28 +489,6 @@
     "assignee": "Francy Corredor ",
     "created": "16/09/2026",
     "created_raw": "2026-09-16T10:18:07.287-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2145",
-    "summary": "INC-SOFTWARE - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "16/09/2026",
-    "created_raw": "2026-09-16T10:13:33.803-0500",
     "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
@@ -1119,6 +1163,50 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2250",
+    "summary": "FRONT - Modificacion de inclusion de coberturas - RC derivada de Cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T10:58:19.930-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD981-2247",
+    "summary": "[HU Técnica][Cumplimiento] Nivelar infraestructura de producción",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "30/09/2026",
+    "created_raw": "2026-09-30T22:46:53.869-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -2378,7 +2466,7 @@
   {
     "key": "GD981-1798",
     "summary": "FRONT - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T18:51:41.544-0500",
     "status": "Backlog",
@@ -2400,7 +2488,7 @@
   {
     "key": "GD981-1797",
     "summary": "FRONT  - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T18:07:24.418-0500",
     "status": "Backlog",
@@ -2421,8 +2509,8 @@
   },
   {
     "key": "GD981-1796",
-    "summary": "FRONT - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "summary": "FRONT - Modificacion de exclusion de coberturas - RC derivada de Cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T16:27:32.209-0500",
     "status": "Backlog",
@@ -2444,7 +2532,7 @@
   {
     "key": "GD981-1795",
     "summary": "FRONT - Modificaciones nominativas - RC derivada de cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T12:27:44.611-0500",
     "status": "Backlog",
@@ -2466,7 +2554,7 @@
   {
     "key": "GD981-1794",
     "summary": "FRONT - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T12:27:03.508-0500",
     "status": "Backlog",
@@ -2953,7 +3041,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:42.838-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2963,9 +3051,9 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 14.0,
+      "score": 17.5,
       "priority": "Media"
     }
   },
