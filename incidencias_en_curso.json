@@ -1166,6 +1166,28 @@
     }
   },
   {
+    "key": "GD981-2251",
+    "summary": "Disminución de vigencia de póliza RC derivada de Cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "01/10/2026",
+    "created_raw": "2026-10-01T12:20:10.923-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2250",
     "summary": "FRONT - Modificacion de inclusion de coberturas - RC derivada de Cumplimiento",
     "assignee": "Santiago Hurtado Solis",
