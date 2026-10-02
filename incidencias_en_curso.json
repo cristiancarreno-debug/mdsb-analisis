@@ -330,28 +330,6 @@
     }
   },
   {
-    "key": "GD941-2192",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "23/09/2026",
-    "created_raw": "2026-09-23T14:59:32.316-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2191",
     "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1119,50 +1097,6 @@
       "effort": 3.0,
       "score": 5.3,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-781",
-    "summary": "Ajuste en clausulados para empresas con condiciones especiales",
-    "assignee": "Sin asignar",
-    "created": "01/10/2025",
-    "created_raw": "2025-10-01T09:52:40.494-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "clausulados",
-      "reach": 30,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 24.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-473",
-    "summary": "Ajuste fecha de inicio cuando hay traslado de vigencia de la póliza",
-    "assignee": "Sin asignar",
-    "created": "20/08/2025",
-    "created_raw": "2025-08-20T16:26:45.239-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1211 - Mejoras en modificaciones producto de cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
     }
   },
   {
@@ -3104,10 +3038,10 @@
   {
     "key": "GD981-1361",
     "summary": "Inclusión campo en endosos - Fase II modificaciones ",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:33.616-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3253,94 +3187,6 @@
       "effort": 2,
       "score": 6.2,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-655",
-    "summary": "Servicio FE para guardar información",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/08/2025",
-    "created_raw": "2025-08-28T12:21:32.657-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-551",
-    "summary": "Invocación y visualización de la suma disponible",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/08/2025",
-    "created_raw": "2025-08-28T10:04:16.950-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-511",
-    "summary": "Manejo de colas para carga en Filenet y S3",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/08/2025",
-    "created_raw": "2025-08-28T09:44:51.737-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-80",
-    "summary": "Implementación de la Redirección en el Portal de Intermediarios",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "19/08/2025",
-    "created_raw": "2025-08-19T08:38:42.707-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "comisiones/intermediarios",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 12.0,
-      "priority": "Media"
     }
   }
 ]
