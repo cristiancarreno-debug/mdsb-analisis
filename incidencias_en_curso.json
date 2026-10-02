@@ -396,28 +396,6 @@
     }
   },
   {
-    "key": "GD941-2162",
-    "summary": "INC-SOFTWARE - Cumplimiento",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "18/09/2026",
-    "created_raw": "2026-09-18T09:51:56.930-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2160",
     "summary": "IMAC-SOFTWARE-SIMON-WEB",
     "assignee": "Francy Corredor ",
@@ -440,11 +418,11 @@
     }
   },
   {
-    "key": "GD941-2154",
-    "summary": "Solicitud de Cambio de Datos",
+    "key": "GD941-2146",
+    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Francy Corredor ",
-    "created": "17/09/2026",
-    "created_raw": "2026-09-17T14:41:31.979-0500",
+    "created": "16/09/2026",
+    "created_raw": "2026-09-16T10:18:07.287-0500",
     "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
@@ -459,28 +437,6 @@
       "effort": 2,
       "score": 3.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2146",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "16/09/2026",
-    "created_raw": "2026-09-16T10:18:07.287-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -2997,7 +2953,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:42.838-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -3007,10 +2963,10 @@
       "risk": "validaciones/reglas",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 17.5,
-      "priority": "Media"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 22.5,
+      "priority": "Alta"
     }
   },
   {
