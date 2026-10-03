@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2234",
+    "summary": "La poliza de RCE no permite anularse y arroja el error colocado en foto",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "02/10/2026",
+    "created_raw": "2026-10-02T18:17:02.873-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2231",
     "summary": "INC-SOFTWARE-Poliza Digital",
     "assignee": "Sin asignar",
@@ -244,10 +266,10 @@
   {
     "key": "GD941-2205",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "25/09/2026",
     "created_raw": "2026-09-25T14:24:43.110-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -257,9 +279,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -508,7 +530,7 @@
   {
     "key": "GD941-2089",
     "summary": "Determinar porque en Emisión de Póliza y/o Modificación de Póliza no queda el porcentaje de participación",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sin asignar",
     "created": "07/09/2026",
     "created_raw": "2026-09-07T10:20:02.200-0500",
     "status": "Backlog",
@@ -661,8 +683,8 @@
   },
   {
     "key": "GD941-1822",
-    "summary": "Automatización de pruebas",
-    "assignee": "Omar Fernando Otavo García",
+    "summary": "Registro octubre horas de ceremonias y apoyos a otras áreas Int 24",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "04/07/2026",
     "created_raw": "2026-07-04T12:29:44.481-0500",
     "status": "Por Hacer",
@@ -670,14 +692,14 @@
     "tipo": "Hito",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1423 - Automatización de pruebas",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
-      "risk": "automatización",
-      "reach": 15,
+      "risk": "sin clasificar",
+      "reach": 20,
       "impact": 0.5,
       "confidence": 0.5,
       "effort": 2,
-      "score": 1.9,
+      "score": 2.5,
       "priority": "Baja"
     }
   },
@@ -1254,28 +1276,6 @@
     }
   },
   {
-    "key": "GD981-2125",
-    "summary": "Automatización septiembre QC",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "08/09/2026",
-    "created_raw": "2026-09-08T16:54:41.226-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "automatización",
-      "reach": 15,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 1.9,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-2044",
     "summary": "BACKEND [GD981-1630]: Retroactividad: detalle de resultado por cobertura",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1448,28 +1448,6 @@
       "confidence": 1.0,
       "effort": 2,
       "score": 60.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-2022",
-    "summary": "Ajuste de prima anualizada (PRIMA_ANU) en pólizas de RC expedidas por SIM_SISTEMA_ORIGEN 196",
-    "assignee": "Sin asignar",
-    "created": "27/08/2026",
-    "created_raw": "2026-08-27T10:12:33.736-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -1718,7 +1696,7 @@
   {
     "key": "GD981-1916",
     "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:32:03.609-0500",
     "status": "Backlog",
@@ -1740,7 +1718,7 @@
   {
     "key": "GD981-1915",
     "summary": "BACKEND  - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:30:38.495-0500",
     "status": "Backlog",
@@ -1762,7 +1740,7 @@
   {
     "key": "GD981-1914",
     "summary": "BACKEND2 - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:28:55.121-0500",
     "status": "Backlog",
@@ -1784,7 +1762,7 @@
   {
     "key": "GD981-1913",
     "summary": "BACKEND2 - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:27:57.497-0500",
     "status": "Backlog",
@@ -1916,7 +1894,7 @@
   {
     "key": "GD981-1907",
     "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:20:15.754-0500",
     "status": "Backlog",
@@ -1938,7 +1916,7 @@
   {
     "key": "GD981-1906",
     "summary": "BACKEND - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:18:35.924-0500",
     "status": "Backlog",
@@ -1960,7 +1938,7 @@
   {
     "key": "GD981-1905",
     "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
     "status": "Backlog",
@@ -1982,7 +1960,7 @@
   {
     "key": "GD981-1904",
     "summary": "BACKEND - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
     "status": "Backlog",
@@ -2004,7 +1982,7 @@
   {
     "key": "GD981-1903",
     "summary": "BACKEND - Modificaciones nominativas - RC derivada de cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:15:10.509-0500",
     "status": "Backlog",
@@ -2029,7 +2007,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:08:08.218-0500",
-    "status": "Backlog",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2039,10 +2017,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -2051,7 +2029,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:06:54.260-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2061,32 +2039,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1900",
-    "summary": "Configuración de nueva forma de trabajo - KIRO Crew ",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:05:32.105-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -2334,7 +2290,7 @@
   {
     "key": "GD981-1802",
     "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "caiglesias",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T18:42:26.525-0500",
     "status": "Backlog",
@@ -2488,7 +2444,7 @@
   {
     "key": "GD981-1793",
     "summary": "Ingreso card de autogestión desde portal de intermediarios",
-    "assignee": "Sin asignar",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T11:46:30.405-0500",
     "status": "Backlog",
@@ -2549,28 +2505,6 @@
       "effort": 1.75,
       "score": 41.1,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1626",
-    "summary": "Ajuste impresión de PDF de Cumplimiento en la Nueva Plataforma",
-    "assignee": "Cristian David Carreño Ruiz",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:54:14.154-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 1,
-      "score": 36.0,
-      "priority": "Alta"
     }
   },
   {
@@ -2662,163 +2596,9 @@
     }
   },
   {
-    "key": "GD981-1544",
-    "summary": "16 - Estructuracion y envio de respuesta movimiento generado",
-    "assignee": "Christian Fernando Delgado Perez",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:48.833-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "notificaciones",
-      "reach": 30,
-      "impact": 0.5,
-      "confidence": 1.0,
-      "effort": 1,
-      "score": 15.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1536",
-    "summary": "13 - Reglas de negocio de autogestion y completitud de informacion",
-    "assignee": "Christian Fernando Delgado Perez",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:40.506-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1535",
-    "summary": "12 - Lectura y entendimiento de contratos y documentos adjuntos",
-    "assignee": "Christian Fernando Delgado Perez",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:37.574-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1526",
-    "summary": "11 - Asignacion de solicitud a mesa de operacion",
-    "assignee": "Andrés Felipe Ostor Rios",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:25.948-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1522",
-    "summary": "10 - Respuesta automatica con inicio de atencion",
-    "assignee": "Andrés Felipe Ostor Rios",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:22.555-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1520",
-    "summary": "2 - Enrutamiento de solicitud",
-    "assignee": "Christian Fernando Delgado Perez",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:19.274-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1519",
-    "summary": "1 - Entendimiento y clasificacion de solicitud",
-    "assignee": "Christian Fernando Delgado Perez",
-    "created": "15/04/2026",
-    "created_raw": "2026-04-15T17:46:16.291-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1412 - F2: Atención de solicitudes autogestionadas por correo electrónico",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1508",
-    "summary": "Servicio para mostrar los contratos en SIMON",
-    "assignee": "Sin asignar",
+    "summary": "Automatización QC Octubre",
+    "assignee": "Omar Fernando Otavo García",
     "created": "14/04/2026",
     "created_raw": "2026-04-14T21:22:22.232-0500",
     "status": "Por Hacer",
@@ -2826,15 +2606,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 22.4,
-      "priority": "Alta"
+      "risk": "automatización",
+      "reach": 15,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 1.9,
+      "priority": "Baja"
     }
   },
   {
@@ -2931,7 +2711,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:48.829-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2941,9 +2721,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
