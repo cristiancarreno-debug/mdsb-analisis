@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2244",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Francy Corredor ",
+    "created": "06/10/2026",
+    "created_raw": "2026-10-06T16:09:59.562-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 14.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2234",
     "summary": "La poliza de RCE no permite anularse y arroja el error colocado en foto",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -11,28 +33,6 @@
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2231",
-    "summary": "INC-SOFTWARE-Poliza Digital",
-    "assignee": "Francy Corredor ",
-    "created": "01/10/2026",
-    "created_raw": "2026-10-01T11:03:48.252-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
     "rice": {
       "risk": "gestión pólizas",
       "reach": 50,
@@ -90,10 +90,10 @@
   {
     "key": "GD941-2228",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento - Devolucion prima genera error",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "01/10/2026",
     "created_raw": "2026-10-01T10:40:14.755-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +103,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -154,34 +154,12 @@
     }
   },
   {
-    "key": "GD941-2219",
-    "summary": "INC-SOFTWARE-Poliza Digital | Póliza sin factura en el endoso 1 póliza 1010108547101 RC 214",
-    "assignee": "Francy Corredor ",
-    "created": "29/09/2026",
-    "created_raw": "2026-09-29T14:28:23.434-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2215",
     "summary": "Nueva platafor.  Calculo Prima minima grandes beneficiarios",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "28/09/2026",
     "created_raw": "2026-09-28T16:01:21.683-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -191,9 +169,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -261,28 +239,6 @@
       "effort": 1.4,
       "score": 77.1,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2205",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "25/09/2026",
-    "created_raw": "2026-09-25T14:24:43.110-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -354,10 +310,10 @@
   {
     "key": "GD941-2191",
     "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T14:35:55.015-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -367,9 +323,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 12.0,
+      "score": 15.0,
       "priority": "Media"
     }
   },
