@@ -1012,6 +1012,50 @@
     }
   },
   {
+    "key": "GD981-2270",
+    "summary": "Polizas RC con prima informada",
+    "assignee": "Sin asignar",
+    "created": "06/10/2026",
+    "created_raw": "2026-10-06T19:01:37.316-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-2269",
+    "summary": "Ajustes adicionales Modificaciones cumplimiento FASE 2",
+    "assignee": "Sin asignar",
+    "created": "06/10/2026",
+    "created_raw": "2026-10-06T18:45:35.525-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2251",
     "summary": "Disminución de vigencia de póliza RC derivada de Cumplimiento",
     "assignee": "Santiago Hurtado Solis",
@@ -2689,7 +2733,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:37.228-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2699,10 +2743,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
