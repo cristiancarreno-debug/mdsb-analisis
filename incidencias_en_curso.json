@@ -22,28 +22,6 @@
     }
   },
   {
-    "key": "GD941-2234",
-    "summary": "La poliza de RCE no permite anularse y arroja el error colocado en foto",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "02/10/2026",
-    "created_raw": "2026-10-02T18:17:02.873-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2230",
     "summary": "IMAC-SOFTWARE-SIMON-CUMPLIMIENTO",
     "assignee": "Sin asignar",
@@ -68,10 +46,10 @@
   {
     "key": "GD941-2229",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "01/10/2026",
     "created_raw": "2026-10-01T10:45:06.604-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +59,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -198,28 +176,6 @@
     }
   },
   {
-    "key": "GD941-2211",
-    "summary": "Aclaracion de pago",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "28/09/2026",
-    "created_raw": "2026-09-28T14:31:20.144-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-2210",
     "summary": "nueva plat. Emisión con SARLAFT desactualizado",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -310,10 +266,10 @@
   {
     "key": "GD941-2191",
     "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T14:35:55.015-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -323,9 +279,9 @@
       "risk": "comisiones/intermediarios",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 15.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 19.3,
       "priority": "Media"
     }
   },
@@ -1036,7 +992,7 @@
   {
     "key": "GD981-2269",
     "summary": "Ajustes adicionales Modificaciones cumplimiento FASE 2",
-    "assignee": "Sin asignar",
+    "assignee": "caiglesias",
     "created": "06/10/2026",
     "created_raw": "2026-10-06T18:45:35.525-0500",
     "status": "Backlog",
@@ -1097,28 +1053,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2247",
-    "summary": "[HU Técnica][Cumplimiento] Nivelar infraestructura de producción",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "30/09/2026",
-    "created_raw": "2026-09-30T22:46:53.869-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
     }
   },
   {
@@ -1435,7 +1369,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T10:22:11.686-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1523,7 +1457,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "24/08/2026",
     "created_raw": "2026-08-24T17:16:39.957-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1533,10 +1467,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -2791,28 +2725,6 @@
       "effort": 1.5,
       "score": 18.7,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1353",
-    "summary": "Ajuste servicio SARLAFT ",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:24.623-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1977 - Envío del Formulario Sarlaft (ordinario o simplificado)",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
     }
   },
   {
