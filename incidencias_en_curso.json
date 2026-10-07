@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2248",
+    "summary": "LOCKTON- Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "07/10/2026",
+    "created_raw": "2026-10-07T16:30:37.640-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2244",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Francy Corredor ",
@@ -63,28 +85,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2228",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento - Devolucion prima genera error",
-    "assignee": "Francy Corredor ",
-    "created": "01/10/2026",
-    "created_raw": "2026-10-01T10:40:14.755-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "primas/tasas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
-      "priority": "Crítica"
     }
   },
   {
@@ -266,7 +266,7 @@
   {
     "key": "GD941-2191",
     "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "23/09/2026",
     "created_raw": "2026-09-23T14:35:55.015-0500",
     "status": "Pendiente PAP",
@@ -1369,7 +1369,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/08/2026",
     "created_raw": "2026-08-26T10:22:11.686-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1379,9 +1379,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1391,7 +1391,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "25/08/2026",
     "created_raw": "2026-08-25T18:53:00.691-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1401,9 +1401,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
@@ -1545,7 +1545,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "12/08/2026",
     "created_raw": "2026-08-12T20:41:44.244-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1555,9 +1555,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
@@ -2161,7 +2161,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T13:11:32.967-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2171,10 +2171,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -2513,7 +2513,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "14/04/2026",
     "created_raw": "2026-04-14T21:22:22.232-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -2523,9 +2523,9 @@
       "risk": "automatización",
       "reach": 15,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 1.9,
+      "score": 2.6,
       "priority": "Baja"
     }
   },
