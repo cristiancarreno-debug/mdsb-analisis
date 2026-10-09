@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2256",
+    "summary": " Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "09/10/2026",
+    "created_raw": "2026-10-09T14:32:23.922-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2255",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -67,7 +89,7 @@
   },
   {
     "key": "GD941-2250",
-    "summary": "Solicitud documentos nueva plataforma",
+    "summary": "Nueva plat. Solicitud documentos nueva plataforma",
     "assignee": "Santiago Hurtado Solis",
     "created": "08/10/2026",
     "created_raw": "2026-10-08T11:15:29.005-0500",
@@ -84,28 +106,6 @@
       "confidence": 0.8,
       "effort": 1.5,
       "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2249",
-    "summary": "PGB Amarillo de clave abierta, con la clave del intermediario no permite tomar el programa, se hace por simón.",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "08/10/2026",
-    "created_raw": "2026-10-08T09:57:21.853-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "comisiones/intermediarios",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 15.0,
       "priority": "Media"
     }
   },
