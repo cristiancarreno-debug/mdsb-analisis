@@ -88,28 +88,6 @@
     }
   },
   {
-    "key": "GD941-2250",
-    "summary": "Nueva plat. Solicitud documentos nueva plataforma",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "08/10/2026",
-    "created_raw": "2026-10-08T11:15:29.005-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.8,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2244",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Francy Corredor ",
@@ -260,28 +238,6 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 48.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2210",
-    "summary": "nueva plat. Emisión con SARLAFT desactualizado",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "28/09/2026",
-    "created_raw": "2026-09-28T11:29:06.271-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1039,7 +995,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "09/10/2026",
     "created_raw": "2026-10-09T09:47:01.426-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1049,16 +1005,16 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
   {
     "key": "GD981-2270",
     "summary": "Polizas RC con prima informada",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "06/10/2026",
     "created_raw": "2026-10-06T19:01:37.316-0500",
     "status": "Backlog",
@@ -1144,28 +1100,6 @@
     }
   },
   {
-    "key": "GD981-2220",
-    "summary": "Validaciones de campos numéricos y restricción de Coaseguro Aceptado en cotización y ajuste del campo de cupo disponible",
-    "assignee": "caiglesias",
-    "created": "23/09/2026",
-    "created_raw": "2026-09-23T10:47:35.305-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-2206",
     "summary": " Disminución de vigencia de póliza de Cumplimiento",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1185,28 +1119,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2202",
-    "summary": "Ajustes Popups, diseño bolivar",
-    "assignee": "caiglesias",
-    "created": "17/09/2026",
-    "created_raw": "2026-09-17T18:53:35.944-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
     }
   },
   {
@@ -1452,28 +1364,6 @@
     }
   },
   {
-    "key": "GD981-2008",
-    "summary": "HU Técnica: Agregar 9 campos nuevos del TYPE SIM_CUD_TYP_COTIZ_POL a la respuesta del servicio listarCotizacionesYPolizas",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "25/08/2026",
-    "created_raw": "2026-08-25T18:53:00.691-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-1999",
     "summary": "Backend [GD981-1610]: B3: Validar Doble Valor Inicial — Solo Intermediario",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1515,28 +1405,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1997",
-    "summary": "BACKEND [GD981-1630]: EP3: Ajustes CUMPL_042/CUMPL_047 — Carga y Descarga S3 para Endosos",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "24/08/2026",
-    "created_raw": "2026-08-24T17:16:39.957-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
@@ -1603,50 +1471,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1972",
-    "summary": "BACKEND [GD981-1608]: Mejoras al procedimiento de listado de cotizaciones y pólizas de Cumplimiento y RC",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "12/08/2026",
-    "created_raw": "2026-08-12T20:41:44.244-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1933",
-    "summary": "BACKEND [GD981-1630]: EP1: Cálculo de Retroactividad",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "05/08/2026",
-    "created_raw": "2026-08-05T11:56:49.096-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "retroactividad",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 42.9,
-      "priority": "Crítica"
     }
   },
   {
@@ -2222,50 +2046,6 @@
     }
   },
   {
-    "key": "GD981-1883",
-    "summary": "Backend [GD981-1610]: B1: Obtener Suma Vigente Último Endoso",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "27/07/2026",
-    "created_raw": "2026-07-27T13:11:32.967-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1882",
-    "summary": "BACKEND [GD981-1630]: EP1: Exclusividad — Bloqueo de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "27/07/2026",
-    "created_raw": "2026-07-27T13:08:02.536-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1802",
     "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
     "assignee": "caiglesias",
@@ -2464,28 +2244,6 @@
     }
   },
   {
-    "key": "GD981-1630",
-    "summary": "FRONT - Condiciones generales y reglas transversales de modificacion",
-    "assignee": "caiglesias",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:54:17.431-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1611",
     "summary": "FRONT Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -2527,50 +2285,6 @@
       "effort": 2,
       "score": 35.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1609",
-    "summary": "FRONT - Modificaciones nominativas - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:53:46.637-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1608",
-    "summary": "FRONT - Búsqueda de polizas susceptibles de modificacion",
-    "assignee": "caiglesias",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:53:43.592-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
@@ -2703,50 +2417,6 @@
       "effort": 2,
       "score": 8.8,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1372",
-    "summary": "Validación de tomador en grandes benefeciarios ",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:42.838-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "validaciones/reglas",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 22.5,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1365",
-    "summary": "Ajuste modificacion traslado de vigencia - complemento de la HU GD981-873",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:37.228-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
