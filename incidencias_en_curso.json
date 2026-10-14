@@ -71,7 +71,7 @@
     "assignee": "Sin asignar",
     "created": "13/10/2026",
     "created_raw": "2026-10-13T18:49:22.943-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -81,9 +81,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -178,7 +178,7 @@
   {
     "key": "GD941-2253",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "08/10/2026",
     "created_raw": "2026-10-08T12:36:51.080-0500",
     "status": "Backlog",
@@ -186,7 +186,7 @@
     "tipo": "Incidente",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "incidente genérico",
       "reach": 30,
@@ -1097,6 +1097,28 @@
       "effort": 3.0,
       "score": 5.3,
       "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-2293",
+    "summary": "Backend – Conservar el nombre original y evitar sobrescritura de documentos soporte en endosos (CUMPL_042)",
+    "assignee": "caiglesias",
+    "created": "14/10/2026",
+    "created_raw": "2026-10-14T16:56:03.378-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "rice": {
+      "risk": "gestión documental",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "score": 23.3,
+      "priority": "Alta"
     }
   },
   {
