@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2269",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "14/10/2026",
+    "created_raw": "2026-10-14T14:29:17.752-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2268",
+    "summary": "[Latencia] Cumplimiento Digital · Tarificación",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "14/10/2026",
+    "created_raw": "2026-10-14T11:41:03.947-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2267",
+    "summary": "[Latencia] Cumplimiento Digital - Cotizacion y Emision",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "14/10/2026",
+    "created_raw": "2026-10-14T11:40:00.333-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2266",
     "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
     "assignee": "Sin asignar",
@@ -269,7 +335,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "28/09/2026",
     "created_raw": "2026-09-28T16:01:21.683-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -1061,7 +1127,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "09/10/2026",
     "created_raw": "2026-10-09T09:47:01.426-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1071,10 +1137,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1229,72 +1295,6 @@
       "effort": 3,
       "score": 33.3,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2043",
-    "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de combinaciones de endosos y resolución de códigos Core",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/08/2026",
-    "created_raw": "2026-08-30T15:49:38.285-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-2042",
-    "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de comisión pactada para endosos",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/08/2026",
-    "created_raw": "2026-08-30T15:45:46.800-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-2041",
-    "summary": "BACKEND [GD981-1630]: Implementar endpoint de consulta de tipos de endoso habilitados por póliza",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/08/2026",
-    "created_raw": "2026-08-30T15:37:51.407-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
@@ -1496,31 +1496,9 @@
     }
   },
   {
-    "key": "GD981-1932",
-    "summary": "BACKEND [GD981-1630]: Scaffolding del MS + Endpoint de Emisión de Endosos",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "05/08/2026",
-    "created_raw": "2026-08-05T11:40:44.482-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1916",
     "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:32:03.609-0500",
     "status": "Backlog",
@@ -1542,7 +1520,7 @@
   {
     "key": "GD981-1915",
     "summary": "BACKEND  - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:30:38.495-0500",
     "status": "Backlog",
@@ -1564,7 +1542,7 @@
   {
     "key": "GD981-1914",
     "summary": "BACKEND2 - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:28:55.121-0500",
     "status": "Backlog",
@@ -1586,7 +1564,7 @@
   {
     "key": "GD981-1913",
     "summary": "BACKEND2 - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:27:57.497-0500",
     "status": "Backlog",
@@ -1718,7 +1696,7 @@
   {
     "key": "GD981-1907",
     "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:20:15.754-0500",
     "status": "Backlog",
@@ -1740,7 +1718,7 @@
   {
     "key": "GD981-1906",
     "summary": "BACKEND - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:18:35.924-0500",
     "status": "Backlog",
@@ -1762,7 +1740,7 @@
   {
     "key": "GD981-1905",
     "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
     "status": "Backlog",
@@ -1823,28 +1801,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1902",
-    "summary": "BACKEND2 - Modificación de Traslado de vigencia - Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:08:08.218-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
     }
   },
   {
