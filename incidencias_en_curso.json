@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2282",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "15/10/2026",
+    "created_raw": "2026-10-15T15:30:54.251-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad NUEVA PLATAFORMA cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2268",
     "summary": "[Latencia] Cumplimiento Digital · Tarificación",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -49,7 +71,7 @@
     "assignee": "Sin asignar",
     "created": "13/10/2026",
     "created_raw": "2026-10-13T18:49:22.943-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -269,7 +291,7 @@
     "assignee": "Sin asignar",
     "created": "30/09/2026",
     "created_raw": "2026-09-30T10:22:01.087-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -279,9 +301,9 @@
       "risk": "plataforma core",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 25.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -349,28 +371,6 @@
       "effort": 2,
       "score": 48.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2196",
-    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "24/09/2026",
-    "created_raw": "2026-09-24T11:10:34.387-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -1321,7 +1321,7 @@
   },
   {
     "key": "GD981-1916",
-    "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:32:03.609-0500",
@@ -1330,20 +1330,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1915",
-    "summary": "BACKEND  - Modificación de prorroga - RC derivada de Cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:30:38.495-0500",
@@ -1352,7 +1352,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
       "risk": "mejora funcional",
       "reach": 25,
@@ -1365,7 +1365,7 @@
   },
   {
     "key": "GD981-1914",
-    "summary": "BACKEND2 - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:28:55.121-0500",
@@ -1374,20 +1374,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1913",
-    "summary": "BACKEND2 - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:27:57.497-0500",
@@ -1396,15 +1396,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
       "effort": 2,
-      "score": 28.0,
-      "priority": "Alta"
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -1519,7 +1519,7 @@
   },
   {
     "key": "GD981-1907",
-    "summary": "BACKEND - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:20:15.754-0500",
@@ -1528,23 +1528,67 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
     "key": "GD981-1906",
-    "summary": "BACKEND - Modificación de prorroga - RC derivada de Cumplimiento",
+    "summary": "Reusar",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:18:35.924-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-1905",
+    "summary": "Reusar",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "30/07/2026",
+    "created_raw": "2026-07-30T15:17:03.585-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD981-1904",
+    "summary": "Reusar ",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "30/07/2026",
+    "created_raw": "2026-07-30T15:16:08.363-0500",
     "status": "Backlog",
     "issuetype": "Historia",
     "tipo": "Mejora",
@@ -1559,50 +1603,6 @@
       "effort": 2,
       "score": 6.2,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-1905",
-    "summary": "BACKEND - Modificacion de inclusion y exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:17:03.585-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1904",
-    "summary": "BACKEND - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:16:08.363-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
-    "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 28.0,
-      "priority": "Alta"
     }
   },
   {
@@ -1914,50 +1914,6 @@
     }
   },
   {
-    "key": "GD981-1611",
-    "summary": "FRONT Modificacion de inclusion y exclusion de coberturas - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:53:52.808-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1610",
-    "summary": "FRONT - Modificación Cambio de valor asegurado - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "28/04/2026",
-    "created_raw": "2026-04-28T09:53:49.887-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "cobertura",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-1508",
     "summary": "Automatización QC Octubre",
     "assignee": "Omar Fernando Otavo García",
@@ -2152,28 +2108,6 @@
       "confidence": 0.5,
       "effort": 2,
       "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-869",
-    "summary": "FRONT - Modificación de prorroga - Cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "11/12/2025",
-    "created_raw": "2025-12-11T14:49:42.650-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
       "priority": "Baja"
     }
   },
