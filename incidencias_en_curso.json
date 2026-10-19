@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2302",
+    "summary": "Nuevo Portal cum - Validación de agente lider ",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "19/10/2026",
+    "created_raw": "2026-10-19T16:39:16.953-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2300",
     "summary": "Acceso a usuarios a Plataforma de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -45,7 +67,7 @@
   },
   {
     "key": "GD941-2298",
-    "summary": "Portal Cum - Consulta \"NITS restringidos\" desde Simon cumplimiento ",
+    "summary": "Portal Cum - Consulta NITS RESTRINGIDOS desde Simon cumplimiento ",
     "assignee": "Santiago Hurtado Solis",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T10:08:54.267-0500",
@@ -93,7 +115,7 @@
     "assignee": "Francy Corredor ",
     "created": "16/10/2026",
     "created_raw": "2026-10-16T16:03:27.403-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +125,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 10.0,
+      "score": 14.0,
       "priority": "Media"
     }
   },
@@ -1391,7 +1413,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:27:57.497-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1401,10 +1423,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1677,7 +1699,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T14:46:34.560-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1687,9 +1709,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
