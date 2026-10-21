@@ -24,7 +24,7 @@
   {
     "key": "GD941-2312",
     "summary": "Marcha blanca modificaciones cumplimiento - nuevo portal cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T14:19:32.067-0500",
     "status": "En Progreso",
@@ -291,7 +291,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/10/2026",
     "created_raw": "2026-10-13T09:35:33.278-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -301,9 +301,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 3,
-      "score": 64.0,
+      "score": 80.0,
       "priority": "Crítica"
     }
   },
@@ -1149,7 +1149,7 @@
     "assignee": "caiglesias",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T11:34:11.687-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1159,9 +1159,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
@@ -1234,7 +1234,7 @@
   {
     "key": "GD981-2270",
     "summary": "Polizas RC con prima informada",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "06/10/2026",
     "created_raw": "2026-10-06T19:01:37.316-0500",
     "status": "En Pruebas UAT",
@@ -1256,7 +1256,7 @@
   {
     "key": "GD981-2251",
     "summary": "Disminución de vigencia de póliza RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "01/10/2026",
     "created_raw": "2026-10-01T12:20:10.923-0500",
     "status": "En Pruebas UAT",
@@ -1278,7 +1278,7 @@
   {
     "key": "GD981-2250",
     "summary": "FRONT - Modificacion de inclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "01/10/2026",
     "created_raw": "2026-10-01T10:58:19.930-0500",
     "status": "En Pruebas UAT",
@@ -1762,7 +1762,7 @@
   {
     "key": "GD981-1798",
     "summary": "FRONT - Modificación de Traslado de vigencia - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T18:51:41.544-0500",
     "status": "En Pruebas UAT",
@@ -1784,7 +1784,7 @@
   {
     "key": "GD981-1797",
     "summary": "FRONT  - Modificación de prorroga - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T18:07:24.418-0500",
     "status": "En Pruebas UAT",
@@ -1806,7 +1806,7 @@
   {
     "key": "GD981-1796",
     "summary": "FRONT - Modificacion de exclusion de coberturas - RC derivada de Cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T16:27:32.209-0500",
     "status": "En Pruebas UAT",
@@ -1828,7 +1828,7 @@
   {
     "key": "GD981-1795",
     "summary": "FRONT - Modificaciones nominativas - RC derivada de cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T12:27:44.611-0500",
     "status": "En Pruebas UAT",
@@ -1850,7 +1850,7 @@
   {
     "key": "GD981-1794",
     "summary": "FRONT - Modificación Cambio de valor asegurado - RC derivada de cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/06/2026",
     "created_raw": "2026-06-21T12:27:03.508-0500",
     "status": "En Pruebas UAT",
