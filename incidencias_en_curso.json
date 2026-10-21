@@ -1,11 +1,55 @@
 [
   {
+    "key": "GD941-2313",
+    "summary": "Marcha blanca parte 2 modificaciones cumplimiento - nuevo portal cumplimiento",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "21/10/2026",
+    "created_raw": "2026-10-21T14:22:16.429-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2312",
+    "summary": "Marcha blanca modificaciones cumplimiento - nuevo portal cumplimiento",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "21/10/2026",
+    "created_raw": "2026-10-21T14:19:32.067-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2.5,
+      "score": 32.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2310",
     "summary": "Acceso a usuarios a Portal de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T10:45:05.127-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -15,9 +59,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 18.7,
       "priority": "Media"
     }
   },
@@ -181,7 +225,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "14/10/2026",
     "created_raw": "2026-10-14T11:40:00.333-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -191,10 +235,10 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
-      "priority": "Crítica"
+      "confidence": 0.8,
+      "effort": 3.0,
+      "score": 32.0,
+      "priority": "Alta"
     }
   },
   {
@@ -1100,6 +1144,28 @@
     }
   },
   {
+    "key": "GD981-2323",
+    "summary": "[BACKEND] Persistir datos de moneda y valor asegurado en Mongo para la retoma de solicitudes",
+    "assignee": "caiglesias",
+    "created": "21/10/2026",
+    "created_raw": "2026-10-21T11:34:11.687-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1506 - F2: Retoma de solicitudes no finalizadas por usuario",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2308",
     "summary": "Creación de la versión 2 del microservicio de consulta de suma disponible",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -1963,7 +2029,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:48.829-0500",
-    "status": "En Pruebas UAT",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1973,9 +2039,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
+      "confidence": 0.5,
+      "effort": 3.0,
+      "score": 4.2,
       "priority": "Baja"
     }
   },
