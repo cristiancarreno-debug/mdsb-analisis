@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2319",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "22/10/2026",
+    "created_raw": "2026-10-22T10:58:12.309-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2313",
     "summary": "Marcha blanca parte 2 modificaciones cumplimiento - nuevo portal cumplimiento",
     "assignee": "Santiago Hurtado Solis",
@@ -225,7 +247,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/10/2026",
     "created_raw": "2026-10-13T09:36:42.980-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -235,9 +257,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 80.0,
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 102.9,
       "priority": "Crítica"
     }
   },
@@ -247,7 +269,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/10/2026",
     "created_raw": "2026-10-13T09:35:33.278-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -257,9 +279,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 80.0,
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 102.9,
       "priority": "Crítica"
     }
   },
@@ -371,28 +393,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2224",
-    "summary": "INC-SOFTWARE-TRONADOR CIA 3 EXCEPTO AUTOS Y SOAT",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "30/09/2026",
-    "created_raw": "2026-09-30T10:22:01.087-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
     }
   },
   {
@@ -1083,7 +1083,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "22/10/2026",
     "created_raw": "2026-10-22T10:25:00.559-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1093,9 +1093,9 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
       "priority": "Alta"
     }
   },
@@ -1321,11 +1321,11 @@
   },
   {
     "key": "GD981-1915",
-    "summary": "Reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "summary": "HU Técnica — Rotación y eliminación de access key del usuario IAM terraform (CNTI-3022)",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:30:38.495-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1335,19 +1335,19 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
   {
     "key": "GD981-1914",
-    "summary": "Reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "summary": "[INFRA] CNTI-3019 - Bucket público, sin Block Public Access de cuenta y cifrado sin KMS - Cumplimiento Digital y CNTI-3023 Distribución con origen S3 sin OAC/OAI - Cumplimiento Digital",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:28:55.121-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1357,9 +1357,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
