@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2326",
+    "summary": "Portal Cumpli - guarda como exitoso pero no genera el endoso ni el control tecnico - Modificaciones",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "22/10/2026",
+    "created_raw": "2026-10-22T16:14:17.707-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2325",
+    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
+    "assignee": "Sin asignar",
+    "created": "22/10/2026",
+    "created_raw": "2026-10-22T15:46:14.404-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2319",
     "summary": "Acceso a usuarios a Plataforma de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -990,6 +1034,28 @@
     }
   },
   {
+    "key": "GD941-2328",
+    "summary": "Ajuste llamado servicio cupos ",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "13/04/2026",
+    "created_raw": "2026-04-13T17:50:48.829-0500",
+    "status": "Bloqueado",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 3.0,
+      "score": 4.2,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2290",
     "summary": "Redireccionamiento a pasarela de pago plataforma de cumplimiento",
     "assignee": "Cristian David Carreño Ruiz",
@@ -1628,50 +1694,6 @@
     }
   },
   {
-    "key": "GD981-1893",
-    "summary": "BACKEND [GD981-1630]: PL/SQL — Procedure de Emisión de Endosos RC (Póliza Individual)",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T14:46:34.560-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1885",
-    "summary": "BACKEND [GD981-1630]: EP3: Exclusividad — Heartbeat de Póliza",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "27/07/2026",
-    "created_raw": "2026-07-27T13:42:40.720-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD981-1802",
     "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
     "assignee": "caiglesias",
@@ -1977,28 +1999,6 @@
       "effort": 1.5,
       "score": 18.7,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-1378",
-    "summary": "Ajuste llamado servicio cupos ",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:48.829-0500",
-    "status": "Bloqueado",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 3.0,
-      "score": 4.2,
-      "priority": "Baja"
     }
   },
   {
