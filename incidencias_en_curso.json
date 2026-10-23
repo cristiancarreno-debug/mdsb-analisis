@@ -1,11 +1,55 @@
 [
   {
+    "key": "GD941-2346",
+    "summary": "Portal cum - Respetar formato de notas en la impresión",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "23/10/2026",
+    "created_raw": "2026-10-23T09:33:26.452-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2345",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "23/10/2026",
+    "created_raw": "2026-10-23T09:29:41.474-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2326",
     "summary": "Portal Cumpli - guarda como exitoso pero no genera el endoso ni el control tecnico - Modificaciones",
     "assignee": "Santiago Hurtado Solis",
     "created": "22/10/2026",
     "created_raw": "2026-10-22T16:14:17.707-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -15,46 +59,24 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
   {
     "key": "GD941-2325",
     "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Sin asignar",
+    "assignee": "Francy Corredor ",
     "created": "22/10/2026",
     "created_raw": "2026-10-22T15:46:14.404-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2319",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "22/10/2026",
-    "created_raw": "2026-10-22T10:58:12.309-0500",
     "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "epic": "Sin épica",
     "rice": {
       "risk": "sin clasificar",
       "reach": 20,
@@ -90,10 +112,10 @@
   {
     "key": "GD941-2312",
     "summary": "Marcha blanca modificaciones cumplimiento - nuevo portal cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T14:19:32.067-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -217,6 +239,28 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2342",
+    "summary": "Creación de la versión 2 del microservicio de consulta de suma disponible",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "15/10/2026",
+    "created_raw": "2026-10-15T14:10:19.038-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "reportes/trazabilidad",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
+      "priority": "Alta"
     }
   },
   {
@@ -503,6 +547,28 @@
       "effort": 1.5,
       "score": 13.3,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2334",
+    "summary": "CNTI-3015, CNTI-3016, CNTI-3017 Y CNTI-3018 Hallazgos de seguridad (Frontend) - https://github.com/segurosbolivar/cumplimientodigital-frontend",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "10/09/2026",
+    "created_raw": "2026-09-10T15:01:57.384-0500",
+    "status": "Por Hacer",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -1144,28 +1210,6 @@
     }
   },
   {
-    "key": "GD981-2327",
-    "summary": "Ajuste configuración repositorio de validaciones",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "22/10/2026",
-    "created_raw": "2026-10-22T10:25:00.559-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "parametrización",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 25.7,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-2323",
     "summary": "[BACKEND] Persistir datos de moneda y valor asegurado en Mongo para la retoma de solicitudes",
     "assignee": "caiglesias",
@@ -1184,72 +1228,6 @@
       "confidence": 1.0,
       "effort": 2,
       "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2308",
-    "summary": "Creación de la versión 2 del microservicio de consulta de suma disponible",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "15/10/2026",
-    "created_raw": "2026-10-15T14:10:19.038-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "reportes/trazabilidad",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 25.7,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2307",
-    "summary": "Inclusión campo de Cupo disponible y valor del contrato en inclusión de cobertura cumplimiento",
-    "assignee": "caiglesias",
-    "created": "15/10/2026",
-    "created_raw": "2026-10-15T12:02:58.404-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 36.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2306",
-    "summary": "Valores asegurados no pueden superar el valor del contrato ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "15/10/2026",
-    "created_raw": "2026-10-15T11:52:02.786-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 36.0,
       "priority": "Alta"
     }
   },
@@ -1316,50 +1294,6 @@
       "confidence": 1.0,
       "effort": 2.5,
       "score": 32.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-2135",
-    "summary": "CNTI-3015, CNTI-3016, CNTI-3017 Y CNTI-3018 Hallazgos de seguridad (Frontend) - https://github.com/segurosbolivar/cumplimientodigital-frontend",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "10/09/2026",
-    "created_raw": "2026-09-10T15:01:57.384-0500",
-    "status": "Por Hacer",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD981-2044",
-    "summary": "BACKEND [GD981-1630]: Retroactividad: detalle de resultado por cobertura",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "30/08/2026",
-    "created_raw": "2026-08-30T17:54:51.004-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "retroactividad",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 1.0,
-      "effort": 3,
-      "score": 33.3,
       "priority": "Alta"
     }
   },
@@ -1457,7 +1391,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:25:04.568-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1660,29 +1594,7 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1895",
-    "summary": "BACKEND [GD981-1630]: Implementar endpoint de validación de precondiciones de póliza para endosos",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T14:50:08.480-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1018 - F2: Modificación de pólizas de Cumplimiento de forma autogestionada",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
       "risk": "endosos",
       "reach": 40,
