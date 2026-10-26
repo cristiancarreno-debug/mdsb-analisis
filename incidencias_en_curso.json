@@ -49,7 +49,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T09:43:19.437-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Service Request N2",
     "tipo": "Service Request N2",
     "project": "GD941",
@@ -59,9 +59,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -154,28 +154,6 @@
     }
   },
   {
-    "key": "GD941-2347",
-    "summary": "Al incluir un cobertura esta esta validando fecha de inicio de todas las coberturas y no solo de las que se agregaron",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "23/10/2026",
-    "created_raw": "2026-10-23T12:26:27.086-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Defecto QC",
-    "tipo": "Defecto QC",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-2312 - Marcha blanca modificaciones cumplimiento - nuevo portal cumplimiento",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-2346",
     "summary": "Portal cum - Respetar formato de notas en la impresión",
     "assignee": "Santiago Hurtado Solis",
@@ -203,7 +181,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "22/10/2026",
     "created_raw": "2026-10-22T16:14:17.707-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,10 +191,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -247,7 +225,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T14:19:32.067-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -257,10 +235,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -335,7 +313,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T09:28:15.702-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -345,9 +323,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -401,7 +379,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "14/10/2026",
     "created_raw": "2026-10-14T11:40:00.333-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -411,9 +389,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -1210,6 +1188,94 @@
     }
   },
   {
+    "key": "GD981-2336",
+    "summary": "Reusar",
+    "assignee": "Sin asignar",
+    "created": "26/10/2026",
+    "created_raw": "2026-10-26T12:44:28.484-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-2335",
+    "summary": "RC - Al generar la consulta de una póliza en específico, se registran todas.",
+    "assignee": "Sin asignar",
+    "created": "26/10/2026",
+    "created_raw": "2026-10-26T12:43:04.245-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD981-2334",
+    "summary": "RC - No permite guardar cambio",
+    "assignee": "Sin asignar",
+    "created": "26/10/2026",
+    "created_raw": "2026-10-26T12:41:15.683-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD981-2333",
+    "summary": "RC - Se hace movimiento y no No genera endoso",
+    "assignee": "Sin asignar",
+    "created": "26/10/2026",
+    "created_raw": "2026-10-26T12:40:28.434-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD981-2323",
     "summary": "[BACKEND] Persistir datos de moneda y valor asegurado en Mongo para la retoma de solicitudes",
     "assignee": "caiglesias",
@@ -1497,7 +1563,7 @@
   },
   {
     "key": "GD981-1906",
-    "summary": "Reusar",
+    "summary": "Prorroga: regla para nueva fecha fin de vigencia",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:18:35.924-0500",
@@ -1506,20 +1572,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD981-1905",
-    "summary": "Reusar",
+    "summary": "Solicitu carta no siniestro disminución y traslado vigencia y cambio de nombre del documento \"otro si y/o Acta de inicio\" en traslado de vigencia",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
@@ -1528,20 +1594,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "gestión documental",
+      "reach": 35,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
     "key": "GD981-1904",
-    "summary": "Reusar ",
+    "summary": "Cambio VA: Monto campo total valor asegurado y campos valor asegurado coberturas / subamparos",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
@@ -1550,20 +1616,20 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "score": 28.0,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD981-1903",
-    "summary": "Reusar",
+    "summary": "Notas debería quedar debajo del objeto para llevar una trazabilidad, nuevo campo aegurado adicional y cambio de posiciòn del PLO",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:15:10.509-0500",
@@ -1572,15 +1638,15 @@
     "tipo": "Mejora",
     "project": "GD981",
     "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
+    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "reportes/trazabilidad",
+      "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
     }
   },
   {
