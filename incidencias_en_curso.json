@@ -1,8 +1,96 @@
 [
   {
+    "key": "GD941-2377",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "27/10/2026",
+    "created_raw": "2026-10-27T10:31:15.899-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2376",
+    "summary": "Prorroga no esta solicitando carta de no siniestro",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "27/10/2026",
+    "created_raw": "2026-10-27T09:17:19.258-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2375",
+    "summary": "Acceso a usuarios a Portal de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "27/10/2026",
+    "created_raw": "2026-10-27T07:47:37.256-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2374",
+    "summary": "No aparecen las cotizaciones ",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "27/10/2026",
+    "created_raw": "2026-10-27T07:32:34.090-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "cotización",
+      "reach": 55,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 22.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2369",
     "summary": "Portal cump- Modificaciones - No aparecen coberturas y no sale boton guardar en valor asegurado\"en modificacion\"",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T09:53:19.892-0500",
     "status": "Backlog",
@@ -41,28 +129,6 @@
       "effort": 2.5,
       "score": 32.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2367",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "26/10/2026",
-    "created_raw": "2026-10-26T09:43:19.437-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
     }
   },
   {
@@ -357,7 +423,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "14/10/2026",
     "created_raw": "2026-10-14T11:41:03.947-0500",
-    "status": "En Pruebas QC",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -367,10 +433,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -392,28 +458,6 @@
       "confidence": 0.9,
       "effort": 1.4,
       "score": 77.1,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2262",
-    "summary": "BACKEND - Ajuste servicio sarlaft - identificación formulario actualizado",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/10/2026",
-    "created_raw": "2026-10-13T09:36:42.980-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
       "priority": "Crítica"
     }
   },
@@ -679,6 +723,50 @@
       "effort": 3.75,
       "score": 17.1,
       "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2387",
+    "summary": "Quitar el hint parallel(2) de las consultas de cúmulo de prc_resumen_polizas_cliente, que bloquean suma disponible bajo carga",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "30/07/2026",
+    "created_raw": "2026-07-30T15:32:03.609-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2378",
+    "summary": "Validar datos obligatorios y tipos de datos variables antes de lanzar la emisión CU/RC del portal digital",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "30/07/2026",
+    "created_raw": "2026-07-30T15:20:15.754-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 60.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1364,28 +1452,6 @@
     }
   },
   {
-    "key": "GD981-1916",
-    "summary": "Reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:32:03.609-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1915",
     "summary": "[INFRA] HU Técnica — Rotación y eliminación de access key del usuario IAM terraform (CNTI-3022)",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -1540,28 +1606,6 @@
     }
   },
   {
-    "key": "GD981-1907",
-    "summary": "Reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:20:15.754-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD981-1906",
     "summary": "Prorroga: regla para nueva fecha fin de vigencia",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -1674,7 +1718,7 @@
   {
     "key": "GD981-1802",
     "summary": "HU TEC - Retornar el identificador de MongoDB (ID_COTIZ) de la póliza hija en cada registro del listado de cotizaciones y pólizas",
-    "assignee": "caiglesias",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T18:42:26.525-0500",
     "status": "En Progreso",
