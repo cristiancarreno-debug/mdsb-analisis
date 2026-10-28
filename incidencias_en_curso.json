@@ -1,11 +1,55 @@
 [
   {
+    "key": "GD941-2417",
+    "summary": "Portal cum - Error en la emisión – Cotización NO Existe | Cotización Hija no Existe\".",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "28/10/2026",
+    "created_raw": "2026-10-28T16:25:11.267-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2414",
+    "summary": "Nueva plataforma - validación sarlaft en modificaciones CU y RC ",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "28/10/2026",
+    "created_raw": "2026-10-28T12:13:37.777-0500",
+    "status": "En Pruebas UAT",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 1.0,
+      "effort": 3,
+      "score": 80.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2412",
     "summary": "(CNTI-3025) Rotar y eliminar secreto sin uso en Secrets Manager — doctoraki/production/datadog",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "28/10/2026",
     "created_raw": "2026-10-28T11:57:56.294-0500",
-    "status": "Backlog",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -15,10 +59,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -46,10 +90,10 @@
   {
     "key": "GD941-2402",
     "summary": "Revisión del cúmulo y suma disponible",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T16:25:01.378-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -133,7 +177,7 @@
   },
   {
     "key": "GD941-2374",
-    "summary": "No aparecen las cotizaciones ",
+    "summary": "Portal cump - No aparecen las cotizaciones ",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T07:32:34.090-0500",
@@ -181,7 +225,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T09:49:03.187-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -266,10 +310,10 @@
   {
     "key": "GD941-2348",
     "summary": "Marcha blanca modificaciones cumplimiento- No aparecen las polizas- nuevo portal cumplimiento",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T12:30:40.647-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -288,10 +332,10 @@
   {
     "key": "GD941-2346",
     "summary": "Portal cum - Respetar formato de notas en la impresión",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T09:33:26.452-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -397,7 +441,7 @@
   },
   {
     "key": "GD941-2295",
-    "summary": "Nueva plataforma - No debe dejar continuar con el paso 3",
+    "summary": "Nueva plataforma - No debe dejar continuar con el paso 3 ",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T09:28:15.702-0500",
@@ -437,28 +481,6 @@
       "effort": 1.5,
       "score": 14.0,
       "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2260",
-    "summary": "Solicitud base de clientes restringidos simon",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "13/10/2026",
-    "created_raw": "2026-10-13T08:43:55.431-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
     }
   },
   {
@@ -1585,7 +1607,7 @@
   },
   {
     "key": "GD981-1904",
-    "summary": "Cambio VA: Monto campo total valor asegurado y campos valor asegurado coberturas / subamparos",
+    "summary": "Cambio VA RC: Monto campo total valor asegurado y campos valor asegurado coberturas / subamparos",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
