@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2424",
+    "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
+    "assignee": "Sin asignar",
+    "created": "29/10/2026",
+    "created_raw": "2026-10-29T10:29:39.159-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2417",
     "summary": "Portal cum - Error en la emisión – Cotización NO Existe | Cotización Hija no Existe\".",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -27,7 +49,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "28/10/2026",
     "created_raw": "2026-10-28T12:13:37.777-0500",
-    "status": "En Pruebas UAT",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -93,7 +115,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T16:25:01.378-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +125,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
@@ -269,7 +291,7 @@
     "assignee": "caiglesias",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T13:22:59.544-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1589,7 +1611,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1599,10 +1621,10 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "score": 23.3,
+      "priority": "Alta"
     }
   },
   {
@@ -1611,7 +1633,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1621,9 +1643,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 28.0,
+      "score": 35.0,
       "priority": "Alta"
     }
   },
