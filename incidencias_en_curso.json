@@ -90,10 +90,10 @@
   {
     "key": "GD941-2402",
     "summary": "Revisión del cúmulo y suma disponible",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T16:25:01.378-0500",
-    "status": "En Pruebas UAT",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -225,7 +225,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T09:49:03.187-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -235,10 +235,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -310,10 +310,10 @@
   {
     "key": "GD941-2348",
     "summary": "Marcha blanca modificaciones cumplimiento- No aparecen las polizas- nuevo portal cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T12:30:40.647-0500",
-    "status": "En Pruebas UAT",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -335,7 +335,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T09:33:26.452-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -345,9 +345,9 @@
       "risk": "documentación",
       "reach": 45,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1,
-      "score": 45.0,
+      "confidence": 0.9,
+      "effort": 0.7,
+      "score": 57.9,
       "priority": "Crítica"
     }
   },
@@ -357,7 +357,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T14:22:16.429-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -367,10 +367,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
