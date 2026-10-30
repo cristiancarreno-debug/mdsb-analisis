@@ -156,7 +156,7 @@
   {
     "key": "GD941-2376",
     "summary": "Ajuste movimiento Prorroga para solicitar carta de no siniestro segun el campo de fecha finalización actual",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T09:17:19.258-0500",
     "status": "Backlog",
@@ -379,7 +379,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T16:39:16.953-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -389,9 +389,9 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
+      "confidence": 0.5,
       "effort": 1.5,
-      "score": 18.7,
+      "score": 13.3,
       "priority": "Media"
     }
   },
@@ -1298,50 +1298,6 @@
     }
   },
   {
-    "key": "GD981-2334",
-    "summary": "RC - No permite guardar cambio",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "26/10/2026",
-    "created_raw": "2026-10-26T12:41:15.683-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD981-2333",
-    "summary": "RC - Se hace movimiento y no No genera endoso",
-    "assignee": "Sin asignar",
-    "created": "26/10/2026",
-    "created_raw": "2026-10-26T12:40:28.434-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1851 - F2: Modificación de pólizas de RC de forma autogestionada",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD981-2323",
     "summary": "[BACKEND] Persistir datos de moneda y valor asegurado en Mongo para la retoma de solicitudes",
     "assignee": "caiglesias",
@@ -1431,7 +1387,7 @@
   },
   {
     "key": "GD981-1914",
-    "summary": "[INFRA] CNTI-3019 - Bucket público, sin Block Public Access de cuenta y cifrado sin KMS - Cumplimiento Digital y CNTI-3023 Distribución con origen S3 sin OAC/OAI - Cumplimiento Digital",
+    "summary": "[INFRA] CNTI-3023, CNTI-3019 y CNTI-3021 - Eliminación de frontend legacy (S3/CloudFront sin OAC) y restricción de Security Group VPC endpoint - Cumplimiento Digital",
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:28:55.121-0500",
@@ -1442,13 +1398,13 @@
     "equipo": "Evolutivos Plataforma",
     "epic": "GD981-1506 - F2: Retoma de solicitudes no finalizadas por usuario",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "validaciones/reglas",
+      "reach": 35,
       "impact": 1,
-      "confidence": 0.6,
+      "confidence": 0.9,
       "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
+      "score": 22.5,
+      "priority": "Alta"
     }
   },
   {
@@ -1586,7 +1542,7 @@
   {
     "key": "GD981-1905",
     "summary": "Solicitu carta no siniestro disminución y traslado vigencia y cambio de nombre del documento \"otro si y/o Acta de inicio\" en traslado de vigencia",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
     "status": "En Progreso",
@@ -1608,7 +1564,7 @@
   {
     "key": "GD981-1904",
     "summary": "Cambio VA RC: Monto campo total valor asegurado y campos valor asegurado coberturas / subamparos",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
     "status": "En Progreso",
@@ -1630,7 +1586,7 @@
   {
     "key": "GD981-1903",
     "summary": "Notas debería quedar debajo del objeto para llevar una trazabilidad, nuevo campo aegurado adicional y cambio de posiciòn del PLO",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:15:10.509-0500",
     "status": "Backlog",
