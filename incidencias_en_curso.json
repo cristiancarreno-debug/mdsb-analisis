@@ -1127,7 +1127,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "28/04/2026",
     "created_raw": "2026-04-28T09:54:08.192-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1137,9 +1137,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -1254,6 +1254,28 @@
     }
   },
   {
+    "key": "GD981-2366",
+    "summary": "error 403 - polizas duplicadas",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "30/10/2026",
+    "created_raw": "2026-10-30T14:34:51.121-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD981",
+    "equipo": "Evolutivos Plataforma",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "gestión pólizas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD981-2336",
     "summary": "Reusar",
     "assignee": "Sin asignar",
@@ -1300,10 +1322,10 @@
   {
     "key": "GD981-2323",
     "summary": "[BACKEND] Persistir datos de moneda y valor asegurado en Mongo para la retoma de solicitudes",
-    "assignee": "caiglesias",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "21/10/2026",
     "created_raw": "2026-10-21T11:34:11.687-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1313,10 +1335,10 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1633,7 +1655,7 @@
     "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T18:42:26.525-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1643,19 +1665,19 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
   {
     "key": "GD981-1801",
     "summary": "HU TEC - Ajustar servicio consultarListaNegociosCu para retornar campos adicionales y calcular días restantes con fechaModificacion",
-    "assignee": "caiglesias",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "22/06/2026",
     "created_raw": "2026-06-22T15:19:04.324-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1665,10 +1687,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1806,10 +1828,10 @@
   {
     "key": "GD981-1782",
     "summary": "HU TEC - Modificación servicios Mongo para cifrado del id de mongo",
-    "assignee": "caiglesias",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "18/06/2026",
     "created_raw": "2026-06-18T16:28:37.259-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1819,10 +1841,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -1850,7 +1872,7 @@
   {
     "key": "GD981-1429",
     "summary": "Generación de nuevo número de cotización al modificar una cotización existente",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:24:03.893-0500",
     "status": "En Progreso",
@@ -1872,10 +1894,10 @@
   {
     "key": "GD981-1418",
     "summary": "Bandeja de solicitudes en proceso para retoma",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:54.596-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1894,7 +1916,7 @@
   {
     "key": "GD981-1416",
     "summary": "FRONT - Guardado automático de progreso de solicitud en proceso",
-    "assignee": "caiglesias",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T20:23:48.729-0500",
     "status": "En Progreso",
