@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2474",
+    "summary": "INC-SOFTWARE-TRONADOR",
+    "assignee": "Sin asignar",
+    "created": "05/11/2026",
+    "created_raw": "2026-11-05T16:04:16.814-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "plataforma core",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 25.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2473",
+    "summary": "Ajuste en disminución de valor asegurado a prorrata en PRIMA MÍNIMA",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "05/11/2026",
+    "created_raw": "2026-11-05T14:07:28.843-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "primas/tasas",
+      "reach": 50,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 40.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2471",
     "summary": "CREACIÓN PDF SEGURO DE CREDITO ",
     "assignee": "Regner Leonardo Bernal Garnica",
@@ -27,7 +71,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T12:44:12.613-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -37,9 +81,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -621,7 +665,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "09/10/2026",
     "created_raw": "2026-10-09T08:29:56.290-0500",
-    "status": "En Pruebas QC",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -631,9 +675,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 10.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
@@ -1105,7 +1149,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:09:23.474-0500",
-    "status": "Bloqueado",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1115,10 +1159,10 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 35.0,
+      "priority": "Alta"
     }
   },
   {
