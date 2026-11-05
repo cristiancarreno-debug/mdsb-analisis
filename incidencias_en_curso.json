@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2459",
+    "summary": "No se  envian las marcas del formulario Simplificado en el servicio de datos basicos",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "04/11/2026",
+    "created_raw": "2026-11-04T16:56:52.548-0500",
+    "status": "Por Hacer",
+    "issuetype": "Defecto QC",
+    "tipo": "Defecto QC",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-2414 - Nueva plataforma - validación sarlaft en modificaciones CU y RC ",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2442",
     "summary": "Portal Cu - Fecha inicio RC se queda pegado con la fecha de la poliza anterior",
     "assignee": "Santiago Hurtado Solis",
@@ -49,7 +71,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "03/11/2026",
     "created_raw": "2026-11-03T11:57:09.097-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -283,28 +305,6 @@
       "effort": 2,
       "score": 6.2,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2374",
-    "summary": "Portal cump - No aparecen las cotizaciones ",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "27/10/2026",
-    "created_raw": "2026-10-27T07:32:34.090-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
-      "priority": "Alta"
     }
   },
   {
@@ -555,7 +555,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "10/09/2026",
     "created_raw": "2026-09-10T15:01:57.384-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -565,9 +565,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -709,7 +709,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:32:03.609-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -719,9 +719,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -811,6 +811,28 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2458",
+    "summary": "Migas de pan nuevo portal cumplimiento",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "21/06/2026",
+    "created_raw": "2026-06-21T11:46:30.405-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
     }
   },
   {
@@ -1105,7 +1127,7 @@
     "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:48.829-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1115,9 +1137,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 3.0,
-      "score": 4.2,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -1237,7 +1259,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T12:43:04.245-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD981",
@@ -1247,9 +1269,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -1479,7 +1501,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:18:35.924-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1489,10 +1511,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -1501,7 +1523,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:17:03.585-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1511,9 +1533,9 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 30.0,
       "priority": "Alta"
     }
   },
@@ -1523,7 +1545,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:16:08.363-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1533,10 +1555,10 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -1545,7 +1567,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "30/07/2026",
     "created_raw": "2026-07-30T15:15:10.509-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD981",
@@ -1555,9 +1577,9 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
       "priority": "Alta"
     }
   },
@@ -1713,28 +1735,6 @@
       "effort": 2,
       "score": 35.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD981-1793",
-    "summary": "reusar",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "21/06/2026",
-    "created_raw": "2026-06-21T11:46:30.405-0500",
-    "status": "Backlog",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
     }
   },
   {
