@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2490",
+    "summary": "Backend - Ajustes de OpenL en validaciones-ms - CNTI-3015",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "06/11/2026",
+    "created_raw": "2026-11-06T12:15:06.007-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "validaciones/reglas",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 22.5,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2487",
+    "summary": "ajustar endopoints de los servicios de analitica para el nuevo portal",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "06/11/2026",
+    "created_raw": "2026-11-06T09:52:04.155-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2475",
+    "summary": "Activación modificaciones cumplimiento intermediarios",
+    "assignee": "caiglesias",
+    "created": "06/11/2026",
+    "created_raw": "2026-11-06T07:17:34.448-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2474",
     "summary": "INC-SOFTWARE-TRONADOR",
     "assignee": "Sin asignar",
@@ -67,11 +133,11 @@
   },
   {
     "key": "GD941-2470",
-    "summary": "Front: consumir OpenL a través del backend",
+    "summary": "Front: consumir OpenL a través del backend - CNTI-3015",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T12:44:12.613-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -81,10 +147,10 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 8.8,
-      "priority": "Baja"
+      "confidence": 0.6,
+      "effort": 1.4,
+      "score": 10.7,
+      "priority": "Media"
     }
   },
   {
@@ -93,7 +159,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T11:08:09.659-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -103,9 +169,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -137,7 +203,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T10:34:59.277-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -147,9 +213,9 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 25.6,
+      "score": 32.0,
       "priority": "Alta"
     }
   },
@@ -173,28 +239,6 @@
       "effort": 2,
       "score": 40.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2462",
-    "summary": "Ajustes servicios de analitica en nuevo portal ",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "05/11/2026",
-    "created_raw": "2026-11-05T06:31:54.673-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 13.3,
-      "priority": "Media"
     }
   },
   {
@@ -288,7 +332,7 @@
   {
     "key": "GD941-2431",
     "summary": "Cuando cliente no tiene cupo disponible, no esta mostrando el popap",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "caiglesias",
     "created": "30/10/2026",
     "created_raw": "2026-10-30T21:36:11.436-0500",
     "status": "Backlog",
@@ -327,28 +371,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2429",
-    "summary": "Información reflejada en el nuevo portal no queda en el PDF",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "30/10/2026",
-    "created_raw": "2026-10-30T21:33:08.702-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "documentación",
-      "reach": 45,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 0.7,
-      "score": 57.9,
-      "priority": "Crítica"
     }
   },
   {
@@ -1537,28 +1559,6 @@
       "effort": 1.75,
       "score": 41.1,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD981-1914",
-    "summary": "[INFRA] CNTI-3023, CNTI-3019 y CNTI-3021 - Eliminación de frontend legacy (S3/CloudFront sin OAC) y restricción de Security Group VPC endpoint - Cumplimiento Digital",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "30/07/2026",
-    "created_raw": "2026-07-30T15:28:55.121-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD981",
-    "equipo": "Evolutivos Plataforma",
-    "epic": "GD981-1506 - F2: Retoma de solicitudes no finalizadas por usuario",
-    "rice": {
-      "risk": "validaciones/reglas",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 22.5,
-      "priority": "Alta"
     }
   },
   {
