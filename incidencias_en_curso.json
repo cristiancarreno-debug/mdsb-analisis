@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2524",
+    "summary": "Portal Cum - Modificaciones MOSTRAR SOLO LAS RC ATADAS A CUMPLIMIENTO COLOCANDO",
+    "assignee": "Sin asignar",
+    "created": "09/11/2026",
+    "created_raw": "2026-11-09T18:36:14.426-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2523",
+    "summary": "Portal Cum - Modificaciones - Eliminar opcion de buscar por nombre",
+    "assignee": "Sin asignar",
+    "created": "09/11/2026",
+    "created_raw": "2026-11-09T18:28:02.064-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2521",
     "summary": "Acceso a usuarios a Plataforma de cumplimiento",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -132,28 +176,6 @@
     }
   },
   {
-    "key": "GD941-2474",
-    "summary": "INC-SOFTWARE-TRONADOR",
-    "assignee": "Francy Corredor ",
-    "created": "05/11/2026",
-    "created_raw": "2026-11-05T16:04:16.814-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "plataforma core",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2473",
     "summary": "Ajuste en disminución de valor asegurado a prorrata en PRIMA MÍNIMA",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -220,28 +242,6 @@
     }
   },
   {
-    "key": "GD941-2469",
-    "summary": "Nuevo portal - LOOP consultando endosos borrados MODIFICACIONES CU",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "05/11/2026",
-    "created_raw": "2026-11-05T11:08:09.659-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2468",
     "summary": "Validación DIFERENCIAS EN EL REPORTE DE CUMÚLOS CON CORTE A 30 DE SEPTIEMBRE\n",
     "assignee": "Francy Corredor ",
@@ -288,7 +288,7 @@
   {
     "key": "GD941-2466",
     "summary": "Nuevo portal - Correción valor prima front y Fecha PdF",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T10:31:46.371-0500",
     "status": "Backlog",
@@ -310,10 +310,10 @@
   {
     "key": "GD941-2442",
     "summary": "Portal Cu - Fecha inicio RC se queda pegado con la fecha de la poliza anterior",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "03/11/2026",
     "created_raw": "2026-11-03T12:24:48.600-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -323,9 +323,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -418,28 +418,6 @@
     }
   },
   {
-    "key": "GD941-2430",
-    "summary": "al guardar se queda consultando un endoso que ya estaba finalizado o borrado",
-    "assignee": "Ricardo Arturo Salamanca Mora",
-    "created": "30/10/2026",
-    "created_raw": "2026-10-30T21:34:28.833-0500",
-    "status": "Backlog",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2424",
     "summary": "INC-SOFTWARE-SIMON - Cumplimiento",
     "assignee": "Sin asignar",
@@ -484,28 +462,6 @@
     }
   },
   {
-    "key": "GD941-2414",
-    "summary": "Nueva plataforma - validación sarlaft en modificaciones CU y RC ",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "28/10/2026",
-    "created_raw": "2026-10-28T12:13:37.777-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.8,
-      "effort": 3,
-      "score": 64.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2412",
     "summary": "(CNTI-3025) Rotar y eliminar secreto sin uso en Secrets Manager — doctoraki/production/datadog",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -529,7 +485,7 @@
   },
   {
     "key": "GD941-2401",
-    "summary": "Creación del asegurado de forma automatica en el nuevo portal ",
+    "summary": "Portal Cum - Creación del asegurado de forma automatica ",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T14:32:18.417-0500",
@@ -591,28 +547,6 @@
       "effort": 2,
       "score": 50.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2360",
-    "summary": "INC-SOFTWARE-SIMON-CUMPLIMIENTO",
-    "assignee": "Francy Corredor ",
-    "created": "23/10/2026",
-    "created_raw": "2026-10-23T16:51:02.735-0500",
-    "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
     }
   },
   {
@@ -815,7 +749,7 @@
   },
   {
     "key": "GD941-2099",
-    "summary": "Nueva. Pl. Ajuste generación cotización con fecha de 0 días de vigencia",
+    "summary": "Portal Cum -  Ajuste generación cotización con fecha de 0 días de vigencia",
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T13:42:40.053-0500",
@@ -1013,7 +947,7 @@
   },
   {
     "key": "GD941-1821",
-    "summary": "validar la posibilidad de que el proceso de importación acepte archivos CSV con delimitador coma (,) y punto y coma (;), o que de",
+    "summary": "Reusar ",
     "assignee": "Sin asignar",
     "created": "04/07/2026",
     "created_raw": "2026-07-04T12:29:25.632-0500",
@@ -1278,7 +1212,7 @@
   {
     "key": "GD941-2511",
     "summary": "Adjuntar documentos adicionales al cotizar y emitir",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:57.447-0500",
     "status": "Backlog",
@@ -1322,7 +1256,7 @@
   {
     "key": "GD941-2507",
     "summary": "Validación cruzada de NIT del tomador (formulario vs documento)",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:27.730-0500",
     "status": "Backlog",
@@ -1344,7 +1278,7 @@
   {
     "key": "GD941-2290",
     "summary": "Redireccionamiento a pasarela de pago plataforma de cumplimiento",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "04/03/2026",
     "created_raw": "2026-03-04T18:54:05.071-0500",
     "status": "Backlog",
@@ -1410,7 +1344,7 @@
   {
     "key": "GD941-2503",
     "summary": "RF-016: Visualización de Negocios",
-    "assignee": "Cristian David Carreño Ruiz",
+    "assignee": "Sin asignar",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:45:53.382-0500",
     "status": "Backlog",
