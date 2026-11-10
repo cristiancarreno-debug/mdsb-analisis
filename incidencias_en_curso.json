@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2526",
+    "summary": "Programas de grandes beneficiarios con clave abierta no se ven ",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
+    "created": "10/11/2026",
+    "created_raw": "2026-11-10T09:38:06.646-0500",
+    "status": "Backlog",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "incidente genérico",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 10.0,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2525",
+    "summary": "Portal Cum -  el endoso falla durante el proceso, la pantalla no le dice por qué ",
+    "assignee": "Ricardo Arturo Salamanca Mora",
+    "created": "10/11/2026",
+    "created_raw": "2026-11-10T09:08:52.096-0500",
+    "status": "En Progreso",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 1.0,
+      "effort": 2.5,
+      "score": 32.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2524",
     "summary": "Portal Cum - Modificaciones MOSTRAR SOLO LAS RC ATADAS A CUMPLIMIENTO COLOCANDO",
     "assignee": "Sin asignar",
@@ -41,28 +85,6 @@
       "effort": 2.5,
       "score": 25.6,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2521",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "09/11/2026",
-    "created_raw": "2026-11-09T15:59:33.578-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
     }
   },
   {
@@ -269,7 +291,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T10:34:59.277-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -279,10 +301,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -462,31 +484,9 @@
     }
   },
   {
-    "key": "GD941-2412",
-    "summary": "(CNTI-3025) Rotar y eliminar secreto sin uso en Secrets Manager — doctoraki/production/datadog",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "28/10/2026",
-    "created_raw": "2026-10-28T11:57:56.294-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2401",
     "summary": "Portal Cum - Creación del asegurado de forma automatica ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sin asignar",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T14:32:18.417-0500",
     "status": "Backlog",
@@ -621,7 +621,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T10:08:54.267-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -631,10 +631,10 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -750,7 +750,7 @@
   {
     "key": "GD941-2099",
     "summary": "Portal Cum -  Ajuste generación cotización con fecha de 0 días de vigencia",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sin asignar",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T13:42:40.053-0500",
     "status": "Backlog",
@@ -1211,8 +1211,8 @@
   },
   {
     "key": "GD941-2511",
-    "summary": "Adjuntar documentos adicionales al cotizar y emitir",
-    "assignee": "Sin asignar",
+    "summary": "Portal cum - Adjuntar documentos adicionales al cotizar y emitir",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:57.447-0500",
     "status": "Backlog",
