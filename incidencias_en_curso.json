@@ -27,7 +27,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "10/11/2026",
     "created_raw": "2026-11-10T09:08:52.096-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -530,7 +530,7 @@
   {
     "key": "GD941-2437",
     "summary": "Portal cum - calculo prima minima",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "26/10/2026",
     "created_raw": "2026-10-26T12:44:28.484-0500",
     "status": "En Progreso",
@@ -709,7 +709,7 @@
     "assignee": "Francy Corredor ",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T12:09:34.296-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -719,10 +719,10 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 26.7,
-      "priority": "Alta"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 50.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -924,28 +924,6 @@
     }
   },
   {
-    "key": "GD941-1912",
-    "summary": "No hace Prorrateo cuando la emisión nace con Prima Mínima en el proceso de Disminución de Valor Asegurado ",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "24/07/2026",
-    "created_raw": "2026-07-24T09:16:58.218-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Defecto QC",
-    "tipo": "Defecto QC",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1572 - Ajuste en disminución de valor asegurado a prorrata en Rc 214",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 48.0,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-1821",
     "summary": "Reusar ",
     "assignee": "Sin asignar",
@@ -1105,7 +1083,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "15/05/2026",
     "created_raw": "2026-05-15T14:09:23.474-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1115,10 +1093,10 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
