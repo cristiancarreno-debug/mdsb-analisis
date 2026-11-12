@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2553",
+    "summary": "Accesos a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "11/11/2026",
+    "created_raw": "2026-11-11T14:52:48.773-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2551",
     "summary": "INC-SOFTWARE - Cumplimiento",
     "assignee": "Sin asignar",
@@ -379,7 +401,7 @@
     "assignee": "Juan Pablo Latorre Rodriguez",
     "created": "30/10/2026",
     "created_raw": "2026-10-30T21:36:11.436-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -389,9 +411,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
@@ -753,7 +775,7 @@
     "assignee": "Francy Corredor ",
     "created": "07/09/2026",
     "created_raw": "2026-09-07T10:16:32.291-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -763,10 +785,10 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 0.8,
-      "effort": 3.0,
-      "score": 14.7,
-      "priority": "Media"
+      "confidence": 1.0,
+      "effort": 2,
+      "score": 27.5,
+      "priority": "Alta"
     }
   },
   {
@@ -1124,7 +1146,7 @@
   {
     "key": "GD941-2328",
     "summary": "Ajuste llamado servicio cupos ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Omar Fernando Otavo García",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:48.829-0500",
     "status": "En Pruebas UAT",
