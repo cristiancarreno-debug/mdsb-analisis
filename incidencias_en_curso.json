@@ -1,24 +1,68 @@
 [
   {
-    "key": "GD941-2576",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "key": "GD941-2587",
+    "summary": "Carga única del contrato en S3 y producto correcto en los servicios del portal",
+    "assignee": "caiglesias",
     "created": "12/11/2026",
-    "created_raw": "2026-11-12T12:23:05.889-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
+    "created_raw": "2026-11-12T16:40:03.184-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
     "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
+      "risk": "contratos",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 22.4,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2579",
+    "summary": "Portal Cum - Extracción valor asegurado con cargue de doc",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "12/11/2026",
+    "created_raw": "2026-11-12T16:14:33.836-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2578",
+    "summary": "Portal Cum - Obligatoriedad coberturas Cu ",
+    "assignee": "Sin asignar",
+    "created": "12/11/2026",
+    "created_raw": "2026-11-12T15:32:41.360-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "contratos",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 22.4,
+      "priority": "Alta"
     }
   },
   {
@@ -27,7 +71,7 @@
     "assignee": "caiglesias",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:44:19.464-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -49,7 +93,7 @@
     "assignee": "caiglesias",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:42:26.134-0500",
-    "status": "Backlog",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -225,7 +269,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T07:26:30.020-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -235,10 +279,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -555,7 +599,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "23/10/2026",
     "created_raw": "2026-10-23T13:09:22.432-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -565,9 +609,9 @@
       "risk": "cotización",
       "reach": 55,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 27.5,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 35.4,
       "priority": "Alta"
     }
   },
@@ -577,7 +621,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T16:39:16.953-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -587,10 +631,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 22.9,
+      "priority": "Alta"
     }
   },
   {
@@ -621,7 +665,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "19/10/2026",
     "created_raw": "2026-10-19T10:08:54.267-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -631,9 +675,9 @@
       "risk": "reportes/trazabilidad",
       "reach": 30,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 25.7,
       "priority": "Alta"
     }
   },
@@ -802,7 +846,7 @@
     "tipo": "Spike",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "Sin épica",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
     "rice": {
       "risk": "emisión",
       "reach": 60,
@@ -921,28 +965,6 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2458",
-    "summary": "Migas de pan nuevo portal cumplimiento",
-    "assignee": "Juan Pablo Latorre Rodriguez",
-    "created": "21/06/2026",
-    "created_raw": "2026-06-21T11:46:30.405-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
     }
   },
   {
