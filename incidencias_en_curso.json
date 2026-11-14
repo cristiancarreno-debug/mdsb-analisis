@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2608",
+    "summary": "[INFRA] CNTI-3019 — Cifrado KMS (CMK) de los buckets S3 del front-end y de contratos en producción",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "13/11/2026",
+    "created_raw": "2026-11-13T15:31:29.023-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
+    "rice": {
+      "risk": "contratos",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 36.0,
+      "priority": "Alta"
+    }
+  },
+  {
     "key": "GD941-2605",
     "summary": "Mejora Datadog - Quitar el filtro \"Nombre / Razón social\" de la búsqueda por tomador en Modificación de pólizas",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -19,28 +41,6 @@
       "effort": 2,
       "score": 40.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2604",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "13/11/2026",
-    "created_raw": "2026-11-13T11:36:42.325-0500",
-    "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
     }
   },
   {
@@ -203,7 +203,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "10/11/2026",
     "created_raw": "2026-11-10T09:38:06.646-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Error Productivo",
     "tipo": "Incidente",
     "project": "GD941",
@@ -213,9 +213,9 @@
       "risk": "incidente genérico",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 17.1,
       "priority": "Media"
     }
   },
@@ -243,7 +243,7 @@
   },
   {
     "key": "GD941-2523",
-    "summary": "Portal Cum - Modificaciones - Eliminar opcion de buscar por nombre",
+    "summary": "reusar ",
     "assignee": "Sin asignar",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T18:28:02.064-0500",
@@ -252,15 +252,15 @@
     "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "epic": "Sin épica",
     "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 25.6,
-      "priority": "Alta"
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -396,28 +396,6 @@
     }
   },
   {
-    "key": "GD941-2468",
-    "summary": "Validación DIFERENCIAS EN EL REPORTE DE CUMÚLOS CON CORTE A 30 DE SEPTIEMBRE\n",
-    "assignee": "Francy Corredor ",
-    "created": "05/11/2026",
-    "created_raw": "2026-11-05T10:56:38.656-0500",
-    "status": "En Progreso",
-    "issuetype": "Spike",
-    "tipo": "Spike",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "reportes/trazabilidad",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2466",
     "summary": "Nuevo portal - Correción valor prima front y Fecha PdF",
     "assignee": "Santiago Hurtado Solis",
@@ -442,7 +420,7 @@
   {
     "key": "GD941-2442",
     "summary": "Portal Cu - Fecha inicio RC se queda pegado con la fecha de la poliza anterior",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Santiago Hurtado Solis",
     "created": "03/11/2026",
     "created_raw": "2026-11-03T12:24:48.600-0500",
     "status": "Pendiente PAP",
@@ -489,7 +467,7 @@
     "assignee": "Omar Fernando Otavo García",
     "created": "03/11/2026",
     "created_raw": "2026-11-03T10:59:52.614-0500",
-    "status": "Backlog",
+    "status": "En Pruebas QC",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -508,7 +486,7 @@
   {
     "key": "GD941-2431",
     "summary": "Cuando cliente no tiene cupo disponible, no esta mostrando el popap",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "30/10/2026",
     "created_raw": "2026-10-30T21:36:11.436-0500",
     "status": "Pendiente PAP",
@@ -551,7 +529,7 @@
   },
   {
     "key": "GD941-2401",
-    "summary": "Portal Cum - Creación del asegurado de forma automatica ",
+    "summary": "(Construccion) Portal Cum - Creación del asegurado de forma automatica ",
     "assignee": "Sin asignar",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T14:32:18.417-0500",
@@ -726,28 +704,6 @@
     }
   },
   {
-    "key": "GD941-2252",
-    "summary": "INC-SOFTWARE-SIMON-Cumplimiento",
-    "assignee": "Francy Corredor ",
-    "created": "08/10/2026",
-    "created_raw": "2026-10-08T11:54:59.360-0500",
-    "status": "En Progreso",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.7,
-      "effort": 2,
-      "score": 3.5,
-      "priority": "Baja"
-    }
-  },
-  {
     "key": "GD941-2163",
     "summary": "Se crea HU para corregir pólizas NP ",
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
@@ -793,8 +749,8 @@
   },
   {
     "key": "GD941-2099",
-    "summary": "Portal Cum -  Ajuste generación cotización con fecha de 0 días de vigencia",
-    "assignee": "Sin asignar",
+    "summary": "(ok) Portal Cum -  Ajuste generación cotización con fecha de 0 días de vigencia",
+    "assignee": "Santiago Hurtado Solis",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T13:42:40.053-0500",
     "status": "Backlog",
@@ -925,7 +881,7 @@
   },
   {
     "key": "GD941-1935",
-    "summary": "Nueva Pl. Ajuste de deducibles y valores asegurados en RC 214 estatal",
+    "summary": "(Construccion) Portal Cum -  Ajuste de deducibles y valores asegurados en RC 214 estatal",
     "assignee": "Sin asignar",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T18:31:19.838-0500",
