@@ -1,5 +1,27 @@
 [
   {
+    "key": "GD941-2613",
+    "summary": "validar El dato variable DED225MINI no esta parametrizado para el ramo 214 (G2000020): no se puede grabar.",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "13/11/2026",
+    "created_raw": "2026-11-13T20:53:09.537-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "parametrización",
+      "reach": 30,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 16.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2608",
     "summary": "[INFRA] CNTI-3019 — Cifrado KMS (CMK) de los buckets S3 del front-end y de contratos en producción",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -286,28 +308,6 @@
     }
   },
   {
-    "key": "GD941-2517",
-    "summary": "Portal Cum - Ajustes Modificaciones RC  ",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "09/11/2026",
-    "created_raw": "2026-11-09T07:26:30.020-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2487",
     "summary": "ajustar endopoints de los servicios de analitica para el nuevo portal",
     "assignee": "Sheila Paola Uhia Kanmerer",
@@ -414,28 +414,6 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 40.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2442",
-    "summary": "Portal Cu - Fecha inicio RC se queda pegado con la fecha de la poliza anterior",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "03/11/2026",
-    "created_raw": "2026-11-03T12:24:48.600-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -594,28 +572,6 @@
     }
   },
   {
-    "key": "GD941-2352",
-    "summary": "Validaciòn link https://cumplimiento.segurosbolivar.com.co/seguro-cumplimiento/policy-input?action=cotizar",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "23/10/2026",
-    "created_raw": "2026-10-23T13:09:22.432-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2302",
     "summary": "Nuevo Portal cum - Validación de agente lider ",
     "assignee": "Santiago Hurtado Solis",
@@ -657,28 +613,6 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2298",
-    "summary": "Portal Cum - Consulta NITS RESTRINGIDOS desde Simon cumplimiento ",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "19/10/2026",
-    "created_raw": "2026-10-19T10:08:54.267-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "reportes/trazabilidad",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 25.7,
-      "priority": "Alta"
     }
   },
   {
@@ -833,28 +767,6 @@
       "effort": 2,
       "score": 48.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2088",
-    "summary": "Proceso de conversión de cotización de RC en simon web",
-    "assignee": "Francy Corredor ",
-    "created": "07/09/2026",
-    "created_raw": "2026-09-07T10:16:32.291-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "cotización",
-      "reach": 55,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 35.4,
-      "priority": "Alta"
     }
   },
   {
