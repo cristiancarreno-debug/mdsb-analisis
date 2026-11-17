@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2622",
+    "summary": "INC-SOFTWARE-Poliza Digital | Error descarga TXT en lugar de PDF al momento de bajar PDF por Simón para pólizas de cumplimiento.  | Revisar con AM",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "17/11/2026",
+    "created_raw": "2026-11-17T10:59:17.318-0500",
+    "status": "En Progreso",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "Sin épica",
+    "rice": {
+      "risk": "documentación",
+      "reach": 45,
+      "impact": 1,
+      "confidence": 1.0,
+      "effort": 1,
+      "score": 45.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2621",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "17/11/2026",
+    "created_raw": "2026-11-17T10:48:02.985-0500",
+    "status": "En Progreso",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.7,
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2613",
     "summary": "validar El dato variable DED225MINI no esta parametrizado para el ramo 214 (G2000020): no se puede grabar.",
     "assignee": "Santiago Hurtado Solis",
@@ -837,11 +881,11 @@
   },
   {
     "key": "GD941-1821",
-    "summary": "Reusar ",
-    "assignee": "Sin asignar",
+    "summary": "Revisión servicio emitir bloqueo-waf-emitir",
+    "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "04/07/2026",
     "created_raw": "2026-07-04T12:29:25.632-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Hito",
     "tipo": "Hito",
     "project": "GD941",
@@ -851,9 +895,9 @@
       "risk": "sin clasificar",
       "reach": 20,
       "impact": 0.5,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 2.5,
+      "score": 3.5,
       "priority": "Baja"
     }
   },
@@ -1061,7 +1105,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:57.447-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -1071,9 +1115,9 @@
       "risk": "gestión documental",
       "reach": 35,
       "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 23.3,
+      "confidence": 0.9,
+      "effort": 1.0499999999999998,
+      "score": 30.0,
       "priority": "Alta"
     }
   },
