@@ -1,11 +1,55 @@
 [
   {
+    "key": "GD941-2637",
+    "summary": "SARLAFT: enviar los datos del representante legal y del intermediario en la generación de la URL",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "18/11/2026",
+    "created_raw": "2026-11-18T15:50:32.045-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.8,
+      "effort": 3,
+      "score": 64.0,
+      "priority": "Crítica"
+    }
+  },
+  {
+    "key": "GD941-2636",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "18/11/2026",
+    "created_raw": "2026-11-18T14:58:01.837-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2634",
     "summary": "portal cum - Ajuste migas de pan ",
     "assignee": "caiglesias",
     "created": "18/11/2026",
     "created_raw": "2026-11-18T14:00:54.505-0500",
-    "status": "Backlog",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -15,10 +59,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 1.5,
-      "score": 13.3,
-      "priority": "Media"
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 22.9,
+      "priority": "Alta"
     }
   },
   {
@@ -71,7 +115,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "13/11/2026",
     "created_raw": "2026-11-13T11:49:36.060-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -81,9 +125,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -156,10 +200,10 @@
   {
     "key": "GD941-2574",
     "summary": "portal cum -  que la fecha de solicitud que el portal envía al Core corresponda a la fecha en Colombia",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:44:19.464-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -169,19 +213,19 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 22.9,
+      "priority": "Alta"
     }
   },
   {
     "key": "GD941-2573",
     "summary": "Portal cum - que el portal me avise cuando hay una versión nueva desplegada",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:42:26.134-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -191,10 +235,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 22.9,
+      "priority": "Alta"
     }
   },
   {
@@ -226,19 +270,19 @@
     "created": "11/11/2026",
     "created_raw": "2026-11-11T11:17:16.116-0500",
     "status": "En Progreso",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
     "epic": "Sin épica",
     "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
       "confidence": 0.7,
-      "effort": 1.5,
-      "score": 14.0,
-      "priority": "Media"
+      "effort": 2,
+      "score": 3.5,
+      "priority": "Baja"
     }
   },
   {
@@ -288,7 +332,7 @@
   {
     "key": "GD941-2518",
     "summary": "Portal Cum - ajustes retoma y ux ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T07:42:54.119-0500",
     "status": "En Pruebas UAT",
@@ -332,7 +376,7 @@
   {
     "key": "GD941-2475",
     "summary": "Activación modificaciones cumplimiento intermediarios",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "06/11/2026",
     "created_raw": "2026-11-06T07:17:34.448-0500",
     "status": "Pendiente PAP",
@@ -486,7 +530,7 @@
   {
     "key": "GD941-2417",
     "summary": "Portal cum - Error en la emisión – Cotización NO Existe | Cotización Hija no Existe\".",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "caiglesias",
     "created": "28/10/2026",
     "created_raw": "2026-10-28T16:25:11.267-0500",
     "status": "Pendiente PAP",
