@@ -71,7 +71,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "18/11/2026",
     "created_raw": "2026-11-18T15:50:32.045-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QC",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -81,9 +81,9 @@
       "risk": "SARLAFT/cumplimiento normativo",
       "reach": 80,
       "impact": 3,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 3,
-      "score": 80.0,
+      "score": 64.0,
       "priority": "Crítica"
     }
   },
@@ -379,7 +379,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "06/11/2026",
     "created_raw": "2026-11-06T09:52:04.155-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -389,10 +389,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.6,
+      "effort": 1.0499999999999998,
+      "score": 22.9,
+      "priority": "Alta"
     }
   },
   {
