@@ -1,8 +1,30 @@
 [
   {
+    "key": "GD941-2679",
+    "summary": "(ok) portal cum - Ajustes de experiencia emisión y cotización",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "24/11/2026",
+    "created_raw": "2026-11-24T15:50:35.887-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "emisión",
+      "reach": 60,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 48.0,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2669",
-    "summary": "(ok) Ajustes enpoint validar objeto del contrato",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "summary": "Ajustes endpoint validar objeto del contrato",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "23/11/2026",
     "created_raw": "2026-11-23T15:16:50.027-0500",
     "status": "Backlog",
@@ -22,31 +44,9 @@
     }
   },
   {
-    "key": "GD941-2668",
-    "summary": "Consulta nits restringidos en linea",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "23/11/2026",
-    "created_raw": "2026-11-23T12:18:07.213-0500",
-    "status": "En Pruebas UAT",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "reportes/trazabilidad",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 1.0,
-      "effort": 1.5,
-      "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2654",
     "summary": "(ok) Validaciòn de clientes siniestrados en portal cumplimiento ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "20/11/2026",
     "created_raw": "2026-11-20T11:47:08.407-0500",
     "status": "Backlog",
@@ -68,7 +68,7 @@
   {
     "key": "GD941-2652",
     "summary": "(OK) Validación de disponbile en el paso 2 vs valor asegurado ",
-    "assignee": "Juan Pablo Latorre Rodriguez",
+    "assignee": "Sin asignar",
     "created": "20/11/2026",
     "created_raw": "2026-11-20T08:00:45.030-0500",
     "status": "Backlog",
@@ -93,50 +93,6 @@
     "assignee": "caiglesias",
     "created": "19/11/2026",
     "created_raw": "2026-11-19T15:34:24.669-0500",
-    "status": "En Progreso",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2637",
-    "summary": "SARLAFT: enviar los datos del representante legal y del intermediario en la generación de la URL",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "18/11/2026",
-    "created_raw": "2026-11-18T15:50:32.045-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.8,
-      "effort": 3,
-      "score": 64.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2634",
-    "summary": "portal cum - Ajuste migas de pan ",
-    "assignee": "caiglesias",
-    "created": "18/11/2026",
-    "created_raw": "2026-11-18T14:00:54.505-0500",
     "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
@@ -154,12 +110,34 @@
     }
   },
   {
+    "key": "GD941-2637",
+    "summary": "SARLAFT: enviar los datos del representante legal y del intermediario en la generación de la URL",
+    "assignee": "Omar Fernando Otavo García",
+    "created": "18/11/2026",
+    "created_raw": "2026-11-18T15:50:32.045-0500",
+    "status": "Pendiente PAP",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "SARLAFT/cumplimiento normativo",
+      "reach": 80,
+      "impact": 3,
+      "confidence": 0.9,
+      "effort": 2.0999999999999996,
+      "score": 102.9,
+      "priority": "Crítica"
+    }
+  },
+  {
     "key": "GD941-2613",
     "summary": "validar El dato variable DED225MINI no esta parametrizado para el ramo 214 (G2000020): no se puede grabar.",
-    "assignee": "Santiago Hurtado Solis",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "13/11/2026",
     "created_raw": "2026-11-13T20:53:09.537-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -169,10 +147,10 @@
       "risk": "parametrización",
       "reach": 30,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 16.0,
-      "priority": "Media"
+      "score": 20.0,
+      "priority": "Alta"
     }
   },
   {
@@ -195,28 +173,6 @@
       "effort": 1.75,
       "score": 36.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2605",
-    "summary": "Mejora Datadog - Quitar el filtro \"Nombre / Razón social\" de la búsqueda por tomador en Modificación de pólizas",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/11/2026",
-    "created_raw": "2026-11-13T11:49:36.060-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 64.3,
-      "priority": "Crítica"
     }
   },
   {
@@ -286,56 +242,12 @@
     }
   },
   {
-    "key": "GD941-2574",
-    "summary": "portal cum -  que la fecha de solicitud que el portal envía al Core corresponda a la fecha en Colombia",
-    "assignee": "caiglesias",
-    "created": "12/11/2026",
-    "created_raw": "2026-11-12T10:44:19.464-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2573",
-    "summary": "Portal cum - que el portal me avise cuando hay una versión nueva desplegada",
-    "assignee": "caiglesias",
-    "created": "12/11/2026",
-    "created_raw": "2026-11-12T10:42:26.134-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2563",
     "summary": "portal cump - Validar póliza duplicada por datos del negocio antes de emitir Cumplimiento",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:09:17.681-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QC",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -345,9 +257,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 50.0,
+      "score": 40.0,
       "priority": "Crítica"
     }
   },
@@ -376,7 +288,7 @@
   {
     "key": "GD941-2523",
     "summary": "(ok) Visualizar polizas vencidas en el portal de cumplimiento",
-    "assignee": "Sin asignar",
+    "assignee": "Sheila Paola Uhia Kanmerer",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T18:28:02.064-0500",
     "status": "Backlog",
@@ -392,72 +304,6 @@
       "confidence": 0.8,
       "effort": 2,
       "score": 40.0,
-      "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2518",
-    "summary": "Portal Cum - ajustes retoma y ux ",
-    "assignee": "caiglesias",
-    "created": "09/11/2026",
-    "created_raw": "2026-11-09T07:42:54.119-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2487",
-    "summary": "ajustar endopoints de los servicios de analitica para el nuevo portal",
-    "assignee": "Santiago Hurtado Solis",
-    "created": "06/11/2026",
-    "created_raw": "2026-11-06T09:52:04.155-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2475",
-    "summary": "Activación modificaciones cumplimiento intermediarios",
-    "assignee": "caiglesias",
-    "created": "06/11/2026",
-    "created_raw": "2026-11-06T07:17:34.448-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
       "priority": "Crítica"
     }
   },
@@ -489,7 +335,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T10:31:46.371-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -499,9 +345,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 40.0,
+      "score": 50.0,
       "priority": "Crítica"
     }
   },
@@ -550,56 +396,12 @@
     }
   },
   {
-    "key": "GD941-2431",
-    "summary": "Cuando cliente no tiene cupo disponible, no esta mostrando el popap",
-    "assignee": "caiglesias",
-    "created": "30/10/2026",
-    "created_raw": "2026-10-30T21:36:11.436-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "incidente genérico",
-      "reach": 30,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 17.1,
-      "priority": "Media"
-    }
-  },
-  {
-    "key": "GD941-2417",
-    "summary": "Portal cum - Error en la emisión – Cotización NO Existe | Cotización Hija no Existe\".",
-    "assignee": "caiglesias",
-    "created": "28/10/2026",
-    "created_raw": "2026-10-28T16:25:11.267-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Error Productivo",
-    "tipo": "Incidente",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "emisión",
-      "reach": 60,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.4,
-      "score": 77.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2401",
     "summary": "(ok) Portal Cum - Creación del asegurado de forma automatica ",
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T14:32:18.417-0500",
-    "status": "En Progreso",
+    "status": "Bloqueado",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -609,10 +411,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.7,
-      "effort": 1.5,
-      "score": 18.7,
-      "priority": "Media"
+      "confidence": 0.5,
+      "effort": 2.25,
+      "score": 8.9,
+      "priority": "Baja"
     }
   },
   {
@@ -665,7 +467,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "18/09/2026",
     "created_raw": "2026-09-18T12:09:34.296-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas QC",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -675,9 +477,9 @@
       "risk": "gestión pólizas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 50.0,
+      "score": 40.0,
       "priority": "Crítica"
     }
   },
@@ -838,7 +640,7 @@
   {
     "key": "GD941-1921",
     "summary": "(ok) Cargue de los documentos a Oleary (Repositorio documental oficial)",
-    "assignee": "Sin asignar",
+    "assignee": "Santiago Hurtado Solis",
     "created": "27/07/2026",
     "created_raw": "2026-07-27T16:45:01.650-0500",
     "status": "Backlog",
@@ -907,7 +709,7 @@
     "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:33:21.759-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -917,9 +719,9 @@
       "risk": "controles",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 1.5,
-      "score": 13.3,
+      "score": 16.7,
       "priority": "Media"
     }
   },
@@ -1078,53 +880,9 @@
     }
   },
   {
-    "key": "GD941-2511",
-    "summary": "Portal cum - Adjuntar documentos adicionales al cotizar y emitir",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:57.447-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "gestión documental",
-      "reach": 35,
-      "impact": 1,
-      "confidence": 0.9,
-      "effort": 1.0499999999999998,
-      "score": 30.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2328",
-    "summary": "Ajuste llamado servicio cupos ",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "13/04/2026",
-    "created_raw": "2026-04-13T17:50:48.829-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.4,
-      "score": 10.7,
-      "priority": "Media"
-    }
-  },
-  {
     "key": "GD941-2507",
-    "summary": "Validación cruzada de NIT del tomador (formulario vs documento)",
-    "assignee": "Sin asignar",
+    "summary": "(ok) Validación cruzada de ID del tomador (formulario vs documento)",
+    "assignee": "caiglesias",
     "created": "13/04/2026",
     "created_raw": "2026-04-13T17:50:27.730-0500",
     "status": "Backlog",
