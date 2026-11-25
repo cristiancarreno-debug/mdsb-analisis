@@ -27,7 +27,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "23/11/2026",
     "created_raw": "2026-11-23T15:16:50.027-0500",
-    "status": "Backlog",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -37,9 +37,9 @@
       "risk": "contratos",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
-      "effort": 2.5,
-      "score": 22.4,
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 36.0,
       "priority": "Alta"
     }
   },
@@ -225,7 +225,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T15:32:41.360-0500",
-    "status": "Por Hacer",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -235,16 +235,16 @@
       "risk": "contratos",
       "reach": 35,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2.5,
-      "score": 22.4,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
   {
     "key": "GD941-2563",
     "summary": "portal cump - Validar póliza duplicada por datos del negocio antes de emitir Cumplimiento",
-    "assignee": "Ricardo Arturo Salamanca Mora",
+    "assignee": "Omar Fernando Otavo García",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T10:09:17.681-0500",
     "status": "En Pruebas QC",
@@ -287,8 +287,8 @@
   },
   {
     "key": "GD941-2523",
-    "summary": "(ok) Visualizar polizas vencidas en el portal de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
+    "summary": "reusar",
+    "assignee": "Sin asignar",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T18:28:02.064-0500",
     "status": "Backlog",
@@ -298,13 +298,13 @@
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
       "effort": 2,
-      "score": 40.0,
-      "priority": "Crítica"
+      "score": 6.2,
+      "priority": "Baja"
     }
   },
   {
@@ -423,7 +423,7 @@
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T09:17:19.258-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -433,9 +433,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -459,28 +459,6 @@
       "effort": 2,
       "score": 2.5,
       "priority": "Baja"
-    }
-  },
-  {
-    "key": "GD941-2163",
-    "summary": "Se crea HU para corregir pólizas NP ",
-    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
-    "created": "18/09/2026",
-    "created_raw": "2026-09-18T12:09:34.296-0500",
-    "status": "En Pruebas QC",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "gestión pólizas",
-      "reach": 50,
-      "impact": 2,
-      "confidence": 0.8,
-      "effort": 2,
-      "score": 40.0,
-      "priority": "Crítica"
     }
   },
   {
