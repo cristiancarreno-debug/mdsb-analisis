@@ -1,5 +1,71 @@
 [
   {
+    "key": "GD941-2693",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "25/11/2026",
+    "created_raw": "2026-11-25T17:12:23.559-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2692",
+    "summary": "SC - Reservas con mayor valor al asegurado",
+    "assignee": "Francy Corredor ",
+    "created": "25/11/2026",
+    "created_raw": "2026-11-25T16:52:48.122-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1479 - SC - Creación de producto en sistemas Core",
+    "rice": {
+      "risk": "mejora funcional",
+      "reach": 25,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 6.2,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2691",
+    "summary": "Ajustes servicio de retoma - distribuidor de correos",
+    "assignee": "caiglesias",
+    "created": "25/11/2026",
+    "created_raw": "2026-11-25T16:02:22.764-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "notificaciones",
+      "reach": 30,
+      "impact": 0.5,
+      "confidence": 0.8,
+      "effort": 1,
+      "score": 12.0,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2679",
     "summary": "(ok) portal cum - Ajustes de experiencia emisión y cotización",
     "assignee": "JUAN DAVID YARA CIFUENTES",
@@ -335,7 +401,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "05/11/2026",
     "created_raw": "2026-11-05T10:31:46.371-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -345,9 +411,9 @@
       "risk": "primas/tasas",
       "reach": 50,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 50.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 64.3,
       "priority": "Crítica"
     }
   },
@@ -489,7 +555,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T13:42:40.053-0500",
-    "status": "En Progreso",
+    "status": "En Pruebas UAT",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
