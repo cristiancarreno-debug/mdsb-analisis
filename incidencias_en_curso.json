@@ -1,24 +1,46 @@
 [
   {
-    "key": "GD941-2693",
-    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "25/11/2026",
-    "created_raw": "2026-11-25T17:12:23.559-0500",
+    "key": "GD941-2698",
+    "summary": "(en construcción) portal cum y simon cu - Agregar antimalware en los documentos adjuntos",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T14:11:19.943-0500",
     "status": "Backlog",
-    "issuetype": "Service Request N2",
-    "tipo": "Service Request N2",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
     "project": "GD941",
     "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "epic": "GD941-2617 - Cumplimiento - Deuda Técnica y Obsolescencia",
     "rice": {
-      "risk": "sin clasificar",
-      "reach": 20,
-      "impact": 0.5,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 2.5,
-      "priority": "Baja"
+      "risk": "gestión documental",
+      "reach": 35,
+      "impact": 1,
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2694",
+    "summary": "(ok) Activación modificaciones RC intermediarios",
+    "assignee": "JUAN DAVID YARA CIFUENTES",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T07:28:48.045-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "endosos",
+      "reach": 40,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 25.6,
+      "priority": "Alta"
     }
   },
   {
@@ -27,7 +49,7 @@
     "assignee": "Francy Corredor ",
     "created": "25/11/2026",
     "created_raw": "2026-11-25T16:52:48.122-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -37,9 +59,9 @@
       "risk": "mejora funcional",
       "reach": 25,
       "impact": 1,
-      "confidence": 0.5,
+      "confidence": 0.7,
       "effort": 2,
-      "score": 6.2,
+      "score": 8.8,
       "priority": "Baja"
     }
   },
@@ -71,7 +93,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/11/2026",
     "created_raw": "2026-11-24T15:50:35.887-0500",
-    "status": "Backlog",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -81,9 +103,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 0.8,
+      "confidence": 1.0,
       "effort": 2,
-      "score": 48.0,
+      "score": 60.0,
       "priority": "Crítica"
     }
   },
@@ -133,7 +155,7 @@
   },
   {
     "key": "GD941-2652",
-    "summary": "(OK) Validación de disponbile en el paso 2 vs valor asegurado ",
+    "summary": "(construccion) Validación de disponbile en el paso 2 vs valor asegurado ",
     "assignee": "Sin asignar",
     "created": "20/11/2026",
     "created_raw": "2026-11-20T08:00:45.030-0500",
@@ -151,50 +173,6 @@
       "effort": 2,
       "score": 28.0,
       "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2648",
-    "summary": "Portal Cum - ajustes ux",
-    "assignee": "caiglesias",
-    "created": "19/11/2026",
-    "created_raw": "2026-11-19T15:34:24.669-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "canal digital",
-      "reach": 40,
-      "impact": 1,
-      "confidence": 0.6,
-      "effort": 1.0499999999999998,
-      "score": 22.9,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2637",
-    "summary": "SARLAFT: enviar los datos del representante legal y del intermediario en la generación de la URL",
-    "assignee": "Omar Fernando Otavo García",
-    "created": "18/11/2026",
-    "created_raw": "2026-11-18T15:50:32.045-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "SARLAFT/cumplimiento normativo",
-      "reach": 80,
-      "impact": 3,
-      "confidence": 0.9,
-      "effort": 2.0999999999999996,
-      "score": 102.9,
-      "priority": "Crítica"
     }
   },
   {
@@ -242,34 +220,12 @@
     }
   },
   {
-    "key": "GD941-2587",
-    "summary": "Carga única del contrato en S3 y producto correcto en los servicios del portal",
-    "assignee": "caiglesias",
-    "created": "12/11/2026",
-    "created_raw": "2026-11-12T16:40:03.184-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
-    "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 36.0,
-      "priority": "Alta"
-    }
-  },
-  {
     "key": "GD941-2579",
     "summary": "Portal Cum - Extracción valor asegurado con cargue de doc",
     "assignee": "caiglesias",
     "created": "12/11/2026",
     "created_raw": "2026-11-12T16:14:33.836-0500",
-    "status": "En Progreso",
+    "status": "Por Hacer",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -279,9 +235,9 @@
       "risk": "cobertura",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
+      "confidence": 0.8,
       "effort": 2,
-      "score": 35.0,
+      "score": 28.0,
       "priority": "Alta"
     }
   },
@@ -353,8 +309,8 @@
   },
   {
     "key": "GD941-2523",
-    "summary": "reusar",
-    "assignee": "Sin asignar",
+    "summary": "(ok) Facility programa grandes beneficiarios",
+    "assignee": "Santiago Hurtado Solis",
     "created": "09/11/2026",
     "created_raw": "2026-11-09T18:28:02.064-0500",
     "status": "Backlog",
@@ -555,7 +511,7 @@
     "assignee": "Santiago Hurtado Solis",
     "created": "08/09/2026",
     "created_raw": "2026-09-08T13:42:40.053-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -565,10 +521,10 @@
       "risk": "endosos",
       "reach": 40,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2.5,
-      "score": 32.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.75,
+      "score": 41.1,
+      "priority": "Crítica"
     }
   },
   {
@@ -841,7 +797,7 @@
     "assignee": "Francy Corredor ",
     "created": "30/04/2026",
     "created_raw": "2026-04-30T16:51:17.664-0500",
-    "status": "En Progreso",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -851,10 +807,10 @@
       "risk": "devolución prima",
       "reach": 35,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 35.0,
-      "priority": "Alta"
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 45.0,
+      "priority": "Crítica"
     }
   },
   {
@@ -947,7 +903,7 @@
   },
   {
     "key": "GD941-2290",
-    "summary": "Redireccionamiento a pasarela de pago plataforma de cumplimiento",
+    "summary": "(construccion) visualización y descarga de documentos de polizas",
     "assignee": "Sin asignar",
     "created": "04/03/2026",
     "created_raw": "2026-03-04T18:54:05.071-0500",
@@ -958,13 +914,13 @@
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
+      "risk": "gestión documental",
+      "reach": 35,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "confidence": 0.8,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
@@ -991,7 +947,7 @@
   },
   {
     "key": "GD941-2503",
-    "summary": "RF-016: Visualización de Negocios",
+    "summary": "(ok) Aumentar el tiempo de espera de respuesta del servicio de lector de contratos",
     "assignee": "Sin asignar",
     "created": "11/12/2025",
     "created_raw": "2025-12-11T14:45:53.382-0500",
@@ -1002,13 +958,13 @@
     "equipo": "EO Cumplimiento",
     "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
     "rice": {
-      "risk": "mejora funcional",
-      "reach": 25,
-      "impact": 1,
-      "confidence": 0.5,
-      "effort": 2,
-      "score": 6.2,
-      "priority": "Baja"
+      "risk": "contratos",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2.5,
+      "score": 22.4,
+      "priority": "Alta"
     }
   },
   {
