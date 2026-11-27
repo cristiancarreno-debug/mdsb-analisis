@@ -1,5 +1,93 @@
 [
   {
+    "key": "GD941-2703",
+    "summary": "(Ok) portal cu - palabras restringidas actualizacion de datos Cu y Rc ",
+    "assignee": "Sin asignar",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T20:36:48.453-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.5,
+      "effort": 1.5,
+      "score": 13.3,
+      "priority": "Media"
+    }
+  },
+  {
+    "key": "GD941-2701",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T15:57:53.849-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
+    "key": "GD941-2700",
+    "summary": "(ok) Portal cum - asjuste validación valor asegurado en inclusión de cobertura CU ",
+    "assignee": "Sin asignar",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T15:39:24.702-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2699",
+    "summary": "(ok) Portal cum - Coberturas de cumplimiento no aparecen ",
+    "assignee": "Santiago Hurtado Solis",
+    "created": "26/11/2026",
+    "created_raw": "2026-11-26T15:26:43.123-0500",
+    "status": "En Pruebas UAT",
+    "issuetype": "Error Productivo",
+    "tipo": "Incidente",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "canal digital",
+      "reach": 40,
+      "impact": 1,
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
+    }
+  },
+  {
     "key": "GD941-2698",
     "summary": "(en construcción) portal cum y simon cu - Agregar antimalware en los documentos adjuntos",
     "assignee": "Juan Pablo Latorre Rodriguez",
@@ -107,28 +195,6 @@
       "effort": 2,
       "score": 60.0,
       "priority": "Crítica"
-    }
-  },
-  {
-    "key": "GD941-2669",
-    "summary": "Ajustes endpoint validar objeto del contrato",
-    "assignee": "JUAN DAVID YARA CIFUENTES",
-    "created": "23/11/2026",
-    "created_raw": "2026-11-23T15:16:50.027-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 36.0,
-      "priority": "Alta"
     }
   },
   {
@@ -286,28 +352,6 @@
     }
   },
   {
-    "key": "GD941-2524",
-    "summary": "Portal Cum - Modificaciones MOSTRAR SOLO LAS RC ATADAS A CUMPLIMIENTO COLOCANDO",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "09/11/2026",
-    "created_raw": "2026-11-09T18:36:14.426-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
-    "rice": {
-      "risk": "endosos",
-      "reach": 40,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 41.1,
-      "priority": "Crítica"
-    }
-  },
-  {
     "key": "GD941-2523",
     "summary": "(ok) Facility programa grandes beneficiarios",
     "assignee": "Santiago Hurtado Solis",
@@ -423,7 +467,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "27/10/2026",
     "created_raw": "2026-10-27T14:32:18.417-0500",
-    "status": "Bloqueado",
+    "status": "En Progreso",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -433,10 +477,10 @@
       "risk": "canal digital",
       "reach": 40,
       "impact": 1,
-      "confidence": 0.5,
-      "effort": 2.25,
-      "score": 8.9,
-      "priority": "Baja"
+      "confidence": 0.7,
+      "effort": 1.5,
+      "score": 18.7,
+      "priority": "Media"
     }
   },
   {
@@ -684,7 +728,7 @@
   {
     "key": "GD941-1686",
     "summary": "Validar estado de póliza antes de permitir endoso de baja de garantías futuras (job y programa manual)",
-    "assignee": "Sin asignar",
+    "assignee": "MARIA CRISTINA GONZALEZ ARDILA [X]",
     "created": "04/06/2026",
     "created_raw": "2026-06-04T09:46:09.346-0500",
     "status": "Backlog",
