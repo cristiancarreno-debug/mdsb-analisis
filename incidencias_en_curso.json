@@ -1,5 +1,49 @@
 [
   {
+    "key": "GD941-2715",
+    "summary": "(ok) Portal cu - cambio de valor asegurado de coberturas postcontractuales vencidas ",
+    "assignee": "Juan Pablo Latorre Rodriguez",
+    "created": "27/11/2026",
+    "created_raw": "2026-11-27T15:50:29.375-0500",
+    "status": "Backlog",
+    "issuetype": "Historia",
+    "tipo": "Mejora",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1856 - Mejoras - Nueva Plataforma de cumplimiento",
+    "rice": {
+      "risk": "cobertura",
+      "reach": 35,
+      "impact": 2,
+      "confidence": 0.8,
+      "effort": 2,
+      "score": 28.0,
+      "priority": "Alta"
+    }
+  },
+  {
+    "key": "GD941-2714",
+    "summary": "Acceso a usuarios a Plataforma de cumplimiento",
+    "assignee": "Sheila Paola Uhia Kanmerer",
+    "created": "27/11/2026",
+    "created_raw": "2026-11-27T15:03:21.821-0500",
+    "status": "Backlog",
+    "issuetype": "Service Request N2",
+    "tipo": "Service Request N2",
+    "project": "GD941",
+    "equipo": "EO Cumplimiento",
+    "epic": "GD941-1929 - Disponibilidad y estabilidad PORTAL cumplimiento 2026",
+    "rice": {
+      "risk": "sin clasificar",
+      "reach": 20,
+      "impact": 0.5,
+      "confidence": 0.5,
+      "effort": 2,
+      "score": 2.5,
+      "priority": "Baja"
+    }
+  },
+  {
     "key": "GD941-2713",
     "summary": "Portal cu - facility personas naturales",
     "assignee": "Ricardo Arturo Salamanca Mora",
@@ -45,7 +89,7 @@
   },
   {
     "key": "GD941-2708",
-    "summary": "Portal cum - información no queda guardada del paso 3 al 2 y en retoma RC",
+    "summary": "Portal cum - información no queda guardada en retoma RC",
     "assignee": "Ricardo Arturo Salamanca Mora",
     "created": "27/11/2026",
     "created_raw": "2026-11-27T09:00:38.986-0500",
@@ -247,7 +291,7 @@
     "assignee": "JUAN DAVID YARA CIFUENTES",
     "created": "24/11/2026",
     "created_raw": "2026-11-24T15:50:35.887-0500",
-    "status": "En Pruebas UAT",
+    "status": "Pendiente PAP",
     "issuetype": "Historia",
     "tipo": "Mejora",
     "project": "GD941",
@@ -257,9 +301,9 @@
       "risk": "emisión",
       "reach": 60,
       "impact": 2,
-      "confidence": 1.0,
-      "effort": 2,
-      "score": 60.0,
+      "confidence": 0.9,
+      "effort": 1.4,
+      "score": 77.1,
       "priority": "Crítica"
     }
   },
@@ -326,28 +370,6 @@
       "confidence": 1.0,
       "effort": 1.5,
       "score": 20.0,
-      "priority": "Alta"
-    }
-  },
-  {
-    "key": "GD941-2608",
-    "summary": "[INFRA] CNTI-3019 — Cifrado KMS (CMK) de los buckets S3 del front-end y de contratos en producción",
-    "assignee": "Sheila Paola Uhia Kanmerer",
-    "created": "13/11/2026",
-    "created_raw": "2026-11-13T15:31:29.023-0500",
-    "status": "Pendiente PAP",
-    "issuetype": "Historia",
-    "tipo": "Mejora",
-    "project": "GD941",
-    "equipo": "EO Cumplimiento",
-    "epic": "GD941-1209 - Disponibilidad y estabilidad SIMON cumplimiento 2026",
-    "rice": {
-      "risk": "contratos",
-      "reach": 35,
-      "impact": 2,
-      "confidence": 0.9,
-      "effort": 1.75,
-      "score": 36.0,
       "priority": "Alta"
     }
   },
